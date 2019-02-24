@@ -1,0 +1,266 @@
+2018-10-12 11:23:18,617 INFO  DownloadService - Downloading "https://github.com/iglaweb/Ferris-Wheel/archive/master.zip", attempt 3
+2018-10-12 11:23:25,676 INFO  DownloadService - Downloaded https://github.com/iglaweb/Ferris-Wheel/archive/master.zip, attempt 3
+2018-10-12 11:23:25,676 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/master.zip": 9 MB
+2018-10-12 11:23:25,676 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-12 11:23:25,677 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/master.zip: true
+2018-10-12 11:23:25,677 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src'.
+2018-10-12 11:23:25,788 INFO  FullProcessService - Size of directory with sources: 9 MB
+2018-10-12 11:23:25,788 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src]
+2018-10-12 11:23:25,805 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/.git/
+
+2018-10-12 11:23:25,808 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/gradlew
+2018-10-12 11:23:25,812 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/ferriswheel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/build.gradle
+2018-10-12 11:23:25,816 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/ferriswheel/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/ferriswheel/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/ferriswheel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/settings.gradle
+2018-10-12 11:23:25,816 INFO  ProjectBuildService - Remote scripts: none
+2018-10-12 11:23:25,817 INFO  ProjectFixService - Fixing project...
+2018-10-12 11:23:25,827 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/ferriswheel/local.properties
+2018-10-12 11:23:25,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/ferriswheel/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-12 11:23:25,831 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/ferriswheel/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-12 11:23:25,833 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/sample/local.properties
+2018-10-12 11:23:25,836 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-12 11:23:25,837 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-12 11:23:25,838 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/local.properties
+2018-10-12 11:23:25,838 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8-all.zip
+2018-10-12 11:23:25,839 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8-bin.zip)
+2018-10-12 11:23:25,843 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-12 11:23:25,843 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-12 11:23:25,844 INFO  ProjectFixService - Project was maybe fixed
+2018-10-12 11:23:25,844 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-12 11:23:25,844 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/ferriswheel/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-12 11:23:35,930 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-10-12 11:23:35,930 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-12 11:23:35,931 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/ferriswheel/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-12 11:24:06,090 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access using Lookup on org.gradle.internal.reflect.JavaMethod (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.8-bin/divx0s2uj4thofgytb7gf9fsi/gradle-4.8/lib/gradle-base-services-4.8.jar) to class java.lang.ClassLoader
+WARNING: Please consider reporting this to the maintainers of org.gradle.internal.reflect.JavaMethod
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+> Task :ferriswheel:preBuild UP-TO-DATE
+> Task :ferriswheel:preDebugBuild UP-TO-DATE
+> Task :ferriswheel:compileDebugAidl
+> Task :ferriswheel:compileDebugRenderscript
+> Task :ferriswheel:checkDebugManifest
+> Task :ferriswheel:generateDebugBuildConfig
+> Task :ferriswheel:generateDebugResValues
+> Task :ferriswheel:generateDebugResources
+> Task :ferriswheel:packageDebugResources
+> Task :ferriswheel:processDebugManifest
+> Task :ferriswheel:prepareLintJar
+> Task :ferriswheel:mergeDebugConsumerProguardFiles
+> Task :ferriswheel:mergeDebugShaders
+> Task :ferriswheel:compileDebugShaders
+> Task :ferriswheel:generateDebugAssets
+> Task :ferriswheel:packageDebugAssets
+> Task :ferriswheel:platformAttrExtractor
+> Task :ferriswheel:generateDebugRFile
+> Task :ferriswheel:compileDebugKotlin
+> Task :ferriswheel:generateDebugSources
+> Task :ferriswheel:javaPreCompileDebug
+> Task :ferriswheel:compileDebugJavaWithJavac
+> Task :ferriswheel:extractDebugAnnotations
+> Task :ferriswheel:packageDebugRenderscript NO-SOURCE
+> Task :ferriswheel:processDebugJavaRes NO-SOURCE
+> Task :ferriswheel:transformResourcesWithMergeJavaResForDebug
+> Task :ferriswheel:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :ferriswheel:compileDebugNdk NO-SOURCE
+> Task :ferriswheel:mergeDebugJniLibFolders
+> Task :ferriswheel:transformNativeLibsWithMergeJniLibsForDebug
+> Task :ferriswheel:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :ferriswheel:transformNativeLibsWithSyncJniLibsForDebug
+> Task :ferriswheel:bundleDebug
+> Task :ferriswheel:compileDebugSources
+> Task :ferriswheel:assembleDebug
+> Task :ferriswheel:preReleaseBuild UP-TO-DATE
+> Task :ferriswheel:compileReleaseAidl
+> Task :ferriswheel:compileReleaseRenderscript
+> Task :ferriswheel:checkReleaseManifest
+> Task :ferriswheel:generateReleaseBuildConfig
+> Task :ferriswheel:generateReleaseResValues
+> Task :ferriswheel:generateReleaseResources
+> Task :ferriswheel:packageReleaseResources
+> Task :ferriswheel:processReleaseManifest
+> Task :ferriswheel:generateReleaseRFile
+> Task :ferriswheel:compileReleaseKotlin
+> Task :ferriswheel:generateReleaseSources
+> Task :ferriswheel:javaPreCompileRelease
+> Task :ferriswheel:compileReleaseJavaWithJavac
+> Task :ferriswheel:extractReleaseAnnotations
+> Task :ferriswheel:mergeReleaseConsumerProguardFiles
+> Task :ferriswheel:mergeReleaseShaders
+> Task :ferriswheel:compileReleaseShaders
+> Task :ferriswheel:generateReleaseAssets
+> Task :ferriswheel:packageReleaseAssets
+> Task :ferriswheel:packageReleaseRenderscript NO-SOURCE
+> Task :ferriswheel:processReleaseJavaRes NO-SOURCE
+> Task :ferriswheel:transformResourcesWithMergeJavaResForRelease
+> Task :ferriswheel:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :ferriswheel:compileReleaseNdk NO-SOURCE
+> Task :ferriswheel:mergeReleaseJniLibFolders
+> Task :ferriswheel:transformNativeLibsWithMergeJniLibsForRelease
+> Task :ferriswheel:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :ferriswheel:transformNativeLibsWithSyncJniLibsForRelease
+> Task :ferriswheel:bundleRelease
+> Task :ferriswheel:compileReleaseSources
+> Task :ferriswheel:mergeReleaseResources
+> Task :ferriswheel:verifyReleaseResources
+> Task :ferriswheel:assembleRelease
+> Task :ferriswheel:javadoc SKIPPED
+> Task :ferriswheel:javadocJar
+> Task :ferriswheel:sourcesJar
+> Task :ferriswheel:assemble
+> Task :ferriswheel:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.8/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 29s
+52 actionable tasks: 52 executed
+
+2018-10-12 11:24:06,130 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-12 11:24:06,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-12 11:24:13,132 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-10-12 11:24:13,133 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-12 11:24:13,133 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-12 11:25:04,851 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access using Lookup on org.gradle.internal.reflect.JavaMethod (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.8-bin/divx0s2uj4thofgytb7gf9fsi/gradle-4.8/lib/gradle-base-services-4.8.jar) to class java.lang.ClassLoader
+WARNING: Please consider reporting this to the maintainers of org.gradle.internal.reflect.JavaMethod
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+> Task :ferriswheel:preBuild UP-TO-DATE
+> Task :ferriswheel:preDebugBuild UP-TO-DATE
+> Task :ferriswheel:compileDebugAidl UP-TO-DATE
+> Task :ferriswheel:compileDebugRenderscript UP-TO-DATE
+> Task :ferriswheel:checkDebugManifest UP-TO-DATE
+> Task :ferriswheel:generateDebugBuildConfig UP-TO-DATE
+> Task :ferriswheel:generateDebugResValues UP-TO-DATE
+> Task :ferriswheel:generateDebugResources UP-TO-DATE
+> Task :ferriswheel:packageDebugResources UP-TO-DATE
+> Task :ferriswheel:platformAttrExtractor UP-TO-DATE
+> Task :ferriswheel:processDebugManifest UP-TO-DATE
+> Task :ferriswheel:generateDebugRFile UP-TO-DATE
+> Task :ferriswheel:compileDebugKotlin UP-TO-DATE
+> Task :ferriswheel:prepareLintJar UP-TO-DATE
+> Task :ferriswheel:generateDebugSources UP-TO-DATE
+> Task :ferriswheel:javaPreCompileDebug UP-TO-DATE
+> Task :ferriswheel:compileDebugJavaWithJavac UP-TO-DATE
+> Task :ferriswheel:processDebugJavaRes NO-SOURCE
+> Task :ferriswheel:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl
+> Task :ferriswheel:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:splitsDiscoveryTaskDebug
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :ferriswheel:mergeDebugShaders UP-TO-DATE
+> Task :ferriswheel:compileDebugShaders UP-TO-DATE
+> Task :ferriswheel:generateDebugAssets UP-TO-DATE
+> Task :ferriswheel:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+D8: Stripped invalid locals information from 2 methods.
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :ferriswheel:compileDebugNdk NO-SOURCE
+> Task :ferriswheel:mergeDebugJniLibFolders UP-TO-DATE
+> Task :ferriswheel:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :ferriswheel:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :ferriswheel:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :ferriswheel:preReleaseBuild UP-TO-DATE
+> Task :ferriswheel:compileReleaseAidl UP-TO-DATE
+> Task :ferriswheel:compileReleaseRenderscript UP-TO-DATE
+> Task :ferriswheel:checkReleaseManifest UP-TO-DATE
+> Task :ferriswheel:generateReleaseBuildConfig UP-TO-DATE
+> Task :ferriswheel:generateReleaseResValues UP-TO-DATE
+> Task :ferriswheel:generateReleaseResources UP-TO-DATE
+> Task :ferriswheel:packageReleaseResources UP-TO-DATE
+> Task :ferriswheel:processReleaseManifest UP-TO-DATE
+> Task :ferriswheel:generateReleaseRFile UP-TO-DATE
+> Task :ferriswheel:compileReleaseKotlin UP-TO-DATE
+> Task :ferriswheel:generateReleaseSources UP-TO-DATE
+> Task :ferriswheel:javaPreCompileRelease UP-TO-DATE
+> Task :ferriswheel:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :ferriswheel:processReleaseJavaRes NO-SOURCE
+> Task :ferriswheel:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl
+> Task :ferriswheel:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:splitsDiscoveryTaskRelease
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+> Task :sample:lintVitalRelease
+> Task :ferriswheel:mergeReleaseShaders UP-TO-DATE
+> Task :ferriswheel:compileReleaseShaders UP-TO-DATE
+> Task :ferriswheel:generateReleaseAssets UP-TO-DATE
+> Task :ferriswheel:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :ferriswheel:compileReleaseNdk NO-SOURCE
+> Task :ferriswheel:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :ferriswheel:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :ferriswheel:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :ferriswheel:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.8/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 50s
+95 actionable tasks: 59 executed, 36 up-to-date
+
+2018-10-12 11:25:05,047 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539318198613-0/src/Ferris-Wheel-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

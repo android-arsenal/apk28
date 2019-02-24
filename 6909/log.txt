@@ -1,0 +1,168 @@
+2018-08-20 13:52:51,002 INFO  DownloadService - Downloading "https://github.com/aniketbhoite/MutativeFab/archive/master.zip", attempt 3
+2018-08-20 13:52:53,091 INFO  DownloadService - Downloaded https://github.com/aniketbhoite/MutativeFab/archive/master.zip, attempt 3
+2018-08-20 13:52:53,091 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/master.zip": 184 KB
+2018-08-20 13:52:53,091 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-20 13:52:53,097 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/master.zip: true
+2018-08-20 13:52:53,097 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src'.
+2018-08-20 13:52:53,124 INFO  FullProcessService - Size of directory with sources: 226 KB
+2018-08-20 13:52:53,124 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src]
+2018-08-20 13:52:53,145 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/.git/
+
+2018-08-20 13:52:53,148 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/gradlew
+2018-08-20 13:52:53,152 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/mutativefab/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/build.gradle
+2018-08-20 13:52:53,156 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/mutativefab/build.gradle
+2018-08-20 13:52:53,156 INFO  ProjectBuildService - Remote scripts: none
+2018-08-20 13:52:53,156 INFO  ProjectFixService - Fixing project...
+2018-08-20 13:52:53,165 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/app/local.properties
+2018-08-20 13:52:53,165 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-20 13:52:53,166 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/mutativefab/local.properties
+2018-08-20 13:52:53,166 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/mutativefab/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-20 13:52:53,166 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/local.properties
+2018-08-20 13:52:53,167 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-20 13:52:53,167 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-20 13:52:53,168 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-20 13:52:53,168 INFO  ProjectFixService - Project was maybe fixed
+2018-08-20 13:52:53,168 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-20 13:52:53,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-20 13:53:04,571 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-20 13:53:04,571 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-20 13:53:04,571 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-20 13:54:03,899 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:mutativefab:preBuild UP-TO-DATE
+:mutativefab:preDebugBuild UP-TO-DATE
+:mutativefab:checkDebugManifest
+:mutativefab:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.41/kotlin-stdlib-jdk7-1.2.41.pom
+:mutativefab:compileDebugAidl
+:app:compileDebugAidl
+:mutativefab:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:mutativefab:compileDebugRenderscript
+:mutativefab:generateDebugResValues
+:mutativefab:generateDebugResources
+:mutativefab:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:mutativefab:platformAttrExtractor
+:mutativefab:generateDebugBuildConfig
+:mutativefab:prepareLintJar
+:mutativefab:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:mutativefab:mergeDebugShaders
+:mutativefab:compileDebugShaders
+:mutativefab:generateDebugAssets
+:mutativefab:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:mutativefab:compileDebugNdk NO-SOURCE
+:mutativefab:mergeDebugJniLibFolders
+:mutativefab:transformNativeLibsWithMergeJniLibsForDebug
+:mutativefab:transformNativeLibsWithStripDebugSymbolForDebug
+:mutativefab:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:mutativefab:preReleaseBuild UP-TO-DATE
+:mutativefab:checkReleaseManifest
+:mutativefab:processReleaseManifest
+:app:preReleaseBuild
+:mutativefab:compileReleaseAidl
+:app:compileReleaseAidl
+:mutativefab:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:mutativefab:compileReleaseRenderscript
+:mutativefab:generateReleaseResValues
+:mutativefab:generateReleaseResources
+:mutativefab:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:mutativefab:generateReleaseBuildConfig
+:mutativefab:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:mutativefab:mergeReleaseShaders
+:mutativefab:compileReleaseShaders
+:mutativefab:generateReleaseAssets
+:mutativefab:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:mutativefab:compileReleaseNdk NO-SOURCE
+:mutativefab:mergeReleaseJniLibFolders
+:mutativefab:transformNativeLibsWithMergeJniLibsForRelease
+:mutativefab:transformNativeLibsWithStripDebugSymbolForRelease
+:mutativefab:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:mutativefab:generateDebugRFile
+:app:processDebugResources
+:mutativefab:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.41/kotlin-stdlib-jdk7-1.2.41.jar
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/mutativefab/src/main/java/com/aniket/mutativefloatingactionbutton/MutativeFab.kt: (26, 20): 'DefaultBehavior' is deprecated. Deprecated in Java
+:mutativefab:generateDebugSources
+:mutativefab:javaPreCompileDebug
+:mutativefab:compileDebugJavaWithJavac
+:mutativefab:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:mutativefab:generateReleaseRFile
+:app:processReleaseResources
+:mutativefab:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/mutativefab/src/main/java/com/aniket/mutativefloatingactionbutton/MutativeFab.kt: (26, 20): 'DefaultBehavior' is deprecated. Deprecated in Java
+:mutativefab:generateReleaseSources
+:mutativefab:javaPreCompileRelease
+:mutativefab:compileReleaseJavaWithJavac
+:mutativefab:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 58s
+95 actionable tasks: 95 executed
+
+2018-08-20 13:54:03,989 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747970994-0/src/MutativeFab-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,162 @@
+2018-08-27 11:56:42,540 INFO  DownloadService - Downloading "https://github.com/kk121/Android-Debug-Tools/archive/master.zip", attempt 3
+2018-08-27 11:56:45,651 INFO  DownloadService - Downloaded https://github.com/kk121/Android-Debug-Tools/archive/master.zip, attempt 3
+2018-08-27 11:56:45,652 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/master.zip": 1 MB
+2018-08-27 11:56:45,652 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-27 11:56:45,658 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/master.zip: true
+2018-08-27 11:56:45,658 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src'.
+2018-08-27 11:56:45,704 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-08-27 11:56:45,704 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src]
+2018-08-27 11:56:45,720 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/.git/
+
+2018-08-27 11:56:45,725 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/gradlew
+2018-08-27 11:56:45,729 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/debug_tools/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/build.gradle
+2018-08-27 11:56:45,735 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/debug_tools/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/settings.gradle
+2018-08-27 11:56:45,735 INFO  ProjectBuildService - Remote scripts: none
+2018-08-27 11:56:45,735 INFO  ProjectFixService - Fixing project...
+2018-08-27 11:56:45,747 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/app/local.properties
+2018-08-27 11:56:45,747 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-27 11:56:45,747 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-27 11:56:45,748 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/debug_tools/local.properties
+2018-08-27 11:56:45,749 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/debug_tools/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-27 11:56:45,750 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/debug_tools/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-27 11:56:45,750 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/local.properties
+2018-08-27 11:56:45,751 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-27 11:56:45,751 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-27 11:56:45,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-27 11:56:45,752 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-27 11:56:45,752 INFO  ProjectFixService - Project was maybe fixed
+2018-08-27 11:56:45,752 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-27 11:56:45,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-27 11:56:52,776 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-27 11:56:52,776 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-27 11:56:52,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-27 11:57:21,908 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:debug_tools:preBuild UP-TO-DATE
+:debug_tools:preDebugBuild UP-TO-DATE
+:debug_tools:checkDebugManifest
+:debug_tools:processDebugManifest
+:app:preDebugBuild
+:debug_tools:compileDebugAidl
+:app:compileDebugAidl
+:debug_tools:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:debug_tools:compileDebugRenderscript
+:debug_tools:generateDebugResValues
+:debug_tools:generateDebugResources
+:debug_tools:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:debug_tools:platformAttrExtractor
+:debug_tools:generateDebugBuildConfig
+:debug_tools:prepareLintJar
+:debug_tools:javaPreCompileDebug
+:debug_tools:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:debug_tools:mergeDebugShaders
+:debug_tools:compileDebugShaders
+:debug_tools:generateDebugAssets
+:debug_tools:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:debug_tools:compileDebugNdk NO-SOURCE
+:debug_tools:mergeDebugJniLibFolders
+:debug_tools:transformNativeLibsWithMergeJniLibsForDebug
+:debug_tools:transformNativeLibsWithStripDebugSymbolForDebug
+:debug_tools:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:debug_tools:preReleaseBuild UP-TO-DATE
+:debug_tools:checkReleaseManifest
+:debug_tools:processReleaseManifest
+:app:preReleaseBuild
+:debug_tools:compileReleaseAidl
+:app:compileReleaseAidl
+:debug_tools:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:debug_tools:compileReleaseRenderscript
+:debug_tools:generateReleaseResValues
+:debug_tools:generateReleaseResources
+:debug_tools:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:debug_tools:generateReleaseBuildConfig
+:debug_tools:javaPreCompileRelease
+:debug_tools:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:debug_tools:mergeReleaseShaders
+:debug_tools:compileReleaseShaders
+:debug_tools:generateReleaseAssets
+:debug_tools:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:debug_tools:compileReleaseNdk NO-SOURCE
+:debug_tools:mergeReleaseJniLibFolders
+:debug_tools:transformNativeLibsWithMergeJniLibsForRelease
+:debug_tools:transformNativeLibsWithStripDebugSymbolForRelease
+:debug_tools:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:debug_tools:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:debug_tools:generateDebugSources
+:debug_tools:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/debug_tools/src/main/java/com/krishna/debug_tools/adapter/TableContentViewHolder.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:debug_tools:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:debug_tools:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:debug_tools:generateReleaseSources
+:debug_tools:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/debug_tools/src/main/java/com/krishna/debug_tools/adapter/TableContentViewHolder.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:debug_tools:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 28s
+88 actionable tasks: 88 executed
+
+2018-08-27 11:57:21,993 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345802533-0/src/Android-Debug-Tools-master/app/build/outputs/apk/debug/app-debug.apk

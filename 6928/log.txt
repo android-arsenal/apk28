@@ -1,0 +1,204 @@
+2018-08-26 18:59:54,084 INFO  DownloadService - Downloading "https://github.com/aMarCruz/yalog/archive/master.zip", attempt 3
+2018-08-26 18:59:55,865 INFO  DownloadService - Downloaded https://github.com/aMarCruz/yalog/archive/master.zip, attempt 3
+2018-08-26 18:59:55,866 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/master.zip": 60 KB
+2018-08-26 18:59:55,866 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-26 18:59:55,871 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/master.zip: true
+2018-08-26 18:59:55,871 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src'.
+2018-08-26 18:59:55,878 INFO  FullProcessService - Size of directory with sources: 82 KB
+2018-08-26 18:59:55,878 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src]
+2018-08-26 18:59:55,894 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/.git/
+
+2018-08-26 18:59:55,896 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/gradlew
+2018-08-26 18:59:55,898 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/yalog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/build.gradle
+2018-08-26 18:59:55,900 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/yalog/build.gradle
+2018-08-26 18:59:55,900 INFO  ProjectBuildService - Remote scripts: none
+2018-08-26 18:59:55,900 INFO  ProjectFixService - Fixing project...
+2018-08-26 18:59:55,905 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/yalog/local.properties
+2018-08-26 18:59:55,905 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/yalog/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2018-08-26 18:59:55,906 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/local.properties
+2018-08-26 18:59:55,906 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-26 18:59:55,906 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-26 18:59:55,907 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2018-08-26 18:59:55,907 INFO  ProjectFixService - Project was maybe fixed
+2018-08-26 18:59:55,907 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 18:59:55,907 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/yalog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 19:00:02,849 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-08-26 19:00:02,849 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-26 19:00:02,849 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/yalog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-26 19:00:14,157 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:yalog:preBuild UP-TO-DATE
+:yalog:preDebugBuild UP-TO-DATE
+:yalog:compileDebugAidl
+:yalog:compileDebugRenderscript
+:yalog:checkDebugManifest
+:yalog:generateDebugBuildConfig
+:yalog:generateDebugResValues
+:yalog:generateDebugResources
+:yalog:packageDebugResources
+:yalog:platformAttrExtractor
+:yalog:processDebugManifest
+:yalog:prepareLintJar
+:yalog:javaPreCompileDebug
+:yalog:mergeDebugConsumerProguardFiles
+:yalog:mergeDebugShaders
+:yalog:compileDebugShaders
+:yalog:generateDebugAssets
+:yalog:packageDebugAssets
+:yalog:packageDebugRenderscript NO-SOURCE
+:yalog:processDebugJavaRes NO-SOURCE
+:yalog:compileDebugNdk NO-SOURCE
+:yalog:mergeDebugJniLibFolders
+:yalog:transformNativeLibsWithMergeJniLibsForDebug
+:yalog:transformNativeLibsWithStripDebugSymbolForDebug
+:yalog:transformNativeLibsWithSyncJniLibsForDebug
+:yalog:preReleaseBuild UP-TO-DATE
+:yalog:compileReleaseAidl
+:yalog:compileReleaseRenderscript
+:yalog:checkReleaseManifest
+:yalog:generateReleaseBuildConfig
+:yalog:generateReleaseResValues
+:yalog:generateReleaseResources
+:yalog:packageReleaseResources
+:yalog:processReleaseManifest
+:yalog:javaPreCompileRelease
+:yalog:mergeReleaseConsumerProguardFiles
+:yalog:mergeReleaseShaders
+:yalog:compileReleaseShaders
+:yalog:generateDebugRFile
+:yalog:generateDebugSources
+:yalog:compileDebugJavaWithJavac
+:yalog:extractDebugAnnotations
+:yalog:transformResourcesWithMergeJavaResForDebug
+:yalog:transformClassesAndResourcesWithSyncLibJarsForDebug
+:yalog:bundleDebug
+:yalog:compileDebugSources
+:yalog:assembleDebug
+:yalog:generateReleaseRFile
+:yalog:generateReleaseSources
+:yalog:compileReleaseJavaWithJavac
+:yalog:extractReleaseAnnotations
+:yalog:generateReleaseAssets
+:yalog:packageReleaseAssets
+:yalog:packageReleaseRenderscript NO-SOURCE
+:yalog:processReleaseJavaRes NO-SOURCE
+:yalog:transformResourcesWithMergeJavaResForRelease
+:yalog:transformClassesAndResourcesWithSyncLibJarsForRelease
+:yalog:compileReleaseNdk NO-SOURCE
+:yalog:mergeReleaseJniLibFolders
+:yalog:transformNativeLibsWithMergeJniLibsForRelease
+:yalog:transformNativeLibsWithStripDebugSymbolForRelease
+:yalog:transformNativeLibsWithSyncJniLibsForRelease
+:yalog:bundleRelease
+:yalog:compileReleaseSources
+:yalog:mergeReleaseResources
+:yalog:verifyReleaseResources
+:yalog:assembleRelease
+:yalog:javadocjavadoc: warning - You have not specified the version of HTML to use.
+The default is currently HTML 4.01, but this will change to HTML5
+in a future release. To suppress this warning, please specify the
+version of HTML used in your documentation comments and to be
+generated by this doclet, using the -html4 or -html5 options.
+
+1 warning
+:yalog:javadocJar
+:yalog:sourcesJar
+:yalog:assemble
+:yalog:build
+
+BUILD SUCCESSFUL in 11s
+51 actionable tasks: 51 executed
+
+2018-08-26 19:00:14,172 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 19:00:14,172 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 19:00:20,905 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-08-26 19:00:20,905 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-26 19:00:20,906 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535284794080-0/src/yalog-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-26 19:00:28,905 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:yalog:preBuild UP-TO-DATE
+:yalog:preDebugBuild UP-TO-DATE
+:yalog:compileDebugAidl UP-TO-DATE
+:yalog:compileDebugRenderscript UP-TO-DATE
+:yalog:checkDebugManifest UP-TO-DATE
+:yalog:generateDebugBuildConfig UP-TO-DATE
+:yalog:generateDebugResValues UP-TO-DATE
+:yalog:generateDebugResources UP-TO-DATE
+:yalog:packageDebugResources UP-TO-DATE
+:yalog:platformAttrExtractor UP-TO-DATE
+:yalog:processDebugManifest UP-TO-DATE
+:yalog:generateDebugRFile UP-TO-DATE
+:yalog:prepareLintJar UP-TO-DATE
+:yalog:generateDebugSources UP-TO-DATE
+:yalog:javaPreCompileDebug UP-TO-DATE
+:yalog:compileDebugJavaWithJavac UP-TO-DATE
+:yalog:extractDebugAnnotations UP-TO-DATE
+:yalog:mergeDebugConsumerProguardFiles UP-TO-DATE
+:yalog:mergeDebugShaders UP-TO-DATE
+:yalog:compileDebugShaders UP-TO-DATE
+:yalog:generateDebugAssets UP-TO-DATE
+:yalog:packageDebugAssets UP-TO-DATE
+:yalog:packageDebugRenderscript NO-SOURCE
+:yalog:processDebugJavaRes NO-SOURCE
+:yalog:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:yalog:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:yalog:compileDebugNdk NO-SOURCE
+:yalog:mergeDebugJniLibFolders UP-TO-DATE
+:yalog:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:yalog:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:yalog:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:yalog:bundleDebug UP-TO-DATE
+:yalog:compileDebugSources UP-TO-DATE
+:yalog:assembleDebug UP-TO-DATE
+:yalog:preReleaseBuild UP-TO-DATE
+:yalog:compileReleaseAidl UP-TO-DATE
+:yalog:compileReleaseRenderscript UP-TO-DATE
+:yalog:checkReleaseManifest UP-TO-DATE
+:yalog:generateReleaseBuildConfig UP-TO-DATE
+:yalog:generateReleaseResValues UP-TO-DATE
+:yalog:generateReleaseResources UP-TO-DATE
+:yalog:packageReleaseResources UP-TO-DATE
+:yalog:processReleaseManifest UP-TO-DATE
+:yalog:generateReleaseRFile UP-TO-DATE
+:yalog:generateReleaseSources UP-TO-DATE
+:yalog:javaPreCompileRelease UP-TO-DATE
+:yalog:compileReleaseJavaWithJavac UP-TO-DATE
+:yalog:extractReleaseAnnotations UP-TO-DATE
+:yalog:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:yalog:mergeReleaseShaders UP-TO-DATE
+:yalog:compileReleaseShaders UP-TO-DATE
+:yalog:generateReleaseAssets UP-TO-DATE
+:yalog:packageReleaseAssets UP-TO-DATE
+:yalog:packageReleaseRenderscript NO-SOURCE
+:yalog:processReleaseJavaRes NO-SOURCE
+:yalog:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:yalog:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:yalog:compileReleaseNdk NO-SOURCE
+:yalog:mergeReleaseJniLibFolders UP-TO-DATE
+:yalog:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:yalog:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:yalog:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:yalog:bundleRelease UP-TO-DATE
+:yalog:compileReleaseSources UP-TO-DATE
+:yalog:mergeReleaseResources UP-TO-DATE
+:yalog:verifyReleaseResources UP-TO-DATE
+:yalog:assembleRelease UP-TO-DATE
+:yalog:javadoc UP-TO-DATE
+:yalog:javadocJar UP-TO-DATE
+:yalog:sourcesJar UP-TO-DATE
+:yalog:assemble UP-TO-DATE
+:yalog:build
+
+BUILD SUCCESSFUL in 7s
+51 actionable tasks: 51 up-to-date
+
+2018-08-26 19:00:28,918 ERROR FullProcessService - Project build has not produced APK file
+2018-08-26 19:00:28,930 ERROR FullProcessService - Could not find generated or existed APK file

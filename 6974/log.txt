@@ -1,0 +1,184 @@
+2018-08-20 14:30:12,360 INFO  DownloadService - Downloading "https://github.com/imrhk/OrientedImageView/archive/master.zip", attempt 3
+2018-08-20 14:30:14,906 INFO  DownloadService - Downloaded https://github.com/imrhk/OrientedImageView/archive/master.zip, attempt 3
+2018-08-20 14:30:14,906 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/master.zip": 72 KB
+2018-08-20 14:30:14,907 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-20 14:30:14,912 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/master.zip: true
+2018-08-20 14:30:14,912 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src'.
+2018-08-20 14:30:14,921 INFO  FullProcessService - Size of directory with sources: 89 KB
+2018-08-20 14:30:14,921 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src]
+2018-08-20 14:30:14,939 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/.git/
+
+2018-08-20 14:30:14,940 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/gradlew
+2018-08-20 14:30:14,942 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/oriented-image-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/build.gradle
+2018-08-20 14:30:14,944 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/oriented-image-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/settings.gradle
+2018-08-20 14:30:14,944 INFO  ProjectBuildService - Remote scripts: none
+2018-08-20 14:30:14,944 INFO  ProjectFixService - Fixing project...
+2018-08-20 14:30:14,948 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/oriented-image-view/local.properties
+2018-08-20 14:30:14,949 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/oriented-image-view/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-20 14:30:14,949 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/oriented-image-view/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-20 14:30:14,950 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/local.properties
+2018-08-20 14:30:14,951 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-20 14:30:14,951 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-20 14:30:14,952 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-20 14:30:14,952 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-20 14:30:14,953 INFO  ProjectFixService - Project was maybe fixed
+2018-08-20 14:30:14,953 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-20 14:30:14,953 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/oriented-image-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-20 14:30:21,123 INFO  ProjectTaskService - Detected possible tasks: 63
+2018-08-20 14:30:21,124 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-20 14:30:21,124 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/oriented-image-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-20 14:30:32,645 INFO  SysUtils - Configuration on demand is an incubating feature.
+:oriented-image-view:preBuild UP-TO-DATE
+:oriented-image-view:preDebugBuild UP-TO-DATE
+:oriented-image-view:compileDebugAidl
+:oriented-image-view:compileDebugRenderscript
+:oriented-image-view:checkDebugManifest
+:oriented-image-view:generateDebugBuildConfig
+:oriented-image-view:generateDebugResValues
+:oriented-image-view:generateDebugResources
+:oriented-image-view:packageDebugResources
+:oriented-image-view:platformAttrExtractor
+:oriented-image-view:processDebugManifest
+:oriented-image-view:prepareLintJar
+:oriented-image-view:javaPreCompileDebug
+:oriented-image-view:mergeDebugConsumerProguardFiles
+:oriented-image-view:mergeDebugShaders
+:oriented-image-view:compileDebugShaders
+:oriented-image-view:generateDebugAssets
+:oriented-image-view:packageDebugAssets
+:oriented-image-view:packageDebugRenderscript NO-SOURCE
+:oriented-image-view:processDebugJavaRes NO-SOURCE
+:oriented-image-view:compileDebugNdk NO-SOURCE
+:oriented-image-view:mergeDebugJniLibFolders
+:oriented-image-view:transformNativeLibsWithMergeJniLibsForDebug
+:oriented-image-view:transformNativeLibsWithStripDebugSymbolForDebug
+:oriented-image-view:transformNativeLibsWithSyncJniLibsForDebug
+:oriented-image-view:preReleaseBuild UP-TO-DATE
+:oriented-image-view:compileReleaseAidl
+:oriented-image-view:compileReleaseRenderscript
+:oriented-image-view:checkReleaseManifest
+:oriented-image-view:generateReleaseBuildConfig
+:oriented-image-view:generateReleaseResValues
+:oriented-image-view:generateReleaseResources
+:oriented-image-view:packageReleaseResources
+:oriented-image-view:processReleaseManifest
+:oriented-image-view:javaPreCompileRelease
+:oriented-image-view:mergeReleaseConsumerProguardFiles
+:oriented-image-view:mergeReleaseShaders
+:oriented-image-view:compileReleaseShaders
+:oriented-image-view:generateReleaseAssets
+:oriented-image-view:packageReleaseAssets
+:oriented-image-view:packageReleaseRenderscript NO-SOURCE
+:oriented-image-view:processReleaseJavaRes NO-SOURCE
+:oriented-image-view:compileReleaseNdk NO-SOURCE
+:oriented-image-view:mergeReleaseJniLibFolders
+:oriented-image-view:transformNativeLibsWithMergeJniLibsForRelease
+:oriented-image-view:transformNativeLibsWithStripDebugSymbolForRelease
+:oriented-image-view:transformNativeLibsWithSyncJniLibsForRelease
+:oriented-image-view:mergeReleaseResources
+:oriented-image-view:verifyReleaseResources
+:oriented-image-view:generateDebugRFile
+:oriented-image-view:generateDebugSources
+:oriented-image-view:compileDebugJavaWithJavac
+:oriented-image-view:extractDebugAnnotations
+:oriented-image-view:transformResourcesWithMergeJavaResForDebug
+:oriented-image-view:transformClassesAndResourcesWithSyncLibJarsForDebug
+:oriented-image-view:bundleDebug
+:oriented-image-view:compileDebugSources
+:oriented-image-view:assembleDebug
+:oriented-image-view:generateReleaseRFile
+:oriented-image-view:generateReleaseSources
+:oriented-image-view:compileReleaseJavaWithJavac
+:oriented-image-view:extractReleaseAnnotations
+:oriented-image-view:transformResourcesWithMergeJavaResForRelease
+:oriented-image-view:transformClassesAndResourcesWithSyncLibJarsForRelease
+:oriented-image-view:bundleRelease
+:oriented-image-view:compileReleaseSources
+:oriented-image-view:assembleRelease
+:oriented-image-view:assemble
+:oriented-image-view:build
+
+BUILD SUCCESSFUL in 11s
+48 actionable tasks: 48 executed
+
+2018-08-20 14:30:32,682 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-20 14:30:32,682 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-20 14:30:38,600 INFO  ProjectTaskService - Detected possible tasks: 63
+2018-08-20 14:30:38,600 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-20 14:30:38,600 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750212356-0/src/OrientedImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-20 14:30:44,965 INFO  SysUtils - Configuration on demand is an incubating feature.
+:oriented-image-view:preBuild UP-TO-DATE
+:oriented-image-view:preDebugBuild UP-TO-DATE
+:oriented-image-view:compileDebugAidl UP-TO-DATE
+:oriented-image-view:compileDebugRenderscript UP-TO-DATE
+:oriented-image-view:checkDebugManifest UP-TO-DATE
+:oriented-image-view:generateDebugBuildConfig UP-TO-DATE
+:oriented-image-view:generateDebugResValues UP-TO-DATE
+:oriented-image-view:generateDebugResources UP-TO-DATE
+:oriented-image-view:packageDebugResources UP-TO-DATE
+:oriented-image-view:platformAttrExtractor UP-TO-DATE
+:oriented-image-view:processDebugManifest UP-TO-DATE
+:oriented-image-view:generateDebugRFile UP-TO-DATE
+:oriented-image-view:prepareLintJar UP-TO-DATE
+:oriented-image-view:generateDebugSources UP-TO-DATE
+:oriented-image-view:javaPreCompileDebug UP-TO-DATE
+:oriented-image-view:compileDebugJavaWithJavac UP-TO-DATE
+:oriented-image-view:extractDebugAnnotations UP-TO-DATE
+:oriented-image-view:mergeDebugConsumerProguardFiles UP-TO-DATE
+:oriented-image-view:mergeDebugShaders UP-TO-DATE
+:oriented-image-view:compileDebugShaders UP-TO-DATE
+:oriented-image-view:generateDebugAssets UP-TO-DATE
+:oriented-image-view:packageDebugAssets UP-TO-DATE
+:oriented-image-view:packageDebugRenderscript NO-SOURCE
+:oriented-image-view:processDebugJavaRes NO-SOURCE
+:oriented-image-view:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:oriented-image-view:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:oriented-image-view:compileDebugNdk NO-SOURCE
+:oriented-image-view:mergeDebugJniLibFolders UP-TO-DATE
+:oriented-image-view:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:oriented-image-view:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:oriented-image-view:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:oriented-image-view:bundleDebug UP-TO-DATE
+:oriented-image-view:compileDebugSources UP-TO-DATE
+:oriented-image-view:assembleDebug UP-TO-DATE
+:oriented-image-view:preReleaseBuild UP-TO-DATE
+:oriented-image-view:compileReleaseAidl UP-TO-DATE
+:oriented-image-view:compileReleaseRenderscript UP-TO-DATE
+:oriented-image-view:checkReleaseManifest UP-TO-DATE
+:oriented-image-view:generateReleaseBuildConfig UP-TO-DATE
+:oriented-image-view:generateReleaseResValues UP-TO-DATE
+:oriented-image-view:generateReleaseResources UP-TO-DATE
+:oriented-image-view:packageReleaseResources UP-TO-DATE
+:oriented-image-view:processReleaseManifest UP-TO-DATE
+:oriented-image-view:generateReleaseRFile UP-TO-DATE
+:oriented-image-view:generateReleaseSources UP-TO-DATE
+:oriented-image-view:javaPreCompileRelease UP-TO-DATE
+:oriented-image-view:compileReleaseJavaWithJavac UP-TO-DATE
+:oriented-image-view:extractReleaseAnnotations UP-TO-DATE
+:oriented-image-view:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:oriented-image-view:mergeReleaseShaders UP-TO-DATE
+:oriented-image-view:compileReleaseShaders UP-TO-DATE
+:oriented-image-view:generateReleaseAssets UP-TO-DATE
+:oriented-image-view:packageReleaseAssets UP-TO-DATE
+:oriented-image-view:packageReleaseRenderscript NO-SOURCE
+:oriented-image-view:processReleaseJavaRes NO-SOURCE
+:oriented-image-view:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:oriented-image-view:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:oriented-image-view:compileReleaseNdk NO-SOURCE
+:oriented-image-view:mergeReleaseJniLibFolders UP-TO-DATE
+:oriented-image-view:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:oriented-image-view:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:oriented-image-view:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:oriented-image-view:bundleRelease UP-TO-DATE
+:oriented-image-view:compileReleaseSources UP-TO-DATE
+:oriented-image-view:mergeReleaseResources UP-TO-DATE
+:oriented-image-view:verifyReleaseResources UP-TO-DATE
+:oriented-image-view:assembleRelease UP-TO-DATE
+:oriented-image-view:assemble UP-TO-DATE
+:oriented-image-view:build
+
+BUILD SUCCESSFUL in 6s
+48 actionable tasks: 48 up-to-date
+
+2018-08-20 14:30:45,009 ERROR FullProcessService - Project build has not produced APK file
+2018-08-20 14:30:45,051 ERROR FullProcessService - Could not find generated or existed APK file

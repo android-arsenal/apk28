@@ -1,0 +1,185 @@
+2018-10-02 11:07:47,686 INFO  DownloadService - Downloading "https://github.com/florent37/KotlinPleaseAnimate/archive/master.zip", attempt 3
+2018-10-02 11:07:59,054 INFO  DownloadService - Downloaded https://github.com/florent37/KotlinPleaseAnimate/archive/master.zip, attempt 3
+2018-10-02 11:07:59,055 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/master.zip": 2 MB
+2018-10-02 11:07:59,055 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-02 11:07:59,060 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/master.zip: true
+2018-10-02 11:07:59,060 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src'.
+2018-10-02 11:07:59,124 INFO  FullProcessService - Size of directory with sources: 3 MB
+2018-10-02 11:07:59,124 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src]
+2018-10-02 11:07:59,150 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/.git/
+
+2018-10-02 11:07:59,156 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/gradlew
+2018-10-02 11:07:59,162 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/build.gradle
+2018-10-02 11:07:59,167 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/settings.gradle
+2018-10-02 11:07:59,167 INFO  ProjectBuildService - Remote scripts: none
+2018-10-02 11:07:59,167 INFO  ProjectFixService - Fixing project...
+2018-10-02 11:07:59,179 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/local.properties
+2018-10-02 11:07:59,182 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-02 11:07:59,182 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-02 11:07:59,183 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/local.properties
+2018-10-02 11:07:59,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-02 11:07:59,187 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-02 11:07:59,188 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/local.properties
+2018-10-02 11:07:59,188 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-02 11:07:59,189 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-02 11:07:59,192 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-02 11:07:59,192 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-02 11:07:59,193 INFO  ProjectFixService - Project was maybe fixed
+2018-10-02 11:07:59,193 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-02 11:07:59,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-02 11:08:05,661 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-02 11:08:05,661 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-02 11:08:05,661 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-02 11:09:02,874 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:kotlinpleaseanimate:preBuild UP-TO-DATE
+:kotlinpleaseanimate:preDebugBuild UP-TO-DATE
+:kotlinpleaseanimate:checkDebugManifest
+:kotlinpleaseanimate:processDebugManifest
+:app:preDebugBuild
+:kotlinpleaseanimate:compileDebugAidl
+:app:compileDebugAidl
+:kotlinpleaseanimate:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:kotlinpleaseanimate:compileDebugRenderscript
+:kotlinpleaseanimate:generateDebugResValues
+:kotlinpleaseanimate:generateDebugResources
+:kotlinpleaseanimate:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:kotlinpleaseanimate:platformAttrExtractor
+:kotlinpleaseanimate:generateDebugBuildConfig
+:kotlinpleaseanimate:prepareLintJar
+:kotlinpleaseanimate:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:kotlinpleaseanimate:mergeDebugShaders
+:kotlinpleaseanimate:compileDebugShaders
+:kotlinpleaseanimate:generateDebugAssets
+:kotlinpleaseanimate:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:kotlinpleaseanimate:compileDebugNdk NO-SOURCE
+:kotlinpleaseanimate:mergeDebugJniLibFolders
+:kotlinpleaseanimate:transformNativeLibsWithMergeJniLibsForDebug
+:kotlinpleaseanimate:transformNativeLibsWithStripDebugSymbolForDebug
+:kotlinpleaseanimate:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:kotlinpleaseanimate:preReleaseBuild UP-TO-DATE
+:kotlinpleaseanimate:checkReleaseManifest
+:kotlinpleaseanimate:processReleaseManifest
+:app:preReleaseBuild
+:kotlinpleaseanimate:compileReleaseAidl
+:app:compileReleaseAidl
+:kotlinpleaseanimate:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:kotlinpleaseanimate:compileReleaseRenderscript
+:kotlinpleaseanimate:generateReleaseResValues
+:kotlinpleaseanimate:generateReleaseResources
+:kotlinpleaseanimate:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:kotlinpleaseanimate:generateReleaseBuildConfig
+:kotlinpleaseanimate:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:kotlinpleaseanimate:mergeReleaseShaders
+:kotlinpleaseanimate:compileReleaseShaders
+:kotlinpleaseanimate:generateReleaseAssets
+:kotlinpleaseanimate:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:kotlinpleaseanimate:compileReleaseNdk NO-SOURCE
+:kotlinpleaseanimate:mergeReleaseJniLibFolders
+:kotlinpleaseanimate:transformNativeLibsWithMergeJniLibsForRelease
+:kotlinpleaseanimate:transformNativeLibsWithStripDebugSymbolForRelease
+:kotlinpleaseanimate:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:kotlinpleaseanimate:generateDebugRFile
+:app:processDebugResources
+:kotlinpleaseanimate:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/src/main/java/com/github/florent37/kotlin/pleaseanimate/PleaseAnim.kt: (40, 99): Unnecessary non-null assertion (!!) on a non-null receiver of type Float
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/src/main/java/com/github/florent37/kotlin/pleaseanimate/ViewCalculator.kt: (19, 23): Parameter 'viewExpectation' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/src/main/java/com/github/florent37/kotlin/pleaseanimate/ViewCalculator.kt: (107, 63): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/src/main/java/com/github/florent37/kotlin/pleaseanimate/ViewCalculator.kt: (140, 64): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/src/main/java/com/github/florent37/kotlin/pleaseanimate/core/position/PositionAnimExpectationOutOfScreen.kt: (26, 51): 'getter for width: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/src/main/java/com/github/florent37/kotlin/pleaseanimate/core/position/PositionAnimExpectationOutOfScreen.kt: (38, 51): 'getter for height: Int' is deprecated. Deprecated in Java
+:kotlinpleaseanimate:generateDebugSources
+:kotlinpleaseanimate:javaPreCompileDebug
+:kotlinpleaseanimate:compileDebugJavaWithJavac
+:kotlinpleaseanimate:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/src/main/java/com/github/florent37/kotlin/pleaseanimate/sample/AnimScrollActivity.kt: (45, 91): Parameter 'scrollX' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/src/main/java/com/github/florent37/kotlin/pleaseanimate/sample/AnimScrollActivity.kt: (45, 109): Parameter 'oldScrollX' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/src/main/java/com/github/florent37/kotlin/pleaseanimate/sample/AnimScrollActivity.kt: (45, 121): Parameter 'oldScrollY' is never used, could be renamed to _
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:kotlinpleaseanimate:generateReleaseRFile
+:app:processReleaseResources
+:kotlinpleaseanimate:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/src/main/java/com/github/florent37/kotlin/pleaseanimate/PleaseAnim.kt: (40, 99): Unnecessary non-null assertion (!!) on a non-null receiver of type Float
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/src/main/java/com/github/florent37/kotlin/pleaseanimate/ViewCalculator.kt: (19, 23): Parameter 'viewExpectation' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/src/main/java/com/github/florent37/kotlin/pleaseanimate/ViewCalculator.kt: (107, 63): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/src/main/java/com/github/florent37/kotlin/pleaseanimate/ViewCalculator.kt: (140, 64): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/src/main/java/com/github/florent37/kotlin/pleaseanimate/core/position/PositionAnimExpectationOutOfScreen.kt: (26, 51): 'getter for width: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/kotlinpleaseanimate/src/main/java/com/github/florent37/kotlin/pleaseanimate/core/position/PositionAnimExpectationOutOfScreen.kt: (38, 51): 'getter for height: Int' is deprecated. Deprecated in Java
+:kotlinpleaseanimate:generateReleaseSources
+:kotlinpleaseanimate:javaPreCompileRelease
+:kotlinpleaseanimate:compileReleaseJavaWithJavac
+:kotlinpleaseanimate:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/src/main/java/com/github/florent37/kotlin/pleaseanimate/sample/AnimScrollActivity.kt: (45, 91): Parameter 'scrollX' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/src/main/java/com/github/florent37/kotlin/pleaseanimate/sample/AnimScrollActivity.kt: (45, 109): Parameter 'oldScrollX' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/src/main/java/com/github/florent37/kotlin/pleaseanimate/sample/AnimScrollActivity.kt: (45, 121): Parameter 'oldScrollY' is never used, could be renamed to _
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 56s
+95 actionable tasks: 95 executed
+
+2018-10-02 11:09:02,971 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538453267678-0/src/KotlinPleaseAnimate-master/app/build/outputs/apk/debug/app-debug.apk

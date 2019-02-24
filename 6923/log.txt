@@ -1,0 +1,165 @@
+2019-01-12 20:59:13,309 INFO  DownloadService - Downloading "https://github.com/maltaisn/icondialoglib/archive/master.zip", attempt 3
+2019-01-12 20:59:19,031 INFO  DownloadService - Downloaded https://github.com/maltaisn/icondialoglib/archive/master.zip, attempt 3
+2019-01-12 20:59:19,032 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/master.zip": 6 MB
+2019-01-12 20:59:19,032 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 20:59:19,036 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/master.zip: true
+2019-01-12 20:59:19,037 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src'.
+2019-01-12 20:59:19,313 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-01-12 20:59:19,313 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src]
+2019-01-12 20:59:19,343 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/.git/
+
+2019-01-12 20:59:19,360 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/gradlew
+2019-01-12 20:59:19,377 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/icondialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/build.gradle
+2019-01-12 20:59:19,393 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/icondialog/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/icondialog/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/icondialog/build.gradle
+2019-01-12 20:59:19,394 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 20:59:19,394 INFO  ProjectFixService - Fixing project...
+2019-01-12 20:59:19,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/app/local.properties
+2019-01-12 20:59:19,435 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-12 20:59:19,436 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/icondialog/local.properties
+2019-01-12 20:59:19,436 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/icondialog/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-12 20:59:19,437 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/local.properties
+2019-01-12 20:59:19,437 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-12 20:59:19,438 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-12 20:59:19,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-12 20:59:19,439 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 20:59:19,439 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 20:59:19,439 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 20:59:27,451 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-12 20:59:27,452 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-12 20:59:27,452 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-12 21:00:03,993 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:icondialog:preBuild UP-TO-DATE
+:icondialog:preDebugBuild UP-TO-DATE
+:icondialog:checkDebugManifest
+:icondialog:processDebugManifest
+:app:preDebugBuild
+:icondialog:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:icondialog:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:icondialog:compileDebugRenderscript
+:icondialog:generateDebugResValues
+:icondialog:generateDebugResources
+:icondialog:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:icondialog:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:icondialog:generateDebugBuildConfig
+:icondialog:prepareLintJar
+:icondialog:generateDebugSources
+:icondialog:javaPreCompileDebug
+:icondialog:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/icondialog/src/main/java/com/maltaisn/icondialog/IconDialog.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:icondialog:processDebugJavaRes NO-SOURCE
+:icondialog:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:icondialog:mergeDebugShaders
+:icondialog:compileDebugShaders
+:icondialog:generateDebugAssets
+:icondialog:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:icondialog:compileDebugNdk NO-SOURCE
+:icondialog:mergeDebugJniLibFolders
+:icondialog:transformNativeLibsWithMergeJniLibsForDebug
+:icondialog:transformNativeLibsWithStripDebugSymbolForDebug
+:icondialog:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:icondialog:preReleaseBuild UP-TO-DATE
+:icondialog:checkReleaseManifest
+:icondialog:processReleaseManifest
+:app:preReleaseBuild
+:icondialog:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:icondialog:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:icondialog:compileReleaseRenderscript
+:icondialog:generateReleaseResValues
+:icondialog:generateReleaseResources
+:icondialog:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:icondialog:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:icondialog:generateReleaseBuildConfig
+:icondialog:generateReleaseSources
+:icondialog:javaPreCompileRelease
+:icondialog:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/icondialog/src/main/java/com/maltaisn/icondialog/IconDialog.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:icondialog:processReleaseJavaRes NO-SOURCE
+:icondialog:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:icondialog:mergeReleaseShaders
+:icondialog:compileReleaseShaders
+:icondialog:generateReleaseAssets
+:icondialog:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:icondialog:compileReleaseNdk NO-SOURCE
+:icondialog:mergeReleaseJniLibFolders
+:icondialog:transformNativeLibsWithMergeJniLibsForRelease
+:icondialog:transformNativeLibsWithStripDebugSymbolForRelease
+:icondialog:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 35s
+90 actionable tasks: 90 executed
+
+2019-01-12 21:00:04,109 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547301553301-0/src/icondialoglib-master/app/build/outputs/apk/debug/app-debug.apk

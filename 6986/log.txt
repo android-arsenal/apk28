@@ -1,0 +1,177 @@
+2018-10-07 20:45:02,353 INFO  DownloadService - Downloading "https://github.com/pahlevikun/DroidCrypt/archive/master.zip", attempt 3
+2018-10-07 20:45:02,869 INFO  DownloadService - Downloaded https://github.com/pahlevikun/DroidCrypt/archive/master.zip, attempt 3
+2018-10-07 20:45:02,869 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/master.zip": 152 KB
+2018-10-07 20:45:02,869 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-07 20:45:02,870 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/master.zip: true
+2018-10-07 20:45:02,870 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src'.
+2018-10-07 20:45:02,893 INFO  FullProcessService - Size of directory with sources: 173 KB
+2018-10-07 20:45:02,893 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src]
+2018-10-07 20:45:02,913 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/.git/
+
+2018-10-07 20:45:02,918 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/gradlew
+2018-10-07 20:45:02,924 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/droidcrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/build.gradle
+2018-10-07 20:45:02,928 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/droidcrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/settings.gradle
+2018-10-07 20:45:02,929 INFO  ProjectBuildService - Remote scripts: none
+2018-10-07 20:45:02,929 INFO  ProjectFixService - Fixing project...
+2018-10-07 20:45:02,939 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/local.properties
+2018-10-07 20:45:02,941 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-07 20:45:02,941 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-07 20:45:02,943 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/droidcrypt/local.properties
+2018-10-07 20:45:02,943 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/droidcrypt/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-07 20:45:02,944 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/droidcrypt/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-07 20:45:02,945 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/local.properties
+2018-10-07 20:45:02,946 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-07 20:45:02,946 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-07 20:45:02,947 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-07 20:45:02,948 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-10-07 20:45:02,948 INFO  ProjectFixService - Project was maybe fixed
+2018-10-07 20:45:02,948 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-07 20:45:02,949 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-07 20:45:12,299 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-10-07 20:45:12,300 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-07 20:45:12,300 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-07 20:46:14,278 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:droidcrypt:preBuild UP-TO-DATE
+:droidcrypt:preDebugBuild UP-TO-DATE
+:droidcrypt:checkDebugManifest
+:droidcrypt:processDebugManifest
+:app:preDebugBuild
+:droidcrypt:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:droidcrypt:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:droidcrypt:compileDebugRenderscript
+:droidcrypt:generateDebugResValues
+:droidcrypt:generateDebugResources
+:droidcrypt:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:droidcrypt:generateDebugRFile
+:app:processDebugResources
+:droidcrypt:generateDebugBuildConfig
+:droidcrypt:compileDebugKotlin
+:droidcrypt:prepareLintJar
+:droidcrypt:generateDebugSources
+:droidcrypt:javaPreCompileDebug
+:droidcrypt:compileDebugJavaWithJavac
+:droidcrypt:processDebugJavaRes NO-SOURCE
+:droidcrypt:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:droidcrypt:mergeDebugShaders
+:droidcrypt:compileDebugShaders
+:droidcrypt:generateDebugAssets
+:droidcrypt:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:droidcrypt:compileDebugNdk NO-SOURCE
+:droidcrypt:mergeDebugJniLibFolders
+:droidcrypt:transformNativeLibsWithMergeJniLibsForDebug
+:droidcrypt:transformNativeLibsWithStripDebugSymbolForDebug
+:droidcrypt:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:droidcrypt:preReleaseBuild UP-TO-DATE
+:droidcrypt:checkReleaseManifest
+:droidcrypt:processReleaseManifest
+:app:preReleaseBuild
+:droidcrypt:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:droidcrypt:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:droidcrypt:compileReleaseRenderscript
+:droidcrypt:generateReleaseResValues
+:droidcrypt:generateReleaseResources
+:droidcrypt:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:droidcrypt:generateReleaseRFile
+:app:processReleaseResources
+:droidcrypt:generateReleaseBuildConfig
+:droidcrypt:compileReleaseKotlin
+:droidcrypt:generateReleaseSources
+:droidcrypt:javaPreCompileRelease
+:droidcrypt:compileReleaseJavaWithJavac
+:droidcrypt:processReleaseJavaRes NO-SOURCE
+:droidcrypt:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/5d0a9199656966a6d8fc5b819e26d69a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:droidcrypt:mergeReleaseShaders
+:droidcrypt:compileReleaseShaders
+:droidcrypt:generateReleaseAssets
+:droidcrypt:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:droidcrypt:compileReleaseNdk NO-SOURCE
+:droidcrypt:mergeReleaseJniLibFolders
+:droidcrypt:transformNativeLibsWithMergeJniLibsForRelease
+:droidcrypt:transformNativeLibsWithStripDebugSymbolForRelease
+:droidcrypt:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 1s
+94 actionable tasks: 94 executed
+
+2018-10-07 20:46:14,375 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build/outputs/apk/debug/app-debug.apk

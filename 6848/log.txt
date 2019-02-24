@@ -1,0 +1,183 @@
+2018-12-02 16:38:40,479 INFO  DownloadService - Downloading "https://github.com/roubertedgar/step-bar/archive/master.zip", attempt 3
+2018-12-02 16:38:42,685 INFO  DownloadService - Downloaded https://github.com/roubertedgar/step-bar/archive/master.zip, attempt 3
+2018-12-02 16:38:42,685 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/master.zip": 158 KB
+2018-12-02 16:38:42,685 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-02 16:38:42,691 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/master.zip: true
+2018-12-02 16:38:42,691 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src'.
+2018-12-02 16:38:42,716 INFO  FullProcessService - Size of directory with sources: 184 KB
+2018-12-02 16:38:42,716 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src]
+2018-12-02 16:38:42,735 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/.git/
+
+2018-12-02 16:38:42,739 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/gradlew
+2018-12-02 16:38:42,743 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/stepbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/build.gradle
+2018-12-02 16:38:42,746 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/stepbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/sampleapp/build.gradle
+2018-12-02 16:38:42,747 INFO  ProjectBuildService - Remote scripts: none
+2018-12-02 16:38:42,747 INFO  ProjectFixService - Fixing project...
+2018-12-02 16:38:42,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/sampleapp/local.properties
+2018-12-02 16:38:42,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/sampleapp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-12-02 16:38:42,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/stepbar/local.properties
+2018-12-02 16:38:42,757 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/stepbar/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-12-02 16:38:42,757 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/local.properties
+2018-12-02 16:38:42,758 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-02 16:38:42,758 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-02 16:38:42,759 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-12-02 16:38:42,759 INFO  ProjectFixService - Project was maybe fixed
+2018-12-02 16:38:42,759 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-02 16:38:42,759 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-02 16:38:49,556 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-02 16:38:49,557 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-02 16:38:49,557 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-02 16:39:38,919 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sampleapp:checkDebugClasspath
+:sampleapp:preBuild UP-TO-DATE
+:stepbar:preBuild UP-TO-DATE
+:stepbar:preDebugBuild UP-TO-DATE
+:stepbar:checkDebugManifest
+:stepbar:processDebugManifest
+:sampleapp:preDebugBuild
+:stepbar:compileDebugAidl NO-SOURCE
+:sampleapp:compileDebugAidl NO-SOURCE
+:stepbar:packageDebugRenderscript NO-SOURCE
+:sampleapp:compileDebugRenderscript
+:sampleapp:checkDebugManifest
+:sampleapp:generateDebugBuildConfig
+:sampleapp:mainApkListPersistenceDebug
+:sampleapp:generateDebugResValues
+:sampleapp:generateDebugResources
+:stepbar:compileDebugRenderscript
+:stepbar:generateDebugResValues
+:stepbar:generateDebugResources
+:stepbar:packageDebugResources
+:sampleapp:mergeDebugResources
+:sampleapp:createDebugCompatibleScreenManifests
+:sampleapp:processDebugManifest
+:sampleapp:splitsDiscoveryTaskDebug
+:stepbar:generateDebugRFile
+:sampleapp:processDebugResources
+:stepbar:generateDebugBuildConfig
+:stepbar:compileDebugKotlin
+:stepbar:prepareLintJar
+:stepbar:generateDebugSources
+:stepbar:javaPreCompileDebug
+:stepbar:compileDebugJavaWithJavac
+:stepbar:processDebugJavaRes NO-SOURCE
+:stepbar:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sampleapp:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/sampleapp/src/main/java/steps/com/sampleapp/FirstStepFragment.kt: (40, 13): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/sampleapp/src/main/java/steps/com/sampleapp/SecondStepFragment.kt: (40, 13): Parameter 'value' is never used
+:sampleapp:prepareLintJar
+:sampleapp:generateDebugSources
+:sampleapp:javaPreCompileDebug
+:sampleapp:compileDebugJavaWithJavac
+:sampleapp:compileDebugNdk NO-SOURCE
+:sampleapp:compileDebugSources
+:sampleapp:mergeDebugShaders
+:sampleapp:compileDebugShaders
+:sampleapp:generateDebugAssets
+:stepbar:mergeDebugShaders
+:stepbar:compileDebugShaders
+:stepbar:generateDebugAssets
+:stepbar:packageDebugAssets
+:sampleapp:mergeDebugAssets
+:sampleapp:transformClassesWithDexBuilderForDebug
+:sampleapp:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sampleapp:transformDexArchiveWithDexMergerForDebug
+:sampleapp:mergeDebugJniLibFolders
+:stepbar:compileDebugNdk NO-SOURCE
+:stepbar:mergeDebugJniLibFolders
+:stepbar:transformNativeLibsWithMergeJniLibsForDebug
+:stepbar:transformNativeLibsWithStripDebugSymbolForDebug
+:stepbar:transformNativeLibsWithIntermediateJniLibsForDebug
+:sampleapp:transformNativeLibsWithMergeJniLibsForDebug
+:sampleapp:transformNativeLibsWithStripDebugSymbolForDebug
+:sampleapp:checkDebugLibraries
+:sampleapp:processDebugJavaRes NO-SOURCE
+:sampleapp:transformResourcesWithMergeJavaResForDebug
+:sampleapp:validateSigningDebug
+:sampleapp:packageDebug
+:sampleapp:assembleDebug
+:sampleapp:checkReleaseClasspath
+:stepbar:preReleaseBuild UP-TO-DATE
+:stepbar:checkReleaseManifest
+:stepbar:processReleaseManifest
+:sampleapp:preReleaseBuild
+:stepbar:compileReleaseAidl NO-SOURCE
+:sampleapp:compileReleaseAidl NO-SOURCE
+:stepbar:packageReleaseRenderscript NO-SOURCE
+:sampleapp:compileReleaseRenderscript
+:sampleapp:checkReleaseManifest
+:sampleapp:generateReleaseBuildConfig
+:sampleapp:mainApkListPersistenceRelease
+:sampleapp:generateReleaseResValues
+:sampleapp:generateReleaseResources
+:stepbar:compileReleaseRenderscript
+:stepbar:generateReleaseResValues
+:stepbar:generateReleaseResources
+:stepbar:packageReleaseResources
+:sampleapp:mergeReleaseResources
+:sampleapp:createReleaseCompatibleScreenManifests
+:sampleapp:processReleaseManifest
+:sampleapp:splitsDiscoveryTaskRelease
+:stepbar:generateReleaseRFile
+:sampleapp:processReleaseResources
+:stepbar:generateReleaseBuildConfig
+:stepbar:compileReleaseKotlin
+:stepbar:generateReleaseSources
+:stepbar:javaPreCompileRelease
+:stepbar:compileReleaseJavaWithJavac
+:stepbar:processReleaseJavaRes NO-SOURCE
+:stepbar:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sampleapp:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/sampleapp/src/main/java/steps/com/sampleapp/FirstStepFragment.kt: (40, 13): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/sampleapp/src/main/java/steps/com/sampleapp/SecondStepFragment.kt: (40, 13): Parameter 'value' is never used
+:sampleapp:generateReleaseSources
+:sampleapp:javaPreCompileRelease
+:sampleapp:compileReleaseJavaWithJavac
+:sampleapp:compileReleaseNdk NO-SOURCE
+:sampleapp:compileReleaseSources
+:sampleapp:lintVitalRelease
+Download https://jcenter.bintray.com/com/schibsted/spain/barista/2.7.0/barista-2.7.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-contrib/3.1.0-alpha3/espresso-contrib-3.1.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-intents/3.1.0-alpha3/espresso-intents-3.1.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/material/material/1.0.0-alpha1/material-1.0.0-alpha1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/transition/transition/1.0.0-alpha1/transition-1.0.0-alpha1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/cardview/cardview/1.0.0-alpha1/cardview-1.0.0-alpha1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-contrib/3.1.0-alpha3/espresso-contrib-3.1.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-intents/3.1.0-alpha3/espresso-intents-3.1.0-alpha3.aar
+Download https://jcenter.bintray.com/com/schibsted/spain/barista/2.7.0/barista-2.7.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/material/material/1.0.0-alpha1/material-1.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/androidx/cardview/cardview/1.0.0-alpha1/cardview-1.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/androidx/transition/transition/1.0.0-alpha1/transition-1.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/androidx/recyclerview/recyclerview/1.0.0-rc01/recyclerview-1.0.0-rc01.aar
+Download https://jcenter.bintray.com/com/squareup/assertj/assertj-android/1.2.0/assertj-android-1.2.0.jar
+:sampleapp:mergeReleaseShaders
+:sampleapp:compileReleaseShaders
+:sampleapp:generateReleaseAssets
+:stepbar:mergeReleaseShaders
+:stepbar:compileReleaseShaders
+:stepbar:generateReleaseAssets
+:stepbar:packageReleaseAssets
+:sampleapp:mergeReleaseAssets
+:sampleapp:transformClassesWithDexBuilderForRelease
+:sampleapp:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sampleapp:transformDexArchiveWithDexMergerForRelease
+:sampleapp:mergeReleaseJniLibFolders
+:stepbar:compileReleaseNdk NO-SOURCE
+:stepbar:mergeReleaseJniLibFolders
+:stepbar:transformNativeLibsWithMergeJniLibsForRelease
+:stepbar:transformNativeLibsWithStripDebugSymbolForRelease
+:stepbar:transformNativeLibsWithIntermediateJniLibsForRelease
+:sampleapp:transformNativeLibsWithMergeJniLibsForRelease
+:sampleapp:transformNativeLibsWithStripDebugSymbolForRelease
+:sampleapp:checkReleaseLibraries
+:sampleapp:processReleaseJavaRes NO-SOURCE
+:sampleapp:transformResourcesWithMergeJavaResForRelease
+:sampleapp:packageRelease
+:sampleapp:assembleRelease
+:sampleapp:assemble
+:sampleapp:build
+
+BUILD SUCCESSFUL in 48s
+94 actionable tasks: 94 executed
+
+2018-12-02 16:39:39,019 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743520470-0/src/step-bar-master/sampleapp/build/outputs/apk/release/sampleapp-release-unsigned.apk

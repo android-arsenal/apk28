@@ -1,0 +1,161 @@
+2018-08-22 15:11:25,290 INFO  DownloadService - Downloading "https://github.com/herou/CustomEditText/archive/master.zip", attempt 3
+2018-08-22 15:12:26,100 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-08-22 15:12:27,153 INFO  GithubDownloadService - Default branch of this repository: master
+2018-08-22 15:12:27,153 INFO  DownloadService - Downloading "https://github.com/herou/CustomEditText/archive/master.zip", attempt 3
+2018-08-22 15:13:28,893 DEBUG FullProcessService - Repository https://github.com/herou/CustomEditText available: true
+2018-08-22 15:13:28,893 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-08-22 15:13:28,893 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/herou/CustomEditText, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src]
+2018-08-22 15:13:31,978 INFO  SysUtils - 
+2018-08-22 15:13:31,987 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/.git": true
+2018-08-22 15:13:31,990 INFO  FullProcessService - Size of directory with sources: 161 KB
+2018-08-22 15:13:31,990 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src]
+2018-08-22 15:13:32,005 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/.git/
+
+2018-08-22 15:13:32,009 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/gradlew
+2018-08-22 15:13:32,012 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/eljoprifti/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/build.gradle
+2018-08-22 15:13:32,015 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/eljoprifti/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/settings.gradle
+2018-08-22 15:13:32,015 INFO  ProjectBuildService - Remote scripts: none
+2018-08-22 15:13:32,015 INFO  ProjectFixService - Fixing project...
+2018-08-22 15:13:32,022 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/app/local.properties
+2018-08-22 15:13:32,023 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-22 15:13:32,023 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-22 15:13:32,023 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/eljoprifti/local.properties
+2018-08-22 15:13:32,024 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/eljoprifti/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-22 15:13:32,024 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/eljoprifti/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-22 15:13:32,025 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/local.properties
+2018-08-22 15:13:32,025 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-22 15:13:32,025 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-22 15:13:32,026 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-22 15:13:32,026 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-22 15:13:32,027 INFO  ProjectFixService - Project was maybe fixed
+2018-08-22 15:13:32,027 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-22 15:13:32,027 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-22 15:13:37,946 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-22 15:13:37,947 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-22 15:13:37,947 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-22 15:14:03,187 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:eljoprifti:preBuild UP-TO-DATE
+:eljoprifti:preDebugBuild UP-TO-DATE
+:eljoprifti:checkDebugManifest
+:eljoprifti:processDebugManifest
+:app:preDebugBuild
+:eljoprifti:compileDebugAidl
+:app:compileDebugAidl
+:eljoprifti:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:eljoprifti:compileDebugRenderscript
+:eljoprifti:generateDebugResValues
+:eljoprifti:generateDebugResources
+:eljoprifti:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:eljoprifti:platformAttrExtractor
+:eljoprifti:generateDebugBuildConfig
+:eljoprifti:prepareLintJar
+:eljoprifti:javaPreCompileDebug
+:eljoprifti:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:eljoprifti:mergeDebugShaders
+:eljoprifti:compileDebugShaders
+:eljoprifti:generateDebugAssets
+:eljoprifti:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:eljoprifti:compileDebugNdk NO-SOURCE
+:eljoprifti:mergeDebugJniLibFolders
+:eljoprifti:transformNativeLibsWithMergeJniLibsForDebug
+:eljoprifti:transformNativeLibsWithStripDebugSymbolForDebug
+:eljoprifti:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:eljoprifti:preReleaseBuild UP-TO-DATE
+:eljoprifti:checkReleaseManifest
+:eljoprifti:processReleaseManifest
+:app:preReleaseBuild
+:eljoprifti:compileReleaseAidl
+:app:compileReleaseAidl
+:eljoprifti:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:eljoprifti:compileReleaseRenderscript
+:eljoprifti:generateReleaseResValues
+:eljoprifti:generateReleaseResources
+:eljoprifti:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:eljoprifti:generateReleaseBuildConfig
+:eljoprifti:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:eljoprifti:generateDebugSources
+:eljoprifti:compileDebugJavaWithJavac
+:eljoprifti:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:eljoprifti:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:eljoprifti:generateReleaseSources
+:eljoprifti:javaPreCompileRelease
+:eljoprifti:compileReleaseJavaWithJavac
+:eljoprifti:processReleaseJavaRes NO-SOURCE
+:eljoprifti:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:eljoprifti:mergeReleaseShaders
+:eljoprifti:compileReleaseShaders
+:eljoprifti:generateReleaseAssets
+:eljoprifti:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:eljoprifti:compileReleaseNdk NO-SOURCE
+:eljoprifti:mergeReleaseJniLibFolders
+:eljoprifti:transformNativeLibsWithMergeJniLibsForRelease
+:eljoprifti:transformNativeLibsWithStripDebugSymbolForRelease
+:eljoprifti:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 24s
+88 actionable tasks: 88 executed
+
+2018-08-22 15:14:03,250 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534925485287-0/src/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,173 @@
+2018-08-29 16:07:50,019 INFO  DownloadService - Downloading "https://github.com/PuffoCyano/mcnightmode/archive/master.zip", attempt 3
+2018-08-29 16:07:58,946 INFO  DownloadService - Downloaded https://github.com/PuffoCyano/mcnightmode/archive/master.zip, attempt 3
+2018-08-29 16:07:58,946 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/master.zip": 2 MB
+2018-08-29 16:07:58,946 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-29 16:07:58,947 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/master.zip: true
+2018-08-29 16:07:58,947 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src'.
+2018-08-29 16:07:58,999 INFO  FullProcessService - Size of directory with sources: 3 MB
+2018-08-29 16:07:58,999 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src]
+2018-08-29 16:07:59,015 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/.git/
+
+2018-08-29 16:07:59,019 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/gradlew
+2018-08-29 16:07:59,022 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/mcnightmode/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/build.gradle
+2018-08-29 16:07:59,026 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/mcnightmode/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/settings.gradle
+2018-08-29 16:07:59,026 INFO  ProjectBuildService - Remote scripts: none
+2018-08-29 16:07:59,026 INFO  ProjectFixService - Fixing project...
+2018-08-29 16:07:59,035 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/local.properties
+2018-08-29 16:07:59,036 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-29 16:07:59,036 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-29 16:07:59,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-29 16:07:59,036 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-29 16:07:59,037 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/mcnightmode/local.properties
+2018-08-29 16:07:59,038 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/mcnightmode/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-29 16:07:59,038 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/mcnightmode/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-29 16:07:59,038 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/local.properties
+2018-08-29 16:07:59,039 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-29 16:07:59,039 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-29 16:07:59,040 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-29 16:07:59,040 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-29 16:07:59,040 INFO  ProjectFixService - Project was maybe fixed
+2018-08-29 16:07:59,040 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-29 16:07:59,041 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-29 16:08:09,902 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-29 16:08:09,902 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-29 16:08:09,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-29 16:08:44,622 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:mcnightmode:preBuild UP-TO-DATE
+:mcnightmode:preDebugBuild UP-TO-DATE
+:mcnightmode:checkDebugManifest
+:mcnightmode:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/com/github/michaldrabik/tapbarmenu/1.0.5/tapbarmenu-1.0.5.pom
+Download https://jcenter.bintray.com/com/wnafee/vector-compat/1.0.5/vector-compat-1.0.5.pom
+Download https://jcenter.bintray.com/com/wnafee/vector-compat/1.0.5/vector-compat-1.0.5.aar
+Download https://jcenter.bintray.com/com/github/michaldrabik/tapbarmenu/1.0.5/tapbarmenu-1.0.5.aar
+:mcnightmode:compileDebugAidl
+:app:compileDebugAidl
+:mcnightmode:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:mcnightmode:compileDebugRenderscript
+:mcnightmode:generateDebugResValues
+:mcnightmode:generateDebugResources
+:mcnightmode:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:mcnightmode:platformAttrExtractor
+:mcnightmode:generateDebugBuildConfig
+:mcnightmode:prepareLintJar
+:mcnightmode:javaPreCompileDebug
+:mcnightmode:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:mcnightmode:mergeDebugShaders
+:mcnightmode:compileDebugShaders
+:mcnightmode:generateDebugAssets
+:mcnightmode:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:mcnightmode:compileDebugNdk NO-SOURCE
+:mcnightmode:mergeDebugJniLibFolders
+:mcnightmode:transformNativeLibsWithMergeJniLibsForDebug
+:mcnightmode:transformNativeLibsWithStripDebugSymbolForDebug
+:mcnightmode:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:mcnightmode:preReleaseBuild UP-TO-DATE
+:mcnightmode:checkReleaseManifest
+:mcnightmode:processReleaseManifest
+:app:preReleaseBuild
+:mcnightmode:compileReleaseAidl
+:app:compileReleaseAidl
+:mcnightmode:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:mcnightmode:compileReleaseRenderscript
+:mcnightmode:generateReleaseResValues
+:mcnightmode:generateReleaseResources
+:mcnightmode:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:mcnightmode:generateReleaseBuildConfig
+:mcnightmode:javaPreCompileRelease
+:mcnightmode:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:mcnightmode:mergeReleaseShaders
+:mcnightmode:compileReleaseShaders
+:mcnightmode:generateReleaseAssets
+:mcnightmode:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:mcnightmode:compileReleaseNdk NO-SOURCE
+:mcnightmode:mergeReleaseJniLibFolders
+:mcnightmode:transformNativeLibsWithMergeJniLibsForRelease
+:mcnightmode:transformNativeLibsWithStripDebugSymbolForRelease
+:mcnightmode:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:mcnightmode:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:mcnightmode:generateDebugSources
+:mcnightmode:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/mcnightmode/src/main/java/com/mcsoft/mcnightmode/NightService.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mcnightmode:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/src/main/java/com/mcsoft/nightmode/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:mcnightmode:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:mcnightmode:generateReleaseSources
+:mcnightmode:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/mcnightmode/src/main/java/com/mcsoft/mcnightmode/NightService.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mcnightmode:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/src/main/java/com/mcsoft/nightmode/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 34s
+88 actionable tasks: 88 executed
+
+2018-08-29 16:08:44,694 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533670011-0/src/mcnightmode-master/app/build/outputs/apk/debug/app-debug.apk

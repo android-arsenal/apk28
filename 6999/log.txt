@@ -1,0 +1,514 @@
+2018-09-04 22:39:45,437 INFO  DownloadService - Downloading "https://github.com/leonardoxh/keystore-ultimate/archive/master.zip", attempt 3
+2018-09-04 22:39:47,753 INFO  DownloadService - Downloaded https://github.com/leonardoxh/keystore-ultimate/archive/master.zip, attempt 3
+2018-09-04 22:39:47,753 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/master.zip": 252 KB
+2018-09-04 22:39:47,754 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-04 22:39:47,756 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/master.zip: true
+2018-09-04 22:39:47,756 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src'.
+2018-09-04 22:39:47,816 INFO  FullProcessService - Size of directory with sources: 293 KB
+2018-09-04 22:39:47,816 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src]
+2018-09-04 22:39:47,851 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/.git/
+
+2018-09-04 22:39:47,857 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/gradlew
+2018-09-04 22:39:47,864 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/build.gradle
+2018-09-04 22:39:47,870 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/gradle/keystore-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/settings.gradle
+2018-09-04 22:39:47,873 INFO  ProjectBuildService - Remote scripts: none
+2018-09-04 22:39:47,873 INFO  ProjectFixService - Fixing project...
+2018-09-04 22:39:47,902 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/local.properties
+2018-09-04 22:39:47,911 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-04 22:39:47,912 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-04 22:39:47,915 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/local.properties
+2018-09-04 22:39:47,921 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-04 22:39:47,922 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-04 22:39:47,924 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/sample/local.properties
+2018-09-04 22:39:47,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-04 22:39:47,933 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-04 22:39:47,937 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/local.properties
+2018-09-04 22:39:47,938 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5.1-bin.zip
+2018-09-04 22:39:47,951 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-04 22:39:47,951 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-04 22:39:47,953 INFO  ProjectFixService - Project was maybe fixed
+2018-09-04 22:39:47,953 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-04 22:39:47,953 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-04 22:39:59,631 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-04 22:39:59,632 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-04 22:39:59,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-04 22:40:12,784 INFO  SysUtils - Configuration on demand is an incubating feature.
+:keystore:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/store/Storage.java:18: error: cannot find symbol
+import javax.annotation.Nullable;
+                       ^
+  symbol:   class Nullable
+  location: package javax.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/CipherStorage.java:18: error: cannot find symbol
+import javax.annotation.Nullable;
+                       ^
+  symbol:   class Nullable
+  location: package javax.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/CipherStorageSharedPreferencesKeystore.java:43: error: cannot find symbol
+import javax.annotation.Nullable;
+                       ^
+  symbol:   class Nullable
+  location: package javax.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/CipherStorageAndroidKeystore.java:40: error: cannot find symbol
+import javax.annotation.Nullable;
+                       ^
+  symbol:   class Nullable
+  location: package javax.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/store/CipherPreferencesStorage.java:21: error: cannot find symbol
+import javax.annotation.Nullable;
+                       ^
+  symbol:   class Nullable
+  location: package javax.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/package-info.java:19: error: cannot find symbol
+import javax.annotation.ParametersAreNonnullByDefault;
+                       ^
+  symbol:   class ParametersAreNonnullByDefault
+  location: package javax.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/store/Storage.java:33: error: cannot find symbol
+    @Nullable byte[] getKeyBytes(String alias);
+     ^
+  symbol:   class Nullable
+  location: interface Storage
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/CipherStorage.java:41: error: cannot find symbol
+    @Nullable String decrypt(String alias);
+     ^
+  symbol:   class Nullable
+  location: interface CipherStorage
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/CipherStorageSharedPreferencesKeystore.java:86: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class CipherStorageSharedPreferencesKeystore
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/CipherStorageSharedPreferencesKeystore.java:115: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class CipherStorageSharedPreferencesKeystore
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/CipherStorageSharedPreferencesKeystore.java:153: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class CipherStorageSharedPreferencesKeystore
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/CipherStorageAndroidKeystore.java:90: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class CipherStorageAndroidKeystore
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/store/CipherPreferencesStorage.java:45: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class CipherPreferencesStorage
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/store/CipherPreferencesStorage.java:74: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class CipherPreferencesStorage
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/package-info.java:16: error: cannot find symbol
+@ParametersAreNonnullByDefault
+ ^
+  symbol: class ParametersAreNonnullByDefault
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class ParametersAreNonnullByDefault not found.
+javadoc: warning - Class ParametersAreNonnullByDefault not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class ParametersAreNonnullByDefault not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+
+36 warnings
+:keystore:androidJavadocsJar
+:keystore:androidSourcesJar
+:keystore:preBuild UP-TO-DATE
+:keystore:preDebugBuild UP-TO-DATE
+:keystore:compileDebugAidl
+:keystore:compileDebugRenderscript
+:keystore:checkDebugManifest
+:keystore:generateDebugBuildConfig
+:keystore:generateDebugResValues
+:keystore:generateDebugResources
+:keystore:packageDebugResources
+:keystore:platformAttrExtractor
+:keystore:processDebugManifest
+:keystore:prepareLintJar
+:keystore:javaPreCompileDebug
+:keystore:mergeDebugConsumerProguardFiles
+:keystore:mergeDebugShaders
+:keystore:compileDebugShaders
+:keystore:generateDebugAssets
+:keystore:packageDebugAssets
+:keystore:packageDebugRenderscript NO-SOURCE
+:keystore:processDebugJavaRes NO-SOURCE
+:keystore:compileDebugNdk NO-SOURCE
+:keystore:mergeDebugJniLibFolders
+:keystore:transformNativeLibsWithMergeJniLibsForDebug
+:keystore:transformNativeLibsWithStripDebugSymbolForDebug
+:keystore:transformNativeLibsWithSyncJniLibsForDebug
+:keystore:preReleaseBuild UP-TO-DATE
+:keystore:compileReleaseAidl
+:keystore:compileReleaseRenderscript
+:keystore:checkReleaseManifest
+:keystore:generateReleaseBuildConfig
+:keystore:generateReleaseResValues
+:keystore:generateReleaseResources
+:keystore:packageReleaseResources
+:keystore:processReleaseManifest
+:keystore:javaPreCompileRelease
+:keystore:mergeReleaseConsumerProguardFiles
+:keystore:mergeReleaseShaders
+:keystore:compileReleaseShaders
+:keystore:generateReleaseAssets
+:keystore:packageReleaseAssets
+:keystore:packageReleaseRenderscript NO-SOURCE
+:keystore:processReleaseJavaRes NO-SOURCE
+:keystore:compileReleaseNdk NO-SOURCE
+:keystore:mergeReleaseJniLibFolders
+:keystore:transformNativeLibsWithMergeJniLibsForRelease
+:keystore:transformNativeLibsWithStripDebugSymbolForRelease
+:keystore:transformNativeLibsWithSyncJniLibsForRelease
+:keystore:mergeReleaseResources
+:keystore:verifyReleaseResources
+:keystore:generateDebugRFile
+:keystore:generateDebugSources
+:keystore:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/CipherStorageSharedPreferencesKeystore.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:keystore:extractDebugAnnotations
+:keystore:transformResourcesWithMergeJavaResForDebug
+:keystore:transformClassesAndResourcesWithSyncLibJarsForDebug
+:keystore:bundleDebug
+:keystore:compileDebugSources
+:keystore:assembleDebug
+:keystore:generateReleaseRFile
+:keystore:generateReleaseSources
+:keystore:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystore/src/main/java/com/github/leonardoxh/keystore/CipherStorageSharedPreferencesKeystore.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:keystore:extractReleaseAnnotations
+:keystore:transformResourcesWithMergeJavaResForRelease
+:keystore:transformClassesAndResourcesWithSyncLibJarsForRelease
+:keystore:bundleRelease
+:keystore:compileReleaseSources
+:keystore:assembleRelease
+:keystore:signArchives SKIPPED
+:keystore:assemble
+:keystore:build
+
+BUILD SUCCESSFUL in 12s
+51 actionable tasks: 51 executed
+
+2018-09-04 22:40:12,799 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-04 22:40:12,799 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-04 22:40:20,309 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-04 22:40:20,309 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-04 22:40:20,310 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-04 22:40:31,702 INFO  SysUtils - Configuration on demand is an incubating feature.
+:keystoretest:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/src/main/java/com/github/leonardoxh/keystore/CipherStorageFactory.java:20: error: package com.github.leonardoxh.keystore.store does not exist
+import com.github.leonardoxh.keystore.store.Storage;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/src/main/java/com/github/leonardoxh/keystore/CipherStorageFactory.java:22: error: cannot find symbol
+import javax.annotation.Nullable;
+                       ^
+  symbol:   class Nullable
+  location: package javax.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/src/main/java/com/github/leonardoxh/keystore/CipherStorageFactory.java:39: error: cannot find symbol
+    public static CipherStorage newInstance(@Nullable Context context) {
+                  ^
+  symbol:   class CipherStorage
+  location: class CipherStorageFactory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/src/main/java/com/github/leonardoxh/keystore/CipherStorageFactory.java:47: error: cannot find symbol
+    public static CipherStorage newInstance(@Nullable Context context, Storage storage) {
+                                                                       ^
+  symbol:   class Storage
+  location: class CipherStorageFactory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/src/main/java/com/github/leonardoxh/keystore/CipherStorageFactory.java:47: error: cannot find symbol
+    public static CipherStorage newInstance(@Nullable Context context, Storage storage) {
+                  ^
+  symbol:   class CipherStorage
+  location: class CipherStorageFactory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/src/main/java/com/github/leonardoxh/keystore/InMemoryCipherStorage.java:21: error: cannot find symbol
+import javax.annotation.Nullable;
+                       ^
+  symbol:   class Nullable
+  location: package javax.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/src/main/java/com/github/leonardoxh/keystore/InMemoryCipherStorage.java:23: error: cannot find symbol
+final class InMemoryCipherStorage implements CipherStorage {
+                                             ^
+  symbol: class CipherStorage
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/src/main/java/com/github/leonardoxh/keystore/CipherStorageFactory.java:39: error: cannot find symbol
+    public static CipherStorage newInstance(@Nullable Context context) {
+                                             ^
+  symbol:   class Nullable
+  location: class CipherStorageFactory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/src/main/java/com/github/leonardoxh/keystore/CipherStorageFactory.java:47: error: cannot find symbol
+    public static CipherStorage newInstance(@Nullable Context context, Storage storage) {
+                                             ^
+  symbol:   class Nullable
+  location: class CipherStorageFactory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/keystoretest/src/main/java/com/github/leonardoxh/keystore/InMemoryCipherStorage.java:43: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class InMemoryCipherStorage
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+
+12 warnings
+:keystoretest:androidJavadocsJar
+:keystoretest:androidSourcesJar
+:keystore:preBuild UP-TO-DATE
+:keystore:preDebugBuild UP-TO-DATE
+:keystore:compileDebugAidl UP-TO-DATE
+:keystoretest:preBuild UP-TO-DATE
+:keystoretest:preDebugBuild UP-TO-DATE
+:keystoretest:compileDebugAidl
+:keystore:compileDebugRenderscript UP-TO-DATE
+:keystore:checkDebugManifest UP-TO-DATE
+:keystore:generateDebugBuildConfig UP-TO-DATE
+:keystore:generateDebugResValues UP-TO-DATE
+:keystore:generateDebugResources UP-TO-DATE
+:keystore:packageDebugResources UP-TO-DATE
+:keystore:platformAttrExtractor UP-TO-DATE
+:keystore:processDebugManifest UP-TO-DATE
+:keystore:generateDebugRFile UP-TO-DATE
+:keystore:prepareLintJar UP-TO-DATE
+:keystore:generateDebugSources UP-TO-DATE
+:keystore:javaPreCompileDebug UP-TO-DATE
+:keystore:compileDebugJavaWithJavac UP-TO-DATE
+:keystore:processDebugJavaRes NO-SOURCE
+:keystore:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:keystore:packageDebugRenderscript NO-SOURCE
+:keystoretest:compileDebugRenderscript
+:keystoretest:checkDebugManifest
+:keystoretest:generateDebugBuildConfig
+:keystoretest:generateDebugResValues
+:keystoretest:generateDebugResources
+:keystoretest:packageDebugResources
+:keystoretest:platformAttrExtractor
+:keystoretest:processDebugManifest
+:keystoretest:prepareLintJar
+:keystoretest:javaPreCompileDebug
+:keystoretest:mergeDebugConsumerProguardFiles
+:keystoretest:mergeDebugShaders
+:keystoretest:compileDebugShaders
+:keystoretest:generateDebugAssets
+:keystoretest:packageDebugAssets
+:keystoretest:packageDebugRenderscript NO-SOURCE
+:keystoretest:processDebugJavaRes NO-SOURCE
+:keystoretest:compileDebugNdk NO-SOURCE
+:keystoretest:mergeDebugJniLibFolders
+:keystoretest:transformNativeLibsWithMergeJniLibsForDebug
+:keystoretest:transformNativeLibsWithStripDebugSymbolForDebug
+:keystoretest:transformNativeLibsWithSyncJniLibsForDebug
+:keystore:preReleaseBuild UP-TO-DATE
+:keystore:compileReleaseAidl UP-TO-DATE
+:keystoretest:generateDebugRFile
+:keystoretest:generateDebugSources
+:keystoretest:compileDebugJavaWithJavac
+:keystoretest:extractDebugAnnotations
+:keystoretest:transformResourcesWithMergeJavaResForDebug
+:keystoretest:transformClassesAndResourcesWithSyncLibJarsForDebug
+:keystoretest:bundleDebug
+:keystoretest:compileDebugSources
+:keystoretest:assembleDebug
+:keystoretest:preReleaseBuild UP-TO-DATE
+:keystoretest:compileReleaseAidl
+:keystore:compileReleaseRenderscript UP-TO-DATE
+:keystore:checkReleaseManifest UP-TO-DATE
+:keystore:generateReleaseBuildConfig UP-TO-DATE
+:keystore:generateReleaseResValues UP-TO-DATE
+:keystore:generateReleaseResources UP-TO-DATE
+:keystore:packageReleaseResources UP-TO-DATE
+:keystore:processReleaseManifest UP-TO-DATE
+:keystore:generateReleaseRFile UP-TO-DATE
+:keystore:generateReleaseSources UP-TO-DATE
+:keystore:javaPreCompileRelease UP-TO-DATE
+:keystore:compileReleaseJavaWithJavac UP-TO-DATE
+:keystore:processReleaseJavaRes NO-SOURCE
+:keystore:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:keystore:packageReleaseRenderscript NO-SOURCE
+:keystoretest:compileReleaseRenderscript
+:keystoretest:checkReleaseManifest
+:keystoretest:generateReleaseBuildConfig
+:keystoretest:generateReleaseResValues
+:keystoretest:generateReleaseResources
+:keystoretest:packageReleaseResources
+:keystoretest:processReleaseManifest
+:keystoretest:generateReleaseRFile
+:keystoretest:generateReleaseSources
+:keystoretest:javaPreCompileRelease
+:keystoretest:compileReleaseJavaWithJavac
+:keystoretest:extractReleaseAnnotations
+:keystoretest:mergeReleaseConsumerProguardFiles
+:keystoretest:mergeReleaseShaders
+:keystoretest:compileReleaseShaders
+:keystoretest:generateReleaseAssets
+:keystoretest:packageReleaseAssets
+:keystoretest:packageReleaseRenderscript NO-SOURCE
+:keystoretest:processReleaseJavaRes NO-SOURCE
+:keystoretest:transformResourcesWithMergeJavaResForRelease
+:keystoretest:transformClassesAndResourcesWithSyncLibJarsForRelease
+:keystoretest:compileReleaseNdk NO-SOURCE
+:keystoretest:mergeReleaseJniLibFolders
+:keystoretest:transformNativeLibsWithMergeJniLibsForRelease
+:keystoretest:transformNativeLibsWithStripDebugSymbolForRelease
+:keystoretest:transformNativeLibsWithSyncJniLibsForRelease
+:keystoretest:bundleRelease
+:keystoretest:compileReleaseSources
+:keystoretest:mergeReleaseResources
+:keystoretest:verifyReleaseResources
+:keystoretest:assembleRelease
+:keystoretest:signArchives SKIPPED
+:keystoretest:assemble
+:keystoretest:build
+
+BUILD SUCCESSFUL in 10s
+75 actionable tasks: 53 executed, 22 up-to-date
+
+2018-09-04 22:40:31,729 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-04 22:40:31,729 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-04 22:40:39,267 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-04 22:40:39,267 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-04 22:40:39,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-04 22:41:02,530 INFO  SysUtils - Configuration on demand is an incubating feature.
+:keystore:preBuild UP-TO-DATE
+:keystore:preDebugBuild UP-TO-DATE
+:keystore:compileDebugAidl UP-TO-DATE
+:keystore:compileDebugRenderscript UP-TO-DATE
+:keystore:checkDebugManifest UP-TO-DATE
+:keystore:generateDebugBuildConfig UP-TO-DATE
+:keystore:generateDebugResValues UP-TO-DATE
+:keystore:generateDebugResources UP-TO-DATE
+:keystore:packageDebugResources UP-TO-DATE
+:keystore:platformAttrExtractor UP-TO-DATE
+:keystore:processDebugManifest UP-TO-DATE
+:keystore:generateDebugRFile UP-TO-DATE
+:keystore:prepareLintJar UP-TO-DATE
+:keystore:generateDebugSources UP-TO-DATE
+:keystore:javaPreCompileDebug UP-TO-DATE
+:keystore:compileDebugJavaWithJavac UP-TO-DATE
+:keystore:processDebugJavaRes NO-SOURCE
+:keystore:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:keystore:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:keystore:mergeDebugShaders UP-TO-DATE
+:keystore:compileDebugShaders UP-TO-DATE
+:keystore:generateDebugAssets UP-TO-DATE
+:keystore:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:keystore:compileDebugNdk NO-SOURCE
+:keystore:mergeDebugJniLibFolders UP-TO-DATE
+:keystore:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:keystore:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:keystore:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:keystore:preReleaseBuild UP-TO-DATE
+:keystore:compileReleaseAidl UP-TO-DATE
+:keystore:compileReleaseRenderscript UP-TO-DATE
+:keystore:checkReleaseManifest UP-TO-DATE
+:keystore:generateReleaseBuildConfig UP-TO-DATE
+:keystore:generateReleaseResValues UP-TO-DATE
+:keystore:generateReleaseResources UP-TO-DATE
+:keystore:packageReleaseResources UP-TO-DATE
+:keystore:processReleaseManifest UP-TO-DATE
+:keystore:generateReleaseRFile UP-TO-DATE
+:keystore:generateReleaseSources UP-TO-DATE
+:keystore:javaPreCompileRelease UP-TO-DATE
+:keystore:compileReleaseJavaWithJavac UP-TO-DATE
+:keystore:processReleaseJavaRes NO-SOURCE
+:keystore:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:keystore:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:keystore:mergeReleaseShaders UP-TO-DATE
+:keystore:compileReleaseShaders UP-TO-DATE
+:keystore:generateReleaseAssets UP-TO-DATE
+:keystore:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:keystore:compileReleaseNdk NO-SOURCE
+:keystore:mergeReleaseJniLibFolders UP-TO-DATE
+:keystore:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:keystore:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:keystore:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 22s
+91 actionable tasks: 55 executed, 36 up-to-date
+
+2018-09-04 22:41:02,636 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075585429-0/src/keystore-ultimate-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

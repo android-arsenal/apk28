@@ -1,0 +1,243 @@
+2018-11-21 13:40:20,588 INFO  DownloadService - Downloading "https://github.com/flipkart-incubator/inline-youtube-view/archive/master.zip", attempt 3
+2018-11-21 13:40:32,404 INFO  DownloadService - Downloaded https://github.com/flipkart-incubator/inline-youtube-view/archive/master.zip, attempt 3
+2018-11-21 13:40:32,404 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/master.zip": 15 MB
+2018-11-21 13:40:32,404 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-21 13:40:32,411 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/master.zip: true
+2018-11-21 13:40:32,411 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src'.
+2018-11-21 13:40:32,546 INFO  FullProcessService - Size of directory with sources: 15 MB
+2018-11-21 13:40:32,546 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src]
+2018-11-21 13:40:32,563 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/.git/
+
+2018-11-21 13:40:32,566 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/gradlew
+2018-11-21 13:40:32,570 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/build.gradle
+2018-11-21 13:40:32,573 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/settings.gradle
+2018-11-21 13:40:32,573 INFO  ProjectBuildService - Remote scripts: none
+2018-11-21 13:40:32,573 INFO  ProjectFixService - Fixing project...
+2018-11-21 13:40:32,582 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/local.properties
+2018-11-21 13:40:32,583 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-21 13:40:32,583 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-21 13:40:32,583 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-21 13:40:32,584 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/local.properties
+2018-11-21 13:40:32,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-21 13:40:32,585 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/local.properties
+2018-11-21 13:40:32,585 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-21 13:40:32,586 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-21 13:40:32,587 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-21 13:40:32,587 INFO  ProjectFixService - Project was maybe fixed
+2018-11-21 13:40:32,587 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-21 13:40:32,587 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-21 13:40:41,944 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-21 13:40:41,944 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-21 13:40:41,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-21 13:40:55,361 INFO  SysUtils - Configuration on demand is an incubating feature.
+:inline-youtube-view:preBuild UP-TO-DATE
+:inline-youtube-view:preDebugBuild UP-TO-DATE
+:inline-youtube-view:compileDebugAidl
+:inline-youtube-view:compileDebugRenderscript
+:inline-youtube-view:checkDebugManifest
+:inline-youtube-view:generateDebugBuildConfig
+:inline-youtube-view:generateDebugResValues
+:inline-youtube-view:generateDebugResources
+:inline-youtube-view:packageDebugResources
+:inline-youtube-view:platformAttrExtractor
+:inline-youtube-view:processDebugManifest
+:inline-youtube-view:prepareLintJar
+:inline-youtube-view:javaPreCompileDebug
+:inline-youtube-view:mergeDebugConsumerProguardFiles
+:inline-youtube-view:mergeDebugShaders
+:inline-youtube-view:compileDebugShaders
+:inline-youtube-view:generateDebugAssets
+:inline-youtube-view:packageDebugAssets
+:inline-youtube-view:packageDebugRenderscript NO-SOURCE
+:inline-youtube-view:processDebugJavaRes NO-SOURCE
+:inline-youtube-view:compileDebugNdk NO-SOURCE
+:inline-youtube-view:mergeDebugJniLibFolders
+:inline-youtube-view:transformNativeLibsWithMergeJniLibsForDebug
+:inline-youtube-view:transformNativeLibsWithStripDebugSymbolForDebug
+:inline-youtube-view:transformNativeLibsWithSyncJniLibsForDebug
+:inline-youtube-view:preReleaseBuild UP-TO-DATE
+:inline-youtube-view:compileReleaseAidl
+:inline-youtube-view:compileReleaseRenderscript
+:inline-youtube-view:checkReleaseManifest
+:inline-youtube-view:generateReleaseBuildConfig
+:inline-youtube-view:generateReleaseResValues
+:inline-youtube-view:generateReleaseResources
+:inline-youtube-view:packageReleaseResources
+:inline-youtube-view:processReleaseManifest
+:inline-youtube-view:javaPreCompileRelease
+:inline-youtube-view:mergeReleaseConsumerProguardFiles
+:inline-youtube-view:mergeReleaseShaders
+:inline-youtube-view:compileReleaseShaders
+:inline-youtube-view:generateReleaseAssets
+:inline-youtube-view:packageReleaseAssets
+:inline-youtube-view:packageReleaseRenderscript NO-SOURCE
+:inline-youtube-view:processReleaseJavaRes NO-SOURCE
+:inline-youtube-view:compileReleaseNdk NO-SOURCE
+:inline-youtube-view:mergeReleaseJniLibFolders
+:inline-youtube-view:transformNativeLibsWithMergeJniLibsForRelease
+:inline-youtube-view:transformNativeLibsWithStripDebugSymbolForRelease
+:inline-youtube-view:transformNativeLibsWithSyncJniLibsForRelease
+:inline-youtube-view:mergeReleaseResources
+:inline-youtube-view:verifyReleaseResources
+:inline-youtube-view:generateDebugRFile
+:inline-youtube-view:generateDebugSources
+:inline-youtube-view:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:inline-youtube-view:extractDebugAnnotations
+:inline-youtube-view:transformResourcesWithMergeJavaResForDebug
+:inline-youtube-view:transformClassesAndResourcesWithSyncLibJarsForDebug
+:inline-youtube-view:bundleDebug
+:inline-youtube-view:compileDebugSources
+:inline-youtube-view:assembleDebug
+:inline-youtube-view:generateReleaseRFile
+:inline-youtube-view:generateReleaseSources
+:inline-youtube-view:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:inline-youtube-view:extractReleaseAnnotations
+:inline-youtube-view:transformResourcesWithMergeJavaResForRelease
+:inline-youtube-view:transformClassesAndResourcesWithSyncLibJarsForRelease
+:inline-youtube-view:bundleRelease
+:inline-youtube-view:compileReleaseSources
+:inline-youtube-view:assembleRelease
+:inline-youtube-view:assemble
+:inline-youtube-view:build
+
+BUILD SUCCESSFUL in 13s
+48 actionable tasks: 48 executed
+
+2018-11-21 13:40:55,409 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-21 13:40:55,409 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-21 13:41:00,892 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-21 13:41:00,892 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-21 13:41:00,893 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-21 13:41:29,039 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:inline-youtube-view:preBuild UP-TO-DATE
+:inline-youtube-view:preDebugBuild UP-TO-DATE
+:inline-youtube-view:checkDebugManifest UP-TO-DATE
+:inline-youtube-view:processDebugManifest UP-TO-DATE
+:app:preDebugBuild
+:inline-youtube-view:compileDebugAidl UP-TO-DATE
+:app:compileDebugAidl
+:inline-youtube-view:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:inline-youtube-view:compileDebugRenderscript UP-TO-DATE
+:inline-youtube-view:generateDebugResValues UP-TO-DATE
+:inline-youtube-view:generateDebugResources UP-TO-DATE
+:inline-youtube-view:packageDebugResources UP-TO-DATE
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:inline-youtube-view:platformAttrExtractor UP-TO-DATE
+:inline-youtube-view:generateDebugRFile UP-TO-DATE
+:app:processDebugResources
+:app:generateDebugSources
+:inline-youtube-view:generateDebugBuildConfig UP-TO-DATE
+:inline-youtube-view:prepareLintJar UP-TO-DATE
+:inline-youtube-view:generateDebugSources UP-TO-DATE
+:inline-youtube-view:javaPreCompileDebug UP-TO-DATE
+:inline-youtube-view:compileDebugJavaWithJavac UP-TO-DATE
+:inline-youtube-view:processDebugJavaRes NO-SOURCE
+:inline-youtube-view:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:inline-youtube-view:mergeDebugShaders UP-TO-DATE
+:inline-youtube-view:compileDebugShaders UP-TO-DATE
+:inline-youtube-view:generateDebugAssets UP-TO-DATE
+:inline-youtube-view:packageDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:inline-youtube-view:compileDebugNdk NO-SOURCE
+:inline-youtube-view:mergeDebugJniLibFolders UP-TO-DATE
+:inline-youtube-view:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:inline-youtube-view:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:inline-youtube-view:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:inline-youtube-view:preReleaseBuild UP-TO-DATE
+:inline-youtube-view:checkReleaseManifest UP-TO-DATE
+:inline-youtube-view:processReleaseManifest UP-TO-DATE
+:app:preReleaseBuild
+:inline-youtube-view:compileReleaseAidl UP-TO-DATE
+:app:compileReleaseAidl
+:inline-youtube-view:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:inline-youtube-view:compileReleaseRenderscript UP-TO-DATE
+:inline-youtube-view:generateReleaseResValues UP-TO-DATE
+:inline-youtube-view:generateReleaseResources UP-TO-DATE
+:inline-youtube-view:packageReleaseResources UP-TO-DATE
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:inline-youtube-view:generateReleaseRFile UP-TO-DATE
+:app:processReleaseResources
+:app:generateReleaseSources
+:inline-youtube-view:generateReleaseBuildConfig UP-TO-DATE
+:inline-youtube-view:generateReleaseSources UP-TO-DATE
+:inline-youtube-view:javaPreCompileRelease UP-TO-DATE
+:inline-youtube-view:compileReleaseJavaWithJavac UP-TO-DATE
+:inline-youtube-view:processReleaseJavaRes NO-SOURCE
+:inline-youtube-view:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:inline-youtube-view:mergeReleaseShaders UP-TO-DATE
+:inline-youtube-view:compileReleaseShaders UP-TO-DATE
+:inline-youtube-view:generateReleaseAssets UP-TO-DATE
+:inline-youtube-view:packageReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:inline-youtube-view:compileReleaseNdk NO-SOURCE
+:inline-youtube-view:mergeReleaseJniLibFolders UP-TO-DATE
+:inline-youtube-view:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:inline-youtube-view:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:inline-youtube-view:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 27s
+91 actionable tasks: 57 executed, 34 up-to-date
+
+2018-11-21 13:41:29,146 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/build/outputs/apk/debug/app-debug.apk

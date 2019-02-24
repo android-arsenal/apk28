@@ -1,0 +1,1759 @@
+2018-08-26 01:19:06,812 INFO  DownloadService - Downloading "https://github.com/hluhovskyi/CameraButton/archive/master.zip", attempt 3
+2018-08-26 01:19:09,617 INFO  DownloadService - Downloaded https://github.com/hluhovskyi/CameraButton/archive/master.zip, attempt 3
+2018-08-26 01:19:09,617 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/master.zip": 798 KB
+2018-08-26 01:19:09,617 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-26 01:19:09,623 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/master.zip: true
+2018-08-26 01:19:09,623 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src'.
+2018-08-26 01:19:09,667 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-08-26 01:19:09,667 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src]
+2018-08-26 01:19:09,684 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/.git/
+
+2018-08-26 01:19:09,689 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew
+2018-08-26 01:19:09,694 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-recyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/build.gradle
+2018-08-26 01:19:09,698 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-recyclerview/build.gradle
+2018-08-26 01:19:09,699 INFO  ProjectBuildService - Remote scripts: none
+2018-08-26 01:19:09,699 INFO  ProjectFixService - Fixing project...
+2018-08-26 01:19:09,714 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-recyclerview/local.properties
+2018-08-26 01:19:09,717 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-recyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2018-08-26 01:19:09,717 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-recyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-08-26 01:19:09,718 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2-kotlin/local.properties
+2018-08-26 01:19:09,721 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2018-08-26 01:19:09,721 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-08-26 01:19:09,721 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/local.properties
+2018-08-26 01:19:09,724 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2018-08-26 01:19:09,725 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-08-26 01:19:09,725 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/local.properties
+2018-08-26 01:19:09,729 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2018-08-26 01:19:09,729 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-08-26 01:19:09,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/sample/local.properties
+2018-08-26 01:19:09,733 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2018-08-26 01:19:09,733 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-08-26 01:19:09,734 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/local.properties
+2018-08-26 01:19:09,734 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-08-26 01:19:09,735 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-08-26 01:19:09,738 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2018-08-26 01:19:09,738 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-08-26 01:19:09,739 INFO  ProjectFixService - Project was maybe fixed
+2018-08-26 01:19:09,739 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 01:19:09,739 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-recyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 01:19:28,943 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-08-26 01:19:28,943 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-26 01:19:28,943 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-recyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-26 01:19:46,174 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:camerabutton:preBuild UP-TO-DATE
+:camerabutton:preDebugBuild UP-TO-DATE
+:camerabutton:compileDebugAidl
+:camerabutton-recyclerview:preBuild UP-TO-DATE
+:camerabutton-recyclerview:preDebugBuild UP-TO-DATE
+:camerabutton-recyclerview:compileDebugAidl
+:camerabutton:compileDebugRenderscript
+:camerabutton:checkDebugManifest
+:camerabutton:generateDebugBuildConfig SKIPPED
+:camerabutton:generateDebugResValues
+:camerabutton:generateDebugResources
+:camerabutton:packageDebugResources
+:camerabutton:platformAttrExtractor
+:camerabutton:processDebugManifest
+:camerabutton:prepareLintJar
+:camerabutton:processDebugJavaRes NO-SOURCE
+:camerabutton:packageDebugRenderscript NO-SOURCE
+:camerabutton-recyclerview:compileDebugRenderscript
+:camerabutton-recyclerview:checkDebugManifest
+:camerabutton-recyclerview:generateDebugBuildConfig SKIPPED
+:camerabutton-recyclerview:generateDebugResValues
+:camerabutton-recyclerview:generateDebugResources
+:camerabutton-recyclerview:packageDebugResources
+:camerabutton-recyclerview:platformAttrExtractor
+:camerabutton-recyclerview:processDebugManifest
+:camerabutton-recyclerview:prepareLintJar
+:camerabutton-recyclerview:mergeDebugConsumerProguardFiles
+:camerabutton-recyclerview:mergeDebugShaders
+:camerabutton-recyclerview:compileDebugShaders
+:camerabutton-recyclerview:generateDebugAssets
+:camerabutton-recyclerview:packageDebugAssets
+:camerabutton-recyclerview:packageDebugRenderscript NO-SOURCE
+:camerabutton-recyclerview:processDebugJavaRes NO-SOURCE
+:camerabutton-recyclerview:compileDebugNdk NO-SOURCE
+:camerabutton-recyclerview:mergeDebugJniLibFolders
+:camerabutton-recyclerview:transformNativeLibsWithMergeJniLibsForDebug
+:camerabutton-recyclerview:transformNativeLibsWithStripDebugSymbolForDebug
+:camerabutton-recyclerview:transformNativeLibsWithSyncJniLibsForDebug
+:camerabutton:preReleaseBuild UP-TO-DATE
+:camerabutton:compileReleaseAidl
+:camerabutton-recyclerview:preReleaseBuild UP-TO-DATE
+:camerabutton-recyclerview:compileReleaseAidl
+:camerabutton:compileReleaseRenderscript
+:camerabutton:generateDebugRFile
+:camerabutton:compileDebugKotlin
+:camerabutton:generateDebugSources
+:camerabutton:javaPreCompileDebug
+:camerabutton:compileDebugJavaWithJavac
+:camerabutton:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:camerabutton-recyclerview:generateDebugRFile
+:camerabutton-recyclerview:generateDebugSources
+:camerabutton-recyclerview:javaPreCompileDebug
+:camerabutton-recyclerview:compileDebugJavaWithJavac
+:camerabutton-recyclerview:extractDebugAnnotations
+:camerabutton-recyclerview:transformResourcesWithMergeJavaResForDebug
+:camerabutton-recyclerview:transformClassesAndResourcesWithSyncLibJarsForDebug
+:camerabutton-recyclerview:bundleDebug
+:camerabutton-recyclerview:compileDebugSources
+:camerabutton-recyclerview:assembleDebug
+:camerabutton:checkReleaseManifest
+:camerabutton:generateReleaseBuildConfig SKIPPED
+:camerabutton:generateReleaseResValues
+:camerabutton:generateReleaseResources
+:camerabutton:packageReleaseResources
+:camerabutton:processReleaseManifest
+:camerabutton:generateReleaseRFile
+:camerabutton:compileReleaseKotlin
+:camerabutton:generateReleaseSources
+:camerabutton:javaPreCompileRelease
+:camerabutton:compileReleaseJavaWithJavac
+:camerabutton:processReleaseJavaRes NO-SOURCE
+:camerabutton:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:camerabutton:packageReleaseRenderscript NO-SOURCE
+:camerabutton-recyclerview:compileReleaseRenderscript
+:camerabutton-recyclerview:checkReleaseManifest
+:camerabutton-recyclerview:generateReleaseBuildConfig SKIPPED
+:camerabutton-recyclerview:generateReleaseResValues
+:camerabutton-recyclerview:generateReleaseResources
+:camerabutton-recyclerview:packageReleaseResources
+:camerabutton-recyclerview:processReleaseManifest
+:camerabutton-recyclerview:generateReleaseRFile
+:camerabutton-recyclerview:generateReleaseSources
+:camerabutton-recyclerview:javaPreCompileRelease
+:camerabutton-recyclerview:compileReleaseJavaWithJavac
+:camerabutton-recyclerview:extractReleaseAnnotations
+:camerabutton-recyclerview:mergeReleaseConsumerProguardFiles
+:camerabutton-recyclerview:mergeReleaseShaders
+:camerabutton-recyclerview:compileReleaseShaders
+:camerabutton-recyclerview:generateReleaseAssets
+:camerabutton-recyclerview:packageReleaseAssets
+:camerabutton-recyclerview:packageReleaseRenderscript NO-SOURCE
+:camerabutton-recyclerview:processReleaseJavaRes NO-SOURCE
+:camerabutton-recyclerview:transformResourcesWithMergeJavaResForRelease
+:camerabutton-recyclerview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:camerabutton-recyclerview:compileReleaseNdk NO-SOURCE
+:camerabutton-recyclerview:mergeReleaseJniLibFolders
+:camerabutton-recyclerview:transformNativeLibsWithMergeJniLibsForRelease
+:camerabutton-recyclerview:transformNativeLibsWithStripDebugSymbolForRelease
+:camerabutton-recyclerview:transformNativeLibsWithSyncJniLibsForRelease
+:camerabutton-recyclerview:bundleRelease
+:camerabutton-recyclerview:compileReleaseSources
+:camerabutton-recyclerview:mergeReleaseResources
+:camerabutton-recyclerview:verifyReleaseResources
+:camerabutton-recyclerview:assembleRelease
+:camerabutton-recyclerview:assemble
+:camerabutton-recyclerview:build
+
+BUILD SUCCESSFUL in 16s
+70 actionable tasks: 70 executed
+
+2018-08-26 01:19:46,222 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 01:19:46,222 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 01:19:53,491 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-08-26 01:19:53,491 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-26 01:19:53,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-26 01:20:01,904 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-08-26 01:20:01,904 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:camerabutton-rxjava2-kotlin:androidJavadocsjavadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2-kotlin/src/main/java/com/hluhovskyi/camerabutton/rxjava2/kotlin/CameraButton.kt"
+
+1 error
+:camerabutton-rxjava2-kotlin:androidJavadocs FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':camerabutton-rxjava2-kotlin:androidJavadocs'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2-kotlin/build/tmp/androidJavadocs/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':camerabutton-rxjava2-kotlin:androidJavadocs'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2-kotlin/build/tmp/androidJavadocs/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:58)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:157)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:145)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:788)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:755)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 30 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/bin/javadoc'' finished with non-zero exit value 2
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:389)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:36)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:53)
+	... 49 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s
+1 actionable task: 1 executed
+
+2018-08-26 01:20:01,941 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 01:20:01,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 01:20:08,842 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-08-26 01:20:08,843 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-26 01:20:08,843 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-26 01:20:17,115 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-08-26 01:20:17,115 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:camerabutton-rxjava2:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/Preconditions.java:21: error: package io.reactivex does not exist
+import io.reactivex.Observer;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/Preconditions.java:22: error: package io.reactivex.disposables does not exist
+import io.reactivex.disposables.Disposables;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/Preconditions.java:30: error: cannot find symbol
+    static boolean checkMainThread(Observer<?> observer) {
+                                   ^
+  symbol:   class Observer
+  location: class Preconditions
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:21: error: cannot find symbol
+import com.hluhovskyi.camerabutton.CameraButton;
+                                  ^
+  symbol:   class CameraButton
+  location: package com.hluhovskyi.camerabutton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:22: error: cannot find symbol
+import com.hluhovskyi.camerabutton.Constraints;
+                                  ^
+  symbol:   class Constraints
+  location: package com.hluhovskyi.camerabutton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:24: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:32: error: cannot find symbol
+    public static Observable<CameraButton.State> stateChanges(@NonNull CameraButton button) {
+                                                                       ^
+  symbol:   class CameraButton
+  location: class RxCameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:32: error: cannot find symbol
+    public static Observable<CameraButton.State> stateChanges(@NonNull CameraButton button) {
+                  ^
+  symbol:   class Observable
+  location: class RxCameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:32: error: package CameraButton does not exist
+    public static Observable<CameraButton.State> stateChanges(@NonNull CameraButton button) {
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:37: error: cannot find symbol
+    public static Observable<StateChangeEvent> stateChangeEvents(@NonNull CameraButton button) {
+                                                                          ^
+  symbol:   class CameraButton
+  location: class RxCameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:37: error: cannot find symbol
+    public static Observable<StateChangeEvent> stateChangeEvents(@NonNull CameraButton button) {
+                  ^
+  symbol:   class Observable
+  location: class RxCameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEvent.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEvent.java:21: error: cannot find symbol
+import com.hluhovskyi.camerabutton.CameraButton;
+                                  ^
+  symbol:   class CameraButton
+  location: package com.hluhovskyi.camerabutton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:42: error: cannot find symbol
+    public static Observable<Float> progress(@NonNull CameraButton button) {
+                                                      ^
+  symbol:   class CameraButton
+  location: class RxCameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:42: error: cannot find symbol
+    public static Observable<Float> progress(@NonNull CameraButton button) {
+                  ^
+  symbol:   class Observable
+  location: class RxCameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:47: error: cannot find symbol
+    public static Observable<ProgressEvent> progressEvents(@NonNull CameraButton button) {
+                                                                    ^
+  symbol:   class CameraButton
+  location: class RxCameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:47: error: cannot find symbol
+    public static Observable<ProgressEvent> progressEvents(@NonNull CameraButton button) {
+                  ^
+  symbol:   class Observable
+  location: class RxCameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEvent.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEvent.java:21: error: cannot find symbol
+import com.hluhovskyi.camerabutton.CameraButton;
+                                  ^
+  symbol:   class CameraButton
+  location: package com.hluhovskyi.camerabutton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:52: error: cannot find symbol
+    public static Observable<PhotoEvent> photoEvents(@NonNull CameraButton button) {
+                                                              ^
+  symbol:   class CameraButton
+  location: class RxCameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:52: error: cannot find symbol
+    public static Observable<PhotoEvent> photoEvents(@NonNull CameraButton button) {
+                  ^
+  symbol:   class Observable
+  location: class RxCameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEvent.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEvent.java:21: error: cannot find symbol
+import com.hluhovskyi.camerabutton.CameraButton;
+                                  ^
+  symbol:   class CameraButton
+  location: package com.hluhovskyi.camerabutton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:57: error: cannot find symbol
+    public static Observable<VideoEvent> videoEvents(@NonNull CameraButton button) {
+                                                              ^
+  symbol:   class CameraButton
+  location: class RxCameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/RxCameraButton.java:57: error: cannot find symbol
+    public static Observable<VideoEvent> videoEvents(@NonNull CameraButton button) {
+                  ^
+  symbol:   class Observable
+  location: class RxCameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEvent.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEvent.java:21: error: cannot find symbol
+import com.hluhovskyi.camerabutton.CameraButton;
+                                  ^
+  symbol:   class CameraButton
+  location: package com.hluhovskyi.camerabutton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEvent.java:26: error: cannot find symbol
+    public abstract CameraButton view();
+                    ^
+  symbol:   class CameraButton
+  location: class VideoEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEvent.java:28: error: cannot find symbol
+    public final CameraButton component1() {
+                 ^
+  symbol:   class CameraButton
+  location: class VideoEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEvent.java:25: error: cannot find symbol
+    private final CameraButton button;
+                  ^
+  symbol:   class CameraButton
+  location: class PhotoEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEvent.java:27: error: cannot find symbol
+    private PhotoEvent(CameraButton button) {
+                       ^
+  symbol:   class CameraButton
+  location: class PhotoEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEvent.java:31: error: cannot find symbol
+    public static PhotoEvent create(@NonNull CameraButton button) {
+                                             ^
+  symbol:   class CameraButton
+  location: class PhotoEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEvent.java:36: error: cannot find symbol
+    public CameraButton view() {
+           ^
+  symbol:   class CameraButton
+  location: class PhotoEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEvent.java:40: error: cannot find symbol
+    public final CameraButton component1() {
+                 ^
+  symbol:   class CameraButton
+  location: class PhotoEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEvent.java:25: error: cannot find symbol
+    private final CameraButton button;
+                  ^
+  symbol:   class CameraButton
+  location: class ProgressEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEvent.java:28: error: cannot find symbol
+    private ProgressEvent(CameraButton button, float progress) {
+                          ^
+  symbol:   class CameraButton
+  location: class ProgressEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEvent.java:33: error: cannot find symbol
+    public static ProgressEvent create(@NonNull CameraButton button, float progress) {
+                                                ^
+  symbol:   class CameraButton
+  location: class ProgressEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEvent.java:38: error: cannot find symbol
+    public CameraButton view() {
+           ^
+  symbol:   class CameraButton
+  location: class ProgressEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEvent.java:42: error: cannot find symbol
+    public final CameraButton component1() {
+                 ^
+  symbol:   class CameraButton
+  location: class ProgressEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEvent.java:25: error: cannot find symbol
+    private final CameraButton button;
+                  ^
+  symbol:   class CameraButton
+  location: class StateChangeEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEvent.java:26: error: package CameraButton does not exist
+    private final CameraButton.State state;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEvent.java:28: error: cannot find symbol
+    private StateChangeEvent(CameraButton button, CameraButton.State state) {
+                             ^
+  symbol:   class CameraButton
+  location: class StateChangeEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEvent.java:28: error: package CameraButton does not exist
+    private StateChangeEvent(CameraButton button, CameraButton.State state) {
+                                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEvent.java:33: error: cannot find symbol
+    public static StateChangeEvent create(@NonNull CameraButton button, CameraButton.State state) {
+                                                   ^
+  symbol:   class CameraButton
+  location: class StateChangeEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEvent.java:33: error: package CameraButton does not exist
+    public static StateChangeEvent create(@NonNull CameraButton button, CameraButton.State state) {
+                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEvent.java:38: error: cannot find symbol
+    public CameraButton view() {
+           ^
+  symbol:   class CameraButton
+  location: class StateChangeEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEvent.java:42: error: cannot find symbol
+    public final CameraButton component1() {
+                 ^
+  symbol:   class CameraButton
+  location: class StateChangeEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEvent.java:46: error: package CameraButton does not exist
+    public final CameraButton.State component2() {
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:21: error: cannot find symbol
+import com.hluhovskyi.camerabutton.CameraButton;
+                                  ^
+  symbol:   class CameraButton
+  location: package com.hluhovskyi.camerabutton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:23: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:24: error: package io.reactivex does not exist
+import io.reactivex.Observer;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:25: error: package io.reactivex.android does not exist
+import io.reactivex.android.MainThreadDisposable;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:27: error: cannot find symbol
+final class StateChangeEventObservable extends Observable<StateChangeEvent> {
+                                               ^
+  symbol: class Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:29: error: cannot find symbol
+    private final CameraButton button;
+                  ^
+  symbol:   class CameraButton
+  location: class StateChangeEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:31: error: cannot find symbol
+    StateChangeEventObservable(CameraButton button) {
+                               ^
+  symbol:   class CameraButton
+  location: class StateChangeEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:36: error: cannot find symbol
+    protected void subscribeActual(Observer<? super StateChangeEvent> observer) {
+                                   ^
+  symbol:   class Observer
+  location: class StateChangeEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:45: error: cannot find symbol
+    static final class Listener extends MainThreadDisposable implements CameraButton.OnStateChangeListener {
+                                        ^
+  symbol:   class MainThreadDisposable
+  location: class StateChangeEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:45: error: package CameraButton does not exist
+    static final class Listener extends MainThreadDisposable implements CameraButton.OnStateChangeListener {
+                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:47: error: cannot find symbol
+        private final CameraButton button;
+                      ^
+  symbol:   class CameraButton
+  location: class Listener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:48: error: cannot find symbol
+        private final Observer<? super StateChangeEvent> observer;
+                      ^
+  symbol:   class Observer
+  location: class Listener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:50: error: cannot find symbol
+        Listener(CameraButton button, Observer<? super StateChangeEvent> observer) {
+                 ^
+  symbol:   class CameraButton
+  location: class Listener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:50: error: cannot find symbol
+        Listener(CameraButton button, Observer<? super StateChangeEvent> observer) {
+                                      ^
+  symbol:   class Observer
+  location: class Listener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/StateChangeEventObservable.java:56: error: package CameraButton does not exist
+        public void onStateChanged(@NonNull CameraButton.State state) {
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:19: error: cannot find symbol
+import com.hluhovskyi.camerabutton.CameraButton;
+                                  ^
+  symbol:   class CameraButton
+  location: package com.hluhovskyi.camerabutton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:21: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:22: error: package io.reactivex does not exist
+import io.reactivex.Observer;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:23: error: package io.reactivex.android does not exist
+import io.reactivex.android.MainThreadDisposable;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:25: error: cannot find symbol
+final class VideoEventObservable extends Observable<VideoEvent> {
+                                         ^
+  symbol: class Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:27: error: cannot find symbol
+    private final CameraButton button;
+                  ^
+  symbol:   class CameraButton
+  location: class VideoEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:29: error: cannot find symbol
+    VideoEventObservable(CameraButton button) {
+                         ^
+  symbol:   class CameraButton
+  location: class VideoEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:34: error: cannot find symbol
+    protected void subscribeActual(Observer<? super VideoEvent> observer) {
+                                   ^
+  symbol:   class Observer
+  location: class VideoEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:43: error: cannot find symbol
+    static final class Listener extends MainThreadDisposable implements CameraButton.OnVideoEventListener {
+                                        ^
+  symbol:   class MainThreadDisposable
+  location: class VideoEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:43: error: package CameraButton does not exist
+    static final class Listener extends MainThreadDisposable implements CameraButton.OnVideoEventListener {
+                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:45: error: cannot find symbol
+        private final CameraButton button;
+                      ^
+  symbol:   class CameraButton
+  location: class Listener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:46: error: cannot find symbol
+        private final Observer<? super VideoEvent> observer;
+                      ^
+  symbol:   class Observer
+  location: class Listener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:48: error: cannot find symbol
+        Listener(CameraButton button, Observer<? super VideoEvent> observer) {
+                 ^
+  symbol:   class CameraButton
+  location: class Listener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/VideoEventObservable.java:48: error: cannot find symbol
+        Listener(CameraButton button, Observer<? super VideoEvent> observer) {
+                                      ^
+  symbol:   class Observer
+  location: class Listener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:19: error: cannot find symbol
+import com.hluhovskyi.camerabutton.CameraButton;
+                                  ^
+  symbol:   class CameraButton
+  location: package com.hluhovskyi.camerabutton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:21: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:22: error: package io.reactivex does not exist
+import io.reactivex.Observer;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:23: error: package io.reactivex.android does not exist
+import io.reactivex.android.MainThreadDisposable;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:25: error: cannot find symbol
+final class PhotoEventObservable extends Observable<PhotoEvent> {
+                                         ^
+  symbol: class Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:27: error: cannot find symbol
+    private final CameraButton button;
+                  ^
+  symbol:   class CameraButton
+  location: class PhotoEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:29: error: cannot find symbol
+    PhotoEventObservable(CameraButton button) {
+                         ^
+  symbol:   class CameraButton
+  location: class PhotoEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:34: error: cannot find symbol
+    protected void subscribeActual(Observer<? super PhotoEvent> observer) {
+                                   ^
+  symbol:   class Observer
+  location: class PhotoEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:43: error: cannot find symbol
+    static final class Listener extends MainThreadDisposable implements CameraButton.OnPhotoEventListener {
+                                        ^
+  symbol:   class MainThreadDisposable
+  location: class PhotoEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:43: error: package CameraButton does not exist
+    static final class Listener extends MainThreadDisposable implements CameraButton.OnPhotoEventListener {
+                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:45: error: cannot find symbol
+        private final CameraButton button;
+                      ^
+  symbol:   class CameraButton
+  location: class Listener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:46: error: cannot find symbol
+        private final Observer<? super PhotoEvent> observer;
+                      ^
+  symbol:   class Observer
+  location: class Listener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:48: error: cannot find symbol
+        Listener(CameraButton button, Observer<? super PhotoEvent> observer) {
+                 ^
+  symbol:   class CameraButton
+  location: class Listener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/PhotoEventObservable.java:48: error: cannot find symbol
+        Listener(CameraButton button, Observer<? super PhotoEvent> observer) {
+                                      ^
+  symbol:   class Observer
+  location: class Listener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEventObservable.java:19: error: cannot find symbol
+import com.hluhovskyi.camerabutton.CameraButton;
+                                  ^
+  symbol:   class CameraButton
+  location: package com.hluhovskyi.camerabutton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEventObservable.java:21: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEventObservable.java:22: error: package io.reactivex does not exist
+import io.reactivex.Observer;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEventObservable.java:23: error: package io.reactivex.android does not exist
+import io.reactivex.android.MainThreadDisposable;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEventObservable.java:25: error: cannot find symbol
+final class ProgressEventObservable extends Observable<ProgressEvent> {
+                                            ^
+  symbol: class Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEventObservable.java:27: error: cannot find symbol
+    private final CameraButton button;
+                  ^
+  symbol:   class CameraButton
+  location: class ProgressEventObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/src/main/java/com/hluhovskyi/camerabutton/rxjava2/ProgressEventObservable.java:29: error: cannot find symbol
+    ProgressEventObservable(CameraButton button) {
+                            ^
+  symbol:   class CameraButton
+  location: class ProgressEventObservable
+
+100 errors
+:camerabutton-rxjava2:androidJavadocs FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':camerabutton-rxjava2:androidJavadocs'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/build/tmp/androidJavadocs/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':camerabutton-rxjava2:androidJavadocs'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:59)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:130)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:46)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:210)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton-rxjava2/build/tmp/androidJavadocs/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:58)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:157)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:145)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:788)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:755)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 99 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:389)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:36)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:53)
+	... 118 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+1 actionable task: 1 executed
+
+2018-08-26 01:20:17,153 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 01:20:17,153 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 01:20:24,301 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-08-26 01:20:24,301 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-26 01:20:24,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-26 01:20:32,717 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-08-26 01:20:32,717 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:camerabutton:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:35: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:36: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:37: error: package android.support.annotation does not exist
+import android.support.annotation.FloatRange;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:38: error: package android.support.annotation does not exist
+import android.support.annotation.IntDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:39: error: package android.support.annotation does not exist
+import android.support.annotation.IntRange;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:40: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:41: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:42: error: package android.support.annotation does not exist
+import android.support.annotation.Px;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:43: error: package android.support.annotation does not exist
+import android.support.annotation.RequiresApi;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.ArrayRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:23: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:24: error: package android.support.annotation does not exist
+import android.support.annotation.ColorRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:25: error: package android.support.annotation does not exist
+import android.support.annotation.DimenRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:26: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:27: error: package android.support.annotation does not exist
+import android.support.annotation.IntegerRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:28: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:29: error: package android.support.annotation does not exist
+import android.support.annotation.Px;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:30: error: package android.support.annotation does not exist
+import android.support.annotation.StyleableRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:177: error: cannot find symbol
+    @IntDef({Action.RELEASE, Action.CLICK})
+     ^
+  symbol:   class IntDef
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:154: error: cannot find symbol
+    @IntDef({Mode.ALL, Mode.PHOTO, Mode.VIDEO})
+     ^
+  symbol:   class IntDef
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:263: error: cannot find symbol
+                        @Nullable AttributeSet attrs) {
+                         ^
+  symbol:   class Nullable
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:268: error: cannot find symbol
+                        @Nullable AttributeSet attrs,
+                         ^
+  symbol:   class Nullable
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:277: error: cannot find symbol
+                        @Nullable AttributeSet attrs,
+                         ^
+  symbol:   class Nullable
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:275: error: cannot find symbol
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+     ^
+  symbol:   class RequiresApi
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:891: error: cannot find symbol
+    public void scrollIconsToPosition(@FloatRange(from = 0f) float position) {
+                                       ^
+  symbol:   class FloatRange
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:928: error: cannot find symbol
+    public void setIconsPosition(@FloatRange(from = 0f) float position) {
+                                  ^
+  symbol:   class FloatRange
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1037: error: cannot find symbol
+    public void setOnStateChangeListener(@Nullable OnStateChangeListener listener) {
+                                          ^
+  symbol:   class Nullable
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1046: error: cannot find symbol
+    public void setOnPhotoEventListener(@Nullable OnPhotoEventListener listener) {
+                                         ^
+  symbol:   class Nullable
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1055: error: cannot find symbol
+    public void setOnVideoEventListener(@Nullable OnVideoEventListener listener) {
+                                         ^
+  symbol:   class Nullable
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1064: error: cannot find symbol
+    public void setOnProgressChangeListener(@Nullable OnProgressChangeListener listener) {
+                                             ^
+  symbol:   class Nullable
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1071: error: cannot find symbol
+    @Px
+     ^
+  symbol:   class Px
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1081: error: cannot find symbol
+    public void setMainCircleRadius(@Px int radius) {
+                                     ^
+  symbol:   class Px
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1089: error: cannot find symbol
+    @Px
+     ^
+  symbol:   class Px
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1099: error: cannot find symbol
+    public void setMainCircleRadiusExpanded(@Px int radius) {
+                                             ^
+  symbol:   class Px
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1104: error: cannot find symbol
+    @Px
+     ^
+  symbol:   class Px
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1109: error: cannot find symbol
+    public void setStrokeWidth(@Px int width) {
+                                ^
+  symbol:   class Px
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1114: error: cannot find symbol
+    @Px
+     ^
+  symbol:   class Px
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1119: error: cannot find symbol
+    public void setProgressArcWidth(@Px int width) {
+                                     ^
+  symbol:   class Px
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1124: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1129: error: cannot find symbol
+    public void setMainCircleColor(@ColorInt int color) {
+                                    ^
+  symbol:   class ColorInt
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1133: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1138: error: cannot find symbol
+    public void setMainCircleColorPressed(@ColorInt int color) {
+                                           ^
+  symbol:   class ColorInt
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1142: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1147: error: cannot find symbol
+    public void setStrokeColor(@ColorInt int color) {
+                                ^
+  symbol:   class ColorInt
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1151: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1156: error: cannot find symbol
+    public void setStrokeColorPressed(@ColorInt int color) {
+                                       ^
+  symbol:   class ColorInt
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1160: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1161: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1166: error: cannot find symbol
+    public void setProgressArcColors(@ColorInt @NonNull int[] colors) {
+                                      ^
+  symbol:   class ColorInt
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1166: error: cannot find symbol
+    public void setProgressArcColors(@ColorInt @NonNull int[] colors) {
+                                                ^
+  symbol:   class NonNull
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1172: error: cannot find symbol
+    @IntRange(from = 1)
+     ^
+  symbol:   class IntRange
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1177: error: cannot find symbol
+    public void setExpandDuration(@IntRange(from = 1) long duration) {
+                                   ^
+  symbol:   class IntRange
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1181: error: cannot find symbol
+    @IntRange(from = 1)
+     ^
+  symbol:   class IntRange
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1186: error: cannot find symbol
+    public void setCollapseDuration(@IntRange(from = 1) long duration) {
+                                     ^
+  symbol:   class IntRange
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1193: error: cannot find symbol
+    @IntRange(from = 1)
+     ^
+  symbol:   class IntRange
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1204: error: cannot find symbol
+    public void setExpandDelay(@IntRange(from = 1) long delay) {
+                                ^
+  symbol:   class IntRange
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1211: error: cannot find symbol
+    @IntRange(from = 1)
+     ^
+  symbol:   class IntRange
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1221: error: cannot find symbol
+    public void setVideoDuration(@IntRange(from = 1) long duration) {
+                                  ^
+  symbol:   class IntRange
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1228: error: cannot find symbol
+    @FloatRange(from = 0, fromInclusive = false)
+     ^
+  symbol:   class FloatRange
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1242: error: cannot find symbol
+            @FloatRange(from = 0, fromInclusive = false) float multiplier) {
+             ^
+  symbol:   class FloatRange
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1253: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1304: error: cannot find symbol
+    @Px
+     ^
+  symbol:   class Px
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1314: error: cannot find symbol
+    public void setIconSize(@Px int iconSize) {
+                             ^
+  symbol:   class Px
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1343: error: cannot find symbol
+    public void setIcons(@Nullable @DrawableRes int[] icons) {
+                          ^
+  symbol:   class Nullable
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1343: error: cannot find symbol
+    public void setIcons(@Nullable @DrawableRes int[] icons) {
+                                    ^
+  symbol:   class DrawableRes
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:1365: error: cannot find symbol
+    public void setIcons(@Nullable Bitmap[] icons) {
+                          ^
+  symbol:   class Nullable
+  location: class CameraButton
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:147: error: cannot find symbol
+        void onProgressChanged(@FloatRange(from = 0, to = 1) float progress);
+                                ^
+  symbol:   class FloatRange
+  location: interface OnProgressChangeListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/CameraButton.java:92: error: cannot find symbol
+        void onStateChanged(@NonNull State state);
+                             ^
+  symbol:   class NonNull
+  location: interface OnStateChangeListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:41: error: cannot find symbol
+                            @StyleableRes int attr,
+                             ^
+  symbol:   class StyleableRes
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:42: error: cannot find symbol
+                            @DimenRes int defaultDimenRes) {
+                             ^
+  symbol:   class DimenRes
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:38: error: cannot find symbol
+    @Px
+     ^
+  symbol:   class Px
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:52: error: cannot find symbol
+                        @StyleableRes int attr,
+                         ^
+  symbol:   class StyleableRes
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:53: error: cannot find symbol
+                        @ColorRes int defaultColorRes) {
+                         ^
+  symbol:   class ColorRes
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:48: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:65: error: cannot find symbol
+                           @StyleableRes int attr,
+                            ^
+  symbol:   class StyleableRes
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:66: error: cannot find symbol
+                           @ArrayRes int defaultColorsRes) {
+                            ^
+  symbol:   class ArrayRes
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:62: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:76: error: cannot find symbol
+                                      @StyleableRes int attr) {
+                                       ^
+  symbol:   class StyleableRes
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:72: error: cannot find symbol
+    @DrawableRes
+     ^
+  symbol:   class DrawableRes
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:73: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:84: error: cannot find symbol
+                          @StyleableRes int attr,
+                           ^
+  symbol:   class StyleableRes
+  location: class TypedArrayHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/src/main/java/com/hluhovskyi/camerabutton/TypedArrayHelper.java:85: error: cannot find symbol
+                          @IntegerRes int defaultIntRes) {
+                           ^
+  symbol:   class IntegerRes
+  location: class TypedArrayHelper
+
+82 errors
+:camerabutton:androidJavadocs FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':camerabutton:androidJavadocs'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/build/tmp/androidJavadocs/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':camerabutton:androidJavadocs'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/camerabutton/build/tmp/androidJavadocs/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:58)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:157)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:145)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:788)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:755)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 30 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:389)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:36)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:53)
+	... 49 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s
+1 actionable task: 1 executed
+
+2018-08-26 01:20:32,753 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 01:20:32,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 01:20:39,065 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-08-26 01:20:39,065 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-08-26 01:20:39,065 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-08-26 01:20:39,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-08-26 01:20:46,388 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-08-26 01:20:46,388 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':sample'.
+> java.lang.NullPointerException (no error message)
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':sample'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:667)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:136)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:286)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:181)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:782)
+	at com.google.common.base.Splitter.split(Splitter.java:376)
+	at com.android.utils.PathUtils.getClassPathItems(PathUtils.java:84)
+	at com.android.build.gradle.internal.transforms.FixStackFramesTransform.<init>(FixStackFramesTransform.java:151)
+	at com.android.build.gradle.internal.TaskManager.maybeCreateDesugarTask(TaskManager.java:2425)
+	at com.android.build.gradle.internal.TaskManager.createPostCompilationTasks(TaskManager.java:2248)
+	at com.android.build.gradle.internal.ApplicationTaskManager.addCompileTask(ApplicationTaskManager.java:295)
+	at com.android.build.gradle.internal.ApplicationTaskManager.lambda$createTasksForVariantScope$12(ApplicationTaskManager.java:229)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantScope(ApplicationTaskManager.java:225)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:530)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:352)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:348)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$6(BasePlugin.java:749)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:744)
+	at com.android.build.gradle.BasePlugin.lambda$null$4(BasePlugin.java:650)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$5(BasePlugin.java:646)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy25.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
+	... 89 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s
+
+2018-08-26 01:20:46,432 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 01:20:46,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 01:20:53,624 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-08-26 01:20:53,624 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-08-26 01:20:53,624 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-08-26 01:20:53,624 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535221146804-0/src/CameraButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-08-26 01:21:00,851 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-08-26 01:21:00,851 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':sample'.
+> java.lang.NullPointerException (no error message)
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':sample'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:667)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:136)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:286)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:181)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:782)
+	at com.google.common.base.Splitter.split(Splitter.java:376)
+	at com.android.utils.PathUtils.getClassPathItems(PathUtils.java:84)
+	at com.android.build.gradle.internal.transforms.FixStackFramesTransform.<init>(FixStackFramesTransform.java:151)
+	at com.android.build.gradle.internal.TaskManager.maybeCreateDesugarTask(TaskManager.java:2425)
+	at com.android.build.gradle.internal.TaskManager.createPostCompilationTasks(TaskManager.java:2248)
+	at com.android.build.gradle.internal.ApplicationTaskManager.addCompileTask(ApplicationTaskManager.java:295)
+	at com.android.build.gradle.internal.ApplicationTaskManager.lambda$createTasksForVariantScope$12(ApplicationTaskManager.java:229)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantScope(ApplicationTaskManager.java:225)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:530)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:352)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:348)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$6(BasePlugin.java:749)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:744)
+	at com.android.build.gradle.BasePlugin.lambda$null$4(BasePlugin.java:650)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$5(BasePlugin.java:646)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy25.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
+	... 89 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s
+
+2018-08-26 01:21:00,888 ERROR FullProcessService - Project build has not produced APK file
+2018-08-26 01:21:00,921 ERROR FullProcessService - Could not find generated or existed APK file

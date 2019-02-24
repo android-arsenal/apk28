@@ -1,0 +1,215 @@
+2018-08-20 13:55:47,724 INFO  DownloadService - Downloading "https://github.com/ivanisidrowu/palumu/archive/master.zip", attempt 3
+2018-08-20 13:55:52,821 INFO  DownloadService - Downloaded https://github.com/ivanisidrowu/palumu/archive/master.zip, attempt 3
+2018-08-20 13:55:52,821 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/master.zip": 6 MB
+2018-08-20 13:55:52,822 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-20 13:55:52,824 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/master.zip: true
+2018-08-20 13:55:52,824 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src'.
+2018-08-20 13:55:52,906 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-08-20 13:55:52,907 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src]
+2018-08-20 13:55:52,949 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/.git/
+
+2018-08-20 13:55:52,952 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/gradlew
+2018-08-20 13:55:52,954 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/build.gradle
+2018-08-20 13:55:52,957 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/settings.gradle
+2018-08-20 13:55:52,957 INFO  ProjectBuildService - Remote scripts: none
+2018-08-20 13:55:52,957 INFO  ProjectFixService - Fixing project...
+2018-08-20 13:55:52,963 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/app/local.properties
+2018-08-20 13:55:52,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-20 13:55:52,964 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-20 13:55:52,965 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/local.properties
+2018-08-20 13:55:52,965 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-20 13:55:52,965 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-20 13:55:52,966 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/local.properties
+2018-08-20 13:55:52,966 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-20 13:55:52,967 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-20 13:55:52,967 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-20 13:55:52,967 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-20 13:55:52,968 INFO  ProjectFixService - Project was maybe fixed
+2018-08-20 13:55:52,968 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-20 13:55:52,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-20 13:56:12,420 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-08-20 13:56:12,420 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-20 13:56:12,420 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-20 13:57:15,062 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+app: 'androidProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.github.bumptech.glide:compiler:4.4.0' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+Configuration 'compile' in project ':palumu-lib' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:palumu-lib:preBuild UP-TO-DATE
+:palumu-lib:preDebugBuild UP-TO-DATE
+:palumu-lib:checkDebugManifest
+:palumu-lib:processDebugManifest
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/27.0.2/design-27.0.2.pom
+Download https://jcenter.bintray.com/com/facebook/stetho/stetho/1.5.0/stetho-1.5.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.10/kotlin-stdlib-jre7-1.2.10.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.4.0/glide-4.4.0.pom
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer/2.7.0/exoplayer-2.7.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.10/kotlin-stdlib-jdk7-1.2.10.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/27.0.2/transition-27.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/27.0.2/recyclerview-v7-27.0.2.pom
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-hls/2.7.0/exoplayer-hls-2.7.0.pom
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-smoothstreaming/2.7.0/exoplayer-smoothstreaming-2.7.0.pom
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-ui/2.7.0/exoplayer-ui-2.7.0.pom
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-dash/2.7.0/exoplayer-dash-2.7.0.pom
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-core/2.7.0/exoplayer-core-2.7.0.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.4.0/annotations-4.4.0.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.4.0/gifdecoder-4.4.0.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.4.0/disklrucache-4.4.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/27.0.2/design-27.0.2.aar
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer/2.7.0/exoplayer-2.7.0.aar
+Download https://jcenter.bintray.com/com/facebook/stetho/stetho/1.5.0/stetho-1.5.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/27.0.2/recyclerview-v7-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/27.0.2/transition-27.0.2.aar
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-dash/2.7.0/exoplayer-dash-2.7.0.aar
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-hls/2.7.0/exoplayer-hls-2.7.0.aar
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-smoothstreaming/2.7.0/exoplayer-smoothstreaming-2.7.0.aar
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-ui/2.7.0/exoplayer-ui-2.7.0.aar
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-core/2.7.0/exoplayer-core-2.7.0.aar
+:palumu-lib:compileDebugAidl
+:app:compileDebugAidl
+:palumu-lib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:palumu-lib:compileDebugRenderscript
+:palumu-lib:generateDebugResValues
+:palumu-lib:generateDebugResources
+:palumu-lib:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:palumu-lib:platformAttrExtractor
+:palumu-lib:generateDebugBuildConfig
+:palumu-lib:prepareLintJar
+:palumu-lib:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:palumu-lib:mergeDebugShaders
+:palumu-lib:compileDebugShaders
+:palumu-lib:generateDebugAssets
+:palumu-lib:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:palumu-lib:compileDebugNdk NO-SOURCE
+:palumu-lib:mergeDebugJniLibFolders
+:palumu-lib:transformNativeLibsWithMergeJniLibsForDebug
+:palumu-lib:transformNativeLibsWithStripDebugSymbolForDebug
+:palumu-lib:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:palumu-lib:preReleaseBuild UP-TO-DATE
+:palumu-lib:checkReleaseManifest
+:palumu-lib:processReleaseManifest
+:app:preReleaseBuild
+:palumu-lib:compileReleaseAidl
+:app:compileReleaseAidl
+:palumu-lib:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:palumu-lib:compileReleaseRenderscript
+:palumu-lib:generateReleaseResValues
+:palumu-lib:generateReleaseResources
+:palumu-lib:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:palumu-lib:generateReleaseBuildConfig
+:palumu-lib:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:palumu-lib:mergeReleaseShaders
+:palumu-lib:compileReleaseShaders
+:palumu-lib:generateReleaseAssets
+:palumu-lib:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:palumu-lib:compileReleaseNdk NO-SOURCE
+:palumu-lib:mergeReleaseJniLibFolders
+:palumu-lib:transformNativeLibsWithMergeJniLibsForRelease
+:palumu-lib:transformNativeLibsWithStripDebugSymbolForRelease
+:palumu-lib:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:palumu-lib:processDebugResources
+:app:processDebugResources
+:palumu-lib:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.10/kotlin-stdlib-jdk7-1.2.10.jar
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (178, 33): 'getActionMasked(MotionEvent!): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (178, 75): 'ACTION_MASK: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (184, 47): 'getActionIndex(MotionEvent!): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (185, 53): 'getPointerId(MotionEvent!, Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (196, 46): 'getActionMasked(MotionEvent!): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (197, 48): 'ACTION_MASK: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (198, 49): 'getPointerId(MotionEvent!, Int): Int' is deprecated. Deprecated in Java
+:palumu-lib:generateDebugSources
+:palumu-lib:javaPreCompileDebug
+:palumu-lib:compileDebugJavaWithJavac
+:palumu-lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.10/kotlin-stdlib-jre7-1.2.10.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.4.0/gifdecoder-4.4.0.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.4.0/disklrucache-4.4.0.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.4.0/annotations-4.4.0.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.4.0/glide-4.4.0.jar
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/app/src/main/java/tw/invictus/sample/simple/SimpleVideoListActivity.kt: (63, 45): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+:app:generateDebugSources
+:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/github/bumptech/glide/compiler/4.4.0/compiler-4.4.0.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/compiler/4.4.0/compiler-4.4.0.jar
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:palumu-lib:processReleaseResources
+:app:processReleaseResources
+:palumu-lib:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (178, 33): 'getActionMasked(MotionEvent!): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (178, 75): 'ACTION_MASK: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (184, 47): 'getActionIndex(MotionEvent!): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (185, 53): 'getPointerId(MotionEvent!, Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (196, 46): 'getActionMasked(MotionEvent!): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (197, 48): 'ACTION_MASK: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/palumu-lib/src/main/java/tw/invictus/palumu/ScalablePageFrame.kt: (198, 49): 'getPointerId(MotionEvent!, Int): Int' is deprecated. Deprecated in Java
+:palumu-lib:generateReleaseSources
+:palumu-lib:javaPreCompileRelease
+:palumu-lib:compileReleaseJavaWithJavac
+:palumu-lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/app/src/main/java/tw/invictus/sample/simple/SimpleVideoListActivity.kt: (63, 45): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 1s
+92 actionable tasks: 92 executed
+
+2018-08-20 13:57:15,166 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534748147716-0/src/palumu-master/app/build/outputs/apk/debug/app-debug.apk

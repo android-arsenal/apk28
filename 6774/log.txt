@@ -1,0 +1,247 @@
+2018-08-29 16:10:35,912 INFO  DownloadService - Downloading "https://github.com/biagiopietro/AboutActivity/archive/master.zip", attempt 3
+2018-08-29 16:10:37,180 INFO  DownloadService - Downloaded https://github.com/biagiopietro/AboutActivity/archive/master.zip, attempt 3
+2018-08-29 16:10:37,180 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/master.zip": 771 KB
+2018-08-29 16:10:37,180 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-29 16:10:37,186 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/master.zip: true
+2018-08-29 16:10:37,186 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src'.
+2018-08-29 16:10:37,219 INFO  FullProcessService - Size of directory with sources: 830 KB
+2018-08-29 16:10:37,219 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src]
+2018-08-29 16:10:37,235 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/.git/
+
+2018-08-29 16:10:37,238 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/gradlew
+2018-08-29 16:10:37,241 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/aboutactivity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/build.gradle
+2018-08-29 16:10:37,244 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/aboutactivity/build.gradle
+2018-08-29 16:10:37,244 INFO  ProjectBuildService - Remote scripts: none
+2018-08-29 16:10:37,244 INFO  ProjectFixService - Fixing project...
+2018-08-29 16:10:37,251 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/aboutactivity/local.properties
+2018-08-29 16:10:37,252 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/aboutactivity/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-29 16:10:37,252 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/aboutactivity/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-29 16:10:37,252 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/app/local.properties
+2018-08-29 16:10:37,253 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-29 16:10:37,253 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-29 16:10:37,254 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/local.properties
+2018-08-29 16:10:37,254 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-29 16:10:37,254 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-29 16:10:37,255 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-29 16:10:37,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-29 16:10:37,256 INFO  ProjectFixService - Project was maybe fixed
+2018-08-29 16:10:37,256 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-29 16:10:37,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/aboutactivity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-29 16:10:43,247 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-08-29 16:10:43,247 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-29 16:10:43,247 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/aboutactivity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-29 16:10:59,629 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':aboutactivity' is deprecated. Use 'implementation' instead.
+:aboutactivity:preBuild UP-TO-DATE
+:aboutactivity:preDebugBuild UP-TO-DATE
+:aboutactivity:compileDebugAidl
+Download https://jcenter.bintray.com/de/psdev/licensesdialog/licensesdialog/1.8.3/licensesdialog-1.8.3.pom
+Download https://jcenter.bintray.com/de/psdev/licensesdialog/parent/1.8.3/parent-1.8.3.pom
+Download https://jcenter.bintray.com/de/psdev/licensesdialog/licensesdialog/1.8.3/licensesdialog-1.8.3.aar
+:aboutactivity:compileDebugNdk NO-SOURCE
+:aboutactivity:compileDebugRenderscript
+:aboutactivity:checkDebugManifest
+:aboutactivity:generateDebugBuildConfig
+:aboutactivity:prepareLintJar
+:aboutactivity:generateDebugResValues
+:aboutactivity:generateDebugResources
+:aboutactivity:packageDebugResources
+:aboutactivity:platformAttrExtractor
+:aboutactivity:processDebugManifest
+:aboutactivity:javaPreCompileDebug
+:aboutactivity:mergeDebugShaders
+:aboutactivity:compileDebugShaders
+:aboutactivity:generateDebugAssets
+:aboutactivity:mergeDebugAssets
+:aboutactivity:mergeDebugConsumerProguardFiles
+:aboutactivity:packageDebugRenderscript NO-SOURCE
+:aboutactivity:processDebugJavaRes NO-SOURCE
+:aboutactivity:mergeDebugJniLibFolders
+:aboutactivity:transformNativeLibsWithMergeJniLibsForDebug
+:aboutactivity:transformNativeLibsWithStripDebugSymbolForDebug
+:aboutactivity:transformNativeLibsWithSyncJniLibsForDebug
+:aboutactivity:preReleaseBuild UP-TO-DATE
+:aboutactivity:compileReleaseAidl
+:aboutactivity:compileReleaseNdk NO-SOURCE
+:aboutactivity:compileReleaseRenderscript
+:aboutactivity:checkReleaseManifest
+:aboutactivity:generateReleaseBuildConfig
+:aboutactivity:generateReleaseResValues
+:aboutactivity:generateReleaseResources
+:aboutactivity:packageReleaseResources
+:aboutactivity:processReleaseManifest
+:aboutactivity:javaPreCompileRelease
+:aboutactivity:mergeReleaseShaders
+:aboutactivity:compileReleaseShaders
+:aboutactivity:generateReleaseAssets
+:aboutactivity:mergeReleaseAssets
+:aboutactivity:mergeReleaseConsumerProguardFiles
+:aboutactivity:packageReleaseRenderscript NO-SOURCE
+:aboutactivity:processReleaseJavaRes NO-SOURCE
+:aboutactivity:mergeReleaseJniLibFolders
+:aboutactivity:transformNativeLibsWithMergeJniLibsForRelease
+:aboutactivity:transformNativeLibsWithStripDebugSymbolForRelease
+:aboutactivity:transformNativeLibsWithSyncJniLibsForRelease
+:aboutactivity:mergeReleaseResources
+:aboutactivity:verifyReleaseResources
+:aboutactivity:processDebugResources
+:aboutactivity:generateDebugSources
+:aboutactivity:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/aboutactivity/src/main/java/com/mcsoft/aboutactivity/NightModeHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:aboutactivity:extractDebugAnnotations
+:aboutactivity:transformResourcesWithMergeJavaResForDebug
+:aboutactivity:transformClassesAndResourcesWithSyncLibJarsForDebug
+:aboutactivity:bundleDebug
+:aboutactivity:compileDebugSources
+:aboutactivity:assembleDebug
+:aboutactivity:processReleaseResources
+:aboutactivity:generateReleaseSources
+:aboutactivity:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/aboutactivity/src/main/java/com/mcsoft/aboutactivity/NightModeHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:aboutactivity:extractReleaseAnnotations
+:aboutactivity:transformResourcesWithMergeJavaResForRelease
+:aboutactivity:transformClassesAndResourcesWithSyncLibJarsForRelease
+:aboutactivity:bundleRelease
+:aboutactivity:compileReleaseSources
+:aboutactivity:assembleRelease
+:aboutactivity:assemble
+:aboutactivity:build
+
+BUILD SUCCESSFUL in 15s
+48 actionable tasks: 48 executed
+
+2018-08-29 16:10:59,680 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-29 16:10:59,680 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-29 16:11:05,744 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-29 16:11:05,745 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-29 16:11:05,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-29 16:11:26,051 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':aboutactivity' is deprecated. Use 'implementation' instead.
+:aboutactivity:preBuild UP-TO-DATE
+:aboutactivity:preDebugBuild UP-TO-DATE
+:aboutactivity:compileDebugAidl UP-TO-DATE
+:aboutactivity:compileDebugRenderscript UP-TO-DATE
+:aboutactivity:checkDebugManifest UP-TO-DATE
+:aboutactivity:generateDebugBuildConfig UP-TO-DATE
+:aboutactivity:prepareLintJar UP-TO-DATE
+:aboutactivity:generateDebugResValues UP-TO-DATE
+:aboutactivity:generateDebugResources UP-TO-DATE
+:aboutactivity:packageDebugResources UP-TO-DATE
+:aboutactivity:platformAttrExtractor UP-TO-DATE
+:aboutactivity:processDebugManifest UP-TO-DATE
+:aboutactivity:processDebugResources UP-TO-DATE
+:aboutactivity:generateDebugSources UP-TO-DATE
+:aboutactivity:javaPreCompileDebug UP-TO-DATE
+:aboutactivity:compileDebugJavaWithJavac UP-TO-DATE
+:aboutactivity:processDebugJavaRes NO-SOURCE
+:aboutactivity:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl
+:aboutactivity:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:aboutactivity:mergeDebugShaders UP-TO-DATE
+:aboutactivity:compileDebugShaders UP-TO-DATE
+:aboutactivity:generateDebugAssets UP-TO-DATE
+:aboutactivity:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:aboutactivity:compileDebugNdk NO-SOURCE
+:aboutactivity:mergeDebugJniLibFolders UP-TO-DATE
+:aboutactivity:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:aboutactivity:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:aboutactivity:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:aboutactivity:preReleaseBuild UP-TO-DATE
+:aboutactivity:compileReleaseAidl UP-TO-DATE
+:aboutactivity:compileReleaseRenderscript UP-TO-DATE
+:aboutactivity:checkReleaseManifest UP-TO-DATE
+:aboutactivity:generateReleaseBuildConfig UP-TO-DATE
+:aboutactivity:generateReleaseResValues UP-TO-DATE
+:aboutactivity:generateReleaseResources UP-TO-DATE
+:aboutactivity:packageReleaseResources UP-TO-DATE
+:aboutactivity:processReleaseManifest UP-TO-DATE
+:aboutactivity:processReleaseResources UP-TO-DATE
+:aboutactivity:generateReleaseSources UP-TO-DATE
+:aboutactivity:javaPreCompileRelease UP-TO-DATE
+:aboutactivity:compileReleaseJavaWithJavac UP-TO-DATE
+:aboutactivity:processReleaseJavaRes NO-SOURCE
+:aboutactivity:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:aboutactivity:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:aboutactivity:mergeReleaseShaders UP-TO-DATE
+:aboutactivity:compileReleaseShaders UP-TO-DATE
+:aboutactivity:generateReleaseAssets UP-TO-DATE
+:aboutactivity:mergeReleaseAssets UP-TO-DATE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:aboutactivity:compileReleaseNdk NO-SOURCE
+:aboutactivity:mergeReleaseJniLibFolders UP-TO-DATE
+:aboutactivity:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:aboutactivity:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:aboutactivity:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 19s
+88 actionable tasks: 54 executed, 34 up-to-date
+
+2018-08-29 16:11:26,153 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533835908-0/src/AboutActivity-master/app/build/outputs/apk/debug/app-debug.apk

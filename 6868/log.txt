@@ -1,0 +1,160 @@
+2018-08-27 11:34:39,078 INFO  DownloadService - Downloading "https://github.com/arbelkilani/BiColored-Progress/archive/master.zip", attempt 3
+2018-08-27 11:34:43,081 INFO  DownloadService - Downloaded https://github.com/arbelkilani/BiColored-Progress/archive/master.zip, attempt 3
+2018-08-27 11:34:43,081 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/master.zip": 1 MB
+2018-08-27 11:34:43,081 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-27 11:34:43,087 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/master.zip: true
+2018-08-27 11:34:43,088 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src'.
+2018-08-27 11:34:43,147 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-08-27 11:34:43,147 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src]
+2018-08-27 11:34:43,171 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/.git/
+
+2018-08-27 11:34:43,175 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/gradlew
+2018-08-27 11:34:43,178 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/bicoloredprogress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/build.gradle
+2018-08-27 11:34:43,182 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/bicoloredprogress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/settings.gradle
+2018-08-27 11:34:43,182 INFO  ProjectBuildService - Remote scripts: none
+2018-08-27 11:34:43,182 INFO  ProjectFixService - Fixing project...
+2018-08-27 11:34:43,192 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/app/local.properties
+2018-08-27 11:34:43,193 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-27 11:34:43,193 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-27 11:34:43,194 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/bicoloredprogress/local.properties
+2018-08-27 11:34:43,194 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/bicoloredprogress/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-27 11:34:43,194 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/bicoloredprogress/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-27 11:34:43,195 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/local.properties
+2018-08-27 11:34:43,196 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-bin.zip
+2018-08-27 11:34:43,197 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-27 11:34:43,197 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-27 11:34:43,197 INFO  ProjectFixService - Project was maybe fixed
+2018-08-27 11:34:43,197 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-27 11:34:43,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-27 11:34:57,887 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-08-27 11:34:57,887 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-27 11:34:57,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-27 11:35:26,129 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:bicoloredprogress:preBuild UP-TO-DATE
+:bicoloredprogress:preDebugBuild UP-TO-DATE
+:bicoloredprogress:checkDebugManifest
+:bicoloredprogress:processDebugManifest
+:app:preDebugBuild
+:bicoloredprogress:compileDebugAidl
+:app:compileDebugAidl
+:bicoloredprogress:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar UP-TO-DATE
+:app:generateDebugResValues
+:app:generateDebugResources
+:bicoloredprogress:compileDebugRenderscript
+:bicoloredprogress:generateDebugResValues
+:bicoloredprogress:generateDebugResources
+:bicoloredprogress:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:bicoloredprogress:platformAttrExtractor
+:bicoloredprogress:generateDebugBuildConfig
+:bicoloredprogress:prepareLintJar UP-TO-DATE
+:bicoloredprogress:javaPreCompileDebug
+:bicoloredprogress:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:bicoloredprogress:mergeDebugShaders
+:bicoloredprogress:compileDebugShaders
+:bicoloredprogress:generateDebugAssets
+:bicoloredprogress:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:bicoloredprogress:compileDebugNdk NO-SOURCE
+:bicoloredprogress:mergeDebugJniLibFolders
+:bicoloredprogress:transformNativeLibsWithMergeJniLibsForDebug
+:bicoloredprogress:transformNativeLibsWithStripDebugSymbolForDebug
+:bicoloredprogress:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:bicoloredprogress:preReleaseBuild UP-TO-DATE
+:bicoloredprogress:checkReleaseManifest
+:bicoloredprogress:processReleaseManifest
+:app:preReleaseBuild
+:bicoloredprogress:compileReleaseAidl
+:app:compileReleaseAidl
+:bicoloredprogress:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:bicoloredprogress:compileReleaseRenderscript
+:bicoloredprogress:generateReleaseResValues
+:bicoloredprogress:generateReleaseResources
+:bicoloredprogress:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:bicoloredprogress:generateReleaseBuildConfig
+:bicoloredprogress:javaPreCompileRelease
+:bicoloredprogress:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:bicoloredprogress:mergeReleaseShaders
+:bicoloredprogress:compileReleaseShaders
+:bicoloredprogress:generateReleaseAssets
+:bicoloredprogress:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:bicoloredprogress:compileReleaseNdk NO-SOURCE
+:bicoloredprogress:mergeReleaseJniLibFolders
+:bicoloredprogress:transformNativeLibsWithMergeJniLibsForRelease
+:bicoloredprogress:transformNativeLibsWithStripDebugSymbolForRelease
+:bicoloredprogress:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:bicoloredprogress:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:bicoloredprogress:generateDebugSources
+:bicoloredprogress:compileDebugJavaWithJavac
+:bicoloredprogress:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:bicoloredprogress:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:bicoloredprogress:generateReleaseSources
+:bicoloredprogress:compileReleaseJavaWithJavac
+:bicoloredprogress:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 27s
+88 actionable tasks: 86 executed, 2 up-to-date
+
+2018-08-27 11:35:26,195 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535344479070-0/src/BiColored-Progress-master/app/build/outputs/apk/debug/app-debug.apk

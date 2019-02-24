@@ -1,0 +1,170 @@
+2019-01-13 00:49:13,693 INFO  DownloadService - Downloading "https://github.com/Ramotion/navigation-toolbar-android/archive/master.zip", attempt 3
+2019-01-13 00:49:21,686 INFO  DownloadService - Downloaded https://github.com/Ramotion/navigation-toolbar-android/archive/master.zip, attempt 3
+2019-01-13 00:49:21,687 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/master.zip": 13 MB
+2019-01-13 00:49:21,687 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-13 00:49:21,689 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/master.zip: true
+2019-01-13 00:49:21,689 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src'.
+2019-01-13 00:49:21,769 INFO  FullProcessService - Size of directory with sources: 13 MB
+2019-01-13 00:49:21,769 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src]
+2019-01-13 00:49:21,786 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/.git/
+
+2019-01-13 00:49:21,789 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/gradlew
+2019-01-13 00:49:21,793 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/build.gradle
+2019-01-13 00:49:21,797 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/settings.gradle
+2019-01-13 00:49:21,797 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 00:49:21,797 INFO  ProjectFixService - Fixing project...
+2019-01-13 00:49:21,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar-example/local.properties
+2019-01-13 00:49:21,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-01-13 00:49:21,807 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-01-13 00:49:21,807 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar/local.properties
+2019-01-13 00:49:21,808 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-01-13 00:49:21,809 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-01-13 00:49:21,810 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/local.properties
+2019-01-13 00:49:21,810 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-13 00:49:21,810 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-13 00:49:21,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-01-13 00:49:21,812 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-01-13 00:49:21,812 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 00:49:21,812 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 00:49:21,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 00:49:29,761 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-01-13 00:49:29,761 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-13 00:49:29,761 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-13 00:50:22,664 INFO  SysUtils - Configuration on demand is an incubating feature.
+navigation-toolbar-example: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.github.bumptech.glide:compiler:4.6.1' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+:navigation-toolbar:preBuild UP-TO-DATE
+:navigation-toolbar:preDebugBuild UP-TO-DATE
+:navigation-toolbar:compileDebugAidl
+:navigation-toolbar:compileDebugRenderscript
+:navigation-toolbar:checkDebugManifest
+:navigation-toolbar:generateDebugBuildConfig
+:navigation-toolbar:generateDebugResValues
+:navigation-toolbar:generateDebugResources
+:navigation-toolbar:packageDebugResources
+:navigation-toolbar:platformAttrExtractor
+:navigation-toolbar:processDebugManifest
+:navigation-toolbar:prepareLintJar
+:navigation-toolbar:processDebugJavaRes NO-SOURCE
+:navigation-toolbar-example:preBuild UP-TO-DATE
+:navigation-toolbar-example:preDebugBuild
+:navigation-toolbar-example:compileDebugAidl
+:navigation-toolbar:packageDebugRenderscript NO-SOURCE
+:navigation-toolbar-example:compileDebugRenderscript
+:navigation-toolbar-example:checkDebugManifest
+:navigation-toolbar-example:generateDebugBuildConfig
+:navigation-toolbar-example:mainApkListPersistenceDebug
+:navigation-toolbar-example:generateDebugResValues
+:navigation-toolbar-example:generateDebugResources
+:navigation-toolbar-example:mergeDebugResources
+:navigation-toolbar-example:createDebugCompatibleScreenManifests
+:navigation-toolbar-example:processDebugManifest
+:navigation-toolbar-example:splitsDiscoveryTaskDebug
+:navigation-toolbar-example:prepareLintJar
+:navigation-toolbar-example:compileDebugNdk NO-SOURCE
+:navigation-toolbar:mergeDebugShaders
+:navigation-toolbar:compileDebugShaders
+:navigation-toolbar:generateDebugAssets
+:navigation-toolbar:packageDebugAssets
+:navigation-toolbar-example:mergeDebugShaders
+:navigation-toolbar-example:compileDebugShaders
+:navigation-toolbar-example:generateDebugAssets
+:navigation-toolbar-example:mergeDebugAssets
+:navigation-toolbar:compileDebugNdk NO-SOURCE
+:navigation-toolbar:mergeDebugJniLibFolders
+:navigation-toolbar:transformNativeLibsWithMergeJniLibsForDebug
+:navigation-toolbar:transformNativeLibsWithStripDebugSymbolForDebug
+:navigation-toolbar:transformNativeLibsWithIntermediateJniLibsForDebug
+:navigation-toolbar-example:mergeDebugJniLibFolders
+:navigation-toolbar-example:processDebugJavaRes NO-SOURCE
+:navigation-toolbar-example:validateSigningDebug
+:navigation-toolbar:preReleaseBuild UP-TO-DATE
+:navigation-toolbar:compileReleaseAidl
+:navigation-toolbar:compileReleaseRenderscript
+:navigation-toolbar:checkReleaseManifest
+:navigation-toolbar:generateReleaseBuildConfig
+:navigation-toolbar:generateReleaseResValues
+:navigation-toolbar:generateReleaseResources
+:navigation-toolbar:packageReleaseResources
+:navigation-toolbar:processReleaseManifest
+:navigation-toolbar:processReleaseJavaRes NO-SOURCE
+:navigation-toolbar-example:preReleaseBuild
+:navigation-toolbar-example:compileReleaseAidl
+:navigation-toolbar:packageReleaseRenderscript NO-SOURCE
+:navigation-toolbar-example:compileReleaseRenderscript
+:navigation-toolbar-example:checkReleaseManifest
+:navigation-toolbar-example:generateReleaseBuildConfig
+:navigation-toolbar-example:mainApkListPersistenceRelease
+:navigation-toolbar-example:generateReleaseResValues
+:navigation-toolbar-example:generateReleaseResources
+:navigation-toolbar-example:mergeReleaseResources
+:navigation-toolbar-example:createReleaseCompatibleScreenManifests
+:navigation-toolbar-example:processReleaseManifest
+:navigation-toolbar-example:splitsDiscoveryTaskRelease
+:navigation-toolbar-example:compileReleaseNdk NO-SOURCE
+:navigation-toolbar:mergeReleaseShaders
+:navigation-toolbar:compileReleaseShaders
+:navigation-toolbar:generateReleaseAssets
+:navigation-toolbar:packageReleaseAssets
+:navigation-toolbar-example:mergeReleaseShaders
+:navigation-toolbar-example:compileReleaseShaders
+:navigation-toolbar-example:generateReleaseAssets
+:navigation-toolbar-example:mergeReleaseAssets
+:navigation-toolbar:compileReleaseNdk NO-SOURCE
+:navigation-toolbar:mergeReleaseJniLibFolders
+:navigation-toolbar:transformNativeLibsWithMergeJniLibsForRelease
+:navigation-toolbar:transformNativeLibsWithStripDebugSymbolForRelease
+:navigation-toolbar:transformNativeLibsWithIntermediateJniLibsForRelease
+:navigation-toolbar-example:mergeReleaseJniLibFolders
+:navigation-toolbar-example:processReleaseJavaRes NO-SOURCE
+:navigation-toolbar:generateDebugRFile
+:navigation-toolbar:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar/src/main/kotlin/com/ramotion/navigationtoolbar/HeaderLayout.kt: (298, 30): Unchecked cast: HeaderLayout.Adapter<out HeaderLayout.ViewHolder> to HeaderLayout.Adapter<HeaderLayout.ViewHolder>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar/src/main/kotlin/com/ramotion/navigationtoolbar/HeaderLayoutManager.kt: (860, 28): Parameter 'header' is never used
+:navigation-toolbar:generateDebugSources
+:navigation-toolbar:javaPreCompileDebug
+:navigation-toolbar:compileDebugJavaWithJavac
+:navigation-toolbar:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:navigation-toolbar-example:processDebugResources
+:navigation-toolbar-example:compileDebugKotlin
+:navigation-toolbar-example:generateDebugSources
+:navigation-toolbar-example:javaPreCompileDebug
+:navigation-toolbar-example:compileDebugJavaWithJavac
+:navigation-toolbar-example:compileDebugSources
+:navigation-toolbar-example:transformClassesWithDexBuilderForDebug
+:navigation-toolbar-example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:navigation-toolbar-example:transformDexArchiveWithDexMergerForDebug
+:navigation-toolbar-example:transformNativeLibsWithMergeJniLibsForDebug
+:navigation-toolbar-example:transformNativeLibsWithStripDebugSymbolForDebug
+:navigation-toolbar-example:transformResourcesWithMergeJavaResForDebug
+:navigation-toolbar-example:packageDebug
+:navigation-toolbar-example:assembleDebug
+:navigation-toolbar:generateReleaseRFile
+:navigation-toolbar:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar/src/main/kotlin/com/ramotion/navigationtoolbar/HeaderLayout.kt: (298, 30): Unchecked cast: HeaderLayout.Adapter<out HeaderLayout.ViewHolder> to HeaderLayout.Adapter<HeaderLayout.ViewHolder>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar/src/main/kotlin/com/ramotion/navigationtoolbar/HeaderLayoutManager.kt: (860, 28): Parameter 'header' is never used
+:navigation-toolbar:generateReleaseSources
+:navigation-toolbar:javaPreCompileRelease
+:navigation-toolbar:compileReleaseJavaWithJavac
+:navigation-toolbar:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:navigation-toolbar-example:processReleaseResources
+:navigation-toolbar-example:compileReleaseKotlin
+:navigation-toolbar-example:generateReleaseSources
+:navigation-toolbar-example:javaPreCompileRelease
+:navigation-toolbar-example:compileReleaseJavaWithJavac
+:navigation-toolbar-example:compileReleaseSources
+:navigation-toolbar-example:lintVitalRelease
+:navigation-toolbar-example:transformClassesWithDexBuilderForRelease
+:navigation-toolbar-example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:navigation-toolbar-example:transformDexArchiveWithDexMergerForRelease
+:navigation-toolbar-example:transformNativeLibsWithMergeJniLibsForRelease
+:navigation-toolbar-example:transformNativeLibsWithStripDebugSymbolForRelease
+:navigation-toolbar-example:transformResourcesWithMergeJavaResForRelease
+:navigation-toolbar-example:packageRelease
+:navigation-toolbar-example:assembleRelease
+:navigation-toolbar-example:assemble
+:navigation-toolbar-example:build
+
+BUILD SUCCESSFUL in 52s
+95 actionable tasks: 95 executed
+
+2019-01-13 00:50:22,764 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315353685-0/src/navigation-toolbar-android-master/navigation-toolbar-example/build/outputs/apk/release/navigation-toolbar-example-release-unsigned.apk

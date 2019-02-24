@@ -1,0 +1,258 @@
+2018-08-27 11:47:43,392 INFO  DownloadService - Downloading "https://github.com/Hamadakram/AlertView/archive/master.zip", attempt 3
+2018-08-27 11:47:47,351 INFO  DownloadService - Downloaded https://github.com/Hamadakram/AlertView/archive/master.zip, attempt 3
+2018-08-27 11:47:47,352 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/master.zip": 811 KB
+2018-08-27 11:47:47,352 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-27 11:47:47,357 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/master.zip: true
+2018-08-27 11:47:47,358 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src'.
+2018-08-27 11:47:47,387 INFO  FullProcessService - Size of directory with sources: 842 KB
+2018-08-27 11:47:47,387 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src]
+2018-08-27 11:47:47,404 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/.git/
+
+2018-08-27 11:47:47,407 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/gradlew
+2018-08-27 11:47:47,411 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/alertview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/build.gradle
+2018-08-27 11:47:47,414 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/alertview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/settings.gradle
+2018-08-27 11:47:47,414 INFO  ProjectBuildService - Remote scripts: none
+2018-08-27 11:47:47,414 INFO  ProjectFixService - Fixing project...
+2018-08-27 11:47:47,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/alertview/local.properties
+2018-08-27 11:47:47,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/alertview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-27 11:47:47,423 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/alertview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-27 11:47:47,423 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/app/local.properties
+2018-08-27 11:47:47,424 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-27 11:47:47,424 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-27 11:47:47,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/local.properties
+2018-08-27 11:47:47,425 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-27 11:47:47,425 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-27 11:47:47,426 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-27 11:47:47,426 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-27 11:47:47,427 INFO  ProjectFixService - Project was maybe fixed
+2018-08-27 11:47:47,427 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-27 11:47:47,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/alertview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-27 11:47:54,027 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-08-27 11:47:54,027 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-27 11:47:54,028 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/alertview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-27 11:48:14,506 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':alertview' is deprecated. Use 'implementation' instead.
+:alertview:preBuild UP-TO-DATE
+:alertview:preDebugBuild UP-TO-DATE
+:alertview:compileDebugAidl
+:alertview:compileDebugNdk NO-SOURCE
+:alertview:compileDebugRenderscript
+:alertview:checkDebugManifest
+:alertview:generateDebugBuildConfig
+:alertview:generateDebugResValues
+:alertview:generateDebugResources
+:alertview:packageDebugResources
+:alertview:platformAttrExtractor
+:alertview:processDebugManifest
+:alertview:prepareLintJar
+:alertview:mergeDebugShaders
+:alertview:compileDebugShaders
+:alertview:generateDebugAssets
+:alertview:mergeDebugAssets
+:alertview:mergeDebugConsumerProguardFiles
+:alertview:packageDebugRenderscript NO-SOURCE
+:alertview:processDebugJavaRes NO-SOURCE
+:alertview:mergeDebugJniLibFolders
+:alertview:transformNativeLibsWithMergeJniLibsForDebug
+:alertview:transformNativeLibsWithStripDebugSymbolForDebug
+:alertview:transformNativeLibsWithSyncJniLibsForDebug
+:alertview:preReleaseBuild UP-TO-DATE
+:alertview:compileReleaseAidl
+:alertview:compileReleaseNdk NO-SOURCE
+:alertview:compileReleaseRenderscript
+:alertview:checkReleaseManifest
+:alertview:generateReleaseBuildConfig
+:alertview:generateReleaseResValues
+:alertview:generateReleaseResources
+:alertview:packageReleaseResources
+:alertview:processReleaseManifest
+:alertview:mergeReleaseShaders
+:alertview:compileReleaseShaders
+:alertview:generateReleaseAssets
+:alertview:mergeReleaseAssets
+:alertview:mergeReleaseConsumerProguardFiles
+:alertview:packageReleaseRenderscript NO-SOURCE
+:alertview:processReleaseJavaRes NO-SOURCE
+:alertview:mergeReleaseJniLibFolders
+:alertview:transformNativeLibsWithMergeJniLibsForRelease
+:alertview:transformNativeLibsWithStripDebugSymbolForRelease
+:alertview:transformNativeLibsWithSyncJniLibsForRelease
+:alertview:mergeReleaseResources
+:alertview:verifyReleaseResources
+:alertview:processDebugResources
+:alertview:compileDebugKotlin
+:alertview:generateDebugSources
+:alertview:javaPreCompileDebug
+:alertview:compileDebugJavaWithJavac
+:alertview:extractDebugAnnotations
+:alertview:transformResourcesWithMergeJavaResForDebug
+:alertview:transformClassesAndResourcesWithSyncLibJarsForDebug
+:alertview:bundleDebug
+:alertview:compileDebugSources
+:alertview:assembleDebug
+:alertview:processReleaseResources
+:alertview:compileReleaseKotlin
+:alertview:generateReleaseSources
+:alertview:javaPreCompileRelease
+:alertview:compileReleaseJavaWithJavac
+:alertview:extractReleaseAnnotations
+:alertview:transformResourcesWithMergeJavaResForRelease
+:alertview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:alertview:bundleRelease
+:alertview:compileReleaseSources
+:alertview:assembleRelease
+:alertview:assemble
+:alertview:build
+
+BUILD SUCCESSFUL in 19s
+50 actionable tasks: 50 executed
+
+2018-08-27 11:48:14,558 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-27 11:48:14,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-27 11:48:21,239 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-27 11:48:21,239 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-27 11:48:21,239 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-27 11:49:03,603 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':alertview' is deprecated. Use 'implementation' instead.
+:alertview:preBuild UP-TO-DATE
+:alertview:preDebugBuild UP-TO-DATE
+:alertview:compileDebugAidl UP-TO-DATE
+:alertview:compileDebugRenderscript UP-TO-DATE
+:alertview:checkDebugManifest UP-TO-DATE
+:alertview:generateDebugBuildConfig UP-TO-DATE
+:alertview:generateDebugResValues UP-TO-DATE
+:alertview:generateDebugResources UP-TO-DATE
+:alertview:packageDebugResources UP-TO-DATE
+:alertview:platformAttrExtractor UP-TO-DATE
+:alertview:processDebugManifest UP-TO-DATE
+:alertview:processDebugResources UP-TO-DATE
+:alertview:compileDebugKotlin UP-TO-DATE
+:alertview:prepareLintJar UP-TO-DATE
+:alertview:generateDebugSources UP-TO-DATE
+:alertview:javaPreCompileDebug UP-TO-DATE
+:alertview:compileDebugJavaWithJavac UP-TO-DATE
+:alertview:processDebugJavaRes NO-SOURCE
+:alertview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl
+:alertview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:alertview:mergeDebugShaders UP-TO-DATE
+:alertview:compileDebugShaders UP-TO-DATE
+:alertview:generateDebugAssets UP-TO-DATE
+:alertview:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:alertview:compileDebugNdk NO-SOURCE
+:alertview:mergeDebugJniLibFolders UP-TO-DATE
+:alertview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:alertview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:alertview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:alertview:preReleaseBuild UP-TO-DATE
+:alertview:compileReleaseAidl UP-TO-DATE
+:alertview:compileReleaseRenderscript UP-TO-DATE
+:alertview:checkReleaseManifest UP-TO-DATE
+:alertview:generateReleaseBuildConfig UP-TO-DATE
+:alertview:generateReleaseResValues UP-TO-DATE
+:alertview:generateReleaseResources UP-TO-DATE
+:alertview:packageReleaseResources UP-TO-DATE
+:alertview:processReleaseManifest UP-TO-DATE
+:alertview:processReleaseResources UP-TO-DATE
+:alertview:compileReleaseKotlin UP-TO-DATE
+:alertview:generateReleaseSources UP-TO-DATE
+:alertview:javaPreCompileRelease UP-TO-DATE
+:alertview:compileReleaseJavaWithJavac UP-TO-DATE
+:alertview:processReleaseJavaRes NO-SOURCE
+:alertview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:alertview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:alertview:mergeReleaseShaders UP-TO-DATE
+:alertview:compileReleaseShaders UP-TO-DATE
+:alertview:generateReleaseAssets UP-TO-DATE
+:alertview:mergeReleaseAssets UP-TO-DATE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:alertview:compileReleaseNdk NO-SOURCE
+:alertview:mergeReleaseJniLibFolders UP-TO-DATE
+:alertview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:alertview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:alertview:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 41s
+96 actionable tasks: 60 executed, 36 up-to-date
+Exception in thread "Thread-31" java.lang.NoClassDefFoundError: com/android/utils/PathUtils$1
+	at com.android.utils.PathUtils.deleteIfExists(PathUtils.java:47)
+	at com.android.utils.PathUtils.lambda$addRemovePathHook$0(PathUtils.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.utils.PathUtils$1
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+
+2018-08-27 11:49:03,716 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345263384-0/src/AlertView-master/app/build/outputs/apk/debug/app-debug.apk

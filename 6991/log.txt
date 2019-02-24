@@ -1,0 +1,2096 @@
+2018-08-26 21:54:41,896 INFO  DownloadService - Downloading "https://github.com/hypeapps/episodie/archive/master.zip", attempt 3
+2018-08-26 21:54:49,348 INFO  DownloadService - Downloaded https://github.com/hypeapps/episodie/archive/master.zip, attempt 3
+2018-08-26 21:54:49,349 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/master.zip": 15 MB
+2018-08-26 21:54:49,349 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-26 21:54:49,357 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/master.zip: true
+2018-08-26 21:54:49,357 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src'.
+2018-08-26 21:54:49,625 INFO  FullProcessService - Size of directory with sources: 18 MB
+2018-08-26 21:54:49,625 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src]
+2018-08-26 21:54:49,644 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/.git/
+
+2018-08-26 21:54:49,660 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/gradlew
+2018-08-26 21:54:49,676 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/application/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/domain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/presentation/build.gradle
+2018-08-26 21:54:49,692 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/application/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/domain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/presentation/build.gradle
+2018-08-26 21:54:49,692 INFO  ProjectBuildService - Remote scripts: none
+2018-08-26 21:54:49,692 INFO  ProjectFixService - Fixing project...
+2018-08-26 21:54:49,726 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/application/local.properties
+2018-08-26 21:54:49,731 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/application/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-26 21:54:49,731 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/application/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-26 21:54:49,732 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/local.properties
+2018-08-26 21:54:49,737 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-26 21:54:49,737 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-26 21:54:49,738 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/local.properties
+2018-08-26 21:54:49,739 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-26 21:54:49,739 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-26 21:54:49,744 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-26 21:54:49,744 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-26 21:54:49,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/domain/local.properties
+2018-08-26 21:54:49,750 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/domain/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-26 21:54:49,750 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/domain/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-26 21:54:49,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/presentation/local.properties
+2018-08-26 21:54:49,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/presentation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-26 21:54:49,757 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/presentation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-26 21:54:49,757 INFO  ProjectFixService - Project was maybe fixed
+2018-08-26 21:54:49,757 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 21:54:49,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/application/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 21:54:58,472 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-08-26 21:54:58,472 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-26 21:54:58,473 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/application/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-26 21:56:37,613 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-08-26 21:56:37,615 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:application:preBuild UP-TO-DATE
+:dataproviders:preBuild UP-TO-DATE
+:dataproviders:preDebugBuild UP-TO-DATE
+:dataproviders:checkDebugManifest
+:dataproviders:processDebugManifest
+:application:preDebugBuild
+Download https://jcenter.bintray.com/com/facebook/device/yearclass/yearclass/2.0.0/yearclass-2.0.0.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.0.0/glide-4.0.0.pom
+Download https://jcenter.bintray.com/com/patrickpissurno/ripple-effect/1.3.1/ripple-effect-1.3.1.pom
+Download https://jcenter.bintray.com/uk/co/chrisjenx/calligraphy/2.3.0/calligraphy-2.3.0.pom
+Download https://maven.google.com/com/android/support/palette-v7/27.1.0/palette-v7-27.1.0.pom
+Download https://maven.google.com/com/google/android/gms/play-services-gcm/11.6.0/play-services-gcm-11.6.0.pom
+Download https://jcenter.bintray.com/com/yarolegovich/sliding-root-nav/1.1.0/sliding-root-nav-1.1.0.pom
+Download https://jcenter.bintray.com/com/github/doctoror/particlesdrawable/library/1.0.7/library-1.0.7.pom
+Download https://jcenter.bintray.com/com/daimajia/androidanimations/library/2.2/library-2.2.pom
+Download https://jcenter.bintray.com/com/airbnb/android/lottie/2.0.0/lottie-2.0.0.pom
+Download https://jcenter.bintray.com/com/xwray/groupie/2.0.0-alpha2/groupie-2.0.0-alpha2.pom
+Download https://jcenter.bintray.com/com/hanks/htextview-evaporate/0.1.1/htextview-evaporate-0.1.1.pom
+Download https://jcenter.bintray.com/com/daimajia/easing/library/2.1/library-2.1.pom
+Download https://jcenter.bintray.com/com/miguelcatalan/materialsearchview/1.4.0/materialsearchview-1.4.0.pom
+Download https://jcenter.bintray.com/pl/hypeapp/materialtimelineview/1.0/materialtimelineview-1.0.pom
+Download https://jcenter.bintray.com/com/getbase/floatingactionbutton/1.10.1/floatingactionbutton-1.10.1.pom
+Download https://jcenter.bintray.com/com/github/florent37/diagonallayout/1.0.8/diagonallayout-1.0.8.pom
+Download https://jcenter.bintray.com/com/yarolegovich/discrete-scrollview/1.4.4/discrete-scrollview-1.4.4.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife/8.6.0/butterknife-8.6.0.pom
+Download https://jcenter.bintray.com/com/google/dagger/dagger/2.11/dagger-2.11.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.0/rxjava-2.1.0.pom
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-kotlin/2.0.0/rxbinding-kotlin-2.0.0.pom
+Download https://jcenter.bintray.com/com/evernote/android-job/1.2.0/android-job-1.2.0.pom
+Download https://jcenter.bintray.com/com/flaviofaria/kenburnsview/1.0.7/kenburnsview-1.0.7.pom
+Download https://jcenter.bintray.com/pl/hypeapp/noiseview/1.0/noiseview-1.0.pom
+Download https://jitpack.io/com/github/yalantis/multi-selection/v0.1/multi-selection-v0.1.pom
+Download https://jitpack.io/com/github/bufferapp/AdaptableBottomNavigation/2951e832b7/AdaptableBottomNavigation-2951e832b7.pom
+Download https://maven.google.com/com/google/android/gms/play-services-basement/11.6.0/play-services-basement-11.6.0.pom
+Download https://maven.google.com/com/google/android/gms/play-services-base/11.6.0/play-services-base-11.6.0.pom
+Download https://maven.google.com/com/google/android/gms/play-services-gcm-license/11.6.0/play-services-gcm-license-11.6.0.pom
+Download https://maven.google.com/com/google/android/gms/play-services-iid/11.6.0/play-services-iid-11.6.0.pom
+Download https://jcenter.bintray.com/net/vrallev/android/cat/1.0.5/cat-1.0.5.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.0.0/annotations-4.0.0.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.0.0/disklrucache-4.0.0.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.0.0/gifdecoder-4.0.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.1.4/kotlin-stdlib-jre7-1.1.4.pom
+Download https://jcenter.bintray.com/com/hanks/htextview-base/0.1.1/htextview-base-0.1.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/8.6.0/butterknife-annotations-8.6.0.pom
+Download https://jitpack.io/com/github/VictorAlbertos/RxCache/runtime/1.8.0-2.x/runtime-1.8.0-2.x.pom
+Download https://maven.google.com/com/google/android/gms/play-services-base-license/11.6.0/play-services-base-license-11.6.0.pom
+Download https://maven.google.com/com/google/android/gms/play-services-tasks/11.6.0/play-services-tasks-11.6.0.pom
+Download https://maven.google.com/com/google/android/gms/play-services-basement-license/11.6.0/play-services-basement-license-11.6.0.pom
+Download https://maven.google.com/com/google/android/gms/play-services-iid-license/11.6.0/play-services-iid-license-11.6.0.pom
+Download https://jitpack.io/com/github/VictorAlbertos/Jolyglot/api/0.0.3/api-0.0.3.pom
+Download https://jitpack.io/com/github/VictorAlbertos/RxCache/core/1.8.0-2.x/core-1.8.0-2.x.pom
+Download https://maven.google.com/com/google/android/gms/play-services-tasks-license/11.6.0/play-services-tasks-license-11.6.0.pom
+Download https://jcenter.bintray.com/com/miguelcatalan/materialsearchview/1.4.0/materialsearchview-1.4.0.aar
+Download https://jcenter.bintray.com/com/github/florent37/diagonallayout/1.0.8/diagonallayout-1.0.8.aar
+Download https://jcenter.bintray.com/com/airbnb/android/lottie/2.0.0/lottie-2.0.0.aar
+Download https://jcenter.bintray.com/com/yarolegovich/discrete-scrollview/1.4.4/discrete-scrollview-1.4.4.aar
+Download https://jcenter.bintray.com/com/yarolegovich/sliding-root-nav/1.1.0/sliding-root-nav-1.1.0.aar
+Download https://jitpack.io/com/github/bufferapp/AdaptableBottomNavigation/2951e832b7/AdaptableBottomNavigation-2951e832b7.aar
+Download https://jcenter.bintray.com/uk/co/chrisjenx/calligraphy/2.3.0/calligraphy-2.3.0.aar
+Download https://jcenter.bintray.com/com/xwray/groupie/2.0.0-alpha2/groupie-2.0.0-alpha2.aar
+Download https://maven.google.com/com/android/support/palette-v7/27.1.0/palette-v7-27.1.0.aar
+Download https://jcenter.bintray.com/com/evernote/android-job/1.2.0/android-job-1.2.0.aar
+Download https://maven.google.com/com/google/android/gms/play-services-gcm/11.6.0/play-services-gcm-11.6.0.aar
+Download https://maven.google.com/com/google/android/gms/play-services-iid/11.6.0/play-services-iid-11.6.0.aar
+Download https://maven.google.com/com/google/android/gms/play-services-base/11.6.0/play-services-base-11.6.0.aar
+Download https://maven.google.com/com/google/android/gms/play-services-tasks/11.6.0/play-services-tasks-11.6.0.aar
+Download https://maven.google.com/com/google/android/gms/play-services-basement/11.6.0/play-services-basement-11.6.0.aar
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-kotlin/2.0.0/rxbinding-kotlin-2.0.0.aar
+Download https://jcenter.bintray.com/com/github/doctoror/particlesdrawable/library/1.0.7/library-1.0.7.aar
+Download https://jcenter.bintray.com/com/patrickpissurno/ripple-effect/1.3.1/ripple-effect-1.3.1.aar
+Download https://jcenter.bintray.com/com/hanks/htextview-evaporate/0.1.1/htextview-evaporate-0.1.1.aar
+Download https://jcenter.bintray.com/com/daimajia/androidanimations/library/2.2/library-2.2.aar
+Download https://jcenter.bintray.com/pl/hypeapp/materialtimelineview/1.0/materialtimelineview-1.0.aar
+Download https://jcenter.bintray.com/com/daimajia/easing/library/2.1/library-2.1.aar
+Download https://jcenter.bintray.com/com/getbase/floatingactionbutton/1.10.1/floatingactionbutton-1.10.1.aar
+Download https://jcenter.bintray.com/com/jakewharton/butterknife/8.6.0/butterknife-8.6.0.aar
+Download https://jcenter.bintray.com/pl/hypeapp/noiseview/1.0/noiseview-1.0.aar
+Download https://jcenter.bintray.com/net/vrallev/android/cat/1.0.5/cat-1.0.5.aar
+Download https://jcenter.bintray.com/com/hanks/htextview-base/0.1.1/htextview-base-0.1.1.aar
+Download https://maven.google.com/com/google/android/gms/play-services-base-license/11.6.0/play-services-base-license-11.6.0.aar
+Download https://maven.google.com/com/google/android/gms/play-services-gcm-license/11.6.0/play-services-gcm-license-11.6.0.aar
+Download https://maven.google.com/com/google/android/gms/play-services-basement-license/11.6.0/play-services-basement-license-11.6.0.aar
+Download https://maven.google.com/com/google/android/gms/play-services-iid-license/11.6.0/play-services-iid-license-11.6.0.aar
+Download https://maven.google.com/com/google/android/gms/play-services-tasks-license/11.6.0/play-services-tasks-license-11.6.0.aar
+Download https://jitpack.io/com/github/yalantis/multi-selection/v0.1/multi-selection-v0.1.aar
+Download https://maven.google.com/android/arch/paging/runtime/1.0.0-alpha6/runtime-1.0.0-alpha6.pom
+Download https://maven.google.com/android/arch/persistence/room/rxjava2/1.0.0/rxjava2-1.0.0.pom
+Download https://maven.google.com/android/arch/paging/common/1.0.0-alpha6/common-1.0.0-alpha6.pom
+Download https://maven.google.com/android/arch/persistence/room/rxjava2/1.0.0/rxjava2-1.0.0.aar
+Download https://maven.google.com/android/arch/paging/runtime/1.0.0-alpha6/runtime-1.0.0-alpha6.aar
+:dataproviders:compileDebugAidl
+Download https://jcenter.bintray.com/com/google/dagger/dagger/2.8/dagger-2.8.pom
+Download https://jcenter.bintray.com/com/google/dagger/dagger-parent/2.8/dagger-parent-2.8.pom
+:application:compileDebugAidl
+:dataproviders:packageDebugRenderscript NO-SOURCE
+:application:compileDebugRenderscript
+:application:checkDebugManifest
+:application:generateDebugBuildConfig
+:application:mainApkListPersistenceDebug
+:application:generateDebugResValues
+:application:generateDebugResources
+:dataproviders:compileDebugRenderscript
+:dataproviders:generateDebugResValues
+:dataproviders:generateDebugResources
+:dataproviders:packageDebugResources
+:application:mergeDebugResources
+:application:createDebugCompatibleScreenManifests
+:application:processDebugManifest
+:application:splitsDiscoveryTaskDebug
+:dataproviders:platformAttrExtractor
+:dataproviders:generateDebugBuildConfig
+:domain:kaptGenerateStubsKotlin
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.0/rxjava-2.1.0.jar
+:domain:kaptKotlin
+:domain:compileKotlin
+:domain:compileJava NO-SOURCE
+:domain:processResources NO-SOURCE
+:domain:classes UP-TO-DATE
+:domain:jar
+:dataproviders:prepareLintJar
+:dataproviders:processDebugJavaRes NO-SOURCE
+:presentation:kaptGenerateStubsKotlin
+:presentation:kaptKotlin
+:presentation:compileKotlin
+:presentation:compileJava NO-SOURCE
+:presentation:processResources NO-SOURCE
+:presentation:classes UP-TO-DATE
+:presentation:jar
+:application:prepareLintJar
+:application:compileDebugNdk NO-SOURCE
+:application:mergeDebugShaders
+:application:compileDebugShaders
+:application:generateDebugAssets
+:dataproviders:mergeDebugShaders
+:dataproviders:compileDebugShaders
+:dataproviders:generateDebugAssets
+:dataproviders:packageDebugAssets
+:application:mergeDebugAssets
+:application:mergeDebugJniLibFolders
+:dataproviders:compileDebugNdk NO-SOURCE
+:dataproviders:mergeDebugJniLibFolders
+:dataproviders:transformNativeLibsWithMergeJniLibsForDebug
+:dataproviders:transformNativeLibsWithStripDebugSymbolForDebug
+:dataproviders:transformNativeLibsWithIntermediateJniLibsForDebug
+:application:processDebugJavaRes NO-SOURCE
+:application:validateSigningDebug
+:dataproviders:preReleaseBuild UP-TO-DATE
+:dataproviders:checkReleaseManifest
+:dataproviders:processReleaseManifest
+:application:preReleaseBuild
+:dataproviders:compileReleaseAidl
+:application:compileReleaseAidl
+:dataproviders:packageReleaseRenderscript NO-SOURCE
+:application:compileReleaseRenderscript
+:application:checkReleaseManifest
+:application:generateReleaseBuildConfig
+:application:mainApkListPersistenceRelease
+:application:generateReleaseResValues
+:application:generateReleaseResources
+:dataproviders:compileReleaseRenderscript
+:dataproviders:generateReleaseResValues
+:dataproviders:generateReleaseResources
+:dataproviders:packageReleaseResources
+:application:mergeReleaseResources
+:application:createReleaseCompatibleScreenManifests
+:application:processReleaseManifest
+:application:splitsDiscoveryTaskRelease
+:dataproviders:generateReleaseBuildConfig
+:dataproviders:processReleaseJavaRes NO-SOURCE
+:application:compileReleaseNdk NO-SOURCE
+:application:mergeReleaseShaders
+:application:compileReleaseShaders
+:application:generateReleaseAssets
+:dataproviders:mergeReleaseShaders
+:dataproviders:compileReleaseShaders
+:dataproviders:generateReleaseAssets
+:dataproviders:packageReleaseAssets
+:application:mergeReleaseAssets
+:application:mergeReleaseJniLibFolders
+:dataproviders:compileReleaseNdk NO-SOURCE
+:dataproviders:mergeReleaseJniLibFolders
+:dataproviders:transformNativeLibsWithMergeJniLibsForRelease
+:dataproviders:transformNativeLibsWithStripDebugSymbolForRelease
+:dataproviders:transformNativeLibsWithIntermediateJniLibsForRelease
+:application:processReleaseJavaRes NO-SOURCE
+:dataproviders:generateDebugRFile
+:application:processDebugResources
+:dataproviders:kaptGenerateStubsDebugKotlin
+Download https://jcenter.bintray.com/com/google/dagger/dagger/2.8/dagger-2.8.jar
+Download https://maven.google.com/android/arch/paging/common/1.0.0-alpha6/common-1.0.0-alpha6.jar
+Download https://jitpack.io/com/github/VictorAlbertos/Jolyglot/api/0.0.3/api-0.0.3.jar
+Download https://jitpack.io/com/github/VictorAlbertos/RxCache/runtime/1.8.0-2.x/runtime-1.8.0-2.x.jar
+Download https://jitpack.io/com/github/VictorAlbertos/RxCache/core/1.8.0-2.x/core-1.8.0-2.x.jar
+:dataproviders:kaptDebugKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'org.jetbrains.kotlin.kapt3.ProcessorWrapper' less than -source '10'
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/EpisodeReminderEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "episode_reminders")
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/RoomService.java:8: error: cannot find symbol
+public abstract class RoomService extends android.arch.persistence.room.RoomDatabase {
+                                                                       ^
+  symbol:   class RoomDatabase
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/RoomService.java:5: error: cannot find symbol
+@android.arch.persistence.room.TypeConverters(value = {pl.hypeapp.dataproviders.service.room.Converters.class})
+                              ^
+  symbol:   class TypeConverters
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/RoomService.java:6: error: cannot find symbol
+@android.arch.persistence.room.Database(entities = {pl.hypeapp.dataproviders.entity.room.WatchedEpisodeEntity.class, pl.hypeapp.dataproviders.entity.room.SeasonTrackerEntity.class, pl.hypeapp.dataproviders.entity.room.EpisodeReminderEntity.class, pl.hypeapp.dataproviders.entity.room.PremiereReminderEntity.class, pl.hypeapp.dataproviders.entity.room.WatchedTvShowEntity.class, pl.hypeapp.dataproviders.entity.room.WatchedSeasonEntity.class}, version = 1)
+                              ^
+  symbol:   class Database
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/UserStatsDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_tv_shows")
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_seasons", foreignKeys = {@android.arch.persistence.room.ForeignKey(entity = pl.hypeapp.dataproviders.entity.room.WatchedTvShowEntity.class, childColumns = {"tv_show_id"}, onDelete = 5, parentColumns = {"tv_show_id"})})
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_episodes", foreignKeys = {@android.arch.persistence.room.ForeignKey(entity = pl.hypeapp.dataproviders.entity.room.WatchedSeasonEntity.class, childColumns = {"season_id"}, onDelete = 5, parentColumns = {"season_id"})})
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:65: error: cannot find symbol
+    public abstract android.arch.paging.TiledDataSource<pl.hypeapp.dataproviders.entity.room.WatchedTvShowEntity> getWatchedTvShows();
+                                       ^
+  symbol:   class TiledDataSource
+  location: package android.arch.paging
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/PremiereReminderEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "premiere_reminders")
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/SeasonTrackerEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "season_tracker")
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:59: error: cannot find symbol
+    public abstract android.arch.paging.TiledDataSource<pl.hypeapp.dataproviders.entity.room.WatchedEpisodeEntity> getWatchedTvShows();
+                                       ^
+  symbol:   class TiledDataSource
+  location: package android.arch.paging
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/EpisodeReminderEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/UserStatsEntity.java:7: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "runtime")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/UserStatsEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_tv_shows")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/UserStatsEntity.java:11: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_episodes")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/UserStatsEntity.java:13: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_seasons")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_seasons", foreignKeys = {@android.arch.persistence.room.ForeignKey(entity = pl.hypeapp.dataproviders.entity.room.WatchedTvShowEntity.class, childColumns = {"tv_show_id"}, onDelete = 5, parentColumns = {"tv_show_id"})})
+                                                                                                                  ^
+  symbol:   class ForeignKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:13: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:13: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_episodes", foreignKeys = {@android.arch.persistence.room.ForeignKey(entity = pl.hypeapp.dataproviders.entity.room.WatchedSeasonEntity.class, childColumns = {"season_id"}, onDelete = 5, parentColumns = {"season_id"})})
+                                                                                                                   ^
+  symbol:   class ForeignKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:17: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:17: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:21: error: cannot find symbol
+    @android.arch.persistence.room.Delete()
+                                  ^
+  symbol:   class Delete
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:25: error: cannot find symbol
+    @android.arch.persistence.room.Delete()
+                                  ^
+  symbol:   class Delete
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:29: error: cannot find symbol
+    @android.arch.persistence.room.Delete()
+                                  ^
+  symbol:   class Delete
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:34: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_tv_shows WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:39: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_seasons WHERE season_id = :seasonId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:44: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_episodes WHERE episode_id = :episodeId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:49: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_seasons WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:54: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_episodes WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:59: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_episodes WHERE season_id = :seasonId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:64: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * from watched_tv_shows WHERE watch_state LIKE \'WATCHED\' OR watch_state LIKE \'PARTIALLY WATCHED\'")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:67: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT COUNT(*) from watched_tv_shows")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "episode_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:13: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "season_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:16: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "season_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:13: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:15: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_episodes_count")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:21: error: cannot find symbol
+    @android.arch.persistence.room.Ignore()
+                                  ^
+  symbol:   class Ignore
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:14: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_episodes_count")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:16: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_seasons_count")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:18: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watching_runtime")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:21: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watch_state")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:24: error: cannot find symbol
+    @android.arch.persistence.room.Ignore()
+                                  ^
+  symbol:   class Ignore
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:14: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM premiere_reminders WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:19: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM premiere_reminders WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:23: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM premiere_reminders WHERE tv_show_id LIKE :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/PremiereReminderEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/PremiereReminderEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:14: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM episode_reminders")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:17: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM episode_reminders")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:14: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * from season_tracker")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:17: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM season_tracker")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/SeasonTrackerEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/SeasonTrackerEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/UserStatsDao.java:10: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT sum(watching_runtime) FROM watched_tv_shows")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/UserStatsDao.java:14: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT sum(watching_runtime) FROM watched_tv_shows")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/UserStatsDao.java:18: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT sum(watching_runtime) as runtime, sum(watched_episodes_count) as watched_episodes, sum(watched_seasons_count) as watched_seasons, count(*) as watched_tv_shows FROM watched_tv_shows")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodesCountEntity.java:8: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonCountEntity.java:8: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "season_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:13: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:13: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:18: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT tv_show_id, COUNT(*) as count FROM watched_episodes WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:23: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT tv_show_id, COUNT(*) AS count FROM watched_episodes WHERE tv_show_id IN(:arg0) GROUP BY tv_show_id")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:28: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT season_id, COUNT(*) AS count FROM watched_episodes WHERE season_id IN(:arg0) GROUP BY season_id")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:33: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT episode_id FROM watched_episodes WHERE season_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:38: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_episodes WHERE tv_show_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:42: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM watched_episodes WHERE tv_show_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:46: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM watched_episodes WHERE season_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:50: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM watched_episodes WHERE episode_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:54: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT COUNT(DISTINCT tv_show_id) from watched_episodes")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:58: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * from watched_episodes")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/Converters.java:9: error: cannot find symbol
+    @android.arch.persistence.room.TypeConverter()
+                                  ^
+  symbol:   class TypeConverter
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/Converters.java:16: error: cannot find symbol
+    @android.arch.persistence.room.TypeConverter()
+                                  ^
+  symbol:   class TypeConverter
+  location: package android.arch.persistence.room
+:dataproviders:kaptDebugKotlin FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':dataproviders:kaptDebugKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':dataproviders:kaptDebugKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:100)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:60)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:97)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:87)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:626)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:581)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwGradleExceptionIfError(tasksUtils.kt:16)
+	at org.jetbrains.kotlin.gradle.internal.KaptTask.compile(KaptTask.kt:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:780)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:747)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:121)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
+	... 29 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 38s
+74 actionable tasks: 74 executed
+
+2018-08-26 21:56:37,738 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 21:56:37,738 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 21:56:45,804 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-08-26 21:56:45,804 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-26 21:56:45,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-26 21:57:02,312 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-08-26 21:57:02,312 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:dataproviders:preBuild UP-TO-DATE
+:dataproviders:preDebugBuild UP-TO-DATE
+:dataproviders:compileDebugAidl UP-TO-DATE
+:dataproviders:compileDebugRenderscript UP-TO-DATE
+:dataproviders:checkDebugManifest UP-TO-DATE
+:dataproviders:generateDebugBuildConfig UP-TO-DATE
+:dataproviders:generateDebugResValues UP-TO-DATE
+:dataproviders:generateDebugResources UP-TO-DATE
+:dataproviders:packageDebugResources UP-TO-DATE
+:dataproviders:platformAttrExtractor UP-TO-DATE
+:dataproviders:processDebugManifest UP-TO-DATE
+:dataproviders:generateDebugRFile UP-TO-DATE
+:domain:kaptGenerateStubsKotlin UP-TO-DATE
+:domain:kaptKotlin UP-TO-DATE
+:domain:compileKotlin UP-TO-DATE
+:domain:compileJava NO-SOURCE
+:domain:processResources NO-SOURCE
+:domain:classes UP-TO-DATE
+:domain:jar UP-TO-DATE
+:dataproviders:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:dataproviders:kaptDebugKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'org.jetbrains.kotlin.kapt3.ProcessorWrapper' less than -source '10'
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/EpisodeReminderEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "episode_reminders")
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/RoomService.java:8: error: cannot find symbol
+public abstract class RoomService extends android.arch.persistence.room.RoomDatabase {
+                                                                       ^
+  symbol:   class RoomDatabase
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/RoomService.java:5: error: cannot find symbol
+@android.arch.persistence.room.TypeConverters(value = {pl.hypeapp.dataproviders.service.room.Converters.class})
+                              ^
+  symbol:   class TypeConverters
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/RoomService.java:6: error: cannot find symbol
+@android.arch.persistence.room.Database(entities = {pl.hypeapp.dataproviders.entity.room.WatchedEpisodeEntity.class, pl.hypeapp.dataproviders.entity.room.SeasonTrackerEntity.class, pl.hypeapp.dataproviders.entity.room.EpisodeReminderEntity.class, pl.hypeapp.dataproviders.entity.room.PremiereReminderEntity.class, pl.hypeapp.dataproviders.entity.room.WatchedTvShowEntity.class, pl.hypeapp.dataproviders.entity.room.WatchedSeasonEntity.class}, version = 1)
+                              ^
+  symbol:   class Database
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/UserStatsDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_tv_shows")
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_seasons", foreignKeys = {@android.arch.persistence.room.ForeignKey(entity = pl.hypeapp.dataproviders.entity.room.WatchedTvShowEntity.class, childColumns = {"tv_show_id"}, onDelete = 5, parentColumns = {"tv_show_id"})})
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_episodes", foreignKeys = {@android.arch.persistence.room.ForeignKey(entity = pl.hypeapp.dataproviders.entity.room.WatchedSeasonEntity.class, childColumns = {"season_id"}, onDelete = 5, parentColumns = {"season_id"})})
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:65: error: cannot find symbol
+    public abstract android.arch.paging.TiledDataSource<pl.hypeapp.dataproviders.entity.room.WatchedTvShowEntity> getWatchedTvShows();
+                                       ^
+  symbol:   class TiledDataSource
+  location: package android.arch.paging
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/PremiereReminderEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "premiere_reminders")
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/SeasonTrackerEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "season_tracker")
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:59: error: cannot find symbol
+    public abstract android.arch.paging.TiledDataSource<pl.hypeapp.dataproviders.entity.room.WatchedEpisodeEntity> getWatchedTvShows();
+                                       ^
+  symbol:   class TiledDataSource
+  location: package android.arch.paging
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/EpisodeReminderEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/UserStatsEntity.java:7: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "runtime")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/UserStatsEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_tv_shows")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/UserStatsEntity.java:11: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_episodes")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/UserStatsEntity.java:13: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_seasons")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_seasons", foreignKeys = {@android.arch.persistence.room.ForeignKey(entity = pl.hypeapp.dataproviders.entity.room.WatchedTvShowEntity.class, childColumns = {"tv_show_id"}, onDelete = 5, parentColumns = {"tv_show_id"})})
+                                                                                                                  ^
+  symbol:   class ForeignKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:13: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:13: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_episodes", foreignKeys = {@android.arch.persistence.room.ForeignKey(entity = pl.hypeapp.dataproviders.entity.room.WatchedSeasonEntity.class, childColumns = {"season_id"}, onDelete = 5, parentColumns = {"season_id"})})
+                                                                                                                   ^
+  symbol:   class ForeignKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:17: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:17: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:21: error: cannot find symbol
+    @android.arch.persistence.room.Delete()
+                                  ^
+  symbol:   class Delete
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:25: error: cannot find symbol
+    @android.arch.persistence.room.Delete()
+                                  ^
+  symbol:   class Delete
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:29: error: cannot find symbol
+    @android.arch.persistence.room.Delete()
+                                  ^
+  symbol:   class Delete
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:34: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_tv_shows WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:39: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_seasons WHERE season_id = :seasonId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:44: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_episodes WHERE episode_id = :episodeId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:49: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_seasons WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:54: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_episodes WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:59: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_episodes WHERE season_id = :seasonId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:64: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * from watched_tv_shows WHERE watch_state LIKE \'WATCHED\' OR watch_state LIKE \'PARTIALLY WATCHED\'")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:67: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT COUNT(*) from watched_tv_shows")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "episode_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:13: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "season_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:16: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "season_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:13: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:15: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_episodes_count")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:21: error: cannot find symbol
+    @android.arch.persistence.room.Ignore()
+                                  ^
+  symbol:   class Ignore
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:14: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_episodes_count")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:16: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_seasons_count")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:18: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watching_runtime")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:21: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watch_state")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:24: error: cannot find symbol
+    @android.arch.persistence.room.Ignore()
+                                  ^
+  symbol:   class Ignore
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:14: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM premiere_reminders WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:19: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM premiere_reminders WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:23: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM premiere_reminders WHERE tv_show_id LIKE :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/PremiereReminderEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/PremiereReminderEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:14: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM episode_reminders")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:17: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM episode_reminders")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:14: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * from season_tracker")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:17: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM season_tracker")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/SeasonTrackerEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/SeasonTrackerEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/UserStatsDao.java:10: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT sum(watching_runtime) FROM watched_tv_shows")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/UserStatsDao.java:14: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT sum(watching_runtime) FROM watched_tv_shows")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/UserStatsDao.java:18: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT sum(watching_runtime) as runtime, sum(watched_episodes_count) as watched_episodes, sum(watched_seasons_count) as watched_seasons, count(*) as watched_tv_shows FROM watched_tv_shows")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodesCountEntity.java:8: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonCountEntity.java:8: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "season_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:13: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:13: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:18: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT tv_show_id, COUNT(*) as count FROM watched_episodes WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:23: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT tv_show_id, COUNT(*) AS count FROM watched_episodes WHERE tv_show_id IN(:arg0) GROUP BY tv_show_id")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:28: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT season_id, COUNT(*) AS count FROM watched_episodes WHERE season_id IN(:arg0) GROUP BY season_id")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:33: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT episode_id FROM watched_episodes WHERE season_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:38: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_episodes WHERE tv_show_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:42: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM watched_episodes WHERE tv_show_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:46: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM watched_episodes WHERE season_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:50: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM watched_episodes WHERE episode_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:54: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT COUNT(DISTINCT tv_show_id) from watched_episodes")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:58: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * from watched_episodes")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/Converters.java:9: error: cannot find symbol
+    @android.arch.persistence.room.TypeConverter()
+                                  ^
+  symbol:   class TypeConverter
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/Converters.java:16: error: cannot find symbol
+    @android.arch.persistence.room.TypeConverter()
+                                  ^
+  symbol:   class TypeConverter
+  location: package android.arch.persistence.room
+:dataproviders:kaptDebugKotlin FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':dataproviders:kaptDebugKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':dataproviders:kaptDebugKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:100)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:60)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:97)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:87)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:626)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:581)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwGradleExceptionIfError(tasksUtils.kt:16)
+	at org.jetbrains.kotlin.gradle.internal.KaptTask.compile(KaptTask.kt:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:780)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:747)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:121)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
+	... 29 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s
+15 actionable tasks: 1 executed, 14 up-to-date
+
+2018-08-26 21:57:02,435 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 21:57:02,435 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 21:57:11,332 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-08-26 21:57:11,332 INFO  ProjectTaskService - Excluded tasks (21): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-26 21:57:11,332 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-26 21:57:27,707 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-08-26 21:57:27,708 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:application:preBuild UP-TO-DATE
+:dataproviders:preBuild UP-TO-DATE
+:dataproviders:preDebugBuild UP-TO-DATE
+:dataproviders:checkDebugManifest UP-TO-DATE
+:dataproviders:processDebugManifest UP-TO-DATE
+:application:preDebugBuild UP-TO-DATE
+:dataproviders:compileDebugAidl UP-TO-DATE
+:application:compileDebugAidl UP-TO-DATE
+:dataproviders:packageDebugRenderscript NO-SOURCE
+:application:compileDebugRenderscript UP-TO-DATE
+:application:checkDebugManifest UP-TO-DATE
+:application:generateDebugBuildConfig UP-TO-DATE
+:application:mainApkListPersistenceDebug UP-TO-DATE
+:application:generateDebugResValues UP-TO-DATE
+:application:generateDebugResources UP-TO-DATE
+:dataproviders:compileDebugRenderscript UP-TO-DATE
+:dataproviders:generateDebugResValues UP-TO-DATE
+:dataproviders:generateDebugResources UP-TO-DATE
+:dataproviders:packageDebugResources UP-TO-DATE
+:application:mergeDebugResources UP-TO-DATE
+:application:createDebugCompatibleScreenManifests UP-TO-DATE
+:application:processDebugManifest UP-TO-DATE
+:application:splitsDiscoveryTaskDebug UP-TO-DATE
+:dataproviders:platformAttrExtractor UP-TO-DATE
+:dataproviders:generateDebugRFile UP-TO-DATE
+:application:processDebugResources UP-TO-DATE
+:dataproviders:generateDebugBuildConfig UP-TO-DATE
+:domain:kaptGenerateStubsKotlin UP-TO-DATE
+:domain:kaptKotlin UP-TO-DATE
+:domain:compileKotlin UP-TO-DATE
+:domain:compileJava NO-SOURCE
+:domain:processResources NO-SOURCE
+:domain:classes UP-TO-DATE
+:domain:jar UP-TO-DATE
+:dataproviders:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:dataproviders:kaptDebugKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'org.jetbrains.kotlin.kapt3.ProcessorWrapper' less than -source '10'
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/EpisodeReminderEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "episode_reminders")
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/RoomService.java:8: error: cannot find symbol
+public abstract class RoomService extends android.arch.persistence.room.RoomDatabase {
+                                                                       ^
+  symbol:   class RoomDatabase
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/RoomService.java:5: error: cannot find symbol
+@android.arch.persistence.room.TypeConverters(value = {pl.hypeapp.dataproviders.service.room.Converters.class})
+                              ^
+  symbol:   class TypeConverters
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/RoomService.java:6: error: cannot find symbol
+@android.arch.persistence.room.Database(entities = {pl.hypeapp.dataproviders.entity.room.WatchedEpisodeEntity.class, pl.hypeapp.dataproviders.entity.room.SeasonTrackerEntity.class, pl.hypeapp.dataproviders.entity.room.EpisodeReminderEntity.class, pl.hypeapp.dataproviders.entity.room.PremiereReminderEntity.class, pl.hypeapp.dataproviders.entity.room.WatchedTvShowEntity.class, pl.hypeapp.dataproviders.entity.room.WatchedSeasonEntity.class}, version = 1)
+                              ^
+  symbol:   class Database
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/UserStatsDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_tv_shows")
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_seasons", foreignKeys = {@android.arch.persistence.room.ForeignKey(entity = pl.hypeapp.dataproviders.entity.room.WatchedTvShowEntity.class, childColumns = {"tv_show_id"}, onDelete = 5, parentColumns = {"tv_show_id"})})
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_episodes", foreignKeys = {@android.arch.persistence.room.ForeignKey(entity = pl.hypeapp.dataproviders.entity.room.WatchedSeasonEntity.class, childColumns = {"season_id"}, onDelete = 5, parentColumns = {"season_id"})})
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:65: error: cannot find symbol
+    public abstract android.arch.paging.TiledDataSource<pl.hypeapp.dataproviders.entity.room.WatchedTvShowEntity> getWatchedTvShows();
+                                       ^
+  symbol:   class TiledDataSource
+  location: package android.arch.paging
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/PremiereReminderEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "premiere_reminders")
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/SeasonTrackerEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "season_tracker")
+                              ^
+  symbol:   class Entity
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:5: error: cannot find symbol
+@android.arch.persistence.room.Dao()
+                              ^
+  symbol:   class Dao
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:59: error: cannot find symbol
+    public abstract android.arch.paging.TiledDataSource<pl.hypeapp.dataproviders.entity.room.WatchedEpisodeEntity> getWatchedTvShows();
+                                       ^
+  symbol:   class TiledDataSource
+  location: package android.arch.paging
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/EpisodeReminderEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/UserStatsEntity.java:7: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "runtime")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/UserStatsEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_tv_shows")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/UserStatsEntity.java:11: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_episodes")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/UserStatsEntity.java:13: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_seasons")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_seasons", foreignKeys = {@android.arch.persistence.room.ForeignKey(entity = pl.hypeapp.dataproviders.entity.room.WatchedTvShowEntity.class, childColumns = {"tv_show_id"}, onDelete = 5, parentColumns = {"tv_show_id"})})
+                                                                                                                  ^
+  symbol:   class ForeignKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:13: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:13: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:5: error: cannot find symbol
+@android.arch.persistence.room.Entity(tableName = "watched_episodes", foreignKeys = {@android.arch.persistence.room.ForeignKey(entity = pl.hypeapp.dataproviders.entity.room.WatchedSeasonEntity.class, childColumns = {"season_id"}, onDelete = 5, parentColumns = {"season_id"})})
+                                                                                                                   ^
+  symbol:   class ForeignKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:17: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:17: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:21: error: cannot find symbol
+    @android.arch.persistence.room.Delete()
+                                  ^
+  symbol:   class Delete
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:25: error: cannot find symbol
+    @android.arch.persistence.room.Delete()
+                                  ^
+  symbol:   class Delete
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:29: error: cannot find symbol
+    @android.arch.persistence.room.Delete()
+                                  ^
+  symbol:   class Delete
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:34: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_tv_shows WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:39: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_seasons WHERE season_id = :seasonId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:44: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_episodes WHERE episode_id = :episodeId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:49: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_seasons WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:54: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_episodes WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:59: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_episodes WHERE season_id = :seasonId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:64: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * from watched_tv_shows WHERE watch_state LIKE \'WATCHED\' OR watch_state LIKE \'PARTIALLY WATCHED\'")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/WatchedShowDao.java:67: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT COUNT(*) from watched_tv_shows")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "episode_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:13: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "season_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodeEntity.java:16: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "season_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:13: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:15: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_episodes_count")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonEntity.java:21: error: cannot find symbol
+    @android.arch.persistence.room.Ignore()
+                                  ^
+  symbol:   class Ignore
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:14: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_episodes_count")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:16: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watched_seasons_count")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:18: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watching_runtime")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:21: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "watch_state")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedTvShowEntity.java:24: error: cannot find symbol
+    @android.arch.persistence.room.Ignore()
+                                  ^
+  symbol:   class Ignore
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:14: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM premiere_reminders WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:19: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM premiere_reminders WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/PremiereReminderDao.java:23: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM premiere_reminders WHERE tv_show_id LIKE :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/PremiereReminderEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/PremiereReminderEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:14: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM episode_reminders")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/EpisodeReminderDao.java:17: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM episode_reminders")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:14: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * from season_tracker")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/SeasonTrackerDao.java:17: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM season_tracker")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/SeasonTrackerEntity.java:9: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/SeasonTrackerEntity.java:10: error: cannot find symbol
+    @android.arch.persistence.room.PrimaryKey()
+                                  ^
+  symbol:   class PrimaryKey
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/UserStatsDao.java:10: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT sum(watching_runtime) FROM watched_tv_shows")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/UserStatsDao.java:14: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT sum(watching_runtime) FROM watched_tv_shows")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/dao/UserStatsDao.java:18: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT sum(watching_runtime) as runtime, sum(watched_episodes_count) as watched_episodes, sum(watched_seasons_count) as watched_seasons, count(*) as watched_tv_shows FROM watched_tv_shows")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedEpisodesCountEntity.java:8: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "tv_show_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/entity/room/WatchedSeasonCountEntity.java:8: error: cannot find symbol
+    @android.arch.persistence.room.ColumnInfo(name = "season_id")
+                                  ^
+  symbol:   class ColumnInfo
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:9: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:13: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                  ^
+  symbol:   class Insert
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:13: error: cannot find symbol
+    @android.arch.persistence.room.Insert(onConflict = android.arch.persistence.room.OnConflictStrategy.REPLACE)
+                                                                                    ^
+  symbol:   class OnConflictStrategy
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:18: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT tv_show_id, COUNT(*) as count FROM watched_episodes WHERE tv_show_id = :tvShowId")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:23: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT tv_show_id, COUNT(*) AS count FROM watched_episodes WHERE tv_show_id IN(:arg0) GROUP BY tv_show_id")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:28: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT season_id, COUNT(*) AS count FROM watched_episodes WHERE season_id IN(:arg0) GROUP BY season_id")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:33: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT episode_id FROM watched_episodes WHERE season_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:38: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * FROM watched_episodes WHERE tv_show_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:42: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM watched_episodes WHERE tv_show_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:46: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM watched_episodes WHERE season_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:50: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "DELETE FROM watched_episodes WHERE episode_id = :arg0")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:54: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT COUNT(DISTINCT tv_show_id) from watched_episodes")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/WatchedEpisodeDao.java:58: error: cannot find symbol
+    @android.arch.persistence.room.Query(value = "SELECT * from watched_episodes")
+                                  ^
+  symbol:   class Query
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/Converters.java:9: error: cannot find symbol
+    @android.arch.persistence.room.TypeConverter()
+                                  ^
+  symbol:   class TypeConverter
+  location: package android.arch.persistence.room
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/dataproviders/build/tmp/kapt3/stubs/debug/pl/hypeapp/dataproviders/service/room/Converters.java:16: error: cannot find symbol
+    @android.arch.persistence.room.TypeConverter()
+                                  ^
+  symbol:   class TypeConverter
+  location: package android.arch.persistence.room
+:dataproviders:kaptDebugKotlin FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':dataproviders:kaptDebugKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':dataproviders:kaptDebugKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:100)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:60)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:97)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:87)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:626)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:581)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwGradleExceptionIfError(tasksUtils.kt:16)
+	at org.jetbrains.kotlin.gradle.internal.KaptTask.compile(KaptTask.kt:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:780)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:747)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:121)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
+	... 29 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s
+27 actionable tasks: 1 executed, 26 up-to-date
+
+2018-08-26 21:57:27,831 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 21:57:27,831 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/domain/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 21:57:32,272 INFO  ProjectTaskService - Detected possible tasks: 40
+2018-08-26 21:57:32,272 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-08-26 21:57:32,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/domain/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-08-26 21:57:37,347 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:domain:kaptGenerateStubsKotlin UP-TO-DATE
+:domain:kaptKotlin UP-TO-DATE
+:domain:compileKotlin UP-TO-DATE
+:domain:compileJava NO-SOURCE
+:domain:processResources NO-SOURCE
+:domain:classes UP-TO-DATE
+:domain:jar UP-TO-DATE
+:domain:assemble UP-TO-DATE
+:domain:build
+
+BUILD SUCCESSFUL in 4s
+4 actionable tasks: 4 up-to-date
+
+2018-08-26 21:57:37,461 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 21:57:37,461 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/presentation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 21:57:41,902 INFO  ProjectTaskService - Detected possible tasks: 40
+2018-08-26 21:57:41,902 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-08-26 21:57:41,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535295281892-0/src/episodie-master/presentation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-08-26 21:57:47,896 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:domain:kaptGenerateStubsKotlin UP-TO-DATE
+:domain:kaptKotlin UP-TO-DATE
+:domain:compileKotlin UP-TO-DATE
+:domain:compileJava NO-SOURCE
+:domain:processResources NO-SOURCE
+:domain:classes UP-TO-DATE
+:domain:jar UP-TO-DATE
+:presentation:kaptGenerateStubsKotlin UP-TO-DATE
+:presentation:kaptKotlin UP-TO-DATE
+:presentation:compileKotlin UP-TO-DATE
+:presentation:compileJava NO-SOURCE
+:presentation:processResources NO-SOURCE
+:presentation:classes UP-TO-DATE
+:presentation:jar UP-TO-DATE
+:presentation:assemble UP-TO-DATE
+:presentation:build
+
+BUILD SUCCESSFUL in 5s
+8 actionable tasks: 8 up-to-date
+
+2018-08-26 21:57:48,022 ERROR FullProcessService - Project build has not produced APK file
+2018-08-26 21:57:48,142 ERROR FullProcessService - Could not find generated or existed APK file

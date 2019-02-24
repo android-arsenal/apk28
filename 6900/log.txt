@@ -1,0 +1,104 @@
+2018-08-27 11:26:39,670 INFO  DownloadService - Downloading "https://github.com/amatkivskiy/localise-gradle-plugin/archive/master.zip", attempt 3
+2018-08-27 11:26:40,338 INFO  DownloadService - Downloaded https://github.com/amatkivskiy/localise-gradle-plugin/archive/master.zip, attempt 3
+2018-08-27 11:26:40,339 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/master.zip": 147 KB
+2018-08-27 11:26:40,339 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-27 11:26:40,340 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/master.zip: true
+2018-08-27 11:26:40,340 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src'.
+2018-08-27 11:26:40,368 INFO  FullProcessService - Size of directory with sources: 147 KB
+2018-08-27 11:26:40,374 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src]
+2018-08-27 11:26:40,396 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/.git/
+
+2018-08-27 11:26:40,400 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/gradlew
+2018-08-27 11:26:40,404 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/localise-plugin/build.gradle
+2018-08-27 11:26:40,407 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/sample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/localise-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/localise-plugin/settings.gradle
+2018-08-27 11:26:40,408 INFO  ProjectBuildService - Remote scripts: none
+2018-08-27 11:26:40,408 INFO  ProjectFixService - Fixing project...
+2018-08-27 11:26:40,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/sample/local.properties
+2018-08-27 11:26:40,419 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-27 11:26:40,420 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/localise-plugin/local.properties
+2018-08-27 11:26:40,422 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/localise-plugin/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-27 11:26:40,422 INFO  ProjectFixService - Project was maybe fixed
+2018-08-27 11:26:40,422 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-27 11:26:40,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-27 11:27:19,255 INFO  ProjectTaskService - Detected possible tasks: 78
+2018-08-27 11:27:19,256 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-27 11:27:19,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-27 11:27:49,079 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':' is deprecated. Use 'testImplementation' instead.
+:preBuild UP-TO-DATE
+:preDebugBuild
+:compileDebugAidl
+:compileDebugRenderscript
+:checkDebugManifest
+:generateDebugBuildConfig
+:prepareLintJar
+:generateDebugResValues
+:generateDebugResources
+:mergeDebugResources
+:createDebugCompatibleScreenManifests
+:processDebugManifest
+:splitsDiscoveryTaskDebug
+:processDebugResources
+:generateDebugSources
+:javaPreCompileDebug
+:compileDebugJavaWithJavac
+:compileDebugNdk NO-SOURCE
+:compileDebugSources
+:mergeDebugShaders
+:compileDebugShaders
+:generateDebugAssets
+:mergeDebugAssets
+:transformClassesWithDexBuilderForDebug
+:transformDexArchiveWithExternalLibsDexMergerForDebug
+:transformDexArchiveWithDexMergerForDebug
+:mergeDebugJniLibFolders
+:transformNativeLibsWithMergeJniLibsForDebug
+:transformNativeLibsWithStripDebugSymbolForDebug
+:processDebugJavaRes NO-SOURCE
+:transformResourcesWithMergeJavaResForDebug
+:validateSigningDebug
+:packageDebug
+:assembleDebug
+:preReleaseBuild
+:compileReleaseAidl
+:compileReleaseRenderscript
+:checkReleaseManifest
+:generateReleaseBuildConfig
+:generateReleaseResValues
+:generateReleaseResources
+:mergeReleaseResources
+:createReleaseCompatibleScreenManifests
+:processReleaseManifest
+:splitsDiscoveryTaskRelease
+:processReleaseResources
+:generateReleaseSources
+:javaPreCompileRelease
+:compileReleaseJavaWithJavac
+:compileReleaseNdk NO-SOURCE
+:compileReleaseSources
+:lintVitalRelease
+:mergeReleaseShaders
+:compileReleaseShaders
+:generateReleaseAssets
+:mergeReleaseAssets
+:transformClassesWithPreDexForRelease
+:transformDexWithDexForRelease
+:mergeReleaseJniLibFolders
+:transformNativeLibsWithMergeJniLibsForRelease
+:transformNativeLibsWithStripDebugSymbolForRelease
+:processReleaseJavaRes NO-SOURCE
+:transformResourcesWithMergeJavaResForRelease
+:packageRelease
+:assembleRelease
+:assemble
+:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 29s
+50 actionable tasks: 50 executed
+
+2018-08-27 11:27:49,126 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535343999660-0/src/localise-gradle-plugin-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

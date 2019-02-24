@@ -1,0 +1,156 @@
+2018-08-20 14:30:45,395 INFO  DownloadService - Downloading "https://github.com/noman404/BanglaTextView/archive/master.zip", attempt 3
+2018-08-20 14:30:46,472 INFO  DownloadService - Downloaded https://github.com/noman404/BanglaTextView/archive/master.zip, attempt 3
+2018-08-20 14:30:46,473 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/master.zip": 487 KB
+2018-08-20 14:30:46,473 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-20 14:30:46,473 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/master.zip: true
+2018-08-20 14:30:46,473 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src'.
+2018-08-20 14:30:46,507 INFO  FullProcessService - Size of directory with sources: 878 KB
+2018-08-20 14:30:46,508 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src]
+2018-08-20 14:30:46,528 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/.git/
+
+2018-08-20 14:30:46,532 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/gradlew
+2018-08-20 14:30:46,537 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/tobangla/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/build.gradle
+2018-08-20 14:30:46,542 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/tobangla/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/settings.gradle
+2018-08-20 14:30:46,543 INFO  ProjectBuildService - Remote scripts: none
+2018-08-20 14:30:46,543 INFO  ProjectFixService - Fixing project...
+2018-08-20 14:30:46,554 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/sample-app/local.properties
+2018-08-20 14:30:46,555 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/sample-app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2018-08-20 14:30:46,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/tobangla/local.properties
+2018-08-20 14:30:46,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/tobangla/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2018-08-20 14:30:46,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/local.properties
+2018-08-20 14:30:46,559 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-20 14:30:46,560 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-20 14:30:46,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2018-08-20 14:30:46,561 INFO  ProjectFixService - Project was maybe fixed
+2018-08-20 14:30:46,561 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-20 14:30:46,561 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-20 14:30:54,539 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-20 14:30:54,539 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-20 14:30:54,539 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-20 14:31:22,453 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':sample-app' is deprecated. Use 'implementation' instead.
+:sample-app:preBuild UP-TO-DATE
+:tobangla:preBuild UP-TO-DATE
+:tobangla:preDebugBuild UP-TO-DATE
+:tobangla:checkDebugManifest
+:tobangla:processDebugManifest
+:sample-app:preDebugBuild
+:tobangla:compileDebugAidl
+:sample-app:compileDebugAidl
+:tobangla:packageDebugRenderscript NO-SOURCE
+:sample-app:compileDebugRenderscript
+:sample-app:checkDebugManifest
+:sample-app:generateDebugBuildConfig
+:sample-app:prepareLintJar
+:sample-app:generateDebugResValues
+:sample-app:generateDebugResources
+:tobangla:compileDebugRenderscript
+:tobangla:generateDebugResValues
+:tobangla:generateDebugResources
+:tobangla:packageDebugResources
+:sample-app:mergeDebugResources
+:sample-app:createDebugCompatibleScreenManifests
+:sample-app:processDebugManifest
+:sample-app:splitsDiscoveryTaskDebug
+:tobangla:platformAttrExtractor
+:tobangla:generateDebugBuildConfig
+:tobangla:prepareLintJar
+:tobangla:javaPreCompileDebug
+:tobangla:processDebugJavaRes NO-SOURCE
+:sample-app:compileDebugNdk NO-SOURCE
+:sample-app:mergeDebugShaders
+:sample-app:compileDebugShaders
+:sample-app:generateDebugAssets
+:tobangla:mergeDebugShaders
+:tobangla:compileDebugShaders
+:tobangla:generateDebugAssets
+:tobangla:mergeDebugAssets
+:sample-app:mergeDebugAssets
+:sample-app:mergeDebugJniLibFolders
+:tobangla:compileDebugNdk NO-SOURCE
+:tobangla:mergeDebugJniLibFolders
+:tobangla:transformNativeLibsWithMergeJniLibsForDebug
+:tobangla:transformNativeLibsWithStripDebugSymbolForDebug
+:tobangla:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample-app:processDebugJavaRes NO-SOURCE
+:sample-app:validateSigningDebug
+:tobangla:preReleaseBuild UP-TO-DATE
+:tobangla:checkReleaseManifest
+:tobangla:processReleaseManifest
+:sample-app:preReleaseBuild
+:tobangla:compileReleaseAidl
+:sample-app:compileReleaseAidl
+:tobangla:packageReleaseRenderscript NO-SOURCE
+:sample-app:compileReleaseRenderscript
+:sample-app:checkReleaseManifest
+:sample-app:generateReleaseBuildConfig
+:sample-app:generateReleaseResValues
+:sample-app:generateReleaseResources
+:tobangla:compileReleaseRenderscript
+:tobangla:generateReleaseResValues
+:tobangla:generateReleaseResources
+:tobangla:packageReleaseResources
+:sample-app:mergeReleaseResources
+:sample-app:createReleaseCompatibleScreenManifests
+:sample-app:processReleaseManifest
+:tobangla:processDebugResources
+:sample-app:processDebugResources
+:sample-app:generateDebugSources
+:tobangla:generateDebugSources
+:tobangla:compileDebugJavaWithJavac
+:tobangla:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample-app:javaPreCompileDebug
+:sample-app:compileDebugJavaWithJavac
+:sample-app:compileDebugSources
+:sample-app:transformClassesWithDexBuilderForDebug
+:sample-app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample-app:transformDexArchiveWithDexMergerForDebug
+:sample-app:transformNativeLibsWithMergeJniLibsForDebug
+:sample-app:transformNativeLibsWithStripDebugSymbolForDebug
+:sample-app:transformResourcesWithMergeJavaResForDebug
+:sample-app:packageDebug
+:sample-app:assembleDebug
+:sample-app:splitsDiscoveryTaskRelease
+:tobangla:processReleaseResources
+:sample-app:processReleaseResources
+:sample-app:generateReleaseSources
+:tobangla:generateReleaseBuildConfig
+:tobangla:generateReleaseSources
+:tobangla:javaPreCompileRelease
+:tobangla:compileReleaseJavaWithJavac
+:tobangla:processReleaseJavaRes NO-SOURCE
+:tobangla:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample-app:javaPreCompileRelease
+:sample-app:compileReleaseJavaWithJavac
+:sample-app:compileReleaseNdk NO-SOURCE
+:sample-app:compileReleaseSources
+:sample-app:lintVitalRelease
+:sample-app:mergeReleaseShaders
+:sample-app:compileReleaseShaders
+:sample-app:generateReleaseAssets
+:tobangla:mergeReleaseShaders
+:tobangla:compileReleaseShaders
+:tobangla:generateReleaseAssets
+:tobangla:mergeReleaseAssets
+:sample-app:mergeReleaseAssets
+:sample-app:transformClassesWithPreDexForRelease
+:sample-app:transformDexWithDexForRelease
+:sample-app:mergeReleaseJniLibFolders
+:tobangla:compileReleaseNdk NO-SOURCE
+:tobangla:mergeReleaseJniLibFolders
+:tobangla:transformNativeLibsWithMergeJniLibsForRelease
+:tobangla:transformNativeLibsWithStripDebugSymbolForRelease
+:tobangla:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample-app:transformNativeLibsWithMergeJniLibsForRelease
+:sample-app:transformNativeLibsWithStripDebugSymbolForRelease
+:sample-app:processReleaseJavaRes NO-SOURCE
+:sample-app:transformResourcesWithMergeJavaResForRelease
+:sample-app:packageRelease
+:sample-app:assembleRelease
+:sample-app:assemble
+:sample-app:build
+
+BUILD SUCCESSFUL in 26s
+88 actionable tasks: 88 executed
+
+2018-08-20 14:31:22,536 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750245387-0/src/BanglaTextView-master/sample-app/build/outputs/apk/release/sample-app-release-unsigned.apk

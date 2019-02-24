@@ -1,0 +1,166 @@
+2018-08-29 16:02:18,900 INFO  DownloadService - Downloading "https://github.com/rozkminiacz/GoogleMapsPolyline/archive/master.zip", attempt 3
+2018-08-29 16:02:19,561 INFO  DownloadService - Downloaded https://github.com/rozkminiacz/GoogleMapsPolyline/archive/master.zip, attempt 3
+2018-08-29 16:02:19,561 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/master.zip": 197 KB
+2018-08-29 16:02:19,561 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-29 16:02:19,567 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/master.zip: true
+2018-08-29 16:02:19,567 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src'.
+2018-08-29 16:02:19,588 INFO  FullProcessService - Size of directory with sources: 218 KB
+2018-08-29 16:02:19,589 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src]
+2018-08-29 16:02:19,604 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/.git/
+
+2018-08-29 16:02:19,607 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/gradlew
+2018-08-29 16:02:19,609 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/gmapspolyline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/build.gradle
+2018-08-29 16:02:19,612 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/gmapspolyline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/settings.gradle
+2018-08-29 16:02:19,612 INFO  ProjectBuildService - Remote scripts: none
+2018-08-29 16:02:19,612 INFO  ProjectFixService - Fixing project...
+2018-08-29 16:02:19,618 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/app/local.properties
+2018-08-29 16:02:19,618 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-29 16:02:19,619 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/gmapspolyline/local.properties
+2018-08-29 16:02:19,619 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/gmapspolyline/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-29 16:02:19,619 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/local.properties
+2018-08-29 16:02:19,620 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-29 16:02:19,620 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-29 16:02:19,620 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-29 16:02:19,621 INFO  ProjectFixService - Project was maybe fixed
+2018-08-29 16:02:19,621 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-29 16:02:19,621 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-29 16:02:26,204 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-29 16:02:26,205 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-29 16:02:26,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-29 16:03:16,728 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':gmapspolyline' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:gmapspolyline:preBuild UP-TO-DATE
+:gmapspolyline:preDebugBuild UP-TO-DATE
+:gmapspolyline:checkDebugManifest
+:gmapspolyline:processDebugManifest
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-maps/11.8.0/play-services-maps-11.8.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-maps-license/11.8.0/play-services-maps-license-11.8.0.pom
+Download https://jcenter.bintray.com/ru/gildor/coroutines/kotlin-coroutines-retrofit/0.9.0/kotlin-coroutines-retrofit-0.9.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-maps/11.8.0/play-services-maps-11.8.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-maps-license/11.8.0/play-services-maps-license-11.8.0.aar
+:gmapspolyline:compileDebugAidl
+:app:compileDebugAidl
+:gmapspolyline:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:gmapspolyline:compileDebugRenderscript
+:gmapspolyline:generateDebugResValues
+:gmapspolyline:generateDebugResources
+:gmapspolyline:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:gmapspolyline:platformAttrExtractor
+:gmapspolyline:generateDebugBuildConfig
+:gmapspolyline:prepareLintJar
+:gmapspolyline:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:gmapspolyline:mergeDebugShaders
+:gmapspolyline:compileDebugShaders
+:gmapspolyline:generateDebugAssets
+:gmapspolyline:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:gmapspolyline:compileDebugNdk NO-SOURCE
+:gmapspolyline:mergeDebugJniLibFolders
+:gmapspolyline:transformNativeLibsWithMergeJniLibsForDebug
+:gmapspolyline:transformNativeLibsWithStripDebugSymbolForDebug
+:gmapspolyline:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:gmapspolyline:preReleaseBuild UP-TO-DATE
+:gmapspolyline:checkReleaseManifest
+:gmapspolyline:processReleaseManifest
+:app:preReleaseBuild
+:gmapspolyline:compileReleaseAidl
+:app:compileReleaseAidl
+:gmapspolyline:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:gmapspolyline:compileReleaseRenderscript
+:gmapspolyline:generateReleaseResValues
+:gmapspolyline:generateReleaseResources
+:gmapspolyline:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:gmapspolyline:generateReleaseBuildConfig
+:gmapspolyline:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:gmapspolyline:mergeReleaseShaders
+:gmapspolyline:compileReleaseShaders
+:gmapspolyline:generateReleaseAssets
+:gmapspolyline:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:gmapspolyline:compileReleaseNdk NO-SOURCE
+:gmapspolyline:mergeReleaseJniLibFolders
+:gmapspolyline:transformNativeLibsWithMergeJniLibsForRelease
+:gmapspolyline:transformNativeLibsWithStripDebugSymbolForRelease
+:gmapspolyline:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:gmapspolyline:processDebugResources
+:app:processDebugResources
+:gmapspolyline:compileDebugKotlin
+Download https://jcenter.bintray.com/ru/gildor/coroutines/kotlin-coroutines-retrofit/0.9.0/kotlin-coroutines-retrofit-0.9.0.jar
+:gmapspolyline:generateDebugSources
+:gmapspolyline:javaPreCompileDebug
+:gmapspolyline:compileDebugJavaWithJavac
+:gmapspolyline:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:gmapspolyline:processReleaseResources
+:app:processReleaseResources
+:gmapspolyline:compileReleaseKotlin
+:gmapspolyline:generateReleaseSources
+:gmapspolyline:javaPreCompileRelease
+:gmapspolyline:compileReleaseJavaWithJavac
+:gmapspolyline:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 49s
+92 actionable tasks: 92 executed
+
+2018-08-29 16:03:16,817 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535533338898-0/src/GoogleMapsPolyline-master/app/build/outputs/apk/debug/app-debug.apk

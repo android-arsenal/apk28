@@ -1,0 +1,593 @@
+2018-08-22 14:49:18,068 INFO  DownloadService - Downloading "https://github.com/WrathChaos/MediaPickerLib/archive/master.zip", attempt 3
+2018-08-22 14:49:26,447 INFO  DownloadService - Downloaded https://github.com/WrathChaos/MediaPickerLib/archive/master.zip, attempt 3
+2018-08-22 14:49:26,447 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/master.zip": 2 MB
+2018-08-22 14:49:26,447 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-22 14:49:26,453 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/master.zip: true
+2018-08-22 14:49:26,454 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src'.
+2018-08-22 14:49:26,545 INFO  FullProcessService - Size of directory with sources: 7 MB
+2018-08-22 14:49:26,545 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src]
+2018-08-22 14:49:26,561 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/.git/
+
+2018-08-22 14:49:26,565 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/gradlew
+2018-08-22 14:49:26,569 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/build.gradle
+2018-08-22 14:49:26,574 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/settings.gradle
+2018-08-22 14:49:26,574 INFO  ProjectBuildService - Remote scripts: none
+2018-08-22 14:49:26,574 INFO  ProjectFixService - Fixing project...
+2018-08-22 14:49:26,584 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/app/local.properties
+2018-08-22 14:49:26,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:49:26,585 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:49:26,585 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/local.properties
+2018-08-22 14:49:26,586 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:49:26,586 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:49:26,587 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/local.properties
+2018-08-22 14:49:26,587 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-22 14:49:26,587 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-22 14:49:26,588 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:49:26,588 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:49:26,589 INFO  ProjectFixService - Project was maybe fixed
+2018-08-22 14:49:26,589 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-22 14:49:26,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-22 14:49:34,423 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-22 14:49:34,423 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-22 14:49:34,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-22 14:50:09,178 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-22 14:50:09,179 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':mediapickerlib' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:mediapickerlib:preBuild UP-TO-DATE
+:mediapickerlib:preDebugBuild UP-TO-DATE
+:mediapickerlib:checkDebugManifest
+:mediapickerlib:processDebugManifest
+:app:preDebugBuild
+:mediapickerlib:compileDebugAidl
+:app:compileDebugAidl
+:mediapickerlib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:mediapickerlib:compileDebugRenderscript
+:mediapickerlib:generateDebugResValues
+:mediapickerlib:generateDebugResources
+:mediapickerlib:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:mediapickerlib:platformAttrExtractor
+:mediapickerlib:generateDebugBuildConfig
+:mediapickerlib:prepareLintJar
+:mediapickerlib:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:mediapickerlib:mergeDebugShaders
+:mediapickerlib:compileDebugShaders
+:mediapickerlib:generateDebugAssets
+:mediapickerlib:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:mediapickerlib:compileDebugNdk NO-SOURCE
+:mediapickerlib:mergeDebugJniLibFolders
+:mediapickerlib:transformNativeLibsWithMergeJniLibsForDebug
+:mediapickerlib:transformNativeLibsWithStripDebugSymbolForDebug
+:mediapickerlib:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:mediapickerlib:preReleaseBuild UP-TO-DATE
+:mediapickerlib:checkReleaseManifest
+:mediapickerlib:processReleaseManifest
+:app:preReleaseBuild
+:mediapickerlib:compileReleaseAidl
+:app:compileReleaseAidl
+:mediapickerlib:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:mediapickerlib:compileReleaseRenderscript
+:mediapickerlib:generateReleaseResValues
+:mediapickerlib:generateReleaseResources
+:mediapickerlib:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:mediapickerlib:generateReleaseBuildConfig
+:mediapickerlib:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:mediapickerlib:mergeReleaseShaders
+:mediapickerlib:compileReleaseShaders
+:mediapickerlib:generateReleaseAssets
+:mediapickerlib:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:mediapickerlib:compileReleaseNdk NO-SOURCE
+:mediapickerlib:mergeReleaseJniLibFolders
+:mediapickerlib:transformNativeLibsWithMergeJniLibsForRelease
+:mediapickerlib:transformNativeLibsWithStripDebugSymbolForRelease
+:mediapickerlib:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:mediapickerlib:processDebugResources
+:app:processDebugResources
+:mediapickerlib:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/src/main/java/com/coursion/freakycoder/mediapicker/galleries/Gallery.kt: (31, 5): 'open' has no effect in a final class
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/src/main/java/com/coursion/freakycoder/mediapicker/galleries/OpenGallery.kt: (124, 71): 'getChildPosition(View!): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/src/main/java/com/coursion/freakycoder/mediapicker/galleries/OpenGallery.kt: (133, 49): 'getChildPosition(View!): Int' is deprecated. Deprecated in Java
+:mediapickerlib:generateDebugSources
+:mediapickerlib:javaPreCompileDebug
+:mediapickerlib:compileDebugJavaWithJavac
+:mediapickerlib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/app/src/main/java/com/coursion/mediapickerlib/MainActivity.kt: (35, 34): Parameter 'view' is never used, could be renamed to _
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebugDex: Error converting bytecode to dex:
+Cause: com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+    UNEXPECTED TOP-LEVEL EXCEPTION:
+    com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+    
+com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+	at com.android.dx.merge.DexMerger.readSortableTypes(DexMerger.java:661)
+	at com.android.dx.merge.DexMerger.getSortedTypes(DexMerger.java:616)
+	at com.android.dx.merge.DexMerger.mergeClassDefs(DexMerger.java:598)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:171)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:198)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:61)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:36)
+	at java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1424)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:transformDexArchiveWithDexMergerForDebug'.
+> com.android.build.api.transform.TransformException: com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:transformDexArchiveWithDexMergerForDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:100)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:63)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:124)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:105)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:625)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:580)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:60)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:128)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:46)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:311)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:202)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:132)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: com.android.build.api.transform.TransformException: com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+	at com.android.builder.profile.Recorder$Block.handleException(Recorder.java:55)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:104)
+	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:213)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$IncrementalTaskAction.doExecute(DefaultTaskClassInfoStore.java:173)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:121)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:122)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:111)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
+	... 92 more
+Caused by: com.android.build.api.transform.TransformException: com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+	at com.android.build.gradle.internal.transforms.DexMergerTransform.transform(DexMergerTransform.java:230)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:222)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:218)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
+	... 104 more
+Caused by: com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+	at com.android.dx.merge.DexMerger.readSortableTypes(DexMerger.java:661)
+	at com.android.dx.merge.DexMerger.getSortedTypes(DexMerger.java:616)
+	at com.android.dx.merge.DexMerger.mergeClassDefs(DexMerger.java:598)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:171)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:198)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:61)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:36)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 33s
+72 actionable tasks: 72 executed
+
+2018-08-22 14:50:09,247 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-22 14:50:09,247 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-22 14:50:14,988 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-08-22 14:50:14,988 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-22 14:50:14,988 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-22 14:50:35,312 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':mediapickerlib' is deprecated. Use 'implementation' instead.
+:mediapickerlib:preBuild UP-TO-DATE
+:mediapickerlib:preDebugBuild UP-TO-DATE
+:mediapickerlib:compileDebugAidl UP-TO-DATE
+:mediapickerlib:compileDebugNdk NO-SOURCE
+:mediapickerlib:compileDebugRenderscript UP-TO-DATE
+:mediapickerlib:checkDebugManifest UP-TO-DATE
+:mediapickerlib:generateDebugBuildConfig UP-TO-DATE
+:mediapickerlib:generateDebugResValues UP-TO-DATE
+:mediapickerlib:generateDebugResources UP-TO-DATE
+:mediapickerlib:packageDebugResources UP-TO-DATE
+:mediapickerlib:platformAttrExtractor UP-TO-DATE
+:mediapickerlib:processDebugManifest UP-TO-DATE
+:mediapickerlib:processDebugResources UP-TO-DATE
+:mediapickerlib:compileDebugKotlin UP-TO-DATE
+:mediapickerlib:prepareLintJar UP-TO-DATE
+:mediapickerlib:generateDebugSources UP-TO-DATE
+:mediapickerlib:javaPreCompileDebug UP-TO-DATE
+:mediapickerlib:compileDebugJavaWithJavac UP-TO-DATE
+:mediapickerlib:extractDebugAnnotations
+:mediapickerlib:mergeDebugShaders UP-TO-DATE
+:mediapickerlib:compileDebugShaders UP-TO-DATE
+:mediapickerlib:generateDebugAssets UP-TO-DATE
+:mediapickerlib:mergeDebugAssets UP-TO-DATE
+:mediapickerlib:mergeDebugConsumerProguardFiles
+:mediapickerlib:packageDebugRenderscript NO-SOURCE
+:mediapickerlib:processDebugJavaRes NO-SOURCE
+:mediapickerlib:transformResourcesWithMergeJavaResForDebug
+:mediapickerlib:transformClassesAndResourcesWithSyncLibJarsForDebug
+:mediapickerlib:mergeDebugJniLibFolders UP-TO-DATE
+:mediapickerlib:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:mediapickerlib:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:mediapickerlib:transformNativeLibsWithSyncJniLibsForDebug
+:mediapickerlib:bundleDebug
+:mediapickerlib:compileDebugSources UP-TO-DATE
+:mediapickerlib:assembleDebug
+:mediapickerlib:preReleaseBuild UP-TO-DATE
+:mediapickerlib:compileReleaseAidl UP-TO-DATE
+:mediapickerlib:compileReleaseNdk NO-SOURCE
+:mediapickerlib:compileReleaseRenderscript UP-TO-DATE
+:mediapickerlib:checkReleaseManifest UP-TO-DATE
+:mediapickerlib:generateReleaseBuildConfig UP-TO-DATE
+:mediapickerlib:generateReleaseResValues UP-TO-DATE
+:mediapickerlib:generateReleaseResources UP-TO-DATE
+:mediapickerlib:packageReleaseResources UP-TO-DATE
+:mediapickerlib:processReleaseManifest UP-TO-DATE
+:mediapickerlib:processReleaseResources
+:mediapickerlib:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/src/main/java/com/coursion/freakycoder/mediapicker/galleries/Gallery.kt: (31, 5): 'open' has no effect in a final class
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/src/main/java/com/coursion/freakycoder/mediapicker/galleries/OpenGallery.kt: (124, 71): 'getChildPosition(View!): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/mediapickerlib/src/main/java/com/coursion/freakycoder/mediapicker/galleries/OpenGallery.kt: (133, 49): 'getChildPosition(View!): Int' is deprecated. Deprecated in Java
+:mediapickerlib:generateReleaseSources
+:mediapickerlib:javaPreCompileRelease
+:mediapickerlib:compileReleaseJavaWithJavac
+:mediapickerlib:extractReleaseAnnotations
+:mediapickerlib:mergeReleaseShaders UP-TO-DATE
+:mediapickerlib:compileReleaseShaders UP-TO-DATE
+:mediapickerlib:generateReleaseAssets UP-TO-DATE
+:mediapickerlib:mergeReleaseAssets UP-TO-DATE
+:mediapickerlib:mergeReleaseConsumerProguardFiles
+:mediapickerlib:packageReleaseRenderscript NO-SOURCE
+:mediapickerlib:processReleaseJavaRes NO-SOURCE
+:mediapickerlib:transformResourcesWithMergeJavaResForRelease
+:mediapickerlib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:mediapickerlib:mergeReleaseJniLibFolders UP-TO-DATE
+:mediapickerlib:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:mediapickerlib:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:mediapickerlib:transformNativeLibsWithSyncJniLibsForRelease
+:mediapickerlib:bundleRelease
+:mediapickerlib:compileReleaseSources
+:mediapickerlib:mergeReleaseResources
+:mediapickerlib:verifyReleaseResources
+:mediapickerlib:assembleRelease
+:mediapickerlib:assemble
+:mediapickerlib:build
+
+BUILD SUCCESSFUL in 19s
+50 actionable tasks: 18 executed, 32 up-to-date
+
+2018-08-22 14:50:35,423 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-22 14:50:35,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-22 14:50:42,163 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-08-22 14:50:42,163 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-22 14:50:42,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924158058-0/src/MediaPickerLib-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-22 14:50:50,207 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-22 14:50:50,207 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':mediapickerlib' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:mediapickerlib:preBuild UP-TO-DATE
+:mediapickerlib:preDebugBuild UP-TO-DATE
+:mediapickerlib:checkDebugManifest UP-TO-DATE
+:mediapickerlib:processDebugManifest UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:mediapickerlib:compileDebugAidl UP-TO-DATE
+:app:compileDebugAidl UP-TO-DATE
+:mediapickerlib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:mediapickerlib:compileDebugRenderscript UP-TO-DATE
+:mediapickerlib:generateDebugResValues UP-TO-DATE
+:mediapickerlib:generateDebugResources UP-TO-DATE
+:mediapickerlib:packageDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:createDebugCompatibleScreenManifests UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:splitsDiscoveryTaskDebug UP-TO-DATE
+:mediapickerlib:platformAttrExtractor UP-TO-DATE
+:mediapickerlib:processDebugResources UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:mediapickerlib:generateDebugBuildConfig UP-TO-DATE
+:mediapickerlib:compileDebugKotlin UP-TO-DATE
+:mediapickerlib:prepareLintJar UP-TO-DATE
+:mediapickerlib:generateDebugSources UP-TO-DATE
+:mediapickerlib:javaPreCompileDebug UP-TO-DATE
+:mediapickerlib:compileDebugJavaWithJavac UP-TO-DATE
+:mediapickerlib:processDebugJavaRes NO-SOURCE
+:mediapickerlib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:app:compileDebugKotlin UP-TO-DATE
+:app:prepareLintJar UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:javaPreCompileDebug UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources UP-TO-DATE
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:mediapickerlib:mergeDebugShaders UP-TO-DATE
+:mediapickerlib:compileDebugShaders UP-TO-DATE
+:mediapickerlib:generateDebugAssets UP-TO-DATE
+:mediapickerlib:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug UP-TO-DATE
+:app:transformDexArchiveWithDexMergerForDebugDex: Error converting bytecode to dex:
+Cause: com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+    UNEXPECTED TOP-LEVEL EXCEPTION:
+    com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+    
+com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+	at com.android.dx.merge.DexMerger.readSortableTypes(DexMerger.java:661)
+	at com.android.dx.merge.DexMerger.getSortedTypes(DexMerger.java:616)
+	at com.android.dx.merge.DexMerger.mergeClassDefs(DexMerger.java:598)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:171)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:198)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:61)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:36)
+	at java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1424)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:transformDexArchiveWithDexMergerForDebug'.
+> com.android.build.api.transform.TransformException: com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:transformDexArchiveWithDexMergerForDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:100)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:63)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:124)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:105)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:625)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:580)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: java.lang.RuntimeException: com.android.build.api.transform.TransformException: com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+	at com.android.builder.profile.Recorder$Block.handleException(Recorder.java:55)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:104)
+	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:213)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$IncrementalTaskAction.doExecute(DefaultTaskClassInfoStore.java:173)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:121)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:122)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:111)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
+	... 27 more
+Caused by: com.android.build.api.transform.TransformException: com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+	at com.android.build.gradle.internal.transforms.DexMergerTransform.transform(DexMergerTransform.java:230)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:222)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:218)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
+	... 39 more
+Caused by: com.android.dex.DexException: Multiple dex files define Lcom/coursion/mediapickerlib/BuildConfig;
+	at com.android.dx.merge.DexMerger.readSortableTypes(DexMerger.java:661)
+	at com.android.dx.merge.DexMerger.getSortedTypes(DexMerger.java:616)
+	at com.android.dx.merge.DexMerger.mergeClassDefs(DexMerger.java:598)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:171)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:198)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:61)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:36)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+38 actionable tasks: 1 executed, 37 up-to-date
+
+2018-08-22 14:50:50,308 ERROR FullProcessService - Project build has not produced APK file
+2018-08-22 14:50:50,403 ERROR FullProcessService - Could not find generated or existed APK file

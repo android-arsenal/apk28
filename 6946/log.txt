@@ -1,0 +1,210 @@
+2018-08-30 16:15:36,015 INFO  DownloadService - Downloading "https://github.com/chuross/mori-router/archive/master.zip", attempt 3
+2018-08-30 16:15:37,867 INFO  DownloadService - Downloaded https://github.com/chuross/mori-router/archive/master.zip, attempt 3
+2018-08-30 16:15:37,868 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/master.zip": 190 KB
+2018-08-30 16:15:37,868 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-30 16:15:37,874 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/master.zip: true
+2018-08-30 16:15:37,874 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src'.
+2018-08-30 16:15:37,913 INFO  FullProcessService - Size of directory with sources: 267 KB
+2018-08-30 16:15:37,913 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src]
+2018-08-30 16:15:37,929 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/.git/
+
+2018-08-30 16:15:37,934 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/gradlew
+2018-08-30 16:15:37,939 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/core/build.gradle
+2018-08-30 16:15:37,944 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/compiler/build.gradle
+2018-08-30 16:15:37,945 INFO  ProjectBuildService - Remote scripts: none
+2018-08-30 16:15:37,945 INFO  ProjectFixService - Fixing project...
+2018-08-30 16:15:37,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/app/local.properties
+2018-08-30 16:15:37,956 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-08-30 16:15:37,957 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-08-30 16:15:37,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/local.properties
+2018-08-30 16:15:37,958 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-08-30 16:15:37,959 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-08-30 16:15:37,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-08-30 16:15:37,961 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-08-30 16:15:37,962 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/annotation/local.properties
+2018-08-30 16:15:37,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/annotation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-08-30 16:15:37,964 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/annotation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-08-30 16:15:37,965 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/compiler/local.properties
+2018-08-30 16:15:37,966 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-08-30 16:15:37,967 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-08-30 16:15:37,968 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/core/local.properties
+2018-08-30 16:15:37,970 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-08-30 16:15:37,970 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-08-30 16:15:37,971 INFO  ProjectFixService - Project was maybe fixed
+2018-08-30 16:15:37,971 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-30 16:15:37,971 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-30 16:16:01,040 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-08-30 16:16:01,040 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-30 16:16:01,041 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-30 16:17:45,111 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://dl.google.com/dl/android/maven2/androidx/transition/transition/1.0.0-rc01/transition-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/material/material/1.0.0-rc01/material-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-runtime/3.2.0-rc02/databinding-runtime-3.2.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-adapters/3.2.0-rc02/databinding-adapters-3.2.0-rc02.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.8.0/glide-4.8.0.pom
+Download https://jitpack.io/com/github/chuross/recyclerview-adapters/recyclerview-adapters/3.0.1/recyclerview-adapters-3.0.1.pom
+Download https://jitpack.io/com/github/chuross/recyclerview-adapters/recyclerview-adapters-databinding/3.0.1/recyclerview-adapters-databinding-3.0.1.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.8.0/gifdecoder-4.8.0.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.8.0/annotations-4.8.0.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.8.0/disklrucache-4.8.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3.2.0-rc02-4818971/aapt2-3.2.0-rc02-4818971.pom
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler/3.2.0-rc02/databinding-compiler-3.2.0-rc02.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/compiler/4.8.0/compiler-4.8.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-rc02/lint-gradle-26.2.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-rc02/intellij-core-26.2.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-rc02/uast-26.2.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-rc02/lint-26.2.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-rc02/lint-checks-26.2.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-rc02/lint-kotlin-26.2.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-rc02/kotlin-compiler-26.2.0-rc02.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-rc02/lint-api-26.2.0-rc02.pom
+:core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:annotation:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:annotation:processResources NO-SOURCE
+:annotation:classes
+:annotation:jar
+:app:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-adapters/3.2.0-rc02/databinding-adapters-3.2.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-runtime/3.2.0-rc02/databinding-runtime-3.2.0-rc02.aar
+Download https://jitpack.io/com/github/chuross/recyclerview-adapters/recyclerview-adapters-databinding/3.0.1/recyclerview-adapters-databinding-3.0.1.aar
+Download https://jitpack.io/com/github/chuross/recyclerview-adapters/recyclerview-adapters/3.0.1/recyclerview-adapters-3.0.1.aar
+Download https://dl.google.com/dl/android/maven2/androidx/transition/transition/1.0.0-rc01/transition-1.0.0-rc01.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.8.0/glide-4.8.0.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.8.0/gifdecoder-4.8.0.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.8.0/annotations-4.8.0.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.8.0/disklrucache-4.8.0.jar
+Download https://dl.google.com/dl/android/maven2/com/google/android/material/material/1.0.0-rc01/material-1.0.0-rc01.aar
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3.2.0-rc02-4818971/aapt2-3.2.0-rc02-4818971-osx.jar
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:app:dataBindingMergeDependencyArtifactsDebug
+:app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:app:dataBindingGenBaseClassesDebug
+:app:dataBindingExportFeaturePackageIdsDebug
+:compiler:kaptGenerateStubsKotlin
+:compiler:kaptKotlin
+:compiler:compileKotlin
+:compiler:compileJava NO-SOURCE
+:compiler:processResources NO-SOURCE
+:compiler:classes UP-TO-DATE
+:compiler:inspectClassesForKotlinIC
+:compiler:jar
+:core:processResources NO-SOURCE
+:core:classes
+:core:jar
+:app:kaptGenerateStubsDebugKotlin
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler/3.2.0-rc02/databinding-compiler-3.2.0-rc02.jar
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+Download https://jcenter.bintray.com/com/github/bumptech/glide/compiler/4.8.0/compiler-4.8.0.jar
+:app:kaptDebugKotlin
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/app/src/main/kotlin/com/github/chuross/morirouter/screen/BasicExampleScreenFragment.kt: (41, 23): Unnecessary safe call on a non-null receiver of type Button
+:app:javaPreCompileDebug
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.60/391695759d8fc80042c2c11bc19fc6f2787be495/kotlin-stdlib-1.2.60.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.60/391695759d8fc80042c2c11bc19fc6f2787be495/kotlin-stdlib-1.2.60.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:app:preReleaseBuild
+:app:compileReleaseAidl NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:dataBindingExportBuildInfoRelease
+:app:dataBindingMergeDependencyArtifactsRelease
+:app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:app:dataBindingGenBaseClassesRelease
+:app:dataBindingExportFeaturePackageIdsRelease
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/app/src/main/kotlin/com/github/chuross/morirouter/screen/BasicExampleScreenFragment.kt: (41, 23): Unnecessary safe call on a non-null receiver of type Button
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-rc02/uast-26.2.0-rc02.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-rc02/lint-checks-26.2.0-rc02.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-rc02/intellij-core-26.2.0-rc02.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-rc02/lint-gradle-26.2.0-rc02.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-rc02/lint-api-26.2.0-rc02.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-rc02/lint-26.2.0-rc02.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-rc02/lint-kotlin-26.2.0-rc02.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-rc02/kotlin-compiler-26.2.0-rc02.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/6a9441dc5c83f5f378f3453c806a1553/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 43s
+80 actionable tasks: 80 executed
+
+2018-08-30 16:17:45,284 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535620536007-0/src/mori-router-master/app/build/outputs/apk/debug/app-debug.apk

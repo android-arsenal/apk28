@@ -1,0 +1,168 @@
+2018-08-20 15:05:20,007 INFO  DownloadService - Downloading "https://github.com/Hamadakram/Mural/archive/master.zip", attempt 3
+2018-08-20 15:05:22,405 INFO  DownloadService - Downloaded https://github.com/Hamadakram/Mural/archive/master.zip, attempt 3
+2018-08-20 15:05:22,405 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/master.zip": 432 KB
+2018-08-20 15:05:22,405 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-20 15:05:22,411 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/master.zip: true
+2018-08-20 15:05:22,411 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src'.
+2018-08-20 15:05:22,439 INFO  FullProcessService - Size of directory with sources: 469 KB
+2018-08-20 15:05:22,439 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src]
+2018-08-20 15:05:22,458 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/.git/
+
+2018-08-20 15:05:22,461 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/gradlew
+2018-08-20 15:05:22,465 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/mural/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/build.gradle
+2018-08-20 15:05:22,468 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/mural/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/settings.gradle
+2018-08-20 15:05:22,468 INFO  ProjectBuildService - Remote scripts: none
+2018-08-20 15:05:22,468 INFO  ProjectFixService - Fixing project...
+2018-08-20 15:05:22,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/app/local.properties
+2018-08-20 15:05:22,476 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2018-08-20 15:05:22,476 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2018-08-20 15:05:22,477 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/mural/local.properties
+2018-08-20 15:05:22,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/mural/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2018-08-20 15:05:22,477 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/mural/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2018-08-20 15:05:22,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/local.properties
+2018-08-20 15:05:22,479 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-20 15:05:22,479 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-20 15:05:22,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2018-08-20 15:05:22,480 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2018-08-20 15:05:22,480 INFO  ProjectFixService - Project was maybe fixed
+2018-08-20 15:05:22,481 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-20 15:05:22,481 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-20 15:05:30,110 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-20 15:05:30,110 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-20 15:05:30,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-20 15:06:17,242 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:mural:preBuild UP-TO-DATE
+:mural:preDebugBuild UP-TO-DATE
+:mural:checkDebugManifest
+:mural:processDebugManifest
+:app:preDebugBuild
+:mural:compileDebugAidl
+:app:compileDebugAidl
+:mural:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:mural:compileDebugRenderscript
+:mural:generateDebugResValues
+:mural:generateDebugResources
+:mural:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:mural:platformAttrExtractor
+:mural:generateDebugBuildConfig
+:mural:prepareLintJar
+:mural:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:mural:mergeDebugShaders
+:mural:compileDebugShaders
+:mural:generateDebugAssets
+:mural:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:mural:compileDebugNdk NO-SOURCE
+:mural:mergeDebugJniLibFolders
+:mural:transformNativeLibsWithMergeJniLibsForDebug
+:mural:transformNativeLibsWithStripDebugSymbolForDebug
+:mural:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:mural:preReleaseBuild UP-TO-DATE
+:mural:checkReleaseManifest
+:mural:processReleaseManifest
+:app:preReleaseBuild
+:mural:compileReleaseAidl
+:app:compileReleaseAidl
+:mural:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:mural:compileReleaseRenderscript
+:mural:generateReleaseResValues
+:mural:generateReleaseResources
+:mural:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:mural:generateReleaseBuildConfig
+:mural:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:mural:mergeReleaseShaders
+:mural:compileReleaseShaders
+:mural:generateReleaseAssets
+:mural:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:mural:compileReleaseNdk NO-SOURCE
+:mural:mergeReleaseJniLibFolders
+:mural:transformNativeLibsWithMergeJniLibsForRelease
+:mural:transformNativeLibsWithStripDebugSymbolForRelease
+:mural:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:mural:processDebugResources
+:app:processDebugResources
+:mural:compileDebugKotlin
+w: Runtime JAR files in the classpath have the version 1.1, which is older than the API version 1.2. Consider using the runtime of version 1.2, or pass '-api-version 1.1' explicitly to restrict the available APIs to the runtime of version 1.1. You can also pass '-language-version 1.1' instead, which will restrict not only the APIs to the specified version, but also the language features. Alternatively, you can use '-Xskip-runtime-version-check' to suppress this warning
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.0/96a07041a11a09cf578892932d7511e1e11e3b6c/kotlin-stdlib-1.1.0.jar: Runtime JAR file has version 1.1 which is older than required for API version 1.2
+:mural:generateDebugSources
+:mural:javaPreCompileDebug
+:mural:compileDebugJavaWithJavac
+:mural:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/app/src/main/java/com/irozon/muralsample/MainActivity.kt: (15, 41): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:mural:processReleaseResources
+:app:processReleaseResources
+:mural:compileReleaseKotlin
+w: Runtime JAR files in the classpath have the version 1.1, which is older than the API version 1.2. Consider using the runtime of version 1.2, or pass '-api-version 1.1' explicitly to restrict the available APIs to the runtime of version 1.1. You can also pass '-language-version 1.1' instead, which will restrict not only the APIs to the specified version, but also the language features. Alternatively, you can use '-Xskip-runtime-version-check' to suppress this warning
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.0/96a07041a11a09cf578892932d7511e1e11e3b6c/kotlin-stdlib-1.1.0.jar: Runtime JAR file has version 1.1 which is older than required for API version 1.2
+:mural:generateReleaseSources
+:mural:javaPreCompileRelease
+:mural:compileReleaseJavaWithJavac
+:mural:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/app/src/main/java/com/irozon/muralsample/MainActivity.kt: (15, 41): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 46s
+92 actionable tasks: 92 executed
+
+2018-08-20 15:06:17,320 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534752320000-0/src/Mural-master/app/build/outputs/apk/debug/app-debug.apk

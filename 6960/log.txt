@@ -1,0 +1,169 @@
+2018-08-26 18:02:11,891 INFO  DownloadService - Downloading "https://github.com/luxiliu/SlidingPuzzleView/archive/master.zip", attempt 3
+2018-08-26 18:02:17,347 INFO  DownloadService - Downloading "https://github.com/luxiliu/SlidingPuzzleView/archive/master.zip", attempt 2
+2018-08-26 18:02:23,246 INFO  DownloadService - Downloading "https://github.com/luxiliu/SlidingPuzzleView/archive/master.zip", attempt 1
+2018-08-26 18:03:23,503 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-08-26 18:03:24,730 INFO  GithubDownloadService - Default branch of this repository: develop
+2018-08-26 18:03:24,730 INFO  DownloadService - Downloading "https://github.com/luxiliu/SlidingPuzzleView/archive/develop.zip", attempt 3
+2018-08-26 18:04:26,492 DEBUG FullProcessService - Repository https://github.com/luxiliu/SlidingPuzzleView available: true
+2018-08-26 18:04:26,492 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-08-26 18:04:26,493 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/luxiliu/SlidingPuzzleView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src]
+2018-08-26 18:04:28,311 INFO  SysUtils - 
+2018-08-26 18:04:28,349 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/.git": true
+2018-08-26 18:04:28,352 INFO  FullProcessService - Size of directory with sources: 230 KB
+2018-08-26 18:04:28,352 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src]
+2018-08-26 18:04:28,367 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/.git/
+
+2018-08-26 18:04:28,370 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/gradlew
+2018-08-26 18:04:28,373 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/slidingpuzzleview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/build.gradle
+2018-08-26 18:04:28,375 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/slidingpuzzleview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/settings.gradle
+2018-08-26 18:04:28,376 INFO  ProjectBuildService - Remote scripts: none
+2018-08-26 18:04:28,376 INFO  ProjectFixService - Fixing project...
+2018-08-26 18:04:28,382 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/sample/local.properties
+2018-08-26 18:04:28,383 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-26 18:04:28,384 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/slidingpuzzleview/local.properties
+2018-08-26 18:04:28,386 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/slidingpuzzleview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-26 18:04:28,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/local.properties
+2018-08-26 18:04:28,387 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-26 18:04:28,387 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-26 18:04:28,388 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-26 18:04:28,388 INFO  ProjectFixService - Project was maybe fixed
+2018-08-26 18:04:28,388 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-26 18:04:28,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-26 18:04:35,044 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-26 18:04:35,044 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-26 18:04:35,044 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-26 18:05:04,316 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:sample:preBuild UP-TO-DATE
+:slidingpuzzleview:preBuild UP-TO-DATE
+:slidingpuzzleview:preDebugBuild UP-TO-DATE
+:slidingpuzzleview:checkDebugManifest
+:slidingpuzzleview:processDebugManifest
+:sample:preDebugBuild
+:slidingpuzzleview:compileDebugAidl
+:sample:compileDebugAidl
+:slidingpuzzleview:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:slidingpuzzleview:compileDebugRenderscript
+:slidingpuzzleview:generateDebugResValues
+:slidingpuzzleview:generateDebugResources
+:slidingpuzzleview:packageDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:slidingpuzzleview:platformAttrExtractor
+:slidingpuzzleview:generateDebugBuildConfig
+:slidingpuzzleview:prepareLintJar
+:slidingpuzzleview:javaPreCompileDebug
+:slidingpuzzleview:processDebugJavaRes NO-SOURCE
+:sample:compileDebugNdk NO-SOURCE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:slidingpuzzleview:mergeDebugShaders
+:slidingpuzzleview:compileDebugShaders
+:slidingpuzzleview:generateDebugAssets
+:slidingpuzzleview:packageDebugAssets
+:sample:mergeDebugAssets
+:sample:mergeDebugJniLibFolders
+:slidingpuzzleview:compileDebugNdk NO-SOURCE
+:slidingpuzzleview:mergeDebugJniLibFolders
+:slidingpuzzleview:transformNativeLibsWithMergeJniLibsForDebug
+:slidingpuzzleview:transformNativeLibsWithStripDebugSymbolForDebug
+:slidingpuzzleview:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:validateSigningDebug
+:slidingpuzzleview:extractProguardFiles
+:slidingpuzzleview:preReleaseBuild
+:slidingpuzzleview:checkReleaseManifest
+:slidingpuzzleview:processReleaseManifest
+:sample:preReleaseBuild
+:slidingpuzzleview:compileReleaseAidl
+:sample:compileReleaseAidl
+:slidingpuzzleview:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:slidingpuzzleview:compileReleaseRenderscript
+:slidingpuzzleview:generateReleaseResValues
+:slidingpuzzleview:generateReleaseResources
+:slidingpuzzleview:packageReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:slidingpuzzleview:generateReleaseBuildConfig
+:slidingpuzzleview:javaPreCompileRelease
+:slidingpuzzleview:processReleaseJavaRes NO-SOURCE
+:sample:compileReleaseNdk NO-SOURCE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:slidingpuzzleview:mergeReleaseShaders
+:slidingpuzzleview:compileReleaseShaders
+:slidingpuzzleview:generateReleaseAssets
+:slidingpuzzleview:packageReleaseAssets
+:sample:mergeReleaseAssets
+:sample:mergeReleaseJniLibFolders
+:slidingpuzzleview:compileReleaseNdk NO-SOURCE
+:slidingpuzzleview:mergeReleaseJniLibFolders
+:slidingpuzzleview:transformNativeLibsWithMergeJniLibsForRelease
+:slidingpuzzleview:transformNativeLibsWithStripDebugSymbolForRelease
+:slidingpuzzleview:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:slidingpuzzleview:generateDebugRFile
+:sample:processDebugResources
+:sample:generateDebugSources
+:slidingpuzzleview:generateDebugSources
+:slidingpuzzleview:compileDebugJavaWithJavac
+:slidingpuzzleview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugSources
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:packageDebug
+:sample:assembleDebug
+:slidingpuzzleview:generateReleaseRFile
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:slidingpuzzleview:generateReleaseSources
+:slidingpuzzleview:compileReleaseJavaWithJavac
+:slidingpuzzleview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 28s
+92 actionable tasks: 92 executed
+
+2018-08-26 18:05:04,384 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535281331889-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

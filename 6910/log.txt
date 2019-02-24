@@ -1,0 +1,241 @@
+2018-08-20 13:51:35,804 INFO  DownloadService - Downloading "https://github.com/DigitalBitHub/Magnifize/archive/master.zip", attempt 3
+2018-08-20 13:51:38,882 INFO  DownloadService - Downloaded https://github.com/DigitalBitHub/Magnifize/archive/master.zip, attempt 3
+2018-08-20 13:51:38,882 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/master.zip": 805 KB
+2018-08-20 13:51:38,882 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-20 13:51:38,888 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/master.zip: true
+2018-08-20 13:51:38,888 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src'.
+2018-08-20 13:51:38,915 INFO  FullProcessService - Size of directory with sources: 839 KB
+2018-08-20 13:51:38,915 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src]
+2018-08-20 13:51:38,930 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/.git/
+
+2018-08-20 13:51:38,933 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/gradlew
+2018-08-20 13:51:38,935 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/Magnifize/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/build.gradle
+2018-08-20 13:51:38,938 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/Magnifize/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/settings.gradle
+2018-08-20 13:51:38,938 INFO  ProjectBuildService - Remote scripts: none
+2018-08-20 13:51:38,938 INFO  ProjectFixService - Fixing project...
+2018-08-20 13:51:38,945 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/Magnifize/local.properties
+2018-08-20 13:51:38,945 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/Magnifize/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-20 13:51:38,945 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/Magnifize/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-20 13:51:38,946 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/app/local.properties
+2018-08-20 13:51:38,947 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-20 13:51:38,947 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-20 13:51:38,947 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/local.properties
+2018-08-20 13:51:38,948 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-20 13:51:38,948 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-20 13:51:38,949 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-20 13:51:38,949 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-20 13:51:38,949 INFO  ProjectFixService - Project was maybe fixed
+2018-08-20 13:51:38,949 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-20 13:51:38,950 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/Magnifize/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-20 13:51:48,075 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-08-20 13:51:48,075 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-20 13:51:48,075 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/Magnifize/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-20 13:52:01,828 INFO  SysUtils - Configuration on demand is an incubating feature.
+:Magnifize:preBuild UP-TO-DATE
+:Magnifize:preDebugBuild UP-TO-DATE
+:Magnifize:compileDebugAidl
+:Magnifize:compileDebugNdk NO-SOURCE
+:Magnifize:compileDebugRenderscript
+:Magnifize:checkDebugManifest
+:Magnifize:generateDebugBuildConfig
+:Magnifize:prepareLintJar
+:Magnifize:generateDebugResValues
+:Magnifize:generateDebugResources
+:Magnifize:packageDebugResources
+:Magnifize:platformAttrExtractor
+:Magnifize:processDebugManifest
+:Magnifize:javaPreCompileDebug
+:Magnifize:mergeDebugShaders
+:Magnifize:compileDebugShaders
+:Magnifize:generateDebugAssets
+:Magnifize:mergeDebugAssets
+:Magnifize:mergeDebugConsumerProguardFiles
+:Magnifize:packageDebugRenderscript NO-SOURCE
+:Magnifize:processDebugJavaRes NO-SOURCE
+:Magnifize:mergeDebugJniLibFolders
+:Magnifize:transformNativeLibsWithMergeJniLibsForDebug
+:Magnifize:transformNativeLibsWithStripDebugSymbolForDebug
+:Magnifize:transformNativeLibsWithSyncJniLibsForDebug
+:Magnifize:preReleaseBuild UP-TO-DATE
+:Magnifize:compileReleaseAidl
+:Magnifize:compileReleaseNdk NO-SOURCE
+:Magnifize:compileReleaseRenderscript
+:Magnifize:checkReleaseManifest
+:Magnifize:generateReleaseBuildConfig
+:Magnifize:generateReleaseResValues
+:Magnifize:generateReleaseResources
+:Magnifize:packageReleaseResources
+:Magnifize:processReleaseManifest
+:Magnifize:javaPreCompileRelease
+:Magnifize:mergeReleaseShaders
+:Magnifize:compileReleaseShaders
+:Magnifize:generateReleaseAssets
+:Magnifize:mergeReleaseAssets
+:Magnifize:mergeReleaseConsumerProguardFiles
+:Magnifize:packageReleaseRenderscript NO-SOURCE
+:Magnifize:processReleaseJavaRes NO-SOURCE
+:Magnifize:mergeReleaseJniLibFolders
+:Magnifize:transformNativeLibsWithMergeJniLibsForRelease
+:Magnifize:transformNativeLibsWithStripDebugSymbolForRelease
+:Magnifize:transformNativeLibsWithSyncJniLibsForRelease
+:Magnifize:mergeReleaseResources
+:Magnifize:verifyReleaseResources
+:Magnifize:processDebugResources
+:Magnifize:generateDebugSources
+:Magnifize:compileDebugJavaWithJavac
+:Magnifize:extractDebugAnnotations
+:Magnifize:transformResourcesWithMergeJavaResForDebug
+:Magnifize:transformClassesAndResourcesWithSyncLibJarsForDebug
+:Magnifize:bundleDebug
+:Magnifize:compileDebugSources
+:Magnifize:assembleDebug
+:Magnifize:processReleaseResources
+:Magnifize:generateReleaseSources
+:Magnifize:compileReleaseJavaWithJavac
+:Magnifize:extractReleaseAnnotations
+:Magnifize:transformResourcesWithMergeJavaResForRelease
+:Magnifize:transformClassesAndResourcesWithSyncLibJarsForRelease
+:Magnifize:bundleRelease
+:Magnifize:compileReleaseSources
+:Magnifize:assembleRelease
+:Magnifize:assemble
+:Magnifize:build
+
+BUILD SUCCESSFUL in 13s
+48 actionable tasks: 48 executed
+
+2018-08-20 13:52:01,874 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-20 13:52:01,874 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-20 13:52:08,432 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-20 13:52:08,432 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-20 13:52:08,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-20 13:52:39,529 INFO  SysUtils - Configuration on demand is an incubating feature.
+:Magnifize:preBuild UP-TO-DATE
+:Magnifize:preDebugBuild UP-TO-DATE
+:Magnifize:compileDebugAidl UP-TO-DATE
+:Magnifize:compileDebugRenderscript UP-TO-DATE
+:Magnifize:checkDebugManifest UP-TO-DATE
+:Magnifize:generateDebugBuildConfig UP-TO-DATE
+:Magnifize:prepareLintJar UP-TO-DATE
+:Magnifize:generateDebugResValues UP-TO-DATE
+:Magnifize:generateDebugResources UP-TO-DATE
+:Magnifize:packageDebugResources UP-TO-DATE
+:Magnifize:platformAttrExtractor UP-TO-DATE
+:Magnifize:processDebugManifest UP-TO-DATE
+:Magnifize:processDebugResources UP-TO-DATE
+:Magnifize:generateDebugSources UP-TO-DATE
+:Magnifize:javaPreCompileDebug UP-TO-DATE
+:Magnifize:compileDebugJavaWithJavac UP-TO-DATE
+:Magnifize:processDebugJavaRes NO-SOURCE
+:Magnifize:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/26.1.0/design-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/26.1.0/transition-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/26.1.0/transition-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/26.1.0/design-26.1.0.aar
+:app:compileDebugAidl
+:Magnifize:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:Magnifize:mergeDebugShaders UP-TO-DATE
+:Magnifize:compileDebugShaders UP-TO-DATE
+:Magnifize:generateDebugAssets UP-TO-DATE
+:Magnifize:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:Magnifize:compileDebugNdk NO-SOURCE
+:Magnifize:mergeDebugJniLibFolders UP-TO-DATE
+:Magnifize:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:Magnifize:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:Magnifize:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:Magnifize:preReleaseBuild UP-TO-DATE
+:Magnifize:compileReleaseAidl UP-TO-DATE
+:Magnifize:compileReleaseRenderscript UP-TO-DATE
+:Magnifize:checkReleaseManifest UP-TO-DATE
+:Magnifize:generateReleaseBuildConfig UP-TO-DATE
+:Magnifize:generateReleaseResValues UP-TO-DATE
+:Magnifize:generateReleaseResources UP-TO-DATE
+:Magnifize:packageReleaseResources UP-TO-DATE
+:Magnifize:processReleaseManifest UP-TO-DATE
+:Magnifize:processReleaseResources UP-TO-DATE
+:Magnifize:generateReleaseSources UP-TO-DATE
+:Magnifize:javaPreCompileRelease UP-TO-DATE
+:Magnifize:compileReleaseJavaWithJavac UP-TO-DATE
+:Magnifize:processReleaseJavaRes NO-SOURCE
+:Magnifize:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:Magnifize:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:Magnifize:mergeReleaseShaders UP-TO-DATE
+:Magnifize:compileReleaseShaders UP-TO-DATE
+:Magnifize:generateReleaseAssets UP-TO-DATE
+:Magnifize:mergeReleaseAssets UP-TO-DATE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:Magnifize:compileReleaseNdk NO-SOURCE
+:Magnifize:mergeReleaseJniLibFolders UP-TO-DATE
+:Magnifize:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:Magnifize:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:Magnifize:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 30s
+88 actionable tasks: 54 executed, 34 up-to-date
+
+2018-08-20 13:52:39,622 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534747895801-0/src/Magnifize-master/app/build/outputs/apk/debug/app-debug.apk

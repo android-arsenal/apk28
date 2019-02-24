@@ -1,0 +1,255 @@
+2018-10-08 16:46:51,726 INFO  DownloadService - Downloading "https://github.com/aafanasev/kson/archive/master.zip", attempt 3
+2018-10-08 16:46:53,626 INFO  DownloadService - Downloaded https://github.com/aafanasev/kson/archive/master.zip, attempt 3
+2018-10-08 16:46:53,626 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/master.zip": 191 KB
+2018-10-08 16:46:53,626 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-08 16:46:53,632 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/master.zip: true
+2018-10-08 16:46:53,632 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src'.
+2018-10-08 16:46:53,655 INFO  FullProcessService - Size of directory with sources: 471 KB
+2018-10-08 16:46:53,655 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src]
+2018-10-08 16:46:53,721 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/.git/
+
+2018-10-08 16:46:53,725 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/gradlew
+2018-10-08 16:46:53,729 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/sample/build.gradle
+2018-10-08 16:46:53,733 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/buildsystem/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/buildsystem/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/settings.gradle
+2018-10-08 16:46:53,738 INFO  ProjectBuildService - Remote scripts: none
+2018-10-08 16:46:53,738 INFO  ProjectFixService - Fixing project...
+2018-10-08 16:46:53,749 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/local.properties
+2018-10-08 16:46:53,750 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
+2018-10-08 16:46:53,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-08 16:46:53,754 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-08 16:46:53,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/local.properties
+2018-10-08 16:46:53,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-08 16:46:53,760 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-08 16:46:53,762 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-annotation/local.properties
+2018-10-08 16:46:53,768 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-annotation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-08 16:46:53,768 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-annotation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-08 16:46:53,770 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-processor/local.properties
+2018-10-08 16:46:53,775 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-08 16:46:53,775 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-08 16:46:53,776 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/sample/local.properties
+2018-10-08 16:46:53,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-08 16:46:53,782 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-08 16:46:53,783 INFO  ProjectFixService - Project was maybe fixed
+2018-10-08 16:46:53,783 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-08 16:46:53,783 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-08 16:47:05,088 INFO  ProjectTaskService - Detected possible tasks: 57
+2018-10-08 16:47:05,088 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-10-08 16:47:05,089 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-10-08 16:47:37,955 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :benchmark
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+
+> Task :kson-annotation:compileKotlin
+> Task :kson-annotation:compileJava NO-SOURCE
+> Task :kson-annotation:processResources NO-SOURCE
+> Task :kson-annotation:classes UP-TO-DATE
+> Task :kson-annotation:inspectClassesForKotlinIC
+> Task :kson-annotation:jar
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.21/3beb08c67673033183c8652572680587876e64b5/kotlin-stdlib-jre7-1.2.21.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+> Task :kson-processor:kaptGenerateStubsKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.21/3beb08c67673033183c8652572680587876e64b5/kotlin-stdlib-jre7-1.2.21.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+> Task :kson-processor:kaptKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.21/3beb08c67673033183c8652572680587876e64b5/kotlin-stdlib-jre7-1.2.21.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+> Task :kson-processor:compileKotlin
+> Task :kson-processor:compileJava NO-SOURCE
+> Task :kson-processor:processResources
+> Task :kson-processor:classes
+> Task :kson-processor:inspectClassesForKotlinIC
+> Task :kson-processor:jar
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+> Task :benchmark:kaptGenerateStubsKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+> Task :benchmark:kaptKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/build/generated/source/kaptKotlin/main/KsonTypeAdapters.kt: (77, 209): Unchecked cast: TypeAdapter<out Any!>! to TypeAdapter<List<Employee>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/build/generated/source/kaptKotlin/main/KsonTypeAdapters.kt: (129, 200): Unchecked cast: TypeAdapter<out Any!>! to TypeAdapter<Set<String>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/build/generated/source/kaptKotlin/main/KsonTypeAdapters.kt: (131, 203): Unchecked cast: TypeAdapter<out Any!>! to TypeAdapter<List<Friend>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/build/generated/source/kaptKotlin/main/KsonTypeAdapters.kt: (286, 28): Unchecked cast: TypeAdapter<out Any>? to TypeAdapter<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/src/main/kotlin/com/aafanasev/kson/benchmark/Benchmarks.kt: (28, 13): Variable 'entity' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/src/main/kotlin/com/aafanasev/kson/benchmark/Benchmarks.kt: (38, 13): Variable 'entity' is never used
+> Task :benchmark:compileKotlin
+> Task :benchmark:compileJava
+> Task :benchmark:processResources
+> Task :benchmark:classes
+> Task :benchmark:inspectClassesForKotlinIC
+> Task :benchmark:jar
+> Task :benchmark:startScripts
+> Task :benchmark:distTar
+> Task :benchmark:distZip
+> Task :benchmark:assemble
+> Task :benchmark:build
+> Task :kson-annotation:assemble
+> Task :kson-annotation:build
+> Task :kson-processor:assemble
+> Task :kson-processor:build
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+> Task :sample:kaptGenerateStubsKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+> Task :sample:kaptKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/sample/build/generated/source/kaptKotlin/main/KsonTypeAdapters.kt: (29, 203): Unchecked cast: TypeAdapter<out Any!>! to TypeAdapter<List<String>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/sample/build/generated/source/kaptKotlin/main/KsonTypeAdapters.kt: (31, 322): Unchecked cast: TypeAdapter<out Any!>! to TypeAdapter<Map<String, List<Double>>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/sample/build/generated/source/kaptKotlin/main/KsonTypeAdapters.kt: (144, 28): Unchecked cast: TypeAdapter<out Any>? to TypeAdapter<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/sample/src/main/kotlin/com/aafanasev/kson/sample/Sample.kt: (28, 9): Variable 'dto' is never used
+> Task :sample:compileKotlin
+> Task :sample:compileJava NO-SOURCE
+> Task :sample:processResources NO-SOURCE
+> Task :sample:classes UP-TO-DATE
+> Task :sample:inspectClassesForKotlinIC
+> Task :sample:jar
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 32s
+24 actionable tasks: 24 executed
+
+2018-10-08 16:47:37,984 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-08 16:47:37,985 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-08 16:47:43,247 INFO  ProjectTaskService - Detected possible tasks: 51
+2018-10-08 16:47:43,247 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-10-08 16:47:43,247 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-10-08 16:47:57,996 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :benchmark
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+
+> Task :kson-annotation:compileKotlin UP-TO-DATE
+> Task :kson-annotation:compileJava NO-SOURCE
+> Task :kson-annotation:processResources NO-SOURCE
+> Task :kson-annotation:classes UP-TO-DATE
+> Task :kson-annotation:inspectClassesForKotlinIC UP-TO-DATE
+> Task :kson-annotation:jar UP-TO-DATE
+> Task :kson-processor:kaptGenerateStubsKotlin UP-TO-DATE
+> Task :kson-processor:kaptKotlin UP-TO-DATE
+> Task :kson-processor:compileKotlin UP-TO-DATE
+> Task :kson-processor:compileJava NO-SOURCE
+> Task :kson-processor:processResources UP-TO-DATE
+> Task :kson-processor:classes UP-TO-DATE
+> Task :kson-processor:inspectClassesForKotlinIC UP-TO-DATE
+> Task :kson-processor:jar UP-TO-DATE
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+> Task :benchmark:kaptGenerateStubsKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+> Task :benchmark:kaptKotlin
+> Task :benchmark:compileKotlin UP-TO-DATE
+> Task :benchmark:compileJava UP-TO-DATE
+> Task :benchmark:processResources UP-TO-DATE
+> Task :benchmark:classes UP-TO-DATE
+> Task :benchmark:inspectClassesForKotlinIC UP-TO-DATE
+> Task :benchmark:jar UP-TO-DATE
+> Task :benchmark:startScripts UP-TO-DATE
+> Task :benchmark:distTar UP-TO-DATE
+> Task :benchmark:distZip UP-TO-DATE
+> Task :benchmark:assemble UP-TO-DATE
+> Task :benchmark:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 14s
+19 actionable tasks: 2 executed, 17 up-to-date
+
+2018-10-08 16:47:58,027 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-08 16:47:58,027 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-08 16:48:03,478 INFO  ProjectTaskService - Detected possible tasks: 50
+2018-10-08 16:48:03,478 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-10-08 16:48:03,479 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-10-08 16:48:10,081 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :kson-annotation:compileKotlin UP-TO-DATE
+> Task :kson-annotation:compileJava NO-SOURCE
+> Task :kson-annotation:processResources NO-SOURCE
+> Task :kson-annotation:classes UP-TO-DATE
+> Task :kson-annotation:inspectClassesForKotlinIC UP-TO-DATE
+> Task :kson-annotation:jar UP-TO-DATE
+> Task :kson-annotation:assemble UP-TO-DATE
+> Task :kson-annotation:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 up-to-date
+
+2018-10-08 16:48:10,106 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-08 16:48:10,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-08 16:48:15,609 INFO  ProjectTaskService - Detected possible tasks: 50
+2018-10-08 16:48:15,610 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-10-08 16:48:15,610 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/kson-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-10-08 16:48:22,221 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :kson-annotation:compileKotlin UP-TO-DATE
+> Task :kson-annotation:compileJava NO-SOURCE
+> Task :kson-annotation:processResources NO-SOURCE
+> Task :kson-annotation:classes UP-TO-DATE
+> Task :kson-annotation:inspectClassesForKotlinIC UP-TO-DATE
+> Task :kson-annotation:jar UP-TO-DATE
+> Task :kson-processor:kaptGenerateStubsKotlin UP-TO-DATE
+> Task :kson-processor:kaptKotlin UP-TO-DATE
+> Task :kson-processor:compileKotlin UP-TO-DATE
+> Task :kson-processor:compileJava NO-SOURCE
+> Task :kson-processor:processResources UP-TO-DATE
+> Task :kson-processor:classes UP-TO-DATE
+> Task :kson-processor:inspectClassesForKotlinIC UP-TO-DATE
+> Task :kson-processor:jar UP-TO-DATE
+> Task :kson-processor:assemble UP-TO-DATE
+> Task :kson-processor:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+9 actionable tasks: 9 up-to-date
+
+2018-10-08 16:48:22,244 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-08 16:48:22,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-08 16:48:26,727 INFO  ProjectTaskService - Detected possible tasks: 42
+2018-10-08 16:48:26,728 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-10-08 16:48:26,728 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992011722-0/src/kson-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-10-08 16:48:33,195 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :kson-annotation:compileKotlin UP-TO-DATE
+> Task :kson-annotation:compileJava NO-SOURCE
+> Task :kson-annotation:processResources NO-SOURCE
+> Task :kson-annotation:classes UP-TO-DATE
+> Task :kson-annotation:inspectClassesForKotlinIC UP-TO-DATE
+> Task :kson-annotation:jar UP-TO-DATE
+> Task :kson-processor:kaptGenerateStubsKotlin UP-TO-DATE
+> Task :kson-processor:kaptKotlin UP-TO-DATE
+> Task :kson-processor:compileKotlin UP-TO-DATE
+> Task :kson-processor:compileJava NO-SOURCE
+> Task :kson-processor:processResources UP-TO-DATE
+> Task :kson-processor:classes UP-TO-DATE
+> Task :kson-processor:inspectClassesForKotlinIC UP-TO-DATE
+> Task :kson-processor:jar UP-TO-DATE
+> Task :sample:kaptGenerateStubsKotlin UP-TO-DATE
+> Task :sample:kaptKotlin UP-TO-DATE
+> Task :sample:compileKotlin UP-TO-DATE
+> Task :sample:compileJava NO-SOURCE
+> Task :sample:processResources NO-SOURCE
+> Task :sample:classes UP-TO-DATE
+> Task :sample:inspectClassesForKotlinIC UP-TO-DATE
+> Task :sample:jar UP-TO-DATE
+> Task :sample:assemble UP-TO-DATE
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+14 actionable tasks: 14 up-to-date
+
+2018-10-08 16:48:33,220 ERROR FullProcessService - Project build has not produced APK file
+2018-10-08 16:48:33,243 ERROR FullProcessService - Could not find generated or existed APK file

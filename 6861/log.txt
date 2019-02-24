@@ -1,0 +1,176 @@
+2018-11-14 23:15:37,716 INFO  DownloadService - Downloading "https://github.com/deva666/Peko/archive/master.zip", attempt 3
+2018-11-14 23:16:39,019 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-11-14 23:16:39,978 INFO  GithubDownloadService - Default branch of this repository: master
+2018-11-14 23:16:39,978 INFO  DownloadService - Downloading "https://github.com/deva666/Peko/archive/master.zip", attempt 3
+2018-11-14 23:17:41,431 DEBUG FullProcessService - Repository https://github.com/deva666/Peko available: true
+2018-11-14 23:17:41,431 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-11-14 23:17:41,431 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/deva666/Peko, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src]
+2018-11-14 23:17:43,483 INFO  SysUtils - 
+2018-11-14 23:17:43,492 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/.git": true
+2018-11-14 23:17:43,495 INFO  FullProcessService - Size of directory with sources: 196 KB
+2018-11-14 23:17:43,495 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src]
+2018-11-14 23:17:43,514 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/.git/
+
+2018-11-14 23:17:43,517 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/gradlew
+2018-11-14 23:17:43,520 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/peko/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/build.gradle
+2018-11-14 23:17:43,524 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/peko/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/peko/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/settings.gradle
+2018-11-14 23:17:43,524 INFO  ProjectBuildService - Remote scripts: none
+2018-11-14 23:17:43,524 INFO  ProjectFixService - Fixing project...
+2018-11-14 23:17:43,532 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/examples/local.properties
+2018-11-14 23:17:43,533 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/examples/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2018-11-14 23:17:43,534 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/examples/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2018-11-14 23:17:43,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/peko/local.properties
+2018-11-14 23:17:43,536 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/peko/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2018-11-14 23:17:43,536 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/peko/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2018-11-14 23:17:43,537 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/local.properties
+2018-11-14 23:17:43,537 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-11-14 23:17:43,538 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-11-14 23:17:43,539 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2018-11-14 23:17:43,540 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2018-11-14 23:17:43,540 INFO  ProjectFixService - Project was maybe fixed
+2018-11-14 23:17:43,540 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-14 23:17:43,540 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-14 23:17:52,277 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-14 23:17:52,277 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-14 23:17:52,277 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-14 23:18:56,157 INFO  SysUtils - Configuration on demand is an incubating feature.
+:examples:checkDebugClasspath
+:examples:preBuild UP-TO-DATE
+:peko:preBuild UP-TO-DATE
+:peko:preDebugBuild UP-TO-DATE
+:peko:checkDebugManifest
+:peko:processDebugManifest
+:examples:preDebugBuild
+:peko:compileDebugAidl NO-SOURCE
+:examples:compileDebugAidl NO-SOURCE
+:peko:packageDebugRenderscript NO-SOURCE
+:examples:compileDebugRenderscript
+:examples:checkDebugManifest
+:examples:generateDebugBuildConfig
+:examples:mainApkListPersistenceDebug
+:examples:generateDebugResValues
+:examples:generateDebugResources
+:peko:compileDebugRenderscript
+:peko:generateDebugResValues
+:peko:generateDebugResources
+:peko:packageDebugResources
+:examples:mergeDebugResources
+:examples:createDebugCompatibleScreenManifests
+:examples:processDebugManifest
+:examples:splitsDiscoveryTaskDebug
+:peko:generateDebugRFile
+:examples:processDebugResources
+:peko:generateDebugBuildConfig
+:peko:kaptGenerateStubsDebugKotlin
+:peko:kaptDebugKotlin
+:peko:compileDebugKotlin
+:peko:prepareLintJar
+:peko:generateDebugSources
+:peko:javaPreCompileDebug
+:peko:compileDebugJavaWithJavac
+:peko:processDebugJavaRes NO-SOURCE
+:peko:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:examples:compileDebugKotlin
+:examples:prepareLintJar
+:examples:generateDebugSources
+:examples:javaPreCompileDebug
+:examples:compileDebugJavaWithJavac
+:examples:compileDebugNdk NO-SOURCE
+:examples:compileDebugSources
+:examples:mergeDebugShaders
+:examples:compileDebugShaders
+:examples:generateDebugAssets
+:peko:mergeDebugShaders
+:peko:compileDebugShaders
+:peko:generateDebugAssets
+:peko:packageDebugAssets
+:examples:mergeDebugAssets
+:examples:transformClassesWithDexBuilderForDebug
+:examples:transformDexArchiveWithExternalLibsDexMergerForDebug
+:examples:transformDexArchiveWithDexMergerForDebug
+:examples:mergeDebugJniLibFolders
+:peko:compileDebugNdk NO-SOURCE
+:peko:mergeDebugJniLibFolders
+:peko:transformNativeLibsWithMergeJniLibsForDebug
+:peko:transformNativeLibsWithStripDebugSymbolForDebug
+:peko:transformNativeLibsWithIntermediateJniLibsForDebug
+:examples:transformNativeLibsWithMergeJniLibsForDebug
+:examples:transformNativeLibsWithStripDebugSymbolForDebug
+:examples:checkDebugLibraries
+:examples:processDebugJavaRes NO-SOURCE
+:examples:transformResourcesWithMergeJavaResForDebug
+:examples:validateSigningDebug
+:examples:packageDebug
+:examples:assembleDebug
+:examples:checkReleaseClasspath
+:peko:preReleaseBuild UP-TO-DATE
+:peko:checkReleaseManifest
+:peko:processReleaseManifest
+:examples:preReleaseBuild
+:peko:compileReleaseAidl NO-SOURCE
+:examples:compileReleaseAidl NO-SOURCE
+:peko:packageReleaseRenderscript NO-SOURCE
+:examples:compileReleaseRenderscript
+:examples:checkReleaseManifest
+:examples:generateReleaseBuildConfig
+:examples:mainApkListPersistenceRelease
+:examples:generateReleaseResValues
+:examples:generateReleaseResources
+:peko:compileReleaseRenderscript
+:peko:generateReleaseResValues
+:peko:generateReleaseResources
+:peko:packageReleaseResources
+:examples:mergeReleaseResources
+:examples:createReleaseCompatibleScreenManifests
+:examples:processReleaseManifest
+:examples:splitsDiscoveryTaskRelease
+:peko:generateReleaseRFile
+:examples:processReleaseResources
+:peko:generateReleaseBuildConfig
+:peko:kaptGenerateStubsReleaseKotlin
+:peko:kaptReleaseKotlin
+:peko:compileReleaseKotlin
+:peko:generateReleaseSources
+:peko:javaPreCompileRelease
+:peko:compileReleaseJavaWithJavac
+:peko:processReleaseJavaRes NO-SOURCE
+:peko:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:examples:compileReleaseKotlin
+:examples:generateReleaseSources
+:examples:javaPreCompileRelease
+:examples:compileReleaseJavaWithJavac
+:examples:compileReleaseNdk NO-SOURCE
+:examples:compileReleaseSources
+:examples:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/e052df85ee74da2a1763485602b62aae/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar
+:examples:mergeReleaseShaders
+:examples:compileReleaseShaders
+:examples:generateReleaseAssets
+:peko:mergeReleaseShaders
+:peko:compileReleaseShaders
+:peko:generateReleaseAssets
+:peko:packageReleaseAssets
+:examples:mergeReleaseAssets
+:examples:transformClassesWithDexBuilderForRelease
+:examples:transformDexArchiveWithExternalLibsDexMergerForRelease
+:examples:transformDexArchiveWithDexMergerForRelease
+:examples:mergeReleaseJniLibFolders
+:peko:compileReleaseNdk NO-SOURCE
+:peko:mergeReleaseJniLibFolders
+:peko:transformNativeLibsWithMergeJniLibsForRelease
+:peko:transformNativeLibsWithStripDebugSymbolForRelease
+:peko:transformNativeLibsWithIntermediateJniLibsForRelease
+:examples:transformNativeLibsWithMergeJniLibsForRelease
+:examples:transformNativeLibsWithStripDebugSymbolForRelease
+:examples:checkReleaseLibraries
+:examples:processReleaseJavaRes NO-SOURCE
+:examples:transformResourcesWithMergeJavaResForRelease
+:examples:packageRelease
+:examples:assembleRelease
+:examples:assemble
+:examples:build
+
+BUILD SUCCESSFUL in 1m 3s
+98 actionable tasks: 98 executed
+
+2018-11-14 23:18:56,264 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542212137711-0/src/examples/build/outputs/apk/release/examples-release-unsigned.apk

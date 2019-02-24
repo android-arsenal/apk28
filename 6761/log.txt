@@ -1,0 +1,1271 @@
+2019-01-18 11:38:42,783 INFO  DownloadService - Downloading "https://github.com/TheJuki/KFormMaster/archive/master.zip", attempt 3
+2019-01-18 11:39:43,436 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-18 11:39:44,406 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-18 11:39:44,406 INFO  DownloadService - Downloading "https://github.com/TheJuki/KFormMaster/archive/master.zip", attempt 3
+2019-01-18 11:40:45,816 DEBUG FullProcessService - Repository https://github.com/TheJuki/KFormMaster available: true
+2019-01-18 11:40:45,816 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-18 11:40:45,816 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/TheJuki/KFormMaster, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src]
+2019-01-18 11:40:49,928 INFO  SysUtils - 
+2019-01-18 11:40:49,939 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/.git": true
+2019-01-18 11:40:49,949 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-01-18 11:40:49,949 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src]
+2019-01-18 11:40:49,969 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/.git/
+
+2019-01-18 11:40:49,976 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/gradlew
+2019-01-18 11:40:49,983 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/build.gradle
+2019-01-18 11:40:49,990 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/settings.gradle
+2019-01-18 11:40:49,990 INFO  ProjectBuildService - Remote scripts: none
+2019-01-18 11:40:49,990 INFO  ProjectFixService - Fixing project...
+2019-01-18 11:40:50,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/local.properties
+2019-01-18 11:40:50,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-18 11:40:50,007 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-18 11:40:50,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/form/local.properties
+2019-01-18 11:40:50,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/form/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-18 11:40:50,009 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/form/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-18 11:40:50,010 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/local.properties
+2019-01-18 11:40:50,010 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-01-18 11:40:50,011 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-01-18 11:40:50,012 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-18 11:40:50,012 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-18 11:40:50,013 INFO  ProjectFixService - Project was maybe fixed
+2019-01-18 11:40:50,013 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-18 11:40:50,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-18 11:40:59,177 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-18 11:40:59,177 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-18 11:40:59,177 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-18 11:42:31,374 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :form
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.11) with JetifyTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.11) with IdentityTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarCompileClassesTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarCompileClassesTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarCompileClassesTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarCompileClassesTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11) with IdentityTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarCompileClassesTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarCompileClassesTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarCompileClassesTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarCompileClassesTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarCompileClassesTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarCompileClassesTransform
+> Transform core.aar (androidx.core:core:1.0.0) with JetifyTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarCompileClassesTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarCompileClassesTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarCompileClassesTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarCompileClassesTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarCompileClassesTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarCompileClassesTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarCompileClassesTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarCompileClassesTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with JetifyTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarCompileClassesTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarCompileClassesTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarCompileClassesTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarCompileClassesTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarCompileClassesTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarCompileClassesTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarCompileClassesTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with ExtractAarTransform
+> Transform kotlin-stdlib-jdk8.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.11) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarCompileClassesTransform
+> Transform kotlin-stdlib-jdk8.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.11) with IdentityTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with JetifyTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with ExtractAarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarCompileClassesTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with ExtractAarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarCompileClassesTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarCompileClassesTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :app:preBuild UP-TO-DATE
+> Task :form:preBuild UP-TO-DATE
+> Task :form:preDebugBuild UP-TO-DATE
+> Task :form:checkDebugManifest
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with ExtractAarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with JetifyTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.11) with JetifyTransform
+> Task :form:processDebugManifest
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.11) with IdentityTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarCompileClassesTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :form:packageDebugRenderscript NO-SOURCE
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with LibrarySymbolTableTransform
+> Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.core:core:1.0.0) with LibrarySymbolTableTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with LibrarySymbolTableTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with LibrarySymbolTableTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with LibrarySymbolTableTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with LibrarySymbolTableTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarCompileClassesTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with LibrarySymbolTableTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :form:generateDebugResValues
+> Task :form:generateDebugBuildConfig
+> Task :form:prepareLintJar
+> Task :form:processDebugJavaRes NO-SOURCE
+> Task :app:prepareLintJar
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.0-5013011) with Aapt2Extractor
+> Task :form:mergeDebugShaders
+> Task :form:compileDebugShaders
+> Task :form:generateDebugAssets
+> Task :form:packageDebugAssets
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.11) with IdentityTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.11) with IdentityTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11) with IdentityTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform kotlin-stdlib-jdk8.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.11) with IdentityTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :form:compileDebugNdk NO-SOURCE
+> Task :form:mergeDebugJniLibFolders
+> Transform kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.3.11) with JetifyTransform
+
+> Transform org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with JetifyTransform
+ERROR: [TAG] Failed to resolve variable '${project.groupId}'
+
+> Task :form:transformNativeLibsWithMergeJniLibsForDebug
+> Transform org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with IdentityTransform
+> Transform org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with IdentityTransform
+> Transform kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.3.11) with IdentityTransform
+> Transform kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.3.11) with IdentityTransform
+> Task :form:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :form:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:extractProguardFiles
+> Task :form:preReleaseBuild UP-TO-DATE
+> Task :form:checkReleaseManifest
+> Task :form:processReleaseManifest
+> Task :form:packageReleaseRenderscript NO-SOURCE
+> Task :form:generateReleaseResValues
+> Task :form:generateReleaseBuildConfig
+> Task :form:processReleaseJavaRes NO-SOURCE
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :form:mergeReleaseShaders
+> Task :form:compileReleaseShaders
+> Task :form:generateReleaseAssets
+> Task :form:packageReleaseAssets
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with ExtractProGuardRulesTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with ExtractProGuardRulesTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11) with ExtractProGuardRulesTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with ExtractProGuardRulesTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with ExtractProGuardRulesTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.11) with ExtractProGuardRulesTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.11) with ExtractProGuardRulesTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with ExtractProGuardRulesTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform kotlin-stdlib-jdk8.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.11) with ExtractProGuardRulesTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.3.11) with ExtractProGuardRulesTransform
+> Task :form:mergeReleaseConsumerProguardFiles
+> Task :form:compileReleaseNdk NO-SOURCE
+> Task :form:mergeReleaseJniLibFolders
+> Task :form:transformNativeLibsWithMergeJniLibsForRelease
+> Task :form:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :form:transformNativeLibsWithIntermediateJniLibsForRelease
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with JetifyTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with ExtractAarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with AarCompileClassesTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with LibrarySymbolTableTransform
+> Task :form:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :form:compileDebugRenderscript
+> Task :form:generateDebugResources
+> Task :form:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :form:generateDebugRFile
+> Task :app:processDebugResources
+> Task :form:compileDebugKotlin
+> Task :form:generateDebugSources
+> Task :form:javaPreCompileDebug
+> Task :form:compileDebugJavaWithJavac
+> Task :form:jacocoDebug
+> Task :form:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (201, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (201, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (207, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (221, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (236, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (251, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (269, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (284, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (300, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (315, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (330, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (349, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (365, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (381, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (397, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (423, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (436, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (448, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (479, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (487, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (487, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (208, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (208, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (87, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (97, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (108, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (119, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (130, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (141, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (154, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (166, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (178, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (192, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (205, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (220, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (235, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (257, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (269, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (280, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (292, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (299, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (299, 48): Parameter 'element' is never used, could be renamed to _
+> Task :app:compileDebugKotlin
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with AarTransform
+> Task :app:mergeDebugJniLibFolders
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/org.jacoco.agent-0.7.9-runtime.jar/85cd51051698b420a9678b77a18772e2/jetified-org.jacoco.agent-0.7.9-runtime.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.jacoco.agent.rt.internal_8ff85ea.JmxRegistration.<init>(org.jacoco.agent.rt.IAgent)`
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/org.jacoco.agent-0.7.9-runtime.jar/85cd51051698b420a9678b77a18772e2/jetified-org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime$1` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/org.jacoco.agent-0.7.9-runtime.jar/85cd51051698b420a9678b77a18772e2/jetified-org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.CoverageTransformer` is correct. Desugaring will assume that this interface has no default method.
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:preReleaseBuild
+> Task :form:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :form:compileReleaseRenderscript
+> Task :form:generateReleaseResources
+> Task :form:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :form:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :form:compileReleaseKotlin
+> Task :form:generateReleaseSources
+> Task :form:javaPreCompileRelease
+> Task :form:compileReleaseJavaWithJavac
+> Task :form:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (201, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (201, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (207, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (221, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (236, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (251, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (269, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (284, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (300, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (315, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (330, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (349, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (365, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (381, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (397, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (423, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (436, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (448, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (479, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (487, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (487, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (208, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (208, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (87, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (97, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (108, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (119, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (130, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (141, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (154, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (166, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (178, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (192, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (205, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (220, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (235, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (257, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (269, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (280, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (292, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (299, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (299, 48): Parameter 'element' is never used, could be renamed to _
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with AarTransform
+> Task :app:mergeReleaseShaders
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1b167f1e82fc9691a1f38e9c43a44fac/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:2.0.8) with AarTransform
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/8cbd87c3a58a8c1e7e251b17f85a9ab7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/fcd95100263201bf04281ea771908549/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/RendererRecyclerViewAdapter-2.7.0-SNAPSHOT.aar/24af441ae6a6bd3d4b775191fd7c7157/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/c404521e1096a1286bab774f87c9ce1a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.11/dd9bff00d6cfca58b6c1fe89be8e0678e35cf35f/kotlin-stdlib-jdk8-1.3.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/kotlin-reflect-1.3.11.jar/9af7fc88d52da3afa8a2eb85f61db173/jetified-kotlin-reflect-1.3.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/48b0b42edaa666184064253d1ab55ca6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/372bca22718e80ab6fefb9c14cee9a53/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/dfff8ce3b11f35291e5137e6ceb7d54e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/84ee1a58a6529bcb53128e8540e356bb/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/2c5c85005f6f83afc46bf9b9219f9b8e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/68d103ec70393c44d634f75e9e9bb9a8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/cea91e6307aeede6de8b2713cfa09c24/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/4f394a219cc17774ae714310ff05afe8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/2be767012fe99f406a85d20445348c10/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/0accbba57aaed0c07ba3dad581d6e3f3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/dec5c2050c8962f1f572a031f83c1b47/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/a0e72d0a48ff204b091cdf2e5e7a50fe/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/c597640be25ab4cecf5e7ed20b0ba8ac/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/ef2b1043e470cd738a8979437842a0ea/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/d6dab6606d711743898810c23172b3b3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/93aa51d0ce18ae900ae40e8651ce8f0c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/fa0fa22be59db0a76d9e4a010b240500/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/2b0a034a5960c605a0b2f88610728035/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/de8e7420a9190e6d8b64a86c8cd19361/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/d873a00a3aa06c491dba7bf329f184f3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/e7c986158714aa4a72c1e1c59f93c7d9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/d4a4bcd29aec1cccb70f3206b41c212b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/5c166046714667aa91d5997fdceba210/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/ef87c9887e38c9650d930aa63ff9de82/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/e31af656f6bcb58909dacf4f440d07d9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/4da8490e45590ba4df7ca99b03c7b96d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/1a06d76c7b7221577ef50dd0ab66f909/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11/4839661cf6ce3c14b65ed7dcf5b9249b44ecca16/kotlin-stdlib-jdk7-1.3.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-tokenautocomplete-2.0.8.aar/29836a4b1ebb8c7bf7f1304e3a990c93/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/form/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build/tmp/kotlin-classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'com.thejuki.kformmaster.FormActivityTest'
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
+Note: kotlin.coroutines.jvm.internal.DebugMetadataKt accesses a declared field 'label' dynamically
+      Maybe this is program field 'com.thejuki.kformmaster.helper.FormLayouts { java.lang.Integer label; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.item.ContactItem { java.lang.String label; }'
+      Maybe this is program field 'kotlin.collections.SlidingWindowKt$windowedIterator$1 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.experimental.jvm.internal.CoroutineImpl { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$1 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$2 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$4 { int label; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.Variance { java.lang.String label; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1 { int label; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2 { int label; }'
+      Maybe this is library field 'android.R$attr { int label; }'
+      Maybe this is library field 'android.app.LauncherActivity$ListItem { java.lang.CharSequence label; }'
+      Maybe this is library field 'android.appwidget.AppWidgetProviderInfo { java.lang.String label; }'
+      Maybe this is library field 'android.inputmethodservice.Keyboard$Key { java.lang.CharSequence label; }'
+      Maybe this is library field 'android.speech.tts.TextToSpeech$EngineInfo { java.lang.String label; }'
+      Maybe this is library field 'android.view.inputmethod.EditorInfo { java.lang.CharSequence label; }'
+Note: kotlin.reflect.jvm.internal.KClassImpl$Data$objectInstance$2 accesses a declared field 'INSTANCE' dynamically
+      Maybe this is program field 'com.thejuki.kformmaster.model.FormPickerDateElement$reInitDialog$listener$1$2 { com.thejuki.kformmaster.model.FormPickerDateElement$reInitDialog$listener$1$2 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmaster.model.FormPickerDateTimeElement$reInitDialog$listener$1$2 { com.thejuki.kformmaster.model.FormPickerDateTimeElement$reInitDialog$listener$1$2 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmaster.model.FormPickerDropDownElement$reInitDialog$listener$1$2 { com.thejuki.kformmaster.model.FormPickerDropDownElement$reInitDialog$listener$1$2 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmaster.model.FormPickerMultiCheckBoxElement$reInitDialog$2$3 { com.thejuki.kformmaster.model.FormPickerMultiCheckBoxElement$reInitDialog$2$3 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmaster.model.FormPickerMultiCheckBoxElement$reInitDialog$listener$1$2 { com.thejuki.kformmaster.model.FormPickerMultiCheckBoxElement$reInitDialog$listener$1$2 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmaster.model.FormPickerTimeElement$reInitDialog$listener$1$2 { com.thejuki.kformmaster.model.FormPickerTimeElement$reInitDialog$listener$1$2 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmaster.view.BaseFormViewBinder$setOnClickListener$listener$1$2 { com.thejuki.kformmaster.view.BaseFormViewBinder$setOnClickListener$listener$1$2 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.FormListenerActivity$setupForm$1$25$1$2 { com.thejuki.kformmasterexample.FormListenerActivity$setupForm$1$25$1$2 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.FullscreenFormActivity$setupForm$1$25$1$2 { com.thejuki.kformmasterexample.FullscreenFormActivity$setupForm$1$25$1$2 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.FullscreenFormActivity$validate$2 { com.thejuki.kformmasterexample.FullscreenFormActivity$validate$2 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.PartialScreenFormActivity$setupForm$1$25$1$2 { com.thejuki.kformmasterexample.PartialScreenFormActivity$setupForm$1$25$1$2 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$1 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$1 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$10 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$10 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$11 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$11 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$12 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$12 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$13 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$13 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$14 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$14 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$15 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$15 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$16 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$16 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$17 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$17 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$18 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$18 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$2 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$2 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$3 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$3 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$4 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$4 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$5 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$5 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$6 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$6 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$7 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$7 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$8 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$8 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$9 { com.thejuki.kformmasterexample.TestFormActivity$setupForm$1$9 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.TestFormActivity$validate$2 { com.thejuki.kformmasterexample.TestFormActivity$validate$2 INSTANCE; }'
+      Maybe this is program field 'com.thejuki.kformmasterexample.fragment.FormFragment$setupForm$1$25$1$2 { com.thejuki.kformmasterexample.fragment.FormFragment$setupForm$1$25$1$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.UNINITIALIZED_VALUE { kotlin.UNINITIALIZED_VALUE INSTANCE; }'
+      Maybe this is program field 'kotlin.Unit { kotlin.Unit INSTANCE; }'
+      Maybe this is program field 'kotlin._Assertions { kotlin._Assertions INSTANCE; }'
+      Maybe this is program field 'kotlin.collections.EmptyIterator { kotlin.collections.EmptyIterator INSTANCE; }'
+      Maybe this is program field 'kotlin.collections.EmptyList { kotlin.collections.EmptyList INSTANCE; }'
+      Maybe this is program field 'kotlin.collections.EmptyMap { kotlin.collections.EmptyMap INSTANCE; }'
+      Maybe this is program field 'kotlin.collections.EmptySet { kotlin.collections.EmptySet INSTANCE; }'
+      Maybe this is program field 'kotlin.comparisons.NaturalOrderComparator { kotlin.comparisons.NaturalOrderComparator INSTANCE; }'
+      Maybe this is program field 'kotlin.comparisons.ReverseOrderComparator { kotlin.comparisons.ReverseOrderComparator INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.CombinedContext$toString$1 { kotlin.coroutines.CombinedContext$toString$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.CoroutineContext$plus$1 { kotlin.coroutines.CoroutineContext$plus$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.EmptyCoroutineContext { kotlin.coroutines.EmptyCoroutineContext INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.experimental.CombinedContext$toString$1 { kotlin.coroutines.experimental.CombinedContext$toString$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.experimental.CoroutineContext$plus$1 { kotlin.coroutines.experimental.CoroutineContext$plus$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.experimental.EmptyCoroutineContext { kotlin.coroutines.experimental.EmptyCoroutineContext INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.jvm.internal.CompletedContinuation { kotlin.coroutines.jvm.internal.CompletedContinuation INSTANCE; }'
+      Maybe this is program field 'kotlin.io.ConsoleKt$decoder$2 { kotlin.io.ConsoleKt$decoder$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.io.FilesKt__UtilsKt$copyRecursively$1 { kotlin.io.FilesKt__UtilsKt$copyRecursively$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.BooleanCompanionObject { kotlin.jvm.internal.BooleanCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.ByteCompanionObject { kotlin.jvm.internal.ByteCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.CallableReference$NoReceiver { kotlin.jvm.internal.CallableReference$NoReceiver INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.CharCompanionObject { kotlin.jvm.internal.CharCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.DoubleCompanionObject { kotlin.jvm.internal.DoubleCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.EnumCompanionObject { kotlin.jvm.internal.EnumCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.FloatCompanionObject { kotlin.jvm.internal.FloatCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.IntCompanionObject { kotlin.jvm.internal.IntCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.LongCompanionObject { kotlin.jvm.internal.LongCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.ShortCompanionObject { kotlin.jvm.internal.ShortCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.StringCompanionObject { kotlin.jvm.internal.StringCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.math.Constants { kotlin.math.Constants INSTANCE; }'
+      Maybe this is program field 'kotlin.properties.Delegates { kotlin.properties.Delegates INSTANCE; }'
+      Maybe this is program field 'kotlin.random.Random$Companion { kotlin.random.Random$Companion INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.KParameter$Kind { kotlin.reflect.KParameter$Kind INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.full.KClasses$allSupertypes$1 { kotlin.reflect.full.KClasses$allSupertypes$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.full.KClasses$allSupertypes$1$1$1$1 { kotlin.reflect.full.KClasses$allSupertypes$1$1$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.full.KClasses$isSubclassOf$1 { kotlin.reflect.KProperty1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.ReflectLambdaKt$reflect$descriptor$1 { kotlin.reflect.jvm.ReflectLambdaKt$reflect$descriptor$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.EmptyContainerForLocal { kotlin.reflect.jvm.internal.EmptyContainerForLocal INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.JvmFunctionSignature$FakeJavaAnnotationConstructor$asString$1 { kotlin.reflect.jvm.internal.JvmFunctionSignature$FakeJavaAnnotationConstructor$asString$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.JvmFunctionSignature$JavaConstructor$asString$1 { kotlin.reflect.jvm.internal.JvmFunctionSignature$JavaConstructor$asString$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.KClassImpl$Data$supertypes$2$3 { kotlin.reflect.jvm.internal.KClassImpl$Data$supertypes$2$3 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.KClassImpl$getLocalProperty$2$1$1 { kotlin.reflect.jvm.internal.KClassImpl$getLocalProperty$2$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.KDeclarationContainerImpl$findFunctionDescriptor$allMembers$1 { kotlin.reflect.jvm.internal.KDeclarationContainerImpl$findFunctionDescriptor$allMembers$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.KDeclarationContainerImpl$findPropertyDescriptor$allMembers$1 { kotlin.reflect.jvm.internal.KDeclarationContainerImpl$findPropertyDescriptor$allMembers$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.KDeclarationContainerImpl$findPropertyDescriptor$mostVisibleProperties$2 { kotlin.reflect.jvm.internal.KDeclarationContainerImpl$findPropertyDescriptor$mostVisibleProperties$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.KPackageImpl$getLocalProperty$1$1$1 { kotlin.reflect.jvm.internal.KPackageImpl$getLocalProperty$1$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.ReflectionObjectRenderer { kotlin.reflect.jvm.internal.ReflectionObjectRenderer INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.ReflectionObjectRenderer$renderFunction$1$1 { kotlin.reflect.jvm.internal.ReflectionObjectRenderer$renderFunction$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.ReflectionObjectRenderer$renderLambda$1$1 { kotlin.reflect.jvm.internal.ReflectionObjectRenderer$renderLambda$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.RuntimeTypeMapper { kotlin.reflect.jvm.internal.RuntimeTypeMapper INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.RuntimeTypeMapperKt$signature$1 { kotlin.reflect.jvm.internal.RuntimeTypeMapperKt$signature$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.calls.AnnotationConstructorCallerKt$createAnnotationInstance$toString$2$1$1 { kotlin.reflect.jvm.internal.calls.AnnotationConstructorCallerKt$createAnnotationInstance$toString$2$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.calls.ThrowingCaller { kotlin.reflect.jvm.internal.calls.ThrowingCaller INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.components.ReflectClassStructure { kotlin.reflect.jvm.internal.components.ReflectClassStructure INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.components.RuntimeErrorReporter { kotlin.reflect.jvm.internal.components.RuntimeErrorReporter INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.components.RuntimePackagePartProvider$EmptyEnumeration { kotlin.reflect.jvm.internal.components.RuntimePackagePartProvider$EmptyEnumeration INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.components.RuntimePackagePartProvider$registerModule$1$mapping$1 { kotlin.reflect.jvm.internal.components.RuntimePackagePartProvider$registerModule$1$mapping$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.components.RuntimeSourceElementFactory { kotlin.reflect.jvm.internal.components.RuntimeSourceElementFactory INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.components.SignatureSerializer { kotlin.reflect.jvm.internal.components.SignatureSerializer INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.BuiltInsLoader$Companion$Instance$2 { kotlin.reflect.jvm.internal.impl.builtins.BuiltInsLoader$Companion$Instance$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.CompanionObjectMapping { kotlin.reflect.jvm.internal.impl.builtins.CompanionObjectMapping INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.DefaultBuiltIns$Companion$initializer$1 { kotlin.reflect.jvm.internal.impl.builtins.DefaultBuiltIns$Companion$initializer$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.UnsignedTypes { kotlin.reflect.jvm.internal.impl.builtins.UnsignedTypes INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.jvm.FallbackBuiltIns$Companion$initializer$1 { kotlin.reflect.jvm.internal.impl.builtins.jvm.FallbackBuiltIns$Companion$initializer$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.jvm.JavaToKotlinClassMap { kotlin.reflect.jvm.internal.impl.builtins.jvm.JavaToKotlinClassMap INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.jvm.JvmBuiltInClassDescriptorFactory$1 { kotlin.reflect.jvm.internal.impl.builtins.jvm.JvmBuiltInClassDescriptorFactory$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.jvm.JvmBuiltInsSettings$isMutabilityViolation$1 { kotlin.reflect.jvm.internal.impl.builtins.jvm.JvmBuiltInsSettings$isMutabilityViolation$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.ConstUtil { kotlin.reflect.jvm.internal.impl.descriptors.ConstUtil INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.FindClassInModuleKt$findNonGenericClassAcrossDependencies$typeParametersCount$1 { kotlin.reflect.jvm.internal.impl.descriptors.FindClassInModuleKt$findNonGenericClassAcrossDependencies$typeParametersCount$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.FindClassInModuleKt$findNonGenericClassAcrossDependencies$typeParametersCount$2 { kotlin.reflect.jvm.internal.impl.descriptors.FindClassInModuleKt$findNonGenericClassAcrossDependencies$typeParametersCount$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.PackageFragmentProviderImpl$getSubPackagesOf$1 { kotlin.reflect.jvm.internal.impl.descriptors.PackageFragmentProviderImpl$getSubPackagesOf$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.SupertypeLoopChecker$EMPTY { kotlin.reflect.jvm.internal.impl.descriptors.SupertypeLoopChecker$EMPTY INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.TypeParameterUtilsKt$computeConstructorTypeParameters$parametersFromContainingFunctions$1 { kotlin.reflect.jvm.internal.impl.descriptors.TypeParameterUtilsKt$computeConstructorTypeParameters$parametersFromContainingFunctions$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.TypeParameterUtilsKt$computeConstructorTypeParameters$parametersFromContainingFunctions$2 { kotlin.reflect.jvm.internal.impl.descriptors.TypeParameterUtilsKt$computeConstructorTypeParameters$parametersFromContainingFunctions$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.annotations.CompositeAnnotations$iterator$1 { kotlin.reflect.jvm.internal.impl.descriptors.annotations.CompositeAnnotations$iterator$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.deserialization.AdditionalClassPartsProvider$None { kotlin.reflect.jvm.internal.impl.descriptors.deserialization.AdditionalClassPartsProvider$None INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.deserialization.PlatformDependentDeclarationFilter$All { kotlin.reflect.jvm.internal.impl.descriptors.deserialization.PlatformDependentDeclarationFilter$All INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.deserialization.PlatformDependentDeclarationFilter$NoPlatformDependent { kotlin.reflect.jvm.internal.impl.descriptors.deserialization.PlatformDependentDeclarationFilter$NoPlatformDependent INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.incremental.components.LookupTracker$DO_NOTHING { kotlin.reflect.jvm.internal.impl.incremental.components.LookupTracker$DO_NOTHING INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithDifferentJvmName { kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithDifferentJvmName INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithSpecialGenericSignature { kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithSpecialGenericSignature INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithSpecialGenericSignature$getOverriddenBuiltinFunctionWithErasedValueParametersInJava$1 { kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithSpecialGenericSignature$getOverriddenBuiltinFunctionWithErasedValueParametersInJava$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithSpecialGenericSignature$getSpecialSignatureInfo$builtinSignature$1 { kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithSpecialGenericSignature$getSpecialSignatureInfo$builtinSignature$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.BuiltinSpecialProperties { kotlin.reflect.jvm.internal.impl.load.java.BuiltinSpecialProperties INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.BuiltinSpecialProperties$getBuiltinSpecialPropertyGetterName$descriptor$1 { kotlin.reflect.jvm.internal.impl.load.java.BuiltinSpecialProperties$getBuiltinSpecialPropertyGetterName$descriptor$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.ErasedOverridabilityCondition$isOverridable$signatureTypes$1 { kotlin.reflect.jvm.internal.impl.load.java.ErasedOverridabilityCondition$isOverridable$signatureTypes$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.FakePureImplementationsProvider { kotlin.reflect.jvm.internal.impl.load.java.FakePureImplementationsProvider INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.JavaClassesTracker$Default { kotlin.reflect.jvm.internal.impl.load.java.JavaClassesTracker$Default INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.SpecialBuiltinMembers$getOverriddenBuiltinWithDifferentJvmName$1 { kotlin.reflect.jvm.internal.impl.load.java.SpecialBuiltinMembers$getOverriddenBuiltinWithDifferentJvmName$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.SpecialBuiltinMembers$getOverriddenBuiltinWithDifferentJvmName$2 { kotlin.reflect.jvm.internal.impl.load.java.SpecialBuiltinMembers$getOverriddenBuiltinWithDifferentJvmName$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.SpecialBuiltinMembers$getOverriddenSpecialBuiltin$2 { kotlin.reflect.jvm.internal.impl.load.java.SpecialBuiltinMembers$getOverriddenSpecialBuiltin$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationMapper { kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationMapper INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationTargetMapper { kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationTargetMapper INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationTargetMapper$mapJavaTargetArguments$1 { kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationTargetMapper$mapJavaTargetArguments$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.components.JavaDeprecatedAnnotationDescriptor$allValueArguments$2 { kotlin.reflect.jvm.internal.impl.load.java.components.JavaDeprecatedAnnotationDescriptor$allValueArguments$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.components.JavaPropertyInitializerEvaluator$DoNothing { kotlin.reflect.jvm.internal.impl.load.java.components.JavaPropertyInitializerEvaluator$DoNothing INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.components.SamConversionResolver$Empty { kotlin.reflect.jvm.internal.impl.load.java.components.SamConversionResolver$Empty INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.descriptors.NullDefaultValue { kotlin.reflect.jvm.internal.impl.load.java.descriptors.NullDefaultValue INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.JavaResolverSettings$Default { kotlin.reflect.jvm.internal.impl.load.java.lazy.JavaResolverSettings$Default INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.TypeParameterResolver$EMPTY { kotlin.reflect.jvm.internal.impl.load.java.lazy.TypeParameterResolver$EMPTY INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.DeclaredMemberIndex$Empty { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.DeclaredMemberIndex$Empty INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaClassMemberScope$computeMemberIndex$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaClassMemberScope$computeMemberIndex$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaPackageScope$KotlinClassLookupResult$NotFound { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaPackageScope$KotlinClassLookupResult$NotFound INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaPackageScope$KotlinClassLookupResult$SyntheticClass { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaPackageScope$KotlinClassLookupResult$SyntheticClass INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$computeMemberIndex$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$computeMemberIndex$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$computePropertyNames$1$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$computePropertyNames$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$flatMapJavaStaticSupertypesScopes$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$flatMapJavaStaticSupertypesScopes$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$flatMapJavaStaticSupertypesScopes$1$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$flatMapJavaStaticSupertypesScopes$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.types.JavaTypeResolver$argumentsMakeSenseOnlyForMutableContainer$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.types.JavaTypeResolver$argumentsMakeSenseOnlyForMutableContainer$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawSubstitution { kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawSubstitution INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawTypeImpl$render$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawTypeImpl$render$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawTypeImpl$render$3 { kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawTypeImpl$render$3 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawTypeImpl$render$newArgs$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawTypeImpl$render$newArgs$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.EnhancedTypeAnnotationDescriptor { kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.EnhancedTypeAnnotationDescriptor INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$SignatureParts$enhance$containsFunctionN$1 { kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$SignatureParts$enhance$containsFunctionN$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$SignatureParts$extractQualifiersFromAnnotations$2 { kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$SignatureParts$extractQualifiersFromAnnotations$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$enhanceSignature$receiverTypeEnhancement$1 { kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$enhanceSignature$receiverTypeEnhancement$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$enhanceSignature$returnTypeEnhancement$1 { kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$enhanceSignature$returnTypeEnhancement$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.kotlin.DeserializedDescriptorResolver$createKotlinPackagePartScope$2 { kotlin.reflect.jvm.internal.impl.load.kotlin.DeserializedDescriptorResolver$createKotlinPackagePartScope$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.kotlin.JavaFlexibleTypeDeserializer { kotlin.reflect.jvm.internal.impl.load.kotlin.JavaFlexibleTypeDeserializer INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.kotlin.JvmTypeFactoryImpl { kotlin.reflect.jvm.internal.impl.load.kotlin.JvmTypeFactoryImpl INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.kotlin.SignatureBuildingComponents { kotlin.reflect.jvm.internal.impl.load.kotlin.SignatureBuildingComponents INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.kotlin.SignatureBuildingComponents$jvmDescriptor$1 { kotlin.reflect.jvm.internal.impl.load.kotlin.SignatureBuildingComponents$jvmDescriptor$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.kotlin.TypeMappingConfigurationImpl { kotlin.reflect.jvm.internal.impl.load.kotlin.TypeMappingConfigurationImpl INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.metadata.builtins.BuiltInsBinaryVersion { kotlin.reflect.jvm.internal.impl.metadata.builtins.BuiltInsBinaryVersion INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.ClassMapperLite { kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.ClassMapperLite INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmBytecodeBinaryVersion { kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmBytecodeBinaryVersion INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmFlags { kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmFlags INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmMetadataVersion { kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmMetadataVersion INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmProtoBufUtil { kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmProtoBufUtil INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.name.NameUtils { kotlin.reflect.jvm.internal.impl.name.NameUtils INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.ClassifierNamePolicy$FULLY_QUALIFIED { kotlin.reflect.jvm.internal.impl.renderer.ClassifierNamePolicy$FULLY_QUALIFIED INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.ClassifierNamePolicy$SHORT { kotlin.reflect.jvm.internal.impl.renderer.ClassifierNamePolicy$SHORT INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.ClassifierNamePolicy$SOURCE_CODE_QUALIFIED { kotlin.reflect.jvm.internal.impl.renderer.ClassifierNamePolicy$SOURCE_CODE_QUALIFIED INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT_WITHOUT_SUPERTYPES$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT_WITHOUT_SUPERTYPES$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT_WITH_MODIFIERS$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT_WITH_MODIFIERS$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT_WITH_SHORT_TYPES$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT_WITH_SHORT_TYPES$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$DEBUG_TEXT$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$DEBUG_TEXT$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$FQ_NAMES_IN_TYPES$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$FQ_NAMES_IN_TYPES$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$HTML$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$HTML$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$ONLY_NAMES_WITH_SHORT_TYPES$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$ONLY_NAMES_WITH_SHORT_TYPES$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$SHORT_NAMES_IN_TYPES$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$SHORT_NAMES_IN_TYPES$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$ValueParametersHandler$DEFAULT { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$ValueParametersHandler$DEFAULT INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererImpl$functionTypeAnnotationsRenderer$2$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererImpl$functionTypeAnnotationsRenderer$2$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererImpl$functionTypeParameterTypesRenderer$2$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererImpl$functionTypeParameterTypesRenderer$2$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererOptionsImpl$defaultParameterValueRenderer$2 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererOptionsImpl$defaultParameterValueRenderer$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererOptionsImpl$typeNormalizer$2 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererOptionsImpl$typeNormalizer$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.ExcludedTypeAnnotations { kotlin.reflect.jvm.internal.impl.renderer.ExcludedTypeAnnotations INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.DescriptorEquivalenceForOverrides { kotlin.reflect.jvm.internal.impl.resolve.DescriptorEquivalenceForOverrides INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.DescriptorEquivalenceForOverrides$areCallableDescriptorsEquivalent$1 { kotlin.reflect.jvm.internal.impl.resolve.DescriptorEquivalenceForOverrides$areCallableDescriptorsEquivalent$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.DescriptorEquivalenceForOverrides$areTypeParametersEquivalent$1 { kotlin.reflect.jvm.internal.impl.resolve.DescriptorEquivalenceForOverrides$areTypeParametersEquivalent$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.MemberComparator { kotlin.reflect.jvm.internal.impl.resolve.MemberComparator INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.MemberComparator$NameAndTypeMemberComparator { kotlin.reflect.jvm.internal.impl.resolve.MemberComparator$NameAndTypeMemberComparator INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.OverridingUtilsKt$retainMostSpecificInEachOverridableGroup$newResult$1 { kotlin.reflect.jvm.internal.impl.resolve.OverridingUtilsKt$retainMostSpecificInEachOverridableGroup$newResult$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.constants.ConstantValueFactory { kotlin.reflect.jvm.internal.impl.resolve.constants.ConstantValueFactory INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt$declaresOrInheritsDefaultValue$1 { kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt$declaresOrInheritsDefaultValue$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt$declaresOrInheritsDefaultValue$2 { kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt$declaresOrInheritsDefaultValue$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt$parentsWithSelf$1 { kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt$parentsWithSelf$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.DescriptorKindExclude$NonExtensions { kotlin.reflect.jvm.internal.impl.resolve.scopes.DescriptorKindExclude$NonExtensions INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.DescriptorKindExclude$TopLevelPackages { kotlin.reflect.jvm.internal.impl.resolve.scopes.DescriptorKindExclude$TopLevelPackages INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.MemberScope$Companion$ALL_NAME_FILTER$1 { kotlin.reflect.jvm.internal.impl.resolve.scopes.MemberScope$Companion$ALL_NAME_FILTER$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.MemberScope$Empty { kotlin.reflect.jvm.internal.impl.resolve.scopes.MemberScope$Empty INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.TypeIntersectionScope$getContributedDescriptors$2 { kotlin.reflect.jvm.internal.impl.resolve.scopes.TypeIntersectionScope$getContributedDescriptors$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.TypeIntersectionScope$getContributedFunctions$1 { kotlin.reflect.jvm.internal.impl.resolve.scopes.TypeIntersectionScope$getContributedFunctions$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.TypeIntersectionScope$getContributedVariables$1 { kotlin.reflect.jvm.internal.impl.resolve.scopes.TypeIntersectionScope$getContributedVariables$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.DeserializationConfiguration$Default { kotlin.reflect.jvm.internal.impl.serialization.deserialization.DeserializationConfiguration$Default INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.FlexibleTypeDeserializer$ThrowException { kotlin.reflect.jvm.internal.impl.serialization.deserialization.FlexibleTypeDeserializer$ThrowException INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.LocalClassifierTypeSettings$Default { kotlin.reflect.jvm.internal.impl.serialization.deserialization.LocalClassifierTypeSettings$Default INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.MemberDeserializer$containsSuspendFunctionType$1 { kotlin.reflect.KProperty1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.ProtoEnumFlags { kotlin.reflect.jvm.internal.impl.serialization.deserialization.ProtoEnumFlags INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.TypeDeserializer$typeConstructor$1$classNestingLevel$1 { kotlin.reflect.jvm.internal.impl.serialization.deserialization.TypeDeserializer$typeConstructor$1$classNestingLevel$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.TypeDeserializer$typeConstructor$1$typeParametersCount$2 { kotlin.reflect.jvm.internal.impl.serialization.deserialization.TypeDeserializer$typeConstructor$1$typeParametersCount$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.builtins.BuiltInSerializerProtocol { kotlin.reflect.jvm.internal.impl.serialization.deserialization.builtins.BuiltInSerializerProtocol INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.storage.NoLock { java.util.concurrent.locks.Lock INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.AbstractTypeConstructor$supertypes$2 { kotlin.reflect.jvm.internal.impl.types.AbstractTypeConstructor$supertypes$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.KotlinTypeFactory { kotlin.reflect.jvm.internal.impl.types.KotlinTypeFactory INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.NewKotlinTypeChecker { kotlin.reflect.jvm.internal.impl.types.checker.NewKotlinTypeChecker INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.NullabilityChecker { kotlin.reflect.jvm.internal.impl.types.checker.NullabilityChecker INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.StrictEqualityTypeChecker { kotlin.reflect.jvm.internal.impl.types.checker.StrictEqualityTypeChecker INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.TypeCheckerContext$SupertypesPolicy$LowerIfFlexible { kotlin.reflect.jvm.internal.impl.types.checker.TypeCheckerContext$SupertypesPolicy$LowerIfFlexible INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.TypeCheckerContext$SupertypesPolicy$None { kotlin.reflect.jvm.internal.impl.types.checker.TypeCheckerContext$SupertypesPolicy$None INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.TypeCheckerContext$SupertypesPolicy$UpperIfFlexible { kotlin.reflect.jvm.internal.impl.types.checker.TypeCheckerContext$SupertypesPolicy$UpperIfFlexible INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.TypeIntersector { kotlin.reflect.jvm.internal.impl.types.checker.TypeIntersector INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.typesApproximation.CapturedTypeApproximationKt$approximateCapturedTypesIfNecessary$1 { kotlin.reflect.jvm.internal.impl.types.typesApproximation.CapturedTypeApproximationKt$approximateCapturedTypesIfNecessary$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.typesApproximation.CapturedTypeApproximationKt$toTypeProjection$1$descriptorRenderer$1 { kotlin.reflect.jvm.internal.impl.types.typesApproximation.CapturedTypeApproximationKt$toTypeProjection$1$descriptorRenderer$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.CheckResult$IllegalFunctionName { kotlin.reflect.jvm.internal.impl.util.CheckResult$IllegalFunctionName INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.CheckResult$SuccessCheck { kotlin.reflect.jvm.internal.impl.util.CheckResult$SuccessCheck INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.Checks$2 { kotlin.reflect.jvm.internal.impl.util.Checks$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.Checks$3 { kotlin.reflect.jvm.internal.impl.util.Checks$3 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.Checks$4 { kotlin.reflect.jvm.internal.impl.util.Checks$4 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.IsKPropertyCheck { kotlin.reflect.jvm.internal.impl.util.IsKPropertyCheck INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.MemberKindCheck$Member { kotlin.reflect.jvm.internal.impl.util.MemberKindCheck$Member INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.MemberKindCheck$MemberOrExtension { kotlin.reflect.jvm.internal.impl.util.MemberKindCheck$MemberOrExtension INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ModuleVisibilityHelper$EMPTY { kotlin.reflect.jvm.internal.impl.util.ModuleVisibilityHelper$EMPTY INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.NoDefaultAndVarargsCheck { kotlin.reflect.jvm.internal.impl.util.NoDefaultAndVarargsCheck INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.OperatorChecks { kotlin.reflect.jvm.internal.impl.util.OperatorChecks INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$1 { kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$2 { kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$2$1 { kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$2$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$3 { kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$3 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.OperatorNameConventions { kotlin.reflect.jvm.internal.impl.util.OperatorNameConventions INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsBoolean { kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsBoolean INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsBoolean$1 { kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsBoolean$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsInt { kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsInt INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsInt$1 { kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsInt$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsUnit { kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsUnit INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsUnit$1 { kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsUnit$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ValueParameterCountCheck$NoValueParameters { kotlin.reflect.jvm.internal.impl.util.ValueParameterCountCheck$NoValueParameters INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ValueParameterCountCheck$SingleValueParameter { kotlin.reflect.jvm.internal.impl.util.ValueParameterCountCheck$SingleValueParameter INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$ALWAYS_NULL$1 { kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$ALWAYS_NULL$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$ALWAYS_TRUE$1 { kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$ALWAYS_TRUE$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$DO_NOTHING$1 { kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$DO_NOTHING$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$DO_NOTHING_2$1 { kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$DO_NOTHING_2$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$DO_NOTHING_3$1 { kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$DO_NOTHING_3$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$IDENTITY$1 { kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$IDENTITY$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.SmartList$EmptyIterator { kotlin.reflect.jvm.internal.impl.utils.SmartList$EmptyIterator INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.Java8ParameterNamesLoader { kotlin.reflect.jvm.internal.structure.Java8ParameterNamesLoader INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectClassUtilKt$parameterizedTypeArguments$1 { kotlin.reflect.jvm.internal.structure.ReflectClassUtilKt$parameterizedTypeArguments$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectClassUtilKt$parameterizedTypeArguments$2 { kotlin.reflect.jvm.internal.structure.ReflectClassUtilKt$parameterizedTypeArguments$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$constructors$1 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$constructors$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$constructors$2 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$constructors$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$fields$1 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$fields$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$fields$2 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$fields$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$innerClassNames$1 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$innerClassNames$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$innerClassNames$2 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$innerClassNames$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$methods$2 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$methods$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.EmptySequence { kotlin.sequences.EmptySequence INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt__SequencesKt$flatten$1 { kotlin.sequences.SequencesKt__SequencesKt$flatten$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt__SequencesKt$flatten$2 { kotlin.sequences.SequencesKt__SequencesKt$flatten$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt__SequencesKt$flatten$3 { kotlin.sequences.SequencesKt__SequencesKt$flatten$3 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$distinct$1 { kotlin.sequences.SequencesKt___SequencesKt$distinct$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$filterIndexed$2 { kotlin.sequences.SequencesKt___SequencesKt$filterIndexed$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$filterIsInstance$1 { kotlin.sequences.SequencesKt___SequencesKt$filterIsInstance$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$filterNotNull$1 { kotlin.sequences.SequencesKt___SequencesKt$filterNotNull$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$flatMap$1 { kotlin.sequences.SequencesKt___SequencesKt$flatMap$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$zip$1 { kotlin.sequences.SequencesKt___SequencesKt$zip$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$1 { kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.CharCategory$Companion$categoryMap$2 { kotlin.text.CharCategory$Companion$categoryMap$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.CharDirectionality$Companion$directionalityMap$2 { kotlin.text.CharDirectionality$Companion$directionalityMap$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.Charsets { kotlin.text.Charsets INSTANCE; }'
+      Maybe this is program field 'kotlin.text.Regex$findAll$2 { kotlin.text.Regex$findAll$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.ScreenFloatValueRegEx { kotlin.text.ScreenFloatValueRegEx INSTANCE; }'
+      Maybe this is program field 'kotlin.text.StringsKt__IndentKt$getIndentFunction$1 { kotlin.text.StringsKt__IndentKt$getIndentFunction$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.StringsKt___StringsKt$chunkedSequence$1 { kotlin.text.StringsKt___StringsKt$chunkedSequence$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.StringsKt___StringsKt$windowed$1 { kotlin.text.StringsKt___StringsKt$windowed$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.StringsKt___StringsKt$windowedSequence$1 { kotlin.text.StringsKt___StringsKt$windowedSequence$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.SystemProperties { kotlin.text.SystemProperties INSTANCE; }'
+      Maybe this is program field 'kotlin.text.Typography { kotlin.text.Typography INSTANCE; }'
+      Maybe this is library field 'java.time.chrono.HijrahChronology { java.time.chrono.HijrahChronology INSTANCE; }'
+      Maybe this is library field 'java.time.chrono.IsoChronology { java.time.chrono.IsoChronology INSTANCE; }'
+      Maybe this is library field 'java.time.chrono.JapaneseChronology { java.time.chrono.JapaneseChronology INSTANCE; }'
+      Maybe this is library field 'java.time.chrono.MinguoChronology { java.time.chrono.MinguoChronology INSTANCE; }'
+      Maybe this is library field 'java.time.chrono.ThaiBuddhistChronology { java.time.chrono.ThaiBuddhistChronology INSTANCE; }'
+Note: the configuration keeps the entry point 'com.google.android.material.bottomnavigation.BottomNavigationMenuView { void setPresenter(com.google.android.material.bottomnavigation.BottomNavigationPresenter); }', but not the descriptor class 'com.google.android.material.bottomnavigation.BottomNavigationPresenter'
+Note: the configuration keeps the entry point 'com.google.android.material.bottomnavigation.BottomNavigationView { void setOnNavigationItemSelectedListener(com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationItemSelectedListener); }', but not the descriptor class 'com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationItemSelectedListener'
+Note: the configuration keeps the entry point 'com.google.android.material.bottomnavigation.BottomNavigationView { void setOnNavigationItemReselectedListener(com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationItemReselectedListener); }', but not the descriptor class 'com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationItemReselectedListener'
+Note: the configuration keeps the entry point 'com.google.android.material.chip.Chip { void setChipDrawable(com.google.android.material.chip.ChipDrawable); }', but not the descriptor class 'com.google.android.material.chip.ChipDrawable'
+Note: the configuration keeps the entry point 'com.google.android.material.chip.Chip { void setTextAppearance(com.google.android.material.resources.TextAppearance); }', but not the descriptor class 'com.google.android.material.resources.TextAppearance'
+Note: the configuration keeps the entry point 'com.google.android.material.chip.Chip { void setShowMotionSpec(com.google.android.material.animation.MotionSpec); }', but not the descriptor class 'com.google.android.material.animation.MotionSpec'
+Note: the configuration keeps the entry point 'com.google.android.material.chip.Chip { void setHideMotionSpec(com.google.android.material.animation.MotionSpec); }', but not the descriptor class 'com.google.android.material.animation.MotionSpec'
+Note: the configuration keeps the entry point 'com.google.android.material.chip.ChipGroup { void setOnCheckedChangeListener(com.google.android.material.chip.ChipGroup$OnCheckedChangeListener); }', but not the descriptor class 'com.google.android.material.chip.ChipGroup$OnCheckedChangeListener'
+Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealFrameLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
+Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealGridLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
+Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealLinearLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
+Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealRelativeLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
+Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.cardview.CircularRevealCardView { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
+Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
+Note: the configuration keeps the entry point 'com.google.android.material.floatingactionbutton.FloatingActionButton { void setShowMotionSpec(com.google.android.material.animation.MotionSpec); }', but not the descriptor class 'com.google.android.material.animation.MotionSpec'
+Note: the configuration keeps the entry point 'com.google.android.material.floatingactionbutton.FloatingActionButton { void setHideMotionSpec(com.google.android.material.animation.MotionSpec); }', but not the descriptor class 'com.google.android.material.animation.MotionSpec'
+Note: the configuration keeps the entry point 'com.google.android.material.navigation.NavigationView { void setNavigationItemSelectedListener(com.google.android.material.navigation.NavigationView$OnNavigationItemSelectedListener); }', but not the descriptor class 'com.google.android.material.navigation.NavigationView$OnNavigationItemSelectedListener'
+Note: the configuration keeps the entry point 'com.google.android.material.snackbar.BaseTransientBottomBar$SnackbarBaseLayout { void setOnLayoutChangeListener(com.google.android.material.snackbar.BaseTransientBottomBar$OnLayoutChangeListener); }', but not the descriptor class 'com.google.android.material.snackbar.BaseTransientBottomBar$OnLayoutChangeListener'
+Note: the configuration keeps the entry point 'com.google.android.material.snackbar.BaseTransientBottomBar$SnackbarBaseLayout { void setOnAttachStateChangeListener(com.google.android.material.snackbar.BaseTransientBottomBar$OnAttachStateChangeListener); }', but not the descriptor class 'com.google.android.material.snackbar.BaseTransientBottomBar$OnAttachStateChangeListener'
+Note: the configuration keeps the entry point 'com.google.android.material.tabs.TabLayout { void setOnTabSelectedListener(com.google.android.material.tabs.TabLayout$BaseOnTabSelectedListener); }', but not the descriptor class 'com.google.android.material.tabs.TabLayout$BaseOnTabSelectedListener'
+Note: the configuration keeps the entry point 'com.google.android.material.textfield.TextInputLayout { void setTextInputAccessibilityDelegate(com.google.android.material.textfield.TextInputLayout$AccessibilityDelegate); }', but not the descriptor class 'com.google.android.material.textfield.TextInputLayout$AccessibilityDelegate'
+Note: the configuration keeps the entry point 'com.thejuki.kformmaster.widget.ClearableEditText { void setListener(com.thejuki.kformmaster.widget.ClearableEditText$Listener); }', but not the descriptor class 'com.thejuki.kformmaster.widget.ClearableEditText$Listener'
+Note: the configuration keeps the entry point 'com.thejuki.kformmaster.widget.ClearableEditText { void setIconLocation(com.thejuki.kformmaster.widget.ClearableEditText$Location); }', but not the descriptor class 'com.thejuki.kformmaster.widget.ClearableEditText$Location'
+Note: the configuration keeps the entry point 'com.tokenautocomplete.TokenCompleteTextView { void setDeletionStyle(com.tokenautocomplete.TokenCompleteTextView$TokenDeleteStyle); }', but not the descriptor class 'com.tokenautocomplete.TokenCompleteTextView$TokenDeleteStyle'
+Note: the configuration keeps the entry point 'com.tokenautocomplete.TokenCompleteTextView { void setTokenClickStyle(com.tokenautocomplete.TokenCompleteTextView$TokenClickStyle); }', but not the descriptor class 'com.tokenautocomplete.TokenCompleteTextView$TokenClickStyle'
+Note: the configuration keeps the entry point 'com.tokenautocomplete.TokenCompleteTextView { void setTokenListener(com.tokenautocomplete.TokenCompleteTextView$TokenListener); }', but not the descriptor class 'com.tokenautocomplete.TokenCompleteTextView$TokenListener'
+Note: there were 1 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 26 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 2 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 2 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Ignoring unused library classes...
+  Original number of library classes: 4803
+  Final number of library classes:    1375
+
+> Task :app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 4953
+  Final number of program classes:    3384
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/8cbd87c3a58a8c1e7e251b17f85a9ab7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/fcd95100263201bf04281ea771908549/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/RendererRecyclerViewAdapter-2.7.0-SNAPSHOT.aar/24af441ae6a6bd3d4b775191fd7c7157/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/c404521e1096a1286bab774f87c9ce1a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.11/dd9bff00d6cfca58b6c1fe89be8e0678e35cf35f/kotlin-stdlib-jdk8-1.3.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/kotlin-reflect-1.3.11.jar/9af7fc88d52da3afa8a2eb85f61db173/jetified-kotlin-reflect-1.3.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/48b0b42edaa666184064253d1ab55ca6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/372bca22718e80ab6fefb9c14cee9a53/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/dfff8ce3b11f35291e5137e6ceb7d54e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/84ee1a58a6529bcb53128e8540e356bb/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/2c5c85005f6f83afc46bf9b9219f9b8e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/68d103ec70393c44d634f75e9e9bb9a8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/cea91e6307aeede6de8b2713cfa09c24/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/4f394a219cc17774ae714310ff05afe8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/2be767012fe99f406a85d20445348c10/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/0accbba57aaed0c07ba3dad581d6e3f3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/dec5c2050c8962f1f572a031f83c1b47/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/a0e72d0a48ff204b091cdf2e5e7a50fe/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/c597640be25ab4cecf5e7ed20b0ba8ac/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/ef2b1043e470cd738a8979437842a0ea/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/d6dab6606d711743898810c23172b3b3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/93aa51d0ce18ae900ae40e8651ce8f0c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/fa0fa22be59db0a76d9e4a010b240500/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/2b0a034a5960c605a0b2f88610728035/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/de8e7420a9190e6d8b64a86c8cd19361/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/d873a00a3aa06c491dba7bf329f184f3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/e7c986158714aa4a72c1e1c59f93c7d9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/d4a4bcd29aec1cccb70f3206b41c212b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/5c166046714667aa91d5997fdceba210/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/ef87c9887e38c9650d930aa63ff9de82/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/e31af656f6bcb58909dacf4f440d07d9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/4da8490e45590ba4df7ca99b03c7b96d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/1a06d76c7b7221577ef50dd0ab66f909/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11/4839661cf6ce3c14b65ed7dcf5b9249b44ecca16/kotlin-stdlib-jdk7-1.3.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-tokenautocomplete-2.0.8.aar/29836a4b1ebb8c7bf7f1304e3a990c93/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/form/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build/tmp/kotlin-classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+Removed unused resources: Binary resource data reduced from 765KB to 749KB: Removed 2%
+> Task :app:transformClassesAndDexWithShrinkResForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 31s
+94 actionable tasks: 94 executed
+
+2019-01-18 11:42:31,504 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547786322779-0/src/app/build/outputs/apk/debug/app-debug.apk

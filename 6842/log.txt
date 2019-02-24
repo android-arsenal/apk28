@@ -1,0 +1,313 @@
+2018-08-27 11:45:59,514 INFO  DownloadService - Downloading "https://github.com/S64/android-architecture-examples/archive/master.zip", attempt 3
+2018-08-27 11:46:02,125 INFO  DownloadService - Downloaded https://github.com/S64/android-architecture-examples/archive/master.zip, attempt 3
+2018-08-27 11:46:02,125 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/master.zip": 333 KB
+2018-08-27 11:46:02,125 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-27 11:46:02,126 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/master.zip: true
+2018-08-27 11:46:02,126 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src'.
+2018-08-27 11:46:02,180 INFO  FullProcessService - Size of directory with sources: 331 KB
+2018-08-27 11:46:02,180 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src]
+2018-08-27 11:46:02,197 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/.git/
+
+2018-08-27 11:46:02,206 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/gradlew
+2018-08-27 11:46:02,214 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/_shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/redux/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/build.gradle
+2018-08-27 11:46:02,222 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/_shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/redux/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvvm/build.gradle
+2018-08-27 11:46:02,222 INFO  ProjectBuildService - Remote scripts: none
+2018-08-27 11:46:02,222 INFO  ProjectFixService - Fixing project...
+2018-08-27 11:46:02,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/_shared/local.properties
+2018-08-27 11:46:02,242 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/_shared/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-27 11:46:02,242 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/_shared/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-27 11:46:02,243 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvc/local.properties
+2018-08-27 11:46:02,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-27 11:46:02,246 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-27 11:46:02,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvvm/local.properties
+2018-08-27 11:46:02,250 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-27 11:46:02,250 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-27 11:46:02,251 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/redux/local.properties
+2018-08-27 11:46:02,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/redux/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-27 11:46:02,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/redux/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-27 11:46:02,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/local.properties
+2018-08-27 11:46:02,256 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-27 11:46:02,256 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-27 11:46:02,259 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-27 11:46:02,259 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-27 11:46:02,260 INFO  ProjectFixService - Project was maybe fixed
+2018-08-27 11:46:02,260 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-27 11:46:02,260 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/_shared/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-27 11:46:17,363 INFO  ProjectTaskService - Detected possible tasks: 79
+2018-08-27 11:46:17,363 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-27 11:46:17,364 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/_shared/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-27 11:46:49,494 INFO  SysUtils - Configuration on demand is an incubating feature.
+:_shared:preBuild UP-TO-DATE
+:_shared:preDebugBuild UP-TO-DATE
+:_shared:compileDebugAidl
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.30/kotlin-stdlib-jdk8-1.2.30.pom
+:_shared:compileDebugNdk NO-SOURCE
+:_shared:compileDebugRenderscript
+:_shared:checkDebugManifest
+:_shared:generateDebugBuildConfig
+:_shared:generateDebugResValues
+:_shared:generateDebugResources
+:_shared:packageDebugResources
+:_shared:platformAttrExtractor
+:_shared:processDebugManifest
+:_shared:prepareLintJar
+:_shared:mergeDebugShaders
+:_shared:compileDebugShaders
+:_shared:generateDebugAssets
+:_shared:mergeDebugAssets
+:_shared:mergeDebugConsumerProguardFiles
+:_shared:packageDebugRenderscript NO-SOURCE
+:_shared:processDebugJavaRes NO-SOURCE
+:_shared:mergeDebugJniLibFolders
+:_shared:transformNativeLibsWithMergeJniLibsForDebug
+:_shared:transformNativeLibsWithStripDebugSymbolForDebug
+:_shared:transformNativeLibsWithSyncJniLibsForDebug
+:_shared:preReleaseBuild UP-TO-DATE
+:_shared:compileReleaseAidl
+:_shared:compileReleaseNdk NO-SOURCE
+:_shared:compileReleaseRenderscript
+:_shared:checkReleaseManifest
+:_shared:generateReleaseBuildConfig
+:_shared:generateReleaseResValues
+:_shared:generateReleaseResources
+:_shared:packageReleaseResources
+:_shared:processReleaseManifest
+:_shared:mergeReleaseShaders
+:_shared:compileReleaseShaders
+:_shared:generateReleaseAssets
+:_shared:mergeReleaseAssets
+:_shared:mergeReleaseConsumerProguardFiles
+:_shared:packageReleaseRenderscript NO-SOURCE
+:_shared:processReleaseJavaRes NO-SOURCE
+:_shared:mergeReleaseJniLibFolders
+:_shared:transformNativeLibsWithMergeJniLibsForRelease
+:_shared:transformNativeLibsWithStripDebugSymbolForRelease
+:_shared:transformNativeLibsWithSyncJniLibsForRelease
+:_shared:mergeReleaseResources
+:_shared:verifyReleaseResources
+:_shared:processDebugResources
+:_shared:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2.30/kotlin-stdlib-jdk8-1.2.30.jar
+:_shared:generateDebugSources
+:_shared:javaPreCompileDebug
+:_shared:compileDebugJavaWithJavac
+:_shared:extractDebugAnnotations
+:_shared:transformResourcesWithMergeJavaResForDebug
+:_shared:transformClassesAndResourcesWithSyncLibJarsForDebug
+:_shared:bundleDebug
+:_shared:compileDebugSources
+:_shared:ktlintDebugCheck
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/0.14.0/ktlint-0.14.0.pom
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/pom/0.14.0/pom-0.14.0.pom
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/ktlint-test/0.14.0/ktlint-test-0.14.0.pom
+Download https://jcenter.bintray.com/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.pom
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/ktlint-ruleset-standard/0.14.0/ktlint-ruleset-standard-0.14.0.pom
+Download https://jcenter.bintray.com/org/apache/maven/maven-model/3.2.5/maven-model-3.2.5.pom
+Download https://jcenter.bintray.com/org/apache/maven/maven/3.2.5/maven-3.2.5.pom
+Download https://jcenter.bintray.com/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.pom
+Download https://jcenter.bintray.com/com/github/shyiko/klob/klob/0.2.0/klob-0.2.0.pom
+Download https://jcenter.bintray.com/org/apache/maven/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.pom
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-api/1.1.0/aether-api-1.1.0.pom
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-util/1.1.0/aether-util-1.1.0.pom
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-spi/1.1.0/aether-spi-1.1.0.pom
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-impl/1.1.0/aether-impl-1.1.0.pom
+Download https://jcenter.bintray.com/org/eclipse/aether/aether/1.1.0/aether-1.1.0.pom
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/ktlint-core/0.14.0/ktlint-core-0.14.0.pom
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/ktlint-reporter-json/0.14.0/ktlint-reporter-json-0.14.0.pom
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/ktlint-reporter-checkstyle/0.14.0/ktlint-reporter-checkstyle-0.14.0.pom
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/ktlint-reporter-plain/0.14.0/ktlint-reporter-plain-0.14.0.pom
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-connector-basic/1.1.0/aether-connector-basic-1.1.0.pom
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-transport-file/1.1.0/aether-transport-file-1.1.0.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-nop/1.6.2/slf4j-nop-1.6.2.pom
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-transport-http/1.1.0/aether-transport-http-1.1.0.pom
+Download https://jcenter.bintray.com/args4j/args4j/2.33/args4j-2.33.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.6.2/slf4j-parent-1.6.2.pom
+Download https://jcenter.bintray.com/args4j/args4j-site/2.33/args4j-site-2.33.pom
+Download https://jcenter.bintray.com/org/kohsuke/pom/14/pom-14.pom
+Download https://jcenter.bintray.com/com/andreapivetta/kolor/kolor/0.0.2/kolor-0.0.2.pom
+Download https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.6.2/jcl-over-slf4j-1.6.2.pom
+Download https://jcenter.bintray.com/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.pom
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/0.14.0/ktlint-0.14.0.jar
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/ktlint-reporter-plain/0.14.0/ktlint-reporter-plain-0.14.0.jar
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/ktlint-reporter-checkstyle/0.14.0/ktlint-reporter-checkstyle-0.14.0.jar
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/ktlint-test/0.14.0/ktlint-test-0.14.0.jar
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/ktlint-ruleset-standard/0.14.0/ktlint-ruleset-standard-0.14.0.jar
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/ktlint-core/0.14.0/ktlint-core-0.14.0.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.jar
+Download https://jcenter.bintray.com/com/github/shyiko/klob/klob/0.2.0/klob-0.2.0.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-model/3.2.5/maven-model-3.2.5.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.jar
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-impl/1.1.0/aether-impl-1.1.0.jar
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-connector-basic/1.1.0/aether-connector-basic-1.1.0.jar
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-transport-file/1.1.0/aether-transport-file-1.1.0.jar
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-transport-http/1.1.0/aether-transport-http-1.1.0.jar
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-spi/1.1.0/aether-spi-1.1.0.jar
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-util/1.1.0/aether-util-1.1.0.jar
+Download https://jcenter.bintray.com/org/eclipse/aether/aether-api/1.1.0/aether-api-1.1.0.jar
+Download https://jcenter.bintray.com/args4j/args4j/2.33/args4j-2.33.jar
+Download https://jcenter.bintray.com/org/slf4j/slf4j-nop/1.6.2/slf4j-nop-1.6.2.jar
+Download https://jcenter.bintray.com/com/andreapivetta/kolor/kolor/0.0.2/kolor-0.0.2.jar
+Download https://jcenter.bintray.com/com/github/shyiko/ktlint/ktlint-reporter-json/0.14.0/ktlint-reporter-json-0.14.0.jar
+Download https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.6.2/jcl-over-slf4j-1.6.2.jar
+Download https://jcenter.bintray.com/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.jar
+:_shared:ktlintDebugFormat
+:_shared:assembleDebug
+:_shared:processReleaseResources
+:_shared:compileReleaseKotlin
+:_shared:generateReleaseSources
+:_shared:javaPreCompileRelease
+:_shared:compileReleaseJavaWithJavac
+:_shared:extractReleaseAnnotations
+:_shared:transformResourcesWithMergeJavaResForRelease
+:_shared:transformClassesAndResourcesWithSyncLibJarsForRelease
+:_shared:bundleRelease
+:_shared:compileReleaseSources
+:_shared:ktlintReleaseCheck
+:_shared:ktlintReleaseFormat
+:_shared:assembleRelease
+:_shared:assemble
+:_shared:build
+
+BUILD SUCCESSFUL in 31s
+54 actionable tasks: 54 executed
+
+2018-08-27 11:46:49,516 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-27 11:46:49,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-27 11:46:56,800 INFO  ProjectTaskService - Detected possible tasks: 80
+2018-08-27 11:46:56,800 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-27 11:46:56,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-27 11:47:34,543 INFO  SysUtils - Configuration on demand is an incubating feature.
+:_shared:preBuild UP-TO-DATE
+:_shared:preDebugBuild UP-TO-DATE
+:_shared:compileDebugAidl UP-TO-DATE
+:_shared:compileDebugRenderscript UP-TO-DATE
+:_shared:checkDebugManifest UP-TO-DATE
+:_shared:generateDebugBuildConfig UP-TO-DATE
+:_shared:generateDebugResValues UP-TO-DATE
+:_shared:generateDebugResources UP-TO-DATE
+:_shared:packageDebugResources UP-TO-DATE
+:_shared:platformAttrExtractor UP-TO-DATE
+:_shared:processDebugManifest UP-TO-DATE
+:_shared:processDebugResources UP-TO-DATE
+:_shared:compileDebugKotlin UP-TO-DATE
+:_shared:prepareLintJar UP-TO-DATE
+:_shared:generateDebugSources UP-TO-DATE
+:_shared:javaPreCompileDebug UP-TO-DATE
+:_shared:compileDebugJavaWithJavac UP-TO-DATE
+:_shared:processDebugJavaRes NO-SOURCE
+:_shared:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:mvc:preBuild UP-TO-DATE
+:mvc:preDebugBuild
+:mvc:compileDebugAidl
+:_shared:packageDebugRenderscript NO-SOURCE
+:mvc:compileDebugRenderscript
+:mvc:checkDebugManifest
+:mvc:generateDebugBuildConfig
+:mvc:generateDebugResValues
+:mvc:generateDebugResources
+:mvc:mergeDebugResources
+:mvc:createDebugCompatibleScreenManifests
+:mvc:processDebugManifest
+:mvc:splitsDiscoveryTaskDebug
+:mvc:processDebugResources
+:mvc:compileDebugKotlin
+:mvc:prepareLintJar
+:mvc:generateDebugSources
+:mvc:javaPreCompileDebug
+:mvc:compileDebugJavaWithJavac
+:mvc:compileDebugNdk NO-SOURCE
+:mvc:compileDebugSources
+:mvc:ktlintDebugCheck
+:mvc:ktlintDebugFormat
+:_shared:mergeDebugShaders UP-TO-DATE
+:_shared:compileDebugShaders UP-TO-DATE
+:_shared:generateDebugAssets UP-TO-DATE
+:_shared:mergeDebugAssets UP-TO-DATE
+:mvc:mergeDebugShaders
+:mvc:compileDebugShaders
+:mvc:generateDebugAssets
+:mvc:mergeDebugAssets
+:mvc:transformClassesWithDexBuilderForDebug
+:mvc:transformDexArchiveWithExternalLibsDexMergerForDebug
+:mvc:transformDexArchiveWithDexMergerForDebug
+:_shared:compileDebugNdk NO-SOURCE
+:_shared:mergeDebugJniLibFolders UP-TO-DATE
+:_shared:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:_shared:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:_shared:transformNativeLibsWithIntermediateJniLibsForDebug
+:mvc:mergeDebugJniLibFolders
+:mvc:transformNativeLibsWithMergeJniLibsForDebug
+:mvc:transformNativeLibsWithStripDebugSymbolForDebug
+:mvc:processDebugJavaRes NO-SOURCE
+:mvc:transformResourcesWithMergeJavaResForDebug
+:mvc:validateSigningDebug
+:mvc:packageDebug
+:mvc:assembleDebug
+:_shared:preReleaseBuild UP-TO-DATE
+:_shared:compileReleaseAidl UP-TO-DATE
+:_shared:compileReleaseRenderscript UP-TO-DATE
+:_shared:checkReleaseManifest UP-TO-DATE
+:_shared:generateReleaseBuildConfig UP-TO-DATE
+:_shared:generateReleaseResValues UP-TO-DATE
+:_shared:generateReleaseResources UP-TO-DATE
+:_shared:packageReleaseResources UP-TO-DATE
+:_shared:processReleaseManifest UP-TO-DATE
+:_shared:processReleaseResources UP-TO-DATE
+:_shared:compileReleaseKotlin UP-TO-DATE
+:_shared:generateReleaseSources UP-TO-DATE
+:_shared:javaPreCompileRelease UP-TO-DATE
+:_shared:compileReleaseJavaWithJavac UP-TO-DATE
+:_shared:processReleaseJavaRes NO-SOURCE
+:_shared:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:mvc:preReleaseBuild
+:mvc:compileReleaseAidl
+:_shared:packageReleaseRenderscript NO-SOURCE
+:mvc:compileReleaseRenderscript
+:mvc:checkReleaseManifest
+:mvc:generateReleaseBuildConfig
+:mvc:generateReleaseResValues
+:mvc:generateReleaseResources
+:mvc:mergeReleaseResources
+:mvc:createReleaseCompatibleScreenManifests
+:mvc:processReleaseManifest
+:mvc:splitsDiscoveryTaskRelease
+:mvc:processReleaseResources
+:mvc:compileReleaseKotlin
+:mvc:generateReleaseSources
+:mvc:javaPreCompileRelease
+:mvc:compileReleaseJavaWithJavac
+:mvc:compileReleaseNdk NO-SOURCE
+:mvc:compileReleaseSources
+:mvc:ktlintReleaseCheck
+:mvc:ktlintReleaseFormat
+:mvc:lintVitalRelease
+:_shared:mergeReleaseShaders UP-TO-DATE
+:_shared:compileReleaseShaders UP-TO-DATE
+:_shared:generateReleaseAssets UP-TO-DATE
+:_shared:mergeReleaseAssets UP-TO-DATE
+:mvc:mergeReleaseShaders
+:mvc:compileReleaseShaders
+:mvc:generateReleaseAssets
+:mvc:mergeReleaseAssets
+:mvc:transformClassesWithPreDexForRelease
+:mvc:transformDexWithDexForRelease
+:_shared:compileReleaseNdk NO-SOURCE
+:_shared:mergeReleaseJniLibFolders UP-TO-DATE
+:_shared:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:_shared:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:_shared:transformNativeLibsWithIntermediateJniLibsForRelease
+:mvc:mergeReleaseJniLibFolders
+:mvc:transformNativeLibsWithMergeJniLibsForRelease
+:mvc:transformNativeLibsWithStripDebugSymbolForRelease
+:mvc:processReleaseJavaRes NO-SOURCE
+:mvc:transformResourcesWithMergeJavaResForRelease
+:mvc:packageRelease
+:mvc:assembleRelease
+:mvc:assemble
+:mvc:build
+
+BUILD SUCCESSFUL in 36s
+96 actionable tasks: 60 executed, 36 up-to-date
+
+2018-08-27 11:47:34,620 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535345159506-0/src/android-architecture-examples-master/mvc/build/outputs/apk/release/mvc-release-unsigned.apk

@@ -1,0 +1,190 @@
+2018-08-22 14:47:29,349 INFO  DownloadService - Downloading "https://github.com/konifar/gradle-unused-resources-remover-plugin/archive/master.zip", attempt 3
+2018-08-22 14:47:30,068 INFO  DownloadService - Downloaded https://github.com/konifar/gradle-unused-resources-remover-plugin/archive/master.zip, attempt 3
+2018-08-22 14:47:30,069 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/master.zip": 431 KB
+2018-08-22 14:47:30,069 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-22 14:47:30,075 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/master.zip: true
+2018-08-22 14:47:30,075 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src'.
+2018-08-22 14:47:30,129 INFO  FullProcessService - Size of directory with sources: 444 KB
+2018-08-22 14:47:30,129 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src]
+2018-08-22 14:47:30,144 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/.git/
+
+2018-08-22 14:47:30,151 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/gradlew
+2018-08-22 14:47:30,157 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/plugin/build.gradle
+2018-08-22 14:47:30,163 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/settings.gradle
+2018-08-22 14:47:30,163 INFO  ProjectBuildService - Remote scripts: none
+2018-08-22 14:47:30,163 INFO  ProjectFixService - Fixing project...
+2018-08-22 14:47:30,177 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example-module/local.properties
+2018-08-22 14:47:30,178 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example-module/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:47:30,178 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example-module/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:47:30,179 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example/local.properties
+2018-08-22 14:47:30,180 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:47:30,180 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:47:30,181 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/local.properties
+2018-08-22 14:47:30,181 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-22 14:47:30,182 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-22 14:47:30,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:47:30,183 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:47:30,184 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/plugin/local.properties
+2018-08-22 14:47:30,185 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:47:30,185 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-22 14:47:30,185 INFO  ProjectFixService - Project was maybe fixed
+2018-08-22 14:47:30,185 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-22 14:47:30,185 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example-module/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-22 14:47:42,842 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-08-22 14:47:42,842 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-22 14:47:42,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example-module/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-22 14:48:24,286 INFO  SysUtils - Configuration on demand is an incubating feature.
+example: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+:example-module:preBuild UP-TO-DATE
+:example-module:preDebugFeatureBuild UP-TO-DATE
+:example-module:compileDebugFeatureAidl
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.41/kotlin-stdlib-jre7-1.2.41.pom
+:example-module:compileDebugFeatureRenderscript
+:example-module:checkDebugFeatureManifest
+:example-module:generateDebugFeatureBuildConfig
+:example-module:mainApkListPersistenceDebugFeature
+:example-module:generateDebugFeatureResValues
+:example-module:generateDebugFeatureResources
+:example-module:mergeDebugFeatureResources
+:example:writeDebugApplicationId
+:example-module:createDebugFeatureCompatibleScreenManifests
+:example-module:processDebugFeatureManifest
+:example-module:splitsDiscoveryTaskDebugFeature
+:example-module:processDebugFeatureResources
+:example-module:compileDebugFeatureKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.41/kotlin-stdlib-jre7-1.2.41.jar
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+:example-module:prepareLintJar
+:example-module:generateDebugFeatureSources
+:example-module:javaPreCompileDebugFeature
+:example-module:compileDebugFeatureJavaWithJavac
+:example-module:mergeDebugFeatureShaders
+:example-module:compileDebugFeatureShaders
+:example-module:generateDebugFeatureAssets
+:example-module:mergeDebugFeatureAssets
+:example-module:transformClassesWithDexBuilderForDebugFeature
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:example-module:transformDexArchiveWithExternalLibsDexMergerForDebugFeature
+:example-module:transformDexArchiveWithDexMergerForDebugFeature
+:example-module:compileDebugFeatureNdk NO-SOURCE
+:example-module:mergeDebugFeatureJniLibFolders
+:example-module:transformNativeLibsWithMergeJniLibsForDebugFeature
+:example-module:transformNativeLibsWithStripDebugSymbolForDebugFeature
+:example-module:processDebugFeatureJavaRes NO-SOURCE
+:example-module:transformResourcesWithMergeJavaResForDebugFeature
+:example-module:validateSigningDebugFeature
+:example-module:packageDebugFeature
+:example-module:buildInfoGeneratorDebugFeature
+:example-module:preDebugBuild UP-TO-DATE
+:example-module:compileDebugAidl
+:example-module:compileDebugRenderscript
+:example-module:checkDebugManifest
+:example-module:generateDebugBuildConfig
+:example-module:generateDebugResValues
+:example-module:generateDebugResources
+:example-module:packageDebugResources
+:example-module:platformAttrExtractor
+:example-module:processDebugManifest
+:example-module:mergeDebugConsumerProguardFiles
+:example-module:mergeDebugShaders
+:example-module:compileDebugShaders
+:example-module:generateDebugAssets
+:example-module:packageDebugAssets
+:example-module:packageDebugRenderscript NO-SOURCE
+:example-module:processDebugJavaRes NO-SOURCE
+:example-module:compileDebugNdk NO-SOURCE
+:example-module:mergeDebugJniLibFolders
+:example-module:transformNativeLibsWithMergeJniLibsForDebug
+:example-module:transformNativeLibsWithStripDebugSymbolForDebug
+:example-module:transformNativeLibsWithSyncJniLibsForDebug
+:example-module:compileDebugFeatureSources
+:example-module:preReleaseFeatureBuild UP-TO-DATE
+:example-module:compileReleaseFeatureAidl
+:example-module:compileReleaseFeatureRenderscript
+:example-module:checkReleaseFeatureManifest
+:example-module:generateReleaseFeatureBuildConfig
+:example-module:mainApkListPersistenceReleaseFeature
+:example-module:generateReleaseFeatureResValues
+:example-module:generateReleaseFeatureResources
+:example-module:mergeReleaseFeatureResources
+:example-module:generateDebugRFile
+:example-module:compileDebugKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+:example-module:generateDebugSources
+:example-module:javaPreCompileDebug
+:example-module:compileDebugJavaWithJavac
+:example-module:extractDebugAnnotations
+:example-module:transformResourcesWithMergeJavaResForDebug
+:example-module:transformClassesAndResourcesWithSyncLibJarsForDebug
+:example-module:bundleDebug
+:example-module:compileDebugSources
+:example-module:assembleDebug
+:example:writeReleaseApplicationId
+:example-module:createReleaseFeatureCompatibleScreenManifests
+:example-module:processReleaseFeatureManifest
+:example-module:splitsDiscoveryTaskReleaseFeature
+:example-module:processReleaseFeatureResources
+:example-module:compileReleaseFeatureKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+:example-module:generateReleaseFeatureSources
+:example-module:javaPreCompileReleaseFeature
+:example-module:compileReleaseFeatureJavaWithJavac
+:example-module:mergeReleaseFeatureShaders
+:example-module:compileReleaseFeatureShaders
+:example-module:generateReleaseFeatureAssets
+:example-module:mergeReleaseFeatureAssets
+:example-module:transformClassesWithDexBuilderForReleaseFeature
+:example-module:transformDexArchiveWithExternalLibsDexMergerForReleaseFeature
+:example-module:transformDexArchiveWithDexMergerForReleaseFeature
+:example-module:compileReleaseFeatureNdk NO-SOURCE
+:example-module:mergeReleaseFeatureJniLibFolders
+:example-module:transformNativeLibsWithMergeJniLibsForReleaseFeature
+:example-module:transformNativeLibsWithStripDebugSymbolForReleaseFeature
+:example-module:processReleaseFeatureJavaRes NO-SOURCE
+:example-module:transformResourcesWithMergeJavaResForReleaseFeature
+:example-module:packageReleaseFeature
+:example-module:buildInfoGeneratorReleaseFeature
+:example-module:preReleaseBuild UP-TO-DATE
+:example-module:compileReleaseAidl
+:example-module:compileReleaseRenderscript
+:example-module:checkReleaseManifest
+:example-module:generateReleaseBuildConfig
+:example-module:generateReleaseResValues
+:example-module:generateReleaseResources
+:example-module:packageReleaseResources
+:example-module:processReleaseManifest
+:example-module:generateReleaseRFile
+:example-module:compileReleaseKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+:example-module:generateReleaseSources
+:example-module:javaPreCompileRelease
+:example-module:compileReleaseJavaWithJavac
+:example-module:extractReleaseAnnotations
+:example-module:mergeReleaseConsumerProguardFiles
+:example-module:mergeReleaseShaders
+:example-module:compileReleaseShaders
+:example-module:generateReleaseAssets
+:example-module:packageReleaseAssets
+:example-module:packageReleaseRenderscript NO-SOURCE
+:example-module:processReleaseJavaRes NO-SOURCE
+:example-module:transformResourcesWithMergeJavaResForRelease
+:example-module:transformClassesAndResourcesWithSyncLibJarsForRelease
+:example-module:compileReleaseNdk NO-SOURCE
+:example-module:mergeReleaseJniLibFolders
+:example-module:transformNativeLibsWithMergeJniLibsForRelease
+:example-module:transformNativeLibsWithStripDebugSymbolForRelease
+:example-module:transformNativeLibsWithSyncJniLibsForRelease
+:example-module:bundleRelease
+:example-module:compileReleaseFeatureSources
+:example-module:compileReleaseSources
+:example-module:mergeReleaseResources
+:example-module:verifyReleaseResources
+:example-module:assembleRelease
+:example-module:assemble
+:example-module:build
+
+BUILD SUCCESSFUL in 40s
+105 actionable tasks: 105 executed
+
+2018-08-22 14:48:24,406 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534924049341-0/src/gradle-unused-resources-remover-plugin-master/example-module/build/outputs/apk/feature/release/example-module-release-unsigned.apk

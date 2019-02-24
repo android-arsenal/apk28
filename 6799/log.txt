@@ -1,0 +1,165 @@
+2018-08-29 15:53:06,703 INFO  DownloadService - Downloading "https://github.com/mreram/TicketView/archive/master.zip", attempt 3
+2018-08-29 15:53:09,603 INFO  DownloadService - Downloaded https://github.com/mreram/TicketView/archive/master.zip, attempt 3
+2018-08-29 15:53:09,603 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/master.zip": 891 KB
+2018-08-29 15:53:09,603 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-29 15:53:09,609 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/master.zip: true
+2018-08-29 15:53:09,609 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src'.
+2018-08-29 15:53:09,639 INFO  FullProcessService - Size of directory with sources: 963 KB
+2018-08-29 15:53:09,639 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src]
+2018-08-29 15:53:09,658 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/.git/
+
+2018-08-29 15:53:09,662 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/gradlew
+2018-08-29 15:53:09,665 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/ticketview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/build.gradle
+2018-08-29 15:53:09,668 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/ticketview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/settings.gradle
+2018-08-29 15:53:09,668 INFO  ProjectBuildService - Remote scripts: none
+2018-08-29 15:53:09,668 INFO  ProjectFixService - Fixing project...
+2018-08-29 15:53:09,676 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/app/local.properties
+2018-08-29 15:53:09,677 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-29 15:53:09,677 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-29 15:53:09,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/ticketview/local.properties
+2018-08-29 15:53:09,678 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/ticketview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-29 15:53:09,678 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/ticketview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-29 15:53:09,679 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/local.properties
+2018-08-29 15:53:09,680 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-29 15:53:09,680 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-29 15:53:09,681 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-29 15:53:09,681 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-29 15:53:09,682 INFO  ProjectFixService - Project was maybe fixed
+2018-08-29 15:53:09,682 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-29 15:53:09,682 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-29 15:53:16,663 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-29 15:53:16,663 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-29 15:53:16,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-29 15:53:52,862 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':ticketview' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:ticketview:preBuild UP-TO-DATE
+:ticketview:preDebugBuild UP-TO-DATE
+:ticketview:checkDebugManifest
+:ticketview:processDebugManifest
+:app:preDebugBuild
+:ticketview:compileDebugAidl
+:app:compileDebugAidl
+:ticketview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:ticketview:compileDebugRenderscript
+:ticketview:generateDebugResValues
+:ticketview:generateDebugResources
+:ticketview:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:ticketview:platformAttrExtractor
+:ticketview:generateDebugBuildConfig
+:ticketview:prepareLintJar
+:ticketview:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:ticketview:mergeDebugShaders
+:ticketview:compileDebugShaders
+:ticketview:generateDebugAssets
+:ticketview:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:ticketview:compileDebugNdk NO-SOURCE
+:ticketview:mergeDebugJniLibFolders
+:ticketview:transformNativeLibsWithMergeJniLibsForDebug
+:ticketview:transformNativeLibsWithStripDebugSymbolForDebug
+:ticketview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:ticketview:preReleaseBuild UP-TO-DATE
+:ticketview:checkReleaseManifest
+:ticketview:processReleaseManifest
+:app:preReleaseBuild
+:ticketview:compileReleaseAidl
+:app:compileReleaseAidl
+:ticketview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:ticketview:compileReleaseRenderscript
+:ticketview:generateReleaseResValues
+:ticketview:generateReleaseResources
+:ticketview:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:ticketview:generateReleaseBuildConfig
+:ticketview:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:ticketview:mergeReleaseShaders
+:ticketview:compileReleaseShaders
+:ticketview:generateReleaseAssets
+:ticketview:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:ticketview:compileReleaseNdk NO-SOURCE
+:ticketview:mergeReleaseJniLibFolders
+:ticketview:transformNativeLibsWithMergeJniLibsForRelease
+:ticketview:transformNativeLibsWithStripDebugSymbolForRelease
+:ticketview:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:ticketview:processDebugResources
+:app:processDebugResources
+:ticketview:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/ticketview/src/main/java/com/mreram/ticketview/TicketView.kt: (113, 42): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+:ticketview:generateDebugSources
+:ticketview:javaPreCompileDebug
+:ticketview:compileDebugJavaWithJavac
+:ticketview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:ticketview:processReleaseResources
+:app:processReleaseResources
+:ticketview:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/ticketview/src/main/java/com/mreram/ticketview/TicketView.kt: (113, 42): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+:ticketview:generateReleaseSources
+:ticketview:javaPreCompileRelease
+:ticketview:compileReleaseJavaWithJavac
+:ticketview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 35s
+92 actionable tasks: 92 executed
+
+2018-08-29 15:53:52,929 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535532786700-0/src/TicketView-master/app/build/outputs/apk/debug/app-debug.apk

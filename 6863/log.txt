@@ -1,0 +1,440 @@
+2018-12-02 16:37:15,315 INFO  DownloadService - Downloading "https://github.com/skydoves/BaseRecyclerViewAdapter/archive/master.zip", attempt 3
+2018-12-02 16:37:16,352 INFO  DownloadService - Downloaded https://github.com/skydoves/BaseRecyclerViewAdapter/archive/master.zip, attempt 3
+2018-12-02 16:37:16,353 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/master.zip": 185 KB
+2018-12-02 16:37:16,353 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-02 16:37:16,358 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/master.zip: true
+2018-12-02 16:37:16,359 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src'.
+2018-12-02 16:37:16,383 INFO  FullProcessService - Size of directory with sources: 213 KB
+2018-12-02 16:37:16,384 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src]
+2018-12-02 16:37:16,402 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/.git/
+
+2018-12-02 16:37:16,405 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/gradlew
+2018-12-02 16:37:16,408 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/baserecyclerviewadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/build.gradle
+2018-12-02 16:37:16,411 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/baserecyclerviewadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/settings.gradle
+2018-12-02 16:37:16,412 INFO  ProjectBuildService - Remote scripts: none
+2018-12-02 16:37:16,412 INFO  ProjectFixService - Fixing project...
+2018-12-02 16:37:16,420 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/app/local.properties
+2018-12-02 16:37:16,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 16:37:16,421 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 16:37:16,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/baserecyclerviewadapter/local.properties
+2018-12-02 16:37:16,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/baserecyclerviewadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-02 16:37:16,423 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/baserecyclerviewadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-02 16:37:16,424 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/local.properties
+2018-12-02 16:37:16,424 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-02 16:37:16,425 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-02 16:37:16,426 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 16:37:16,426 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 16:37:16,426 INFO  ProjectFixService - Project was maybe fixed
+2018-12-02 16:37:16,426 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-02 16:37:16,426 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-02 16:37:24,625 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-02 16:37:24,625 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-02 16:37:24,625 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-02 16:38:24,460 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://jcenter.bintray.com/com/github/skydoves/elasticviews/2.0.1/elasticviews-2.0.1.pom
+:app:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/com/google/android/material/material/1.0.0-rc01/material-1.0.0-rc01.aar
+Download https://jcenter.bintray.com/com/github/skydoves/elasticviews/2.0.1/elasticviews-2.0.1.aar
+Download https://dl.google.com/dl/android/maven2/androidx/transition/transition/1.0.0-rc01/transition-1.0.0-rc01.aar
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+:app:preBuild UP-TO-DATE
+:baserecyclerviewadapter:preBuild UP-TO-DATE
+:baserecyclerviewadapter:preDebugBuild UP-TO-DATE
+:baserecyclerviewadapter:checkDebugManifest
+:baserecyclerviewadapter:processDebugManifest
+:app:preDebugBuild
+:baserecyclerviewadapter:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:baserecyclerviewadapter:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:baserecyclerviewadapter:compileDebugRenderscript
+:baserecyclerviewadapter:generateDebugResValues
+:baserecyclerviewadapter:generateDebugResources
+:baserecyclerviewadapter:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:baserecyclerviewadapter:generateDebugRFile
+:app:processDebugResources
+:baserecyclerviewadapter:generateDebugBuildConfig
+:baserecyclerviewadapter:compileDebugKotlin
+:baserecyclerviewadapter:prepareLintJar
+:baserecyclerviewadapter:generateDebugSources
+:baserecyclerviewadapter:javaPreCompileDebug
+:baserecyclerviewadapter:compileDebugJavaWithJavac
+:baserecyclerviewadapter:processDebugJavaRes NO-SOURCE
+:baserecyclerviewadapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:baserecyclerviewadapter:mergeDebugShaders
+:baserecyclerviewadapter:compileDebugShaders
+:baserecyclerviewadapter:generateDebugAssets
+:baserecyclerviewadapter:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 15 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onCreateContextMenu$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onDateChange$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onInfo$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onLayoutChange$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onMenuItemClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onRatingBarChange$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__AbsListView_OnScrollListener$onScrollStateChanged$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__AdapterView_OnItemSelectedListener$onItemSelected$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__AdapterView_OnItemSelectedListener$onNothingSelected$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__GestureOverlayView_OnGestureListener$onGesture$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__GestureOverlayView_OnGestureListener$onGestureEnded$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__SeekBar_OnSeekBarChangeListener$onStartTrackingTouch$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__ViewGroup_OnHierarchyChangeListener$onChildViewAdded$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__ViewGroup_OnHierarchyChangeListener$onChildViewRemoved$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__View_OnAttachStateChangeListener$onViewDetachedFromWindow$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 19 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onCheckedChange$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onEditorAction$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onGesturePerformed$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onGroupClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onGroupExpand$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onPrepared$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onScroll$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onScrollChange$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onSystemUiVisibilityChange$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onTabChanged$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onTouch$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onZoomOutClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__GestureOverlayView_OnGestureListener$onGestureStarted$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__GestureOverlayView_OnGesturingListener$onGesturingStarted$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__SearchView_OnSuggestionListener$onSuggestionClick$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__SearchView_OnSuggestionListener$onSuggestionSelect$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__SeekBar_OnSeekBarChangeListener$onProgressChanged$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__TextWatcher$afterTextChanged$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__View_OnAttachStateChangeListener$onViewAttachedToWindow$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 17 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onApplyWindowInsets$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onCheckedChange$2$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onChildClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onCompletion$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onDrag$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onError$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onFocusChange$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onGroupCollapse$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onHover$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onLongClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onSearchClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onZoomInClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__GestureOverlayView_OnGesturingListener$onGesturingEnded$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__SeekBar_OnSeekBarChangeListener$onStopTrackingTouch$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__TextWatcher$beforeTextChanged$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__TextWatcher$onTextChanged$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.1.jar/59726ea95c6b0fd7a4424f49eb8610a4/jetified-anko-appcompat-v7-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.AppcompatV7CoroutinesListenersWithCoroutinesKt$onFitSystemWindows$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.1.jar/59726ea95c6b0fd7a4424f49eb8610a4/jetified-anko-appcompat-v7-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.AppcompatV7CoroutinesListenersWithCoroutinesKt$onQueryTextFocusChange$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.1.jar/59726ea95c6b0fd7a4424f49eb8610a4/jetified-anko-appcompat-v7-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.AppcompatV7CoroutinesListenersWithCoroutinesKt$onSearchClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.1.jar/59726ea95c6b0fd7a4424f49eb8610a4/jetified-anko-appcompat-v7-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.__SearchView_OnQueryTextListener$onQueryTextSubmit$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.1.jar/59726ea95c6b0fd7a4424f49eb8610a4/jetified-anko-appcompat-v7-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.AppcompatV7CoroutinesListenersWithCoroutinesKt$onInflate$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.1.jar/59726ea95c6b0fd7a4424f49eb8610a4/jetified-anko-appcompat-v7-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.AppcompatV7CoroutinesListenersWithCoroutinesKt$onMenuItemClick$2$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 4 methods.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.1.jar/59726ea95c6b0fd7a4424f49eb8610a4/jetified-anko-appcompat-v7-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.AppcompatV7CoroutinesListenersWithCoroutinesKt$onMenuItemClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.1.jar/59726ea95c6b0fd7a4424f49eb8610a4/jetified-anko-appcompat-v7-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.__SearchView_OnQueryTextListener$onQueryTextChange$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.1.jar/59726ea95c6b0fd7a4424f49eb8610a4/jetified-anko-appcompat-v7-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.__SearchView_OnSuggestionListener$onSuggestionClick$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anko-appcompat-v7-coroutines-0.10.1.jar/59726ea95c6b0fd7a4424f49eb8610a4/jetified-anko-appcompat-v7-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.appcompat.v7.coroutines.__SearchView_OnSuggestionListener$onSuggestionSelect$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 16 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onChronometerTick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onContextClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onGenericMotion$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onInflate$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onItemClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onItemLongClick$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onKey$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onMenuItemClick$2$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onQueryTextFocusChange$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onTimeChanged$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onUnhandledInputEvent$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.Sdk25CoroutinesListenersWithCoroutinesKt$onValueChanged$1$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__AbsListView_OnScrollListener$onScroll$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__GestureOverlayView_OnGestureListener$onGestureCancelled$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__SearchView_OnQueryTextListener$onQueryTextChange$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk25-coroutines/0.10.1/1a5b412981216d9907b5b99f1d2aa6bb7d4bbef0/anko-sdk25-coroutines-0.10.1.jar: D8: Methods with invalid locals information:
+  java.lang.Object org.jetbrains.anko.sdk25.coroutines.__SearchView_OnQueryTextListener$onQueryTextSubmit$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.15/5f0e2a96538d4ddc421ed042799e825016875f29/kotlinx-coroutines-core-0.15.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt$consumeEach$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 3 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.15/5f0e2a96538d4ddc421ed042799e825016875f29/kotlinx-coroutines-core-0.15.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt$consumeEach$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.15/5f0e2a96538d4ddc421ed042799e825016875f29/kotlinx-coroutines-core-0.15.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.selects.WhileSelectKt$whileSelect$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.15/5f0e2a96538d4ddc421ed042799e825016875f29/kotlinx-coroutines-core-0.15.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.sync.MutexKt$withLock$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.15/5f0e2a96538d4ddc421ed042799e825016875f29/kotlinx-coroutines-core-0.15.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.sync.MutexKt$withMutex$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+:app:transformClassesWithMultidexlistForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:baserecyclerviewadapter:compileDebugNdk NO-SOURCE
+:baserecyclerviewadapter:mergeDebugJniLibFolders
+:baserecyclerviewadapter:transformNativeLibsWithMergeJniLibsForDebug
+:baserecyclerviewadapter:transformNativeLibsWithStripDebugSymbolForDebug
+:baserecyclerviewadapter:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:baserecyclerviewadapter:preReleaseBuild UP-TO-DATE
+:baserecyclerviewadapter:checkReleaseManifest
+:baserecyclerviewadapter:processReleaseManifest
+:app:preReleaseBuild
+:baserecyclerviewadapter:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:baserecyclerviewadapter:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:baserecyclerviewadapter:compileReleaseRenderscript
+:baserecyclerviewadapter:generateReleaseResValues
+:baserecyclerviewadapter:generateReleaseResources
+:baserecyclerviewadapter:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:baserecyclerviewadapter:generateReleaseRFile
+:app:processReleaseResources
+:baserecyclerviewadapter:generateReleaseBuildConfig
+:baserecyclerviewadapter:compileReleaseKotlin
+:baserecyclerviewadapter:generateReleaseSources
+:baserecyclerviewadapter:javaPreCompileRelease
+:baserecyclerviewadapter:compileReleaseJavaWithJavac
+:baserecyclerviewadapter:processReleaseJavaRes NO-SOURCE
+:baserecyclerviewadapter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/307320c14d0ca169ea253bb2fdc8090e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:baserecyclerviewadapter:mergeReleaseShaders
+:baserecyclerviewadapter:compileReleaseShaders
+:baserecyclerviewadapter:generateReleaseAssets
+:baserecyclerviewadapter:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformClassesWithMultidexlistForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:baserecyclerviewadapter:compileReleaseNdk NO-SOURCE
+:baserecyclerviewadapter:mergeReleaseJniLibFolders
+:baserecyclerviewadapter:transformNativeLibsWithMergeJniLibsForRelease
+:baserecyclerviewadapter:transformNativeLibsWithStripDebugSymbolForRelease
+:baserecyclerviewadapter:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 59s
+94 actionable tasks: 94 executed
+
+2018-12-02 16:38:24,575 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743435307-0/src/BaseRecyclerViewAdapter-master/app/build/outputs/apk/debug/app-debug.apk

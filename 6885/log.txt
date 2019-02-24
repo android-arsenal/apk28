@@ -1,0 +1,452 @@
+2019-01-29 01:09:47,909 INFO  DownloadService - Downloading "https://github.com/sunhapper/SpEditTool/archive/master.zip", attempt 3
+2019-01-29 01:09:49,863 INFO  DownloadService - Downloaded https://github.com/sunhapper/SpEditTool/archive/master.zip, attempt 3
+2019-01-29 01:09:49,863 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/master.zip": 2 MB
+2019-01-29 01:09:49,863 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-29 01:09:49,869 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/master.zip: true
+2019-01-29 01:09:49,870 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src'.
+2019-01-29 01:09:49,928 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-01-29 01:09:49,928 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src]
+2019-01-29 01:09:49,946 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/.git/
+
+2019-01-29 01:09:49,951 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew
+2019-01-29 01:09:49,956 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/build.gradle
+2019-01-29 01:09:49,961 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/settings.gradle
+2019-01-29 01:09:49,961 INFO  ProjectBuildService - Remote scripts: none
+2019-01-29 01:09:49,961 INFO  ProjectFixService - Fixing project...
+2019-01-29 01:09:49,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/local.properties
+2019-01-29 01:09:49,973 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-29 01:09:49,974 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-29 01:09:49,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/local.properties
+2019-01-29 01:09:49,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-29 01:09:49,975 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-29 01:09:49,976 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/local.properties
+2019-01-29 01:09:49,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-29 01:09:49,977 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-29 01:09:49,978 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/local.properties
+2019-01-29 01:09:49,978 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-01-29 01:09:49,978 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-01-29 01:09:49,980 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-29 01:09:49,980 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-29 01:09:49,980 INFO  ProjectFixService - Project was maybe fixed
+2019-01-29 01:09:49,981 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-29 01:09:49,981 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-29 01:09:58,283 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-01-29 01:09:58,283 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-29 01:09:58,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-29 01:10:09,626 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :SpEditText:preBuild UP-TO-DATE
+> Task :SpEditText:preDebugBuild UP-TO-DATE
+> Task :SpEditText:compileDebugAidl NO-SOURCE
+> Task :SpEditText:compileDebugRenderscript
+> Task :SpEditText:checkDebugManifest
+> Task :SpEditText:generateDebugBuildConfig
+> Task :SpEditText:generateDebugResValues
+> Task :SpEditText:generateDebugResources
+> Task :SpEditText:packageDebugResources
+> Task :SpEditText:processDebugManifest
+> Task :SpEditText:generateDebugRFile
+> Task :SpEditText:prepareLintJar
+> Task :SpEditText:generateDebugSources
+> Task :SpEditText:javaPreCompileDebug
+
+> Task :SpEditText:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :SpEditText:extractDebugAnnotations
+> Task :SpEditText:mergeDebugConsumerProguardFiles
+> Task :SpEditText:mergeDebugShaders
+> Task :SpEditText:compileDebugShaders
+> Task :SpEditText:generateDebugAssets
+> Task :SpEditText:packageDebugAssets
+> Task :SpEditText:packageDebugRenderscript NO-SOURCE
+> Task :SpEditText:processDebugJavaRes NO-SOURCE
+> Task :SpEditText:transformResourcesWithMergeJavaResForDebug
+> Task :SpEditText:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :SpEditText:compileDebugNdk NO-SOURCE
+> Task :SpEditText:mergeDebugJniLibFolders
+> Task :SpEditText:transformNativeLibsWithMergeJniLibsForDebug
+> Task :SpEditText:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :SpEditText:transformNativeLibsWithSyncJniLibsForDebug
+> Task :SpEditText:bundleDebugAar
+> Task :SpEditText:compileDebugSources
+> Task :SpEditText:assembleDebug
+> Task :SpEditText:preReleaseBuild UP-TO-DATE
+> Task :SpEditText:compileReleaseAidl NO-SOURCE
+> Task :SpEditText:compileReleaseRenderscript
+> Task :SpEditText:checkReleaseManifest
+> Task :SpEditText:generateReleaseBuildConfig
+> Task :SpEditText:generateReleaseResValues
+> Task :SpEditText:generateReleaseResources
+> Task :SpEditText:packageReleaseResources
+> Task :SpEditText:processReleaseManifest
+> Task :SpEditText:generateReleaseRFile
+> Task :SpEditText:generateReleaseSources
+> Task :SpEditText:javaPreCompileRelease
+
+> Task :SpEditText:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :SpEditText:extractReleaseAnnotations
+> Task :SpEditText:mergeReleaseConsumerProguardFiles
+> Task :SpEditText:mergeReleaseShaders
+> Task :SpEditText:compileReleaseShaders
+> Task :SpEditText:generateReleaseAssets
+> Task :SpEditText:packageReleaseAssets
+> Task :SpEditText:packageReleaseRenderscript NO-SOURCE
+> Task :SpEditText:processReleaseJavaRes NO-SOURCE
+> Task :SpEditText:transformResourcesWithMergeJavaResForRelease
+> Task :SpEditText:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :SpEditText:compileReleaseNdk NO-SOURCE
+> Task :SpEditText:mergeReleaseJniLibFolders
+> Task :SpEditText:transformNativeLibsWithMergeJniLibsForRelease
+> Task :SpEditText:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :SpEditText:transformNativeLibsWithSyncJniLibsForRelease
+> Task :SpEditText:bundleReleaseAar
+> Task :SpEditText:compileReleaseSources
+> Task :SpEditText:mergeReleaseResources
+> Task :SpEditText:verifyReleaseResources
+> Task :SpEditText:assembleRelease
+> Task :SpEditText:assemble
+> Task :SpEditText:build
+
+BUILD SUCCESSFUL in 11s
+45 actionable tasks: 45 executed
+
+2019-01-29 01:10:09,673 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-29 01:10:09,673 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-29 01:10:16,255 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-01-29 01:10:16,256 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-29 01:10:16,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-29 01:10:27,890 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :SpEditText:preBuild UP-TO-DATE
+> Task :SpEditText:preDebugBuild UP-TO-DATE
+> Task :SpEditText:compileDebugAidl NO-SOURCE
+> Task :SpGlideDrawable:preBuild UP-TO-DATE
+> Task :SpGlideDrawable:preDebugBuild UP-TO-DATE
+> Task :SpGlideDrawable:compileDebugAidl NO-SOURCE
+> Task :SpEditText:compileDebugRenderscript UP-TO-DATE
+> Task :SpEditText:checkDebugManifest UP-TO-DATE
+> Task :SpEditText:generateDebugBuildConfig UP-TO-DATE
+> Task :SpEditText:generateDebugResValues UP-TO-DATE
+> Task :SpEditText:generateDebugResources UP-TO-DATE
+> Task :SpEditText:packageDebugResources UP-TO-DATE
+> Task :SpEditText:processDebugManifest UP-TO-DATE
+> Task :SpEditText:generateDebugRFile UP-TO-DATE
+> Task :SpEditText:prepareLintJar UP-TO-DATE
+> Task :SpEditText:generateDebugSources UP-TO-DATE
+> Task :SpEditText:javaPreCompileDebug UP-TO-DATE
+> Task :SpEditText:compileDebugJavaWithJavac UP-TO-DATE
+> Task :SpEditText:processDebugJavaRes NO-SOURCE
+> Task :SpEditText:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :SpEditText:packageDebugRenderscript NO-SOURCE
+> Task :SpGlideDrawable:compileDebugRenderscript
+> Task :SpGlideDrawable:checkDebugManifest
+> Task :SpGlideDrawable:generateDebugBuildConfig
+> Task :SpGlideDrawable:generateDebugResValues
+> Task :SpGlideDrawable:generateDebugResources
+> Task :SpGlideDrawable:packageDebugResources
+> Task :SpGlideDrawable:processDebugManifest
+> Task :SpGlideDrawable:generateDebugRFile
+> Task :SpGlideDrawable:prepareLintJar
+> Task :SpGlideDrawable:generateDebugSources
+> Task :SpGlideDrawable:javaPreCompileDebug
+> Task :SpGlideDrawable:compileDebugJavaWithJavac
+> Task :SpGlideDrawable:extractDebugAnnotations
+> Task :SpGlideDrawable:mergeDebugConsumerProguardFiles
+> Task :SpGlideDrawable:mergeDebugShaders
+> Task :SpGlideDrawable:compileDebugShaders
+> Task :SpGlideDrawable:generateDebugAssets
+> Task :SpGlideDrawable:packageDebugAssets
+> Task :SpGlideDrawable:packageDebugRenderscript NO-SOURCE
+> Task :SpGlideDrawable:processDebugJavaRes NO-SOURCE
+> Task :SpGlideDrawable:transformResourcesWithMergeJavaResForDebug
+> Task :SpGlideDrawable:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :SpGlideDrawable:compileDebugNdk NO-SOURCE
+> Task :SpGlideDrawable:mergeDebugJniLibFolders
+> Task :SpGlideDrawable:transformNativeLibsWithMergeJniLibsForDebug
+> Task :SpGlideDrawable:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :SpGlideDrawable:transformNativeLibsWithSyncJniLibsForDebug
+> Task :SpGlideDrawable:bundleDebugAar
+> Task :SpGlideDrawable:compileDebugSources
+> Task :SpGlideDrawable:assembleDebug
+> Task :SpEditText:preReleaseBuild UP-TO-DATE
+> Task :SpEditText:compileReleaseAidl NO-SOURCE
+> Task :SpGlideDrawable:preReleaseBuild UP-TO-DATE
+> Task :SpGlideDrawable:compileReleaseAidl NO-SOURCE
+> Task :SpEditText:compileReleaseRenderscript UP-TO-DATE
+> Task :SpEditText:checkReleaseManifest UP-TO-DATE
+> Task :SpEditText:generateReleaseBuildConfig UP-TO-DATE
+> Task :SpEditText:generateReleaseResValues UP-TO-DATE
+> Task :SpEditText:generateReleaseResources UP-TO-DATE
+> Task :SpEditText:packageReleaseResources UP-TO-DATE
+> Task :SpEditText:processReleaseManifest UP-TO-DATE
+> Task :SpEditText:generateReleaseRFile UP-TO-DATE
+> Task :SpEditText:generateReleaseSources UP-TO-DATE
+> Task :SpEditText:javaPreCompileRelease UP-TO-DATE
+> Task :SpEditText:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :SpEditText:processReleaseJavaRes NO-SOURCE
+> Task :SpEditText:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :SpEditText:packageReleaseRenderscript NO-SOURCE
+> Task :SpGlideDrawable:compileReleaseRenderscript
+> Task :SpGlideDrawable:checkReleaseManifest
+> Task :SpGlideDrawable:generateReleaseBuildConfig
+> Task :SpGlideDrawable:generateReleaseResValues
+> Task :SpGlideDrawable:generateReleaseResources
+> Task :SpGlideDrawable:packageReleaseResources
+> Task :SpGlideDrawable:processReleaseManifest
+> Task :SpGlideDrawable:generateReleaseRFile
+> Task :SpGlideDrawable:generateReleaseSources
+> Task :SpGlideDrawable:javaPreCompileRelease
+> Task :SpGlideDrawable:compileReleaseJavaWithJavac
+> Task :SpGlideDrawable:extractReleaseAnnotations
+> Task :SpGlideDrawable:mergeReleaseConsumerProguardFiles
+> Task :SpGlideDrawable:mergeReleaseShaders
+> Task :SpGlideDrawable:compileReleaseShaders
+> Task :SpGlideDrawable:generateReleaseAssets
+> Task :SpGlideDrawable:packageReleaseAssets
+> Task :SpGlideDrawable:packageReleaseRenderscript NO-SOURCE
+> Task :SpGlideDrawable:processReleaseJavaRes NO-SOURCE
+> Task :SpGlideDrawable:transformResourcesWithMergeJavaResForRelease
+> Task :SpGlideDrawable:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :SpGlideDrawable:compileReleaseNdk NO-SOURCE
+> Task :SpGlideDrawable:mergeReleaseJniLibFolders
+> Task :SpGlideDrawable:transformNativeLibsWithMergeJniLibsForRelease
+> Task :SpGlideDrawable:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :SpGlideDrawable:transformNativeLibsWithSyncJniLibsForRelease
+> Task :SpGlideDrawable:bundleReleaseAar
+> Task :SpGlideDrawable:compileReleaseSources
+> Task :SpGlideDrawable:mergeReleaseResources
+> Task :SpGlideDrawable:verifyReleaseResources
+> Task :SpGlideDrawable:assembleRelease
+> Task :SpGlideDrawable:assemble
+> Task :SpGlideDrawable:build
+
+BUILD SUCCESSFUL in 11s
+66 actionable tasks: 47 executed, 19 up-to-date
+
+2019-01-29 01:10:27,967 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-29 01:10:27,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-29 01:10:34,491 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-29 01:10:34,491 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-29 01:10:34,491 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-29 01:11:11,791 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :SpEditText:preBuild UP-TO-DATE
+> Task :SpEditText:preDebugBuild UP-TO-DATE
+> Task :SpEditText:checkDebugManifest UP-TO-DATE
+> Task :SpEditText:processDebugManifest UP-TO-DATE
+> Task :SpGlideDrawable:preBuild UP-TO-DATE
+> Task :SpGlideDrawable:preDebugBuild UP-TO-DATE
+> Task :SpGlideDrawable:checkDebugManifest UP-TO-DATE
+> Task :SpGlideDrawable:processDebugManifest UP-TO-DATE
+> Task :app:preDebugBuild
+> Task :SpEditText:compileDebugAidl NO-SOURCE
+> Task :SpGlideDrawable:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :SpEditText:packageDebugRenderscript NO-SOURCE
+> Task :SpGlideDrawable:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :SpEditText:compileDebugRenderscript UP-TO-DATE
+> Task :SpEditText:generateDebugBuildConfig UP-TO-DATE
+> Task :SpEditText:generateDebugResValues UP-TO-DATE
+> Task :SpEditText:generateDebugResources UP-TO-DATE
+> Task :SpEditText:packageDebugResources UP-TO-DATE
+> Task :SpEditText:generateDebugRFile UP-TO-DATE
+> Task :SpEditText:prepareLintJar UP-TO-DATE
+> Task :SpEditText:generateDebugSources UP-TO-DATE
+> Task :SpEditText:javaPreCompileDebug UP-TO-DATE
+> Task :SpEditText:compileDebugJavaWithJavac UP-TO-DATE
+> Task :SpEditText:processDebugJavaRes NO-SOURCE
+> Task :SpEditText:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :SpGlideDrawable:compileDebugRenderscript UP-TO-DATE
+> Task :SpGlideDrawable:generateDebugBuildConfig UP-TO-DATE
+> Task :SpGlideDrawable:generateDebugResValues UP-TO-DATE
+> Task :SpGlideDrawable:generateDebugResources UP-TO-DATE
+> Task :SpGlideDrawable:packageDebugResources UP-TO-DATE
+> Task :SpGlideDrawable:generateDebugRFile UP-TO-DATE
+> Task :SpGlideDrawable:prepareLintJar UP-TO-DATE
+> Task :SpGlideDrawable:generateDebugSources UP-TO-DATE
+> Task :SpGlideDrawable:javaPreCompileDebug UP-TO-DATE
+> Task :SpGlideDrawable:compileDebugJavaWithJavac UP-TO-DATE
+> Task :SpGlideDrawable:processDebugJavaRes NO-SOURCE
+> Task :SpGlideDrawable:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-4.5.0.jar (com.github.bumptech.glide:compiler:4.5.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: [1] Wrote GeneratedAppGlideModule with: []
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :SpEditText:mergeDebugShaders UP-TO-DATE
+> Task :SpEditText:compileDebugShaders UP-TO-DATE
+> Task :SpEditText:generateDebugAssets UP-TO-DATE
+> Task :SpEditText:packageDebugAssets UP-TO-DATE
+> Task :SpGlideDrawable:mergeDebugShaders UP-TO-DATE
+> Task :SpGlideDrawable:compileDebugShaders UP-TO-DATE
+> Task :SpGlideDrawable:generateDebugAssets UP-TO-DATE
+> Task :SpGlideDrawable:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :SpEditText:createFullJarDebug
+> Transform full.jar (project :SpEditText) with IdentityTransform
+> Task :SpGlideDrawable:createFullJarDebug
+> Transform full.jar (project :SpGlideDrawable) with IdentityTransform
+> Transform full.jar (project :SpEditText) with DexingTransform
+> Task :app:mergeExtDexDebug
+> Transform full.jar (project :SpGlideDrawable) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :SpEditText:compileDebugNdk NO-SOURCE
+> Task :SpEditText:mergeDebugJniLibFolders UP-TO-DATE
+> Task :SpEditText:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :SpEditText:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :SpEditText:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :SpGlideDrawable:compileDebugNdk NO-SOURCE
+> Task :SpGlideDrawable:mergeDebugJniLibFolders UP-TO-DATE
+> Task :SpGlideDrawable:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :SpGlideDrawable:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :SpGlideDrawable:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :SpEditText:preReleaseBuild UP-TO-DATE
+> Task :SpEditText:checkReleaseManifest UP-TO-DATE
+> Task :SpEditText:processReleaseManifest UP-TO-DATE
+> Task :SpGlideDrawable:preReleaseBuild UP-TO-DATE
+> Task :SpGlideDrawable:checkReleaseManifest UP-TO-DATE
+> Task :SpGlideDrawable:processReleaseManifest UP-TO-DATE
+> Task :app:preReleaseBuild
+> Task :SpEditText:compileReleaseAidl NO-SOURCE
+> Task :SpGlideDrawable:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :SpEditText:packageReleaseRenderscript NO-SOURCE
+> Task :SpGlideDrawable:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :SpEditText:compileReleaseRenderscript UP-TO-DATE
+> Task :SpEditText:generateReleaseBuildConfig UP-TO-DATE
+> Task :SpEditText:generateReleaseResValues UP-TO-DATE
+> Task :SpEditText:generateReleaseResources UP-TO-DATE
+> Task :SpEditText:packageReleaseResources UP-TO-DATE
+> Task :SpEditText:generateReleaseRFile UP-TO-DATE
+> Task :SpEditText:generateReleaseSources UP-TO-DATE
+> Task :SpEditText:javaPreCompileRelease UP-TO-DATE
+> Task :SpEditText:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :SpEditText:processReleaseJavaRes NO-SOURCE
+> Task :SpEditText:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :SpGlideDrawable:compileReleaseRenderscript UP-TO-DATE
+> Task :SpGlideDrawable:generateReleaseBuildConfig UP-TO-DATE
+> Task :SpGlideDrawable:generateReleaseResValues UP-TO-DATE
+> Task :SpGlideDrawable:generateReleaseResources UP-TO-DATE
+> Task :SpGlideDrawable:packageReleaseResources UP-TO-DATE
+> Task :SpGlideDrawable:generateReleaseRFile UP-TO-DATE
+> Task :SpGlideDrawable:generateReleaseSources UP-TO-DATE
+> Task :SpGlideDrawable:javaPreCompileRelease UP-TO-DATE
+> Task :SpGlideDrawable:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :SpGlideDrawable:processReleaseJavaRes NO-SOURCE
+> Task :SpGlideDrawable:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-4.5.0.jar (com.github.bumptech.glide:compiler:4.5.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: [1] Wrote GeneratedAppGlideModule with: []
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a9e3bf24d90a69415d9f4e8d5c4d92a2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar
+
+> Task :SpEditText:createFullJarRelease
+> Transform full.jar (project :SpEditText) with IdentityTransform
+> Task :SpGlideDrawable:createFullJarRelease
+> Transform full.jar (project :SpGlideDrawable) with IdentityTransform
+> Transform full.jar (project :SpEditText) with DexingTransform
+> Task :app:mergeExtDexRelease
+> Transform full.jar (project :SpGlideDrawable) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :SpEditText:mergeReleaseShaders UP-TO-DATE
+> Task :SpEditText:compileReleaseShaders UP-TO-DATE
+> Task :SpEditText:generateReleaseAssets UP-TO-DATE
+> Task :SpEditText:packageReleaseAssets UP-TO-DATE
+> Task :SpGlideDrawable:mergeReleaseShaders UP-TO-DATE
+> Task :SpGlideDrawable:compileReleaseShaders UP-TO-DATE
+> Task :SpGlideDrawable:generateReleaseAssets UP-TO-DATE
+> Task :SpGlideDrawable:packageReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :SpEditText:compileReleaseNdk NO-SOURCE
+> Task :SpEditText:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :SpEditText:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :SpEditText:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :SpEditText:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :SpGlideDrawable:compileReleaseNdk NO-SOURCE
+> Task :SpGlideDrawable:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :SpGlideDrawable:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :SpGlideDrawable:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :SpGlideDrawable:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 36s
+125 actionable tasks: 61 executed, 64 up-to-date
+
+2019-01-29 01:11:11,943 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/outputs/apk/debug/app-debug.apk

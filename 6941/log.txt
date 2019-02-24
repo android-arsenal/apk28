@@ -1,0 +1,240 @@
+2018-11-16 17:46:51,917 INFO  DownloadService - Downloading "https://github.com/Hamadakram/JustBar/archive/master.zip", attempt 3
+2018-11-16 17:46:56,100 INFO  DownloadService - Downloaded https://github.com/Hamadakram/JustBar/archive/master.zip, attempt 3
+2018-11-16 17:46:56,100 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/master.zip": 474 KB
+2018-11-16 17:46:56,100 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-16 17:46:56,105 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/master.zip: true
+2018-11-16 17:46:56,105 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src'.
+2018-11-16 17:46:56,129 INFO  FullProcessService - Size of directory with sources: 519 KB
+2018-11-16 17:46:56,129 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src]
+2018-11-16 17:46:56,147 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/.git/
+
+2018-11-16 17:46:56,150 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/gradlew
+2018-11-16 17:46:56,153 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/justbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/build.gradle
+2018-11-16 17:46:56,156 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/justbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/settings.gradle
+2018-11-16 17:46:56,156 INFO  ProjectBuildService - Remote scripts: none
+2018-11-16 17:46:56,156 INFO  ProjectFixService - Fixing project...
+2018-11-16 17:46:56,163 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/justbar/local.properties
+2018-11-16 17:46:56,164 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/justbar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-16 17:46:56,164 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/justbar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-16 17:46:56,165 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/sample/local.properties
+2018-11-16 17:46:56,166 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-16 17:46:56,166 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-16 17:46:56,167 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/local.properties
+2018-11-16 17:46:56,167 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-16 17:46:56,168 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-16 17:46:56,169 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-16 17:46:56,169 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-16 17:46:56,169 INFO  ProjectFixService - Project was maybe fixed
+2018-11-16 17:46:56,169 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 17:46:56,170 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/justbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 17:47:03,884 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-11-16 17:47:03,884 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-16 17:47:03,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/justbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-16 17:47:16,082 INFO  SysUtils - Configuration on demand is an incubating feature.
+:justbar:preBuild UP-TO-DATE
+:justbar:preDebugBuild UP-TO-DATE
+:justbar:compileDebugAidl
+:justbar:compileDebugRenderscript
+:justbar:checkDebugManifest
+:justbar:generateDebugBuildConfig
+:justbar:generateDebugResValues
+:justbar:generateDebugResources
+:justbar:packageDebugResources
+:justbar:platformAttrExtractor
+:justbar:processDebugManifest
+:justbar:prepareLintJar
+:justbar:javaPreCompileDebug
+:justbar:mergeDebugConsumerProguardFiles
+:justbar:mergeDebugShaders
+:justbar:compileDebugShaders
+:justbar:generateDebugAssets
+:justbar:packageDebugAssets
+:justbar:packageDebugRenderscript NO-SOURCE
+:justbar:processDebugJavaRes NO-SOURCE
+:justbar:compileDebugNdk NO-SOURCE
+:justbar:mergeDebugJniLibFolders
+:justbar:transformNativeLibsWithMergeJniLibsForDebug
+:justbar:transformNativeLibsWithStripDebugSymbolForDebug
+:justbar:transformNativeLibsWithSyncJniLibsForDebug
+:justbar:preReleaseBuild UP-TO-DATE
+:justbar:compileReleaseAidl
+:justbar:compileReleaseRenderscript
+:justbar:checkReleaseManifest
+:justbar:generateReleaseBuildConfig
+:justbar:generateReleaseResValues
+:justbar:generateReleaseResources
+:justbar:packageReleaseResources
+:justbar:processReleaseManifest
+:justbar:javaPreCompileRelease
+:justbar:mergeReleaseConsumerProguardFiles
+:justbar:mergeReleaseShaders
+:justbar:compileReleaseShaders
+:justbar:generateReleaseAssets
+:justbar:packageReleaseAssets
+:justbar:packageReleaseRenderscript NO-SOURCE
+:justbar:processReleaseJavaRes NO-SOURCE
+:justbar:compileReleaseNdk NO-SOURCE
+:justbar:mergeReleaseJniLibFolders
+:justbar:transformNativeLibsWithMergeJniLibsForRelease
+:justbar:transformNativeLibsWithStripDebugSymbolForRelease
+:justbar:transformNativeLibsWithSyncJniLibsForRelease
+:justbar:mergeReleaseResources
+:justbar:verifyReleaseResources
+:justbar:generateDebugRFile
+:justbar:generateDebugSources
+:justbar:compileDebugJavaWithJavac
+:justbar:extractDebugAnnotations
+:justbar:transformResourcesWithMergeJavaResForDebug
+:justbar:transformClassesAndResourcesWithSyncLibJarsForDebug
+:justbar:bundleDebug
+:justbar:compileDebugSources
+:justbar:assembleDebug
+:justbar:generateReleaseRFile
+:justbar:generateReleaseSources
+:justbar:compileReleaseJavaWithJavac
+:justbar:extractReleaseAnnotations
+:justbar:transformResourcesWithMergeJavaResForRelease
+:justbar:transformClassesAndResourcesWithSyncLibJarsForRelease
+:justbar:bundleRelease
+:justbar:compileReleaseSources
+:justbar:assembleRelease
+:justbar:assemble
+:justbar:build
+
+BUILD SUCCESSFUL in 11s
+48 actionable tasks: 48 executed
+
+2018-11-16 17:47:16,133 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 17:47:16,133 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 17:47:23,017 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-16 17:47:23,017 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-16 17:47:23,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-16 17:47:48,256 INFO  SysUtils - Configuration on demand is an incubating feature.
+:justbar:preBuild UP-TO-DATE
+:justbar:preDebugBuild UP-TO-DATE
+:justbar:compileDebugAidl UP-TO-DATE
+:justbar:compileDebugRenderscript UP-TO-DATE
+:justbar:checkDebugManifest UP-TO-DATE
+:justbar:generateDebugBuildConfig UP-TO-DATE
+:justbar:generateDebugResValues UP-TO-DATE
+:justbar:generateDebugResources UP-TO-DATE
+:justbar:packageDebugResources UP-TO-DATE
+:justbar:platformAttrExtractor UP-TO-DATE
+:justbar:processDebugManifest UP-TO-DATE
+:justbar:generateDebugRFile UP-TO-DATE
+:justbar:prepareLintJar UP-TO-DATE
+:justbar:generateDebugSources UP-TO-DATE
+:justbar:javaPreCompileDebug UP-TO-DATE
+:justbar:compileDebugJavaWithJavac UP-TO-DATE
+:justbar:processDebugJavaRes NO-SOURCE
+:justbar:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:justbar:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:justbar:mergeDebugShaders UP-TO-DATE
+:justbar:compileDebugShaders UP-TO-DATE
+:justbar:generateDebugAssets UP-TO-DATE
+:justbar:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:justbar:compileDebugNdk NO-SOURCE
+:justbar:mergeDebugJniLibFolders UP-TO-DATE
+:justbar:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:justbar:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:justbar:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:justbar:preReleaseBuild UP-TO-DATE
+:justbar:compileReleaseAidl UP-TO-DATE
+:justbar:compileReleaseRenderscript UP-TO-DATE
+:justbar:checkReleaseManifest UP-TO-DATE
+:justbar:generateReleaseBuildConfig UP-TO-DATE
+:justbar:generateReleaseResValues UP-TO-DATE
+:justbar:generateReleaseResources UP-TO-DATE
+:justbar:packageReleaseResources UP-TO-DATE
+:justbar:processReleaseManifest UP-TO-DATE
+:justbar:generateReleaseRFile UP-TO-DATE
+:justbar:generateReleaseSources UP-TO-DATE
+:justbar:javaPreCompileRelease UP-TO-DATE
+:justbar:compileReleaseJavaWithJavac UP-TO-DATE
+:justbar:processReleaseJavaRes NO-SOURCE
+:justbar:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:justbar:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:justbar:mergeReleaseShaders UP-TO-DATE
+:justbar:compileReleaseShaders UP-TO-DATE
+:justbar:generateReleaseAssets UP-TO-DATE
+:justbar:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:justbar:compileReleaseNdk NO-SOURCE
+:justbar:mergeReleaseJniLibFolders UP-TO-DATE
+:justbar:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:justbar:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:justbar:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 24s
+91 actionable tasks: 57 executed, 34 up-to-date
+
+2018-11-16 17:47:48,360 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542365211914-0/src/JustBar-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

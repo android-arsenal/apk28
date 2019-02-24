@@ -1,0 +1,174 @@
+2018-10-30 16:17:17,614 INFO  DownloadService - Downloading "https://github.com/yehiahd/FastSave-Android/archive/master.zip", attempt 3
+2018-10-30 16:18:18,468 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-10-30 16:18:19,600 INFO  GithubDownloadService - Default branch of this repository: master
+2018-10-30 16:18:19,600 INFO  DownloadService - Downloading "https://github.com/yehiahd/FastSave-Android/archive/master.zip", attempt 3
+2018-10-30 16:19:21,444 DEBUG FullProcessService - Repository https://github.com/yehiahd/FastSave-Android available: true
+2018-10-30 16:19:21,444 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-10-30 16:19:21,445 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/yehiahd/FastSave-Android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src]
+2018-10-30 16:19:23,205 INFO  SysUtils - 
+2018-10-30 16:19:23,214 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/.git": true
+2018-10-30 16:19:23,219 INFO  FullProcessService - Size of directory with sources: 177 KB
+2018-10-30 16:19:23,219 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src]
+2018-10-30 16:19:23,235 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/.git/
+
+2018-10-30 16:19:23,239 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/gradlew
+2018-10-30 16:19:23,243 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/fastsave/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/build.gradle
+2018-10-30 16:19:23,246 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/fastsave/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/settings.gradle
+2018-10-30 16:19:23,247 INFO  ProjectBuildService - Remote scripts: none
+2018-10-30 16:19:23,247 INFO  ProjectFixService - Fixing project...
+2018-10-30 16:19:23,255 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/local.properties
+2018-10-30 16:19:23,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2018-10-30 16:19:23,256 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2018-10-30 16:19:23,257 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/fastsave/local.properties
+2018-10-30 16:19:23,258 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/fastsave/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-30 16:19:23,258 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/fastsave/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-30 16:19:23,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/local.properties
+2018-10-30 16:19:23,259 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-30 16:19:23,260 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-30 16:19:23,261 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2018-10-30 16:19:23,261 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2018-10-30 16:19:23,262 INFO  ProjectFixService - Project was maybe fixed
+2018-10-30 16:19:23,262 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-30 16:19:23,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-30 16:19:29,036 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-10-30 16:19:29,036 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-30 16:19:29,037 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-30 16:19:59,454 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+WARNING: Conflict with dependency 'com.google.code.gson:gson' in project ':app'. Resolved versions for runtime classpath (2.8.2) and compile classpath (2.8.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle:
+dependencies {
+    implementation("com.google.code.gson:gson:2.8.2")
+}
+
+:app:preBuild UP-TO-DATE
+:fastsave:preBuild UP-TO-DATE
+:fastsave:preDebugBuild UP-TO-DATE
+:fastsave:checkDebugManifest
+:fastsave:processDebugManifest
+:app:preDebugBuild
+:fastsave:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:fastsave:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:fastsave:compileDebugRenderscript
+:fastsave:generateDebugResValues
+:fastsave:generateDebugResources
+:fastsave:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:fastsave:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:fastsave:generateDebugBuildConfig
+:fastsave:prepareLintJar
+:fastsave:generateDebugSources
+:fastsave:javaPreCompileDebug
+:fastsave:compileDebugJavaWithJavac
+:fastsave:processDebugJavaRes NO-SOURCE
+:fastsave:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:fastsave:mergeDebugShaders
+:fastsave:compileDebugShaders
+:fastsave:generateDebugAssets
+:fastsave:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:fastsave:compileDebugNdk NO-SOURCE
+:fastsave:mergeDebugJniLibFolders
+:fastsave:transformNativeLibsWithMergeJniLibsForDebug
+:fastsave:transformNativeLibsWithStripDebugSymbolForDebug
+:fastsave:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libsqlcipher.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:fastsave:preReleaseBuild UP-TO-DATE
+:fastsave:checkReleaseManifest
+:fastsave:processReleaseManifest
+:app:preReleaseBuild
+:fastsave:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:fastsave:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:fastsave:compileReleaseRenderscript
+:fastsave:generateReleaseResValues
+:fastsave:generateReleaseResources
+:fastsave:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:fastsave:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:fastsave:generateReleaseBuildConfig
+:fastsave:generateReleaseSources
+:fastsave:javaPreCompileRelease
+:fastsave:compileReleaseJavaWithJavac
+:fastsave:processReleaseJavaRes NO-SOURCE
+:fastsave:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/35109cbd08327bc3329c428286471136/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:fastsave:mergeReleaseShaders
+:fastsave:compileReleaseShaders
+:fastsave:generateReleaseAssets
+:fastsave:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:fastsave:compileReleaseNdk NO-SOURCE
+:fastsave:mergeReleaseJniLibFolders
+:fastsave:transformNativeLibsWithMergeJniLibsForRelease
+:fastsave:transformNativeLibsWithStripDebugSymbolForRelease
+:fastsave:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 29s
+90 actionable tasks: 90 executed
+
+2018-10-30 16:19:59,531 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build/outputs/apk/debug/app-debug.apk
