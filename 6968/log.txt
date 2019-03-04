@@ -1,41 +1,36 @@
-2018-08-26 01:10:19,460 INFO  DownloadService - Downloading "https://github.com/Raed-Mughaus/DrawingView/archive/master.zip", attempt 3
-2018-08-26 01:10:21,426 INFO  DownloadService - Downloaded https://github.com/Raed-Mughaus/DrawingView/archive/master.zip, attempt 3
-2018-08-26 01:10:21,427 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/master.zip": 846 KB
-2018-08-26 01:10:21,427 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-08-26 01:10:21,427 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/master.zip: true
-2018-08-26 01:10:21,427 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src'.
-2018-08-26 01:10:21,465 INFO  FullProcessService - Size of directory with sources: 931 KB
-2018-08-26 01:10:21,465 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src]
-2018-08-26 01:10:21,483 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/.git/
+2019-03-04 11:14:54,376 INFO  DownloadService - Downloading "https://github.com/Raed-Mughaus/DrawingView/archive/master.zip", attempt 3
+2019-03-04 11:14:57,263 INFO  DownloadService - Downloaded https://github.com/Raed-Mughaus/DrawingView/archive/master.zip, attempt 3
+2019-03-04 11:14:57,263 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/master.zip": 846 KB
+2019-03-04 11:14:57,263 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-04 11:14:57,269 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/master.zip: true
+2019-03-04 11:14:57,269 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src'.
+2019-03-04 11:14:57,302 INFO  FullProcessService - Size of directory with sources: 931 KB
+2019-03-04 11:14:57,302 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src]
+2019-03-04 11:14:57,327 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/.git/
 
-2018-08-26 01:10:21,488 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/gradlew
-2018-08-26 01:10:21,493 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/drawingview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/build.gradle
-2018-08-26 01:10:21,498 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/drawingview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/settings.gradle
-2018-08-26 01:10:21,498 INFO  ProjectBuildService - Remote scripts: none
-2018-08-26 01:10:21,498 INFO  ProjectFixService - Fixing project...
-2018-08-26 01:10:21,510 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/drawingview/local.properties
-2018-08-26 01:10:21,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/drawingview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2018-08-26 01:10:21,511 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/drawingview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2018-08-26 01:10:21,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/sample/local.properties
-2018-08-26 01:10:21,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2018-08-26 01:10:21,514 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2018-08-26 01:10:21,516 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/local.properties
-2018-08-26 01:10:21,516 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-08-26 01:10:21,516 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-08-26 01:10:21,517 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2018-08-26 01:10:21,518 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2018-08-26 01:10:21,518 INFO  ProjectFixService - Project was maybe fixed
-2018-08-26 01:10:21,518 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-26 01:10:21,519 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/drawingview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-26 01:10:28,506 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-08-26 01:10:28,506 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-08-26 01:10:28,507 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/drawingview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-08-26 01:10:38,936 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
-WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
-WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
-WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
-WARNING: All illegal access operations will be denied in a future release
-Configuration on demand is an incubating feature.
+2019-03-04 11:14:57,331 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/gradlew
+2019-03-04 11:14:57,335 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/drawingview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/build.gradle
+2019-03-04 11:14:57,339 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/drawingview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/settings.gradle
+2019-03-04 11:14:57,340 INFO  ProjectBuildService - Remote scripts: none
+2019-03-04 11:14:57,340 INFO  ProjectFixService - Fixing project...
+2019-03-04 11:14:57,349 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/drawingview/local.properties
+2019-03-04 11:14:57,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/drawingview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-03-04 11:14:57,350 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/drawingview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-03-04 11:14:57,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/sample/local.properties
+2019-03-04 11:14:57,351 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-03-04 11:14:57,351 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-03-04 11:14:57,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/local.properties
+2019-03-04 11:14:57,352 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-04 11:14:57,353 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-04 11:14:57,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-03-04 11:14:57,354 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-03-04 11:14:57,354 INFO  ProjectFixService - Project was maybe fixed
+2019-03-04 11:14:57,354 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 11:14:57,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/drawingview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 11:15:03,431 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-04 11:15:03,431 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-04 11:15:03,431 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/drawingview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-04 11:15:12,636 INFO  SysUtils - Configuration on demand is an incubating feature.
 :drawingview:preBuild UP-TO-DATE
 :drawingview:preDebugBuild UP-TO-DATE
 :drawingview:compileDebugAidl
@@ -49,10 +44,6 @@ Configuration on demand is an incubating feature.
 :drawingview:processDebugManifest
 :drawingview:prepareLintJar
 :drawingview:javaPreCompileDebug
-:drawingview:generateDebugRFile
-:drawingview:generateDebugSources
-:drawingview:compileDebugJavaWithJavac
-:drawingview:extractDebugAnnotations
 :drawingview:mergeDebugConsumerProguardFiles
 :drawingview:mergeDebugShaders
 :drawingview:compileDebugShaders
@@ -60,16 +51,11 @@ Configuration on demand is an incubating feature.
 :drawingview:packageDebugAssets
 :drawingview:packageDebugRenderscript NO-SOURCE
 :drawingview:processDebugJavaRes NO-SOURCE
-:drawingview:transformResourcesWithMergeJavaResForDebug
-:drawingview:transformClassesAndResourcesWithSyncLibJarsForDebug
 :drawingview:compileDebugNdk NO-SOURCE
 :drawingview:mergeDebugJniLibFolders
 :drawingview:transformNativeLibsWithMergeJniLibsForDebug
 :drawingview:transformNativeLibsWithStripDebugSymbolForDebug
 :drawingview:transformNativeLibsWithSyncJniLibsForDebug
-:drawingview:bundleDebug
-:drawingview:compileDebugSources
-:drawingview:assembleDebug
 :drawingview:preReleaseBuild UP-TO-DATE
 :drawingview:compileReleaseAidl
 :drawingview:compileReleaseRenderscript
@@ -79,11 +65,7 @@ Configuration on demand is an incubating feature.
 :drawingview:generateReleaseResources
 :drawingview:packageReleaseResources
 :drawingview:processReleaseManifest
-:drawingview:generateReleaseRFile
-:drawingview:generateReleaseSources
 :drawingview:javaPreCompileRelease
-:drawingview:compileReleaseJavaWithJavac
-:drawingview:extractReleaseAnnotations
 :drawingview:mergeReleaseConsumerProguardFiles
 :drawingview:mergeReleaseShaders
 :drawingview:compileReleaseShaders
@@ -91,35 +73,43 @@ Configuration on demand is an incubating feature.
 :drawingview:packageReleaseAssets
 :drawingview:packageReleaseRenderscript NO-SOURCE
 :drawingview:processReleaseJavaRes NO-SOURCE
-:drawingview:transformResourcesWithMergeJavaResForRelease
-:drawingview:transformClassesAndResourcesWithSyncLibJarsForRelease
 :drawingview:compileReleaseNdk NO-SOURCE
 :drawingview:mergeReleaseJniLibFolders
 :drawingview:transformNativeLibsWithMergeJniLibsForRelease
 :drawingview:transformNativeLibsWithStripDebugSymbolForRelease
 :drawingview:transformNativeLibsWithSyncJniLibsForRelease
-:drawingview:bundleRelease
-:drawingview:compileReleaseSources
 :drawingview:mergeReleaseResources
 :drawingview:verifyReleaseResources
+:drawingview:generateDebugRFile
+:drawingview:generateDebugSources
+:drawingview:compileDebugJavaWithJavac
+:drawingview:extractDebugAnnotations
+:drawingview:transformResourcesWithMergeJavaResForDebug
+:drawingview:transformClassesAndResourcesWithSyncLibJarsForDebug
+:drawingview:bundleDebug
+:drawingview:compileDebugSources
+:drawingview:assembleDebug
+:drawingview:generateReleaseRFile
+:drawingview:generateReleaseSources
+:drawingview:compileReleaseJavaWithJavac
+:drawingview:extractReleaseAnnotations
+:drawingview:transformResourcesWithMergeJavaResForRelease
+:drawingview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:drawingview:bundleRelease
+:drawingview:compileReleaseSources
 :drawingview:assembleRelease
 :drawingview:assemble
 :drawingview:build
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 8s
 48 actionable tasks: 48 executed
 
-2018-08-26 01:10:38,953 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-26 01:10:38,954 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-26 01:10:46,098 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-08-26 01:10:46,099 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-08-26 01:10:46,099 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-08-26 01:11:17,410 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
-WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
-WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
-WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
-WARNING: All illegal access operations will be denied in a future release
-Configuration on demand is an incubating feature.
+2019-03-04 11:15:12,653 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 11:15:12,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 11:15:18,556 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-04 11:15:18,557 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-04 11:15:18,557 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-04 11:15:44,415 INFO  SysUtils - Configuration on demand is an incubating feature.
 :drawingview:preBuild UP-TO-DATE
 :drawingview:preDebugBuild UP-TO-DATE
 :drawingview:compileDebugAidl UP-TO-DATE
@@ -152,7 +142,7 @@ Configuration on demand is an incubating feature.
 :sample:mergeDebugResources
 :sample:createDebugCompatibleScreenManifests
 :sample:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/sample/src/main/AndroidManifest.xml:6:5-80 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/sample/src/main/AndroidManifest.xml:6:5-80 Warning:
 	Element uses-permission#android.permission.WRITE_EXTERNAL_STORAGE at AndroidManifest.xml:6:5-80 duplicated with element declared at AndroidManifest.xml:5:5-80
 :sample:splitsDiscoveryTaskDebug
 :sample:processDebugResources
@@ -212,7 +202,7 @@ Configuration on demand is an incubating feature.
 :sample:mergeReleaseResources
 :sample:createReleaseCompatibleScreenManifests
 :sample:processReleaseManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/sample/src/main/AndroidManifest.xml:6:5-80 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/sample/src/main/AndroidManifest.xml:6:5-80 Warning:
 	Element uses-permission#android.permission.WRITE_EXTERNAL_STORAGE at AndroidManifest.xml:6:5-80 duplicated with element declared at AndroidManifest.xml:5:5-80
 :sample:splitsDiscoveryTaskRelease
 :sample:processReleaseResources
@@ -248,7 +238,7 @@ Configuration on demand is an incubating feature.
 :sample:assemble
 :sample:build
 
-BUILD SUCCESSFUL in 30s
+BUILD SUCCESSFUL in 25s
 91 actionable tasks: 57 executed, 34 up-to-date
 
-2018-08-26 01:11:17,485 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535220619457-0/src/DrawingView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-03-04 11:15:44,488 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672894369-0/src/DrawingView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

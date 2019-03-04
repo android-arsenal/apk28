@@ -1,36 +1,36 @@
-2018-10-07 20:45:02,353 INFO  DownloadService - Downloading "https://github.com/pahlevikun/DroidCrypt/archive/master.zip", attempt 3
-2018-10-07 20:45:02,869 INFO  DownloadService - Downloaded https://github.com/pahlevikun/DroidCrypt/archive/master.zip, attempt 3
-2018-10-07 20:45:02,869 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/master.zip": 152 KB
-2018-10-07 20:45:02,869 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-07 20:45:02,870 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/master.zip: true
-2018-10-07 20:45:02,870 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src'.
-2018-10-07 20:45:02,893 INFO  FullProcessService - Size of directory with sources: 173 KB
-2018-10-07 20:45:02,893 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src]
-2018-10-07 20:45:02,913 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/.git/
+2019-03-04 11:08:29,567 INFO  DownloadService - Downloading "https://github.com/pahlevikun/DroidCrypt/archive/master.zip", attempt 3
+2019-03-04 11:08:31,530 INFO  DownloadService - Downloaded https://github.com/pahlevikun/DroidCrypt/archive/master.zip, attempt 3
+2019-03-04 11:08:31,530 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/master.zip": 152 KB
+2019-03-04 11:08:31,530 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-04 11:08:31,530 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/master.zip: true
+2019-03-04 11:08:31,530 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src'.
+2019-03-04 11:08:31,551 INFO  FullProcessService - Size of directory with sources: 173 KB
+2019-03-04 11:08:31,551 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src]
+2019-03-04 11:08:31,571 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/.git/
 
-2018-10-07 20:45:02,918 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/gradlew
-2018-10-07 20:45:02,924 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/droidcrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/build.gradle
-2018-10-07 20:45:02,928 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/droidcrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/settings.gradle
-2018-10-07 20:45:02,929 INFO  ProjectBuildService - Remote scripts: none
-2018-10-07 20:45:02,929 INFO  ProjectFixService - Fixing project...
-2018-10-07 20:45:02,939 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/local.properties
-2018-10-07 20:45:02,941 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-10-07 20:45:02,941 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-10-07 20:45:02,943 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/droidcrypt/local.properties
-2018-10-07 20:45:02,943 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/droidcrypt/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-10-07 20:45:02,944 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/droidcrypt/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-10-07 20:45:02,945 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/local.properties
-2018-10-07 20:45:02,946 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-07 20:45:02,946 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-07 20:45:02,947 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-10-07 20:45:02,948 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-10-07 20:45:02,948 INFO  ProjectFixService - Project was maybe fixed
-2018-10-07 20:45:02,948 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-07 20:45:02,949 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-07 20:45:12,299 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-07 20:45:12,300 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-07 20:45:12,300 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-07 20:46:14,278 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-04 11:08:31,575 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/gradlew
+2019-03-04 11:08:31,579 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/droidcrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/build.gradle
+2019-03-04 11:08:31,584 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/droidcrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/settings.gradle
+2019-03-04 11:08:31,584 INFO  ProjectBuildService - Remote scripts: none
+2019-03-04 11:08:31,584 INFO  ProjectFixService - Fixing project...
+2019-03-04 11:08:31,592 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/app/local.properties
+2019-03-04 11:08:31,593 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-04 11:08:31,593 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-04 11:08:31,594 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/droidcrypt/local.properties
+2019-03-04 11:08:31,595 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/droidcrypt/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-04 11:08:31,595 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/droidcrypt/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-04 11:08:31,596 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/local.properties
+2019-03-04 11:08:31,596 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-04 11:08:31,597 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-04 11:08:31,598 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-04 11:08:31,598 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-04 11:08:31,598 INFO  ProjectFixService - Project was maybe fixed
+2019-03-04 11:08:31,598 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 11:08:31,598 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 11:08:39,196 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-04 11:08:39,196 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-04 11:08:39,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-04 11:09:23,291 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :droidcrypt:preBuild UP-TO-DATE
@@ -171,7 +171,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 1s
+BUILD SUCCESSFUL in 43s
 94 actionable tasks: 94 executed
 
-2018-10-07 20:46:14,375 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538919902348-0/src/DroidCrypt-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-04 11:09:23,383 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672509564-0/src/DroidCrypt-master/app/build/outputs/apk/debug/app-debug.apk
