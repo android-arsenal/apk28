@@ -1,35 +1,36 @@
-2018-08-20 14:43:16,723 INFO  DownloadService - Downloading "https://github.com/ApendIr/slider/archive/master.zip", attempt 3
-2018-08-20 14:43:18,552 INFO  DownloadService - Downloaded https://github.com/ApendIr/slider/archive/master.zip, attempt 3
-2018-08-20 14:43:18,553 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/master.zip": 1 MB
-2018-08-20 14:43:18,553 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-08-20 14:43:18,558 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/master.zip: true
-2018-08-20 14:43:18,559 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src'.
-2018-08-20 14:43:18,600 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-08-20 14:43:18,600 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src]
-2018-08-20 14:43:18,615 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/.git/
+2019-03-04 19:44:40,675 INFO  DownloadService - Downloading "https://github.com/ApendIr/slider/archive/master.zip", attempt 3
+2019-03-04 19:44:42,914 INFO  DownloadService - Downloaded https://github.com/ApendIr/slider/archive/master.zip, attempt 3
+2019-03-04 19:44:42,914 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/master.zip": 1 MB
+2019-03-04 19:44:42,914 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-04 19:44:42,920 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/master.zip: true
+2019-03-04 19:44:42,921 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src'.
+2019-03-04 19:44:42,956 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-04 19:44:42,956 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src]
+2019-03-04 19:44:42,979 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/.git/
 
-2018-08-20 14:43:18,619 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/gradlew
-2018-08-20 14:43:18,622 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/build.gradle
-2018-08-20 14:43:18,626 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/settings.gradle
-2018-08-20 14:43:18,626 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2018-08-20 14:43:19,417 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2018-08-20 14:43:19,418 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2018-08-20 14:43:19,418 INFO  ProjectFixService - Fixing project...
-2018-08-20 14:43:19,428 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/demo/local.properties
-2018-08-20 14:43:19,428 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/demo/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-08-20 14:43:19,429 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/slider/local.properties
-2018-08-20 14:43:19,429 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/slider/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-08-20 14:43:19,430 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/local.properties
-2018-08-20 14:43:19,430 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-08-20 14:43:19,431 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-08-20 14:43:19,432 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-08-20 14:43:19,432 INFO  ProjectFixService - Project was maybe fixed
-2018-08-20 14:43:19,432 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-20 14:43:19,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-20 14:43:25,992 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-08-20 14:43:25,992 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-08-20 14:43:25,992 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-08-20 14:43:31,728 ERROR SysUtils - Could not process external command
+2019-03-04 19:44:42,983 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/gradlew
+2019-03-04 19:44:42,986 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/build.gradle
+2019-03-04 19:44:42,990 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/settings.gradle
+2019-03-04 19:44:42,995 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-03-04 19:44:43,758 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-03-04 19:44:43,759 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-03-04 19:44:43,759 INFO  ProjectFixService - Fixing project...
+2019-03-04 19:44:43,769 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/demo/local.properties
+2019-03-04 19:44:43,770 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/demo/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-04 19:44:43,770 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/slider/local.properties
+2019-03-04 19:44:43,771 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/slider/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-03-04 19:44:43,771 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/local.properties
+2019-03-04 19:44:43,771 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-03-04 19:44:43,772 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-03-04 19:44:43,777 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-04 19:44:43,777 INFO  ProjectFixService - Project was maybe fixed
+2019-03-04 19:44:43,777 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 19:44:43,777 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 19:44:52,829 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-04 19:44:52,830 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-03-04 19:44:52,830 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-03-04 19:44:52,831 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-03-04 19:44:59,897 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -57,20 +58,33 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-08-20 14:43:31,729 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-04 19:44:59,897 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Task 'androidJavadocs' not found in project ':demo'.
+A problem occurred configuring project ':demo'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
 
 * Try:
-Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':demo'.
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
-	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':demo'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:69)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:59)
 	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
@@ -133,166 +147,42 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:441)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:284)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:410)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:89)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1718)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantScope(ApplicationTaskManager.java:226)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
+	... 74 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2018-08-20 14:43:31,729 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-08-20 14:43:31,729 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-08-20 14:44:06,704 INFO  SysUtils - Configuration on demand is an incubating feature.
-Configuration 'compile' in project ':slider' is deprecated. Use 'implementation' instead.
-:demo:preBuild UP-TO-DATE
-:slider:preBuild UP-TO-DATE
-:slider:preDebugBuild UP-TO-DATE
-:slider:checkDebugManifest
-:slider:processDebugManifest
-:demo:preDebugBuild
-Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.pom
-:slider:compileDebugAidl
-:demo:compileDebugAidl
-:slider:packageDebugRenderscript NO-SOURCE
-:demo:compileDebugRenderscript
-:demo:checkDebugManifest
-:demo:generateDebugBuildConfig
-:demo:prepareLintJar
-:demo:generateDebugResValues
-:demo:generateDebugResources
-:slider:compileDebugRenderscript
-:slider:generateDebugResValues
-:slider:generateDebugResources
-:slider:packageDebugResources
-:demo:mergeDebugResources
-:demo:createDebugCompatibleScreenManifests
-:demo:processDebugManifest
-:demo:splitsDiscoveryTaskDebug
-:slider:platformAttrExtractor
-:slider:generateDebugBuildConfig
-:slider:prepareLintJar
-:slider:javaPreCompileDebug
-Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.jar
-:slider:processDebugJavaRes NO-SOURCE
-:demo:compileDebugNdk NO-SOURCE
-:demo:mergeDebugShaders
-:demo:compileDebugShaders
-:demo:generateDebugAssets
-:slider:mergeDebugShaders
-:slider:compileDebugShaders
-:slider:generateDebugAssets
-:slider:mergeDebugAssets
-:demo:mergeDebugAssets
-:demo:mergeDebugJniLibFolders
-:slider:compileDebugNdk NO-SOURCE
-:slider:mergeDebugJniLibFolders
-:slider:transformNativeLibsWithMergeJniLibsForDebug
-:slider:transformNativeLibsWithStripDebugSymbolForDebug
-:slider:transformNativeLibsWithIntermediateJniLibsForDebug
-:demo:processDebugJavaRes NO-SOURCE
-:demo:validateSigningDebug
-:slider:preReleaseBuild UP-TO-DATE
-:slider:checkReleaseManifest
-:slider:processReleaseManifest
-:demo:preReleaseBuild
-:slider:compileReleaseAidl
-:demo:compileReleaseAidl
-:slider:packageReleaseRenderscript NO-SOURCE
-:demo:compileReleaseRenderscript
-:demo:checkReleaseManifest
-:demo:generateReleaseBuildConfig
-:demo:generateReleaseResValues
-:demo:generateReleaseResources
-:slider:compileReleaseRenderscript
-:slider:generateReleaseResValues
-:slider:generateReleaseResources
-:slider:packageReleaseResources
-:demo:mergeReleaseResources
-:demo:createReleaseCompatibleScreenManifests
-:demo:processReleaseManifest
-:demo:splitsDiscoveryTaskRelease
-:slider:generateReleaseBuildConfig
-:slider:javaPreCompileRelease
-:slider:processReleaseJavaRes NO-SOURCE
-:demo:compileReleaseNdk NO-SOURCE
-:demo:mergeReleaseShaders
-:demo:compileReleaseShaders
-:demo:generateReleaseAssets
-:slider:mergeReleaseShaders
-:slider:compileReleaseShaders
-:slider:generateReleaseAssets
-:slider:mergeReleaseAssets
-:demo:mergeReleaseAssets
-:demo:mergeReleaseJniLibFolders
-:slider:compileReleaseNdk NO-SOURCE
-:slider:mergeReleaseJniLibFolders
-:slider:transformNativeLibsWithMergeJniLibsForRelease
-:slider:transformNativeLibsWithStripDebugSymbolForRelease
-:slider:transformNativeLibsWithIntermediateJniLibsForRelease
-:demo:processReleaseJavaRes NO-SOURCE
-:demo:preDebugUnitTestBuild UP-TO-DATE
-:demo:mockableAndroidJar
-:demo:processDebugUnitTestJavaRes NO-SOURCE
-:demo:preReleaseUnitTestBuild UP-TO-DATE
-:demo:processReleaseUnitTestJavaRes NO-SOURCE
-:slider:processDebugResources
-:demo:processDebugResources
-:demo:generateDebugSources
-:slider:generateDebugSources
-:slider:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/slider/src/main/java/ir/apend/slider/ui/adapter/SliderAdapter.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:slider:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:demo:javaPreCompileDebug
-:demo:compileDebugJavaWithJavac
-:demo:compileDebugSources
-:demo:transformClassesWithDexBuilderForDebug
-:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
-:demo:transformDexArchiveWithDexMergerForDebug
-:demo:transformNativeLibsWithMergeJniLibsForDebug
-:demo:transformNativeLibsWithStripDebugSymbolForDebug
-:demo:transformResourcesWithMergeJavaResForDebug
-:demo:packageDebug
-:demo:assembleDebug
-:slider:processReleaseResources
-:demo:processReleaseResources
-:demo:generateReleaseSources
-:slider:generateReleaseSources
-:slider:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/slider/src/main/java/ir/apend/slider/ui/adapter/SliderAdapter.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:slider:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:demo:javaPreCompileRelease
-:demo:compileReleaseJavaWithJavac
-:demo:compileReleaseSources
-:demo:lintVitalRelease SKIPPED
-:demo:transformClassesWithPreDexForRelease
-:demo:transformDexWithDexForRelease
-:demo:transformNativeLibsWithMergeJniLibsForRelease
-:demo:transformNativeLibsWithStripDebugSymbolForRelease
-:demo:transformResourcesWithMergeJavaResForRelease
-:demo:packageRelease
-:demo:assembleRelease
-:demo:assemble
-:demo:lint
-Ran lint on variant release: 4 issues found
-Ran lint on variant debug: 4 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/demo/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/demo/build/reports/lint-results.xml
-:demo:javaPreCompileDebugUnitTest
-:demo:compileDebugUnitTestJavaWithJavac NO-SOURCE
-:demo:testDebugUnitTest NO-SOURCE
-:demo:javaPreCompileReleaseUnitTest
-:demo:compileReleaseUnitTestJavaWithJavac NO-SOURCE
-:demo:testReleaseUnitTest NO-SOURCE
-:demo:test UP-TO-DATE
-:demo:check
-:demo:build
-
-BUILD SUCCESSFUL in 34s
-91 actionable tasks: 91 executed
-
-2018-08-20 14:44:06,778 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1534750996715-0/src/slider-master/demo/release/demo-release.apk
+2019-03-04 19:44:59,901 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703480667-0/src/slider-master/demo/release/demo-release.apk

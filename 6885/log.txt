@@ -1,39 +1,42 @@
-2019-01-29 01:09:47,909 INFO  DownloadService - Downloading "https://github.com/sunhapper/SpEditTool/archive/master.zip", attempt 3
-2019-01-29 01:09:49,863 INFO  DownloadService - Downloaded https://github.com/sunhapper/SpEditTool/archive/master.zip, attempt 3
-2019-01-29 01:09:49,863 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/master.zip": 2 MB
-2019-01-29 01:09:49,863 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-29 01:09:49,869 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/master.zip: true
-2019-01-29 01:09:49,870 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src'.
-2019-01-29 01:09:49,928 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-01-29 01:09:49,928 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src]
-2019-01-29 01:09:49,946 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/.git/
+2019-03-04 19:41:25,756 INFO  DownloadService - Downloading "https://github.com/sunhapper/SpEditTool/archive/master.zip", attempt 3
+2019-03-04 19:41:29,853 INFO  DownloadService - Downloaded https://github.com/sunhapper/SpEditTool/archive/master.zip, attempt 3
+2019-03-04 19:41:29,855 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/master.zip": 2 MB
+2019-03-04 19:41:29,855 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-04 19:41:29,856 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/master.zip: true
+2019-03-04 19:41:29,857 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src'.
+2019-03-04 19:41:30,203 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-03-04 19:41:30,203 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src]
+2019-03-04 19:41:30,274 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/.git/
 
-2019-01-29 01:09:49,951 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew
-2019-01-29 01:09:49,956 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/build.gradle
-2019-01-29 01:09:49,961 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/settings.gradle
-2019-01-29 01:09:49,961 INFO  ProjectBuildService - Remote scripts: none
-2019-01-29 01:09:49,961 INFO  ProjectFixService - Fixing project...
-2019-01-29 01:09:49,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/local.properties
-2019-01-29 01:09:49,973 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-29 01:09:49,974 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-29 01:09:49,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/local.properties
-2019-01-29 01:09:49,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-29 01:09:49,975 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-29 01:09:49,976 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/local.properties
-2019-01-29 01:09:49,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-29 01:09:49,977 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-29 01:09:49,978 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/local.properties
-2019-01-29 01:09:49,978 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-01-29 01:09:49,978 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-01-29 01:09:49,980 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-29 01:09:49,980 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-01-29 01:09:49,980 INFO  ProjectFixService - Project was maybe fixed
-2019-01-29 01:09:49,981 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-29 01:09:49,981 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-29 01:09:58,283 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-01-29 01:09:58,283 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-29 01:09:58,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpEditText/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-29 01:10:09,626 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-04 19:41:30,290 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/gradlew
+2019-03-04 19:41:30,309 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpEditText/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGifDrawable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGlideDrawable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/build.gradle
+2019-03-04 19:41:30,336 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGlideDrawable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGifDrawable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpEditText/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/settings.gradle
+2019-03-04 19:41:30,337 INFO  ProjectBuildService - Remote scripts: none
+2019-03-04 19:41:30,337 INFO  ProjectFixService - Fixing project...
+2019-03-04 19:41:30,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpEditText/local.properties
+2019-03-04 19:41:30,386 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpEditText/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-04 19:41:30,386 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpEditText/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-04 19:41:30,388 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGifDrawable/local.properties
+2019-03-04 19:41:30,399 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGifDrawable/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2019-03-04 19:41:30,399 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGifDrawable/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2019-03-04 19:41:30,403 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGlideDrawable/local.properties
+2019-03-04 19:41:30,406 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGlideDrawable/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-04 19:41:30,406 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGlideDrawable/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-04 19:41:30,408 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/app/local.properties
+2019-03-04 19:41:30,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2019-03-04 19:41:30,411 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2019-03-04 19:41:30,414 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/local.properties
+2019-03-04 19:41:30,420 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-04 19:41:30,422 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-04 19:41:30,427 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-04 19:41:30,427 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-04 19:41:30,429 INFO  ProjectFixService - Project was maybe fixed
+2019-03-04 19:41:30,429 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 19:41:30,430 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpEditText/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 19:41:45,756 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-03-04 19:41:45,756 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-04 19:41:45,756 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpEditText/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-04 19:42:08,446 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :SpEditText:preBuild UP-TO-DATE
 > Task :SpEditText:preDebugBuild UP-TO-DATE
 > Task :SpEditText:compileDebugAidl NO-SOURCE
@@ -111,15 +114,127 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :SpEditText:assemble
 > Task :SpEditText:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 22s
 45 actionable tasks: 45 executed
 
-2019-01-29 01:10:09,673 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-29 01:10:09,673 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-29 01:10:16,255 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-01-29 01:10:16,256 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-29 01:10:16,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/SpGlideDrawable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-29 01:10:27,890 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-04 19:42:08,506 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 19:42:08,507 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGifDrawable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 19:42:19,172 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-03-04 19:42:19,172 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-04 19:42:19,172 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGifDrawable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-04 19:42:43,306 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :SpEditText:preBuild UP-TO-DATE
+> Task :SpEditText:preDebugBuild UP-TO-DATE
+> Task :SpEditText:compileDebugAidl NO-SOURCE
+> Task :SpGifDrawable:preBuild UP-TO-DATE
+> Task :SpGifDrawable:preDebugBuild UP-TO-DATE
+> Task :SpGifDrawable:compileDebugAidl NO-SOURCE
+> Task :SpEditText:compileDebugRenderscript UP-TO-DATE
+> Task :SpEditText:checkDebugManifest UP-TO-DATE
+> Task :SpEditText:generateDebugBuildConfig UP-TO-DATE
+> Task :SpEditText:generateDebugResValues UP-TO-DATE
+> Task :SpEditText:generateDebugResources UP-TO-DATE
+> Task :SpEditText:packageDebugResources UP-TO-DATE
+> Task :SpEditText:processDebugManifest UP-TO-DATE
+> Task :SpEditText:generateDebugRFile UP-TO-DATE
+> Task :SpEditText:prepareLintJar UP-TO-DATE
+> Task :SpEditText:generateDebugSources UP-TO-DATE
+> Task :SpEditText:javaPreCompileDebug UP-TO-DATE
+> Task :SpEditText:compileDebugJavaWithJavac UP-TO-DATE
+> Task :SpEditText:processDebugJavaRes NO-SOURCE
+> Task :SpEditText:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :SpEditText:packageDebugRenderscript NO-SOURCE
+> Task :SpGifDrawable:compileDebugRenderscript
+> Task :SpGifDrawable:checkDebugManifest
+> Task :SpGifDrawable:generateDebugBuildConfig
+> Task :SpGifDrawable:generateDebugResValues
+> Task :SpGifDrawable:generateDebugResources
+> Task :SpGifDrawable:packageDebugResources
+> Task :SpGifDrawable:processDebugManifest
+> Task :SpGifDrawable:generateDebugRFile
+> Task :SpGifDrawable:prepareLintJar
+> Task :SpGifDrawable:generateDebugSources
+> Task :SpGifDrawable:javaPreCompileDebug
+> Task :SpGifDrawable:compileDebugJavaWithJavac
+> Task :SpGifDrawable:extractDebugAnnotations
+> Task :SpGifDrawable:mergeDebugConsumerProguardFiles
+> Task :SpGifDrawable:mergeDebugShaders
+> Task :SpGifDrawable:compileDebugShaders
+> Task :SpGifDrawable:generateDebugAssets
+> Task :SpGifDrawable:packageDebugAssets
+> Task :SpGifDrawable:packageDebugRenderscript NO-SOURCE
+> Task :SpGifDrawable:processDebugJavaRes NO-SOURCE
+> Task :SpGifDrawable:transformResourcesWithMergeJavaResForDebug
+> Task :SpGifDrawable:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :SpGifDrawable:compileDebugNdk NO-SOURCE
+> Task :SpGifDrawable:mergeDebugJniLibFolders
+> Task :SpGifDrawable:transformNativeLibsWithMergeJniLibsForDebug
+> Task :SpGifDrawable:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :SpGifDrawable:transformNativeLibsWithSyncJniLibsForDebug
+> Task :SpGifDrawable:bundleDebugAar
+> Task :SpGifDrawable:compileDebugSources
+> Task :SpGifDrawable:assembleDebug
+> Task :SpEditText:preReleaseBuild UP-TO-DATE
+> Task :SpEditText:compileReleaseAidl NO-SOURCE
+> Task :SpGifDrawable:preReleaseBuild UP-TO-DATE
+> Task :SpGifDrawable:compileReleaseAidl NO-SOURCE
+> Task :SpEditText:compileReleaseRenderscript UP-TO-DATE
+> Task :SpEditText:checkReleaseManifest UP-TO-DATE
+> Task :SpEditText:generateReleaseBuildConfig UP-TO-DATE
+> Task :SpEditText:generateReleaseResValues UP-TO-DATE
+> Task :SpEditText:generateReleaseResources UP-TO-DATE
+> Task :SpEditText:packageReleaseResources UP-TO-DATE
+> Task :SpEditText:processReleaseManifest UP-TO-DATE
+> Task :SpEditText:generateReleaseRFile UP-TO-DATE
+> Task :SpEditText:generateReleaseSources UP-TO-DATE
+> Task :SpEditText:javaPreCompileRelease UP-TO-DATE
+> Task :SpEditText:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :SpEditText:processReleaseJavaRes NO-SOURCE
+> Task :SpEditText:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :SpEditText:packageReleaseRenderscript NO-SOURCE
+> Task :SpGifDrawable:compileReleaseRenderscript
+> Task :SpGifDrawable:checkReleaseManifest
+> Task :SpGifDrawable:generateReleaseBuildConfig
+> Task :SpGifDrawable:generateReleaseResValues
+> Task :SpGifDrawable:generateReleaseResources
+> Task :SpGifDrawable:packageReleaseResources
+> Task :SpGifDrawable:processReleaseManifest
+> Task :SpGifDrawable:generateReleaseRFile
+> Task :SpGifDrawable:generateReleaseSources
+> Task :SpGifDrawable:javaPreCompileRelease
+> Task :SpGifDrawable:compileReleaseJavaWithJavac
+> Task :SpGifDrawable:extractReleaseAnnotations
+> Task :SpGifDrawable:mergeReleaseConsumerProguardFiles
+> Task :SpGifDrawable:mergeReleaseShaders
+> Task :SpGifDrawable:compileReleaseShaders
+> Task :SpGifDrawable:generateReleaseAssets
+> Task :SpGifDrawable:packageReleaseAssets
+> Task :SpGifDrawable:packageReleaseRenderscript NO-SOURCE
+> Task :SpGifDrawable:processReleaseJavaRes NO-SOURCE
+> Task :SpGifDrawable:transformResourcesWithMergeJavaResForRelease
+> Task :SpGifDrawable:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :SpGifDrawable:compileReleaseNdk NO-SOURCE
+> Task :SpGifDrawable:mergeReleaseJniLibFolders
+> Task :SpGifDrawable:transformNativeLibsWithMergeJniLibsForRelease
+> Task :SpGifDrawable:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :SpGifDrawable:transformNativeLibsWithSyncJniLibsForRelease
+> Task :SpGifDrawable:bundleReleaseAar
+> Task :SpGifDrawable:compileReleaseSources
+> Task :SpGifDrawable:mergeReleaseResources
+> Task :SpGifDrawable:verifyReleaseResources
+> Task :SpGifDrawable:assembleRelease
+> Task :SpGifDrawable:assemble
+> Task :SpGifDrawable:build
+
+BUILD SUCCESSFUL in 23s
+66 actionable tasks: 47 executed, 19 up-to-date
+
+2019-03-04 19:42:43,385 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 19:42:43,385 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGlideDrawable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 19:42:49,902 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-03-04 19:42:49,902 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-04 19:42:49,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGlideDrawable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-04 19:43:01,276 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :SpEditText:preBuild UP-TO-DATE
 > Task :SpEditText:preDebugBuild UP-TO-DATE
 > Task :SpEditText:compileDebugAidl NO-SOURCE
@@ -139,7 +254,7 @@ BUILD SUCCESSFUL in 11s
 > Task :SpEditText:javaPreCompileDebug UP-TO-DATE
 > Task :SpEditText:compileDebugJavaWithJavac UP-TO-DATE
 > Task :SpEditText:processDebugJavaRes NO-SOURCE
-> Task :SpEditText:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :SpEditText:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
 > Task :SpEditText:packageDebugRenderscript NO-SOURCE
 > Task :SpGlideDrawable:compileDebugRenderscript
 > Task :SpGlideDrawable:checkDebugManifest
@@ -152,7 +267,11 @@ BUILD SUCCESSFUL in 11s
 > Task :SpGlideDrawable:prepareLintJar
 > Task :SpGlideDrawable:generateDebugSources
 > Task :SpGlideDrawable:javaPreCompileDebug
+
 > Task :SpGlideDrawable:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGlideDrawable/src/main/java/com/sunhapper/glide/drawable/DrawableTarget.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 > Task :SpGlideDrawable:extractDebugAnnotations
 > Task :SpGlideDrawable:mergeDebugConsumerProguardFiles
 > Task :SpGlideDrawable:mergeDebugShaders
@@ -187,7 +306,7 @@ BUILD SUCCESSFUL in 11s
 > Task :SpEditText:javaPreCompileRelease UP-TO-DATE
 > Task :SpEditText:compileReleaseJavaWithJavac UP-TO-DATE
 > Task :SpEditText:processReleaseJavaRes NO-SOURCE
-> Task :SpEditText:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :SpEditText:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
 > Task :SpEditText:packageReleaseRenderscript NO-SOURCE
 > Task :SpGlideDrawable:compileReleaseRenderscript
 > Task :SpGlideDrawable:checkReleaseManifest
@@ -199,7 +318,11 @@ BUILD SUCCESSFUL in 11s
 > Task :SpGlideDrawable:generateReleaseRFile
 > Task :SpGlideDrawable:generateReleaseSources
 > Task :SpGlideDrawable:javaPreCompileRelease
+
 > Task :SpGlideDrawable:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/SpGlideDrawable/src/main/java/com/sunhapper/glide/drawable/DrawableTarget.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 > Task :SpGlideDrawable:extractReleaseAnnotations
 > Task :SpGlideDrawable:mergeReleaseConsumerProguardFiles
 > Task :SpGlideDrawable:mergeReleaseShaders
@@ -224,28 +347,34 @@ BUILD SUCCESSFUL in 11s
 > Task :SpGlideDrawable:build
 
 BUILD SUCCESSFUL in 11s
-66 actionable tasks: 47 executed, 19 up-to-date
+66 actionable tasks: 45 executed, 21 up-to-date
 
-2019-01-29 01:10:27,967 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-29 01:10:27,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-29 01:10:34,491 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-01-29 01:10:34,491 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-29 01:10:34,491 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-29 01:11:11,791 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-04 19:43:01,544 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 19:43:01,544 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 19:43:13,244 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-04 19:43:13,244 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-04 19:43:13,245 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-04 19:43:56,152 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :SpEditText:preBuild UP-TO-DATE
 > Task :SpEditText:preDebugBuild UP-TO-DATE
 > Task :SpEditText:checkDebugManifest UP-TO-DATE
 > Task :SpEditText:processDebugManifest UP-TO-DATE
+> Task :SpGifDrawable:preBuild UP-TO-DATE
+> Task :SpGifDrawable:preDebugBuild UP-TO-DATE
+> Task :SpGifDrawable:checkDebugManifest UP-TO-DATE
+> Task :SpGifDrawable:processDebugManifest UP-TO-DATE
 > Task :SpGlideDrawable:preBuild UP-TO-DATE
 > Task :SpGlideDrawable:preDebugBuild UP-TO-DATE
 > Task :SpGlideDrawable:checkDebugManifest UP-TO-DATE
 > Task :SpGlideDrawable:processDebugManifest UP-TO-DATE
 > Task :app:preDebugBuild
 > Task :SpEditText:compileDebugAidl NO-SOURCE
+> Task :SpGifDrawable:compileDebugAidl NO-SOURCE
 > Task :SpGlideDrawable:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :SpEditText:packageDebugRenderscript NO-SOURCE
+> Task :SpGifDrawable:packageDebugRenderscript NO-SOURCE
 > Task :SpGlideDrawable:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript
 > Task :app:checkDebugManifest
@@ -264,6 +393,18 @@ BUILD SUCCESSFUL in 11s
 > Task :SpEditText:compileDebugJavaWithJavac UP-TO-DATE
 > Task :SpEditText:processDebugJavaRes NO-SOURCE
 > Task :SpEditText:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :SpGifDrawable:compileDebugRenderscript UP-TO-DATE
+> Task :SpGifDrawable:generateDebugBuildConfig UP-TO-DATE
+> Task :SpGifDrawable:generateDebugResValues UP-TO-DATE
+> Task :SpGifDrawable:generateDebugResources UP-TO-DATE
+> Task :SpGifDrawable:packageDebugResources UP-TO-DATE
+> Task :SpGifDrawable:generateDebugRFile UP-TO-DATE
+> Task :SpGifDrawable:prepareLintJar UP-TO-DATE
+> Task :SpGifDrawable:generateDebugSources UP-TO-DATE
+> Task :SpGifDrawable:javaPreCompileDebug UP-TO-DATE
+> Task :SpGifDrawable:compileDebugJavaWithJavac UP-TO-DATE
+> Task :SpGifDrawable:processDebugJavaRes NO-SOURCE
+> Task :SpGifDrawable:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 > Task :SpGlideDrawable:compileDebugRenderscript UP-TO-DATE
 > Task :SpGlideDrawable:generateDebugBuildConfig UP-TO-DATE
 > Task :SpGlideDrawable:generateDebugResValues UP-TO-DATE
@@ -286,10 +427,10 @@ BUILD SUCCESSFUL in 11s
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-4.5.0.jar (com.github.bumptech.glide:compiler:4.5.0).
+Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-4.8.0.jar (com.github.bumptech.glide:compiler:4.8.0).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
 Note: [1] Wrote GeneratedAppGlideModule with: []
-Note: Some input files use or override a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/app/src/main/java/me/sunhapper/spcharedittool/ui/RecyclerDemoActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugNdk NO-SOURCE
@@ -301,6 +442,10 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :SpEditText:compileDebugShaders UP-TO-DATE
 > Task :SpEditText:generateDebugAssets UP-TO-DATE
 > Task :SpEditText:packageDebugAssets UP-TO-DATE
+> Task :SpGifDrawable:mergeDebugShaders UP-TO-DATE
+> Task :SpGifDrawable:compileDebugShaders UP-TO-DATE
+> Task :SpGifDrawable:generateDebugAssets UP-TO-DATE
+> Task :SpGifDrawable:packageDebugAssets UP-TO-DATE
 > Task :SpGlideDrawable:mergeDebugShaders UP-TO-DATE
 > Task :SpGlideDrawable:compileDebugShaders UP-TO-DATE
 > Task :SpGlideDrawable:generateDebugAssets UP-TO-DATE
@@ -308,8 +453,11 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mergeDebugAssets
 > Task :SpEditText:createFullJarDebug
 > Transform full.jar (project :SpEditText) with IdentityTransform
+> Task :SpGifDrawable:createFullJarDebug
+> Transform full.jar (project :SpGifDrawable) with IdentityTransform
 > Task :SpGlideDrawable:createFullJarDebug
 > Transform full.jar (project :SpGlideDrawable) with IdentityTransform
+> Transform full.jar (project :SpGifDrawable) with DexingTransform
 > Transform full.jar (project :SpEditText) with DexingTransform
 > Task :app:mergeExtDexDebug
 > Transform full.jar (project :SpGlideDrawable) with DexingTransform
@@ -323,18 +471,18 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :SpEditText:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
 > Task :SpEditText:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
 > Task :SpEditText:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :SpGifDrawable:compileDebugNdk NO-SOURCE
+> Task :SpGifDrawable:mergeDebugJniLibFolders UP-TO-DATE
+> Task :SpGifDrawable:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :SpGifDrawable:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :SpGifDrawable:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :SpGlideDrawable:compileDebugNdk NO-SOURCE
 > Task :SpGlideDrawable:mergeDebugJniLibFolders UP-TO-DATE
 > Task :SpGlideDrawable:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
 > Task :SpGlideDrawable:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
 > Task :SpGlideDrawable:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
-
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
 > Task :app:packageDebug
@@ -342,14 +490,19 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 > Task :SpEditText:preReleaseBuild UP-TO-DATE
 > Task :SpEditText:checkReleaseManifest UP-TO-DATE
 > Task :SpEditText:processReleaseManifest UP-TO-DATE
+> Task :SpGifDrawable:preReleaseBuild UP-TO-DATE
+> Task :SpGifDrawable:checkReleaseManifest UP-TO-DATE
+> Task :SpGifDrawable:processReleaseManifest UP-TO-DATE
 > Task :SpGlideDrawable:preReleaseBuild UP-TO-DATE
 > Task :SpGlideDrawable:checkReleaseManifest UP-TO-DATE
 > Task :SpGlideDrawable:processReleaseManifest UP-TO-DATE
 > Task :app:preReleaseBuild
 > Task :SpEditText:compileReleaseAidl NO-SOURCE
+> Task :SpGifDrawable:compileReleaseAidl NO-SOURCE
 > Task :SpGlideDrawable:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :SpEditText:packageReleaseRenderscript NO-SOURCE
+> Task :SpGifDrawable:packageReleaseRenderscript NO-SOURCE
 > Task :SpGlideDrawable:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript
 > Task :app:checkReleaseManifest
@@ -366,6 +519,17 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 > Task :SpEditText:compileReleaseJavaWithJavac UP-TO-DATE
 > Task :SpEditText:processReleaseJavaRes NO-SOURCE
 > Task :SpEditText:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :SpGifDrawable:compileReleaseRenderscript UP-TO-DATE
+> Task :SpGifDrawable:generateReleaseBuildConfig UP-TO-DATE
+> Task :SpGifDrawable:generateReleaseResValues UP-TO-DATE
+> Task :SpGifDrawable:generateReleaseResources UP-TO-DATE
+> Task :SpGifDrawable:packageReleaseResources UP-TO-DATE
+> Task :SpGifDrawable:generateReleaseRFile UP-TO-DATE
+> Task :SpGifDrawable:generateReleaseSources UP-TO-DATE
+> Task :SpGifDrawable:javaPreCompileRelease UP-TO-DATE
+> Task :SpGifDrawable:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :SpGifDrawable:processReleaseJavaRes NO-SOURCE
+> Task :SpGifDrawable:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 > Task :SpGlideDrawable:compileReleaseRenderscript UP-TO-DATE
 > Task :SpGlideDrawable:generateReleaseBuildConfig UP-TO-DATE
 > Task :SpGlideDrawable:generateReleaseResValues UP-TO-DATE
@@ -387,22 +551,25 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-4.5.0.jar (com.github.bumptech.glide:compiler:4.5.0).
+Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-4.8.0.jar (com.github.bumptech.glide:compiler:4.8.0).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
 Note: [1] Wrote GeneratedAppGlideModule with: []
-Note: Some input files use or override a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/app/src/main/java/me/sunhapper/spcharedittool/ui/RecyclerDemoActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a9e3bf24d90a69415d9f4e8d5c4d92a2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/795c84d5525d4db62ec6e64812b98d96/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar
 
 > Task :SpEditText:createFullJarRelease
 > Transform full.jar (project :SpEditText) with IdentityTransform
+> Task :SpGifDrawable:createFullJarRelease
+> Transform full.jar (project :SpGifDrawable) with IdentityTransform
 > Task :SpGlideDrawable:createFullJarRelease
 > Transform full.jar (project :SpGlideDrawable) with IdentityTransform
+> Transform full.jar (project :SpGifDrawable) with DexingTransform
 > Transform full.jar (project :SpEditText) with DexingTransform
 > Task :app:mergeExtDexRelease
 > Transform full.jar (project :SpGlideDrawable) with DexingTransform
@@ -415,6 +582,10 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :SpEditText:compileReleaseShaders UP-TO-DATE
 > Task :SpEditText:generateReleaseAssets UP-TO-DATE
 > Task :SpEditText:packageReleaseAssets UP-TO-DATE
+> Task :SpGifDrawable:mergeReleaseShaders UP-TO-DATE
+> Task :SpGifDrawable:compileReleaseShaders UP-TO-DATE
+> Task :SpGifDrawable:generateReleaseAssets UP-TO-DATE
+> Task :SpGifDrawable:packageReleaseAssets UP-TO-DATE
 > Task :SpGlideDrawable:mergeReleaseShaders UP-TO-DATE
 > Task :SpGlideDrawable:compileReleaseShaders UP-TO-DATE
 > Task :SpGlideDrawable:generateReleaseAssets UP-TO-DATE
@@ -427,18 +598,18 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :SpEditText:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
 > Task :SpEditText:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
 > Task :SpEditText:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :SpGifDrawable:compileReleaseNdk NO-SOURCE
+> Task :SpGifDrawable:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :SpGifDrawable:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :SpGifDrawable:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :SpGifDrawable:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :SpGlideDrawable:compileReleaseNdk NO-SOURCE
 > Task :SpGlideDrawable:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :SpGlideDrawable:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
 > Task :SpGlideDrawable:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
 > Task :SpGlideDrawable:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:transformNativeLibsWithMergeJniLibsForRelease
-
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
 > Task :app:packageRelease
@@ -446,7 +617,7 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 36s
-125 actionable tasks: 61 executed, 64 up-to-date
+BUILD SUCCESSFUL in 42s
+162 actionable tasks: 67 executed, 95 up-to-date
 
-2019-01-29 01:11:11,943 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713387907-0/src/SpEditTool-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-04 19:43:56,333 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703285753-0/src/SpEditTool-master/app/build/outputs/apk/debug/app-debug.apk

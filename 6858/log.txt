@@ -1,126 +1,234 @@
-2018-11-21 13:40:20,588 INFO  DownloadService - Downloading "https://github.com/flipkart-incubator/inline-youtube-view/archive/master.zip", attempt 3
-2018-11-21 13:40:32,404 INFO  DownloadService - Downloaded https://github.com/flipkart-incubator/inline-youtube-view/archive/master.zip, attempt 3
-2018-11-21 13:40:32,404 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/master.zip": 15 MB
-2018-11-21 13:40:32,404 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-21 13:40:32,411 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/master.zip: true
-2018-11-21 13:40:32,411 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src'.
-2018-11-21 13:40:32,546 INFO  FullProcessService - Size of directory with sources: 15 MB
-2018-11-21 13:40:32,546 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src]
-2018-11-21 13:40:32,563 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/.git/
+2019-03-04 20:00:57,495 INFO  DownloadService - Downloading "https://github.com/flipkart-incubator/inline-youtube-view/archive/master.zip", attempt 3
+2019-03-04 20:01:15,964 INFO  DownloadService - Downloaded https://github.com/flipkart-incubator/inline-youtube-view/archive/master.zip, attempt 3
+2019-03-04 20:01:15,964 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/master.zip": 15 MB
+2019-03-04 20:01:15,965 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-04 20:01:15,971 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/master.zip: true
+2019-03-04 20:01:15,971 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src'.
+2019-03-04 20:01:16,102 INFO  FullProcessService - Size of directory with sources: 15 MB
+2019-03-04 20:01:16,102 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src]
+2019-03-04 20:01:16,121 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/.git/
 
-2018-11-21 13:40:32,566 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/gradlew
-2018-11-21 13:40:32,570 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/build.gradle
-2018-11-21 13:40:32,573 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/settings.gradle
-2018-11-21 13:40:32,573 INFO  ProjectBuildService - Remote scripts: none
-2018-11-21 13:40:32,573 INFO  ProjectFixService - Fixing project...
-2018-11-21 13:40:32,582 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/local.properties
-2018-11-21 13:40:32,583 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-11-21 13:40:32,583 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-11-21 13:40:32,583 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-11-21 13:40:32,584 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/local.properties
-2018-11-21 13:40:32,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-11-21 13:40:32,585 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/local.properties
-2018-11-21 13:40:32,585 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-11-21 13:40:32,586 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-11-21 13:40:32,587 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-11-21 13:40:32,587 INFO  ProjectFixService - Project was maybe fixed
-2018-11-21 13:40:32,587 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-21 13:40:32,587 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-21 13:40:41,944 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-21 13:40:41,944 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-21 13:40:41,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-21 13:40:55,361 INFO  SysUtils - Configuration on demand is an incubating feature.
-:inline-youtube-view:preBuild UP-TO-DATE
-:inline-youtube-view:preDebugBuild UP-TO-DATE
-:inline-youtube-view:compileDebugAidl
-:inline-youtube-view:compileDebugRenderscript
-:inline-youtube-view:checkDebugManifest
-:inline-youtube-view:generateDebugBuildConfig
-:inline-youtube-view:generateDebugResValues
-:inline-youtube-view:generateDebugResources
-:inline-youtube-view:packageDebugResources
-:inline-youtube-view:platformAttrExtractor
-:inline-youtube-view:processDebugManifest
-:inline-youtube-view:prepareLintJar
-:inline-youtube-view:javaPreCompileDebug
-:inline-youtube-view:mergeDebugConsumerProguardFiles
-:inline-youtube-view:mergeDebugShaders
-:inline-youtube-view:compileDebugShaders
-:inline-youtube-view:generateDebugAssets
-:inline-youtube-view:packageDebugAssets
-:inline-youtube-view:packageDebugRenderscript NO-SOURCE
-:inline-youtube-view:processDebugJavaRes NO-SOURCE
-:inline-youtube-view:compileDebugNdk NO-SOURCE
-:inline-youtube-view:mergeDebugJniLibFolders
-:inline-youtube-view:transformNativeLibsWithMergeJniLibsForDebug
-:inline-youtube-view:transformNativeLibsWithStripDebugSymbolForDebug
-:inline-youtube-view:transformNativeLibsWithSyncJniLibsForDebug
-:inline-youtube-view:preReleaseBuild UP-TO-DATE
-:inline-youtube-view:compileReleaseAidl
-:inline-youtube-view:compileReleaseRenderscript
-:inline-youtube-view:checkReleaseManifest
-:inline-youtube-view:generateReleaseBuildConfig
-:inline-youtube-view:generateReleaseResValues
-:inline-youtube-view:generateReleaseResources
-:inline-youtube-view:packageReleaseResources
-:inline-youtube-view:processReleaseManifest
-:inline-youtube-view:javaPreCompileRelease
-:inline-youtube-view:mergeReleaseConsumerProguardFiles
-:inline-youtube-view:mergeReleaseShaders
-:inline-youtube-view:compileReleaseShaders
-:inline-youtube-view:generateReleaseAssets
-:inline-youtube-view:packageReleaseAssets
-:inline-youtube-view:packageReleaseRenderscript NO-SOURCE
-:inline-youtube-view:processReleaseJavaRes NO-SOURCE
-:inline-youtube-view:compileReleaseNdk NO-SOURCE
-:inline-youtube-view:mergeReleaseJniLibFolders
-:inline-youtube-view:transformNativeLibsWithMergeJniLibsForRelease
-:inline-youtube-view:transformNativeLibsWithStripDebugSymbolForRelease
-:inline-youtube-view:transformNativeLibsWithSyncJniLibsForRelease
-:inline-youtube-view:mergeReleaseResources
-:inline-youtube-view:verifyReleaseResources
-:inline-youtube-view:generateDebugRFile
-:inline-youtube-view:generateDebugSources
-:inline-youtube-view:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+2019-03-04 20:01:16,125 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/inline-youtube-view/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/gradlew
+2019-03-04 20:01:16,128 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/build.gradle
+2019-03-04 20:01:16,132 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/settings.gradle
+2019-03-04 20:01:16,132 INFO  ProjectBuildService - Remote scripts: none
+2019-03-04 20:01:16,132 INFO  ProjectFixService - Fixing project...
+2019-03-04 20:01:16,141 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/inline-youtube-view/local.properties
+2019-03-04 20:01:16,141 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-04 20:01:16,141 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-04 20:01:16,142 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-04 20:01:16,142 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/app/local.properties
+2019-03-04 20:01:16,143 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-04 20:01:16,143 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/local.properties
+2019-03-04 20:01:16,143 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-04 20:01:16,144 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-04 20:01:16,144 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-04 20:01:16,144 INFO  ProjectFixService - Project was maybe fixed
+2019-03-04 20:01:16,144 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 20:01:16,144 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/inline-youtube-view/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 20:01:32,653 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-04 20:01:32,653 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-04 20:01:32,653 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-04 20:01:32,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/inline-youtube-view/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-04 20:01:35,409 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-04 20:01:35,409 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-:inline-youtube-view:extractDebugAnnotations
-:inline-youtube-view:transformResourcesWithMergeJavaResForDebug
-:inline-youtube-view:transformClassesAndResourcesWithSyncLibJarsForDebug
-:inline-youtube-view:bundleDebug
-:inline-youtube-view:compileDebugSources
-:inline-youtube-view:assembleDebug
-:inline-youtube-view:generateReleaseRFile
-:inline-youtube-view:generateReleaseSources
-:inline-youtube-view:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+FAILURE: Build failed with an exception.
 
-:inline-youtube-view:extractReleaseAnnotations
-:inline-youtube-view:transformResourcesWithMergeJavaResForRelease
-:inline-youtube-view:transformClassesAndResourcesWithSyncLibJarsForRelease
-:inline-youtube-view:bundleRelease
-:inline-youtube-view:compileReleaseSources
-:inline-youtube-view:assembleRelease
-:inline-youtube-view:assemble
-:inline-youtube-view:build
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle' line: 1
 
-BUILD SUCCESSFUL in 13s
-48 actionable tasks: 48 executed
+* What went wrong:
+A problem occurred evaluating project ':inline-youtube-view'.
+> Failed to apply plugin [id 'com.android.library']
+   > Minimum supported Gradle version is 4.6. Current version is 4.4. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.6-all.zip
 
-2018-11-21 13:40:55,409 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-21 13:40:55,409 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-21 13:41:00,892 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-11-21 13:41:00,892 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-21 13:41:00,893 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-21 13:41:29,039 INFO  SysUtils - Configuration on demand is an incubating feature.
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating project ':inline-youtube-view'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:199)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:204)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin [id 'com.android.library']
+	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:150)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:125)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:120)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:38)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:86)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
+	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
+	at build_1aeovtiy63uutmjkdmaw30v0f.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/inline-youtube-view/build.gradle:1)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 97 more
+Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 4.6. Current version is 4.4. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.6-all.zip
+	at com.android.build.gradle.BasePlugin.checkGradleVersion(BasePlugin.java:698)
+	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:257)
+	at com.android.build.gradle.LibraryPlugin.apply(LibraryPlugin.java:129)
+	at com.android.build.gradle.LibraryPlugin.apply(LibraryPlugin.java:45)
+	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
+	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:165)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.access$200(DefaultPluginManager.java:47)
+	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:252)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:144)
+	... 107 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+2019-03-04 20:01:35,414 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 20:01:35,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 20:01:42,667 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-04 20:01:42,668 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-04 20:01:42,668 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-04 20:02:32,207 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/4.7.5/build-info-extractor-gradle-4.7.5.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor/2.11.3/build-info-extractor-2.11.3.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-client/2.11.3/build-info-client-2.11.3.pom
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-api/2.11.3/build-info-api-2.11.3.pom
+Download https://dl.google.com/dl/android/maven2/androidx/core/core/1.1.0-alpha03/core-1.1.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-bundle/1.0.0-alpha01/savedstate-bundle-1.0.0-alpha01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-common/1.0.0-alpha01/savedstate-common-1.0.0-alpha01.pom
+:app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :inline-youtube-view:preBuild UP-TO-DATE
 :inline-youtube-view:preDebugBuild UP-TO-DATE
-:inline-youtube-view:checkDebugManifest UP-TO-DATE
-:inline-youtube-view:processDebugManifest UP-TO-DATE
+:inline-youtube-view:checkDebugManifest
+:inline-youtube-view:processDebugManifest
 :app:preDebugBuild
-:inline-youtube-view:compileDebugAidl UP-TO-DATE
-:app:compileDebugAidl
+:inline-youtube-view:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
 :inline-youtube-view:packageDebugRenderscript NO-SOURCE
 :app:compileDebugRenderscript
 :app:checkDebugManifest
@@ -129,23 +237,24 @@ BUILD SUCCESSFUL in 13s
 :app:mainApkListPersistenceDebug
 :app:generateDebugResValues
 :app:generateDebugResources
-:inline-youtube-view:compileDebugRenderscript UP-TO-DATE
-:inline-youtube-view:generateDebugResValues UP-TO-DATE
-:inline-youtube-view:generateDebugResources UP-TO-DATE
-:inline-youtube-view:packageDebugResources UP-TO-DATE
+:inline-youtube-view:compileDebugRenderscript
+:inline-youtube-view:generateDebugResValues
+:inline-youtube-view:generateDebugResources
+:inline-youtube-view:packageDebugResources
 :app:mergeDebugResources
 :app:createDebugCompatibleScreenManifests
 :app:processDebugManifest
 :app:splitsDiscoveryTaskDebug
-:inline-youtube-view:platformAttrExtractor UP-TO-DATE
-:inline-youtube-view:generateDebugRFile UP-TO-DATE
+:inline-youtube-view:generateDebugRFile
 :app:processDebugResources
 :app:generateDebugSources
-:inline-youtube-view:generateDebugBuildConfig UP-TO-DATE
-:inline-youtube-view:prepareLintJar UP-TO-DATE
-:inline-youtube-view:generateDebugSources UP-TO-DATE
-:inline-youtube-view:javaPreCompileDebug UP-TO-DATE
-:inline-youtube-view:compileDebugJavaWithJavac UP-TO-DATE
+:inline-youtube-view:generateDebugBuildConfig
+:inline-youtube-view:prepareLintJar
+:inline-youtube-view:generateDebugSources
+:inline-youtube-view:javaPreCompileDebug
+:inline-youtube-view:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 :inline-youtube-view:processDebugJavaRes NO-SOURCE
 :inline-youtube-view:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:javaPreCompileDebug
@@ -155,33 +264,35 @@ BUILD SUCCESSFUL in 13s
 :app:mergeDebugShaders
 :app:compileDebugShaders
 :app:generateDebugAssets
-:inline-youtube-view:mergeDebugShaders UP-TO-DATE
-:inline-youtube-view:compileDebugShaders UP-TO-DATE
-:inline-youtube-view:generateDebugAssets UP-TO-DATE
-:inline-youtube-view:packageDebugAssets UP-TO-DATE
+:inline-youtube-view:mergeDebugShaders
+:inline-youtube-view:compileDebugShaders
+:inline-youtube-view:generateDebugAssets
+:inline-youtube-view:packageDebugAssets
 :app:mergeDebugAssets
 :app:transformClassesWithDexBuilderForDebug
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
 :inline-youtube-view:compileDebugNdk NO-SOURCE
-:inline-youtube-view:mergeDebugJniLibFolders UP-TO-DATE
-:inline-youtube-view:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:inline-youtube-view:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:inline-youtube-view:mergeDebugJniLibFolders
+:inline-youtube-view:transformNativeLibsWithMergeJniLibsForDebug
+:inline-youtube-view:transformNativeLibsWithStripDebugSymbolForDebug
 :inline-youtube-view:transformNativeLibsWithIntermediateJniLibsForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
 :app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
 :app:processDebugJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForDebug
 :app:validateSigningDebug
 :app:packageDebug
 :app:assembleDebug
+:app:checkReleaseClasspath
 :inline-youtube-view:preReleaseBuild UP-TO-DATE
-:inline-youtube-view:checkReleaseManifest UP-TO-DATE
-:inline-youtube-view:processReleaseManifest UP-TO-DATE
+:inline-youtube-view:checkReleaseManifest
+:inline-youtube-view:processReleaseManifest
 :app:preReleaseBuild
-:inline-youtube-view:compileReleaseAidl UP-TO-DATE
-:app:compileReleaseAidl
+:inline-youtube-view:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
 :inline-youtube-view:packageReleaseRenderscript NO-SOURCE
 :app:compileReleaseRenderscript
 :app:checkReleaseManifest
@@ -189,21 +300,23 @@ BUILD SUCCESSFUL in 13s
 :app:mainApkListPersistenceRelease
 :app:generateReleaseResValues
 :app:generateReleaseResources
-:inline-youtube-view:compileReleaseRenderscript UP-TO-DATE
-:inline-youtube-view:generateReleaseResValues UP-TO-DATE
-:inline-youtube-view:generateReleaseResources UP-TO-DATE
-:inline-youtube-view:packageReleaseResources UP-TO-DATE
+:inline-youtube-view:compileReleaseRenderscript
+:inline-youtube-view:generateReleaseResValues
+:inline-youtube-view:generateReleaseResources
+:inline-youtube-view:packageReleaseResources
 :app:mergeReleaseResources
 :app:createReleaseCompatibleScreenManifests
 :app:processReleaseManifest
 :app:splitsDiscoveryTaskRelease
-:inline-youtube-view:generateReleaseRFile UP-TO-DATE
+:inline-youtube-view:generateReleaseRFile
 :app:processReleaseResources
 :app:generateReleaseSources
-:inline-youtube-view:generateReleaseBuildConfig UP-TO-DATE
-:inline-youtube-view:generateReleaseSources UP-TO-DATE
-:inline-youtube-view:javaPreCompileRelease UP-TO-DATE
-:inline-youtube-view:compileReleaseJavaWithJavac UP-TO-DATE
+:inline-youtube-view:generateReleaseBuildConfig
+:inline-youtube-view:generateReleaseSources
+:inline-youtube-view:javaPreCompileRelease
+:inline-youtube-view:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 :inline-youtube-view:processReleaseJavaRes NO-SOURCE
 :inline-youtube-view:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:javaPreCompileRelease
@@ -214,22 +327,23 @@ BUILD SUCCESSFUL in 13s
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
-:inline-youtube-view:mergeReleaseShaders UP-TO-DATE
-:inline-youtube-view:compileReleaseShaders UP-TO-DATE
-:inline-youtube-view:generateReleaseAssets UP-TO-DATE
-:inline-youtube-view:packageReleaseAssets UP-TO-DATE
+:inline-youtube-view:mergeReleaseShaders
+:inline-youtube-view:compileReleaseShaders
+:inline-youtube-view:generateReleaseAssets
+:inline-youtube-view:packageReleaseAssets
 :app:mergeReleaseAssets
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
 :app:mergeReleaseJniLibFolders
 :inline-youtube-view:compileReleaseNdk NO-SOURCE
-:inline-youtube-view:mergeReleaseJniLibFolders UP-TO-DATE
-:inline-youtube-view:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:inline-youtube-view:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:inline-youtube-view:mergeReleaseJniLibFolders
+:inline-youtube-view:transformNativeLibsWithMergeJniLibsForRelease
+:inline-youtube-view:transformNativeLibsWithStripDebugSymbolForRelease
 :inline-youtube-view:transformNativeLibsWithIntermediateJniLibsForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
 :app:processReleaseJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForRelease
 :app:packageRelease
@@ -237,7 +351,7 @@ BUILD SUCCESSFUL in 13s
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 27s
-91 actionable tasks: 57 executed, 34 up-to-date
+BUILD SUCCESSFUL in 49s
+90 actionable tasks: 90 executed
 
-2018-11-21 13:41:29,146 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542782420584-0/src/android-inline-youtube-view-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-04 20:02:32,315 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551704457487-0/src/android-inline-youtube-view-master/app/build/outputs/apk/debug/app-debug.apk
