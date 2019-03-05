@@ -1,36 +1,36 @@
-2019-01-29 01:16:09,184 INFO  DownloadService - Downloading "https://github.com/qhutch/ElevationImageView/archive/master.zip", attempt 3
-2019-01-29 01:16:11,969 INFO  DownloadService - Downloaded https://github.com/qhutch/ElevationImageView/archive/master.zip, attempt 3
-2019-01-29 01:16:11,969 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/master.zip": 1 MB
-2019-01-29 01:16:11,969 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-29 01:16:11,975 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/master.zip: true
-2019-01-29 01:16:11,975 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src'.
-2019-01-29 01:16:12,005 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-01-29 01:16:12,005 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src]
-2019-01-29 01:16:12,024 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/.git/
+2019-03-05 12:01:09,310 INFO  DownloadService - Downloading "https://github.com/qhutch/ElevationImageView/archive/master.zip", attempt 3
+2019-03-05 12:01:11,729 INFO  DownloadService - Downloaded https://github.com/qhutch/ElevationImageView/archive/master.zip, attempt 3
+2019-03-05 12:01:11,729 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/master.zip": 1 MB
+2019-03-05 12:01:11,729 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-05 12:01:11,735 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/master.zip: true
+2019-03-05 12:01:11,735 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src'.
+2019-03-05 12:01:11,767 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-05 12:01:11,767 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src]
+2019-03-05 12:01:11,784 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/.git/
 
-2019-01-29 01:16:12,026 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/gradlew
-2019-01-29 01:16:12,029 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/elevationimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/build.gradle
-2019-01-29 01:16:12,031 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/elevationimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/settings.gradle
-2019-01-29 01:16:12,032 INFO  ProjectBuildService - Remote scripts: none
-2019-01-29 01:16:12,032 INFO  ProjectFixService - Fixing project...
-2019-01-29 01:16:12,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/app/local.properties
-2019-01-29 01:16:12,042 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-29 01:16:12,042 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-29 01:16:12,043 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/elevationimageview/local.properties
-2019-01-29 01:16:12,046 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/elevationimageview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-29 01:16:12,046 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/elevationimageview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-29 01:16:12,046 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/local.properties
-2019-01-29 01:16:12,047 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-01-29 01:16:12,047 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-01-29 01:16:12,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-29 01:16:12,048 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-29 01:16:12,049 INFO  ProjectFixService - Project was maybe fixed
-2019-01-29 01:16:12,049 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-29 01:16:12,049 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-29 01:16:19,509 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-01-29 01:16:19,509 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-29 01:16:19,509 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-29 01:17:05,505 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-05 12:01:11,787 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/gradlew
+2019-03-05 12:01:11,790 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/elevationimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/build.gradle
+2019-03-05 12:01:11,792 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/elevationimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/settings.gradle
+2019-03-05 12:01:11,793 INFO  ProjectBuildService - Remote scripts: none
+2019-03-05 12:01:11,793 INFO  ProjectFixService - Fixing project...
+2019-03-05 12:01:11,800 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/app/local.properties
+2019-03-05 12:01:11,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-05 12:01:11,803 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-05 12:01:11,804 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/elevationimageview/local.properties
+2019-03-05 12:01:11,806 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/elevationimageview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-05 12:01:11,806 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/elevationimageview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-05 12:01:11,807 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/local.properties
+2019-03-05 12:01:11,808 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-05 12:01:11,808 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-05 12:01:11,809 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-05 12:01:11,809 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-05 12:01:11,810 INFO  ProjectFixService - Project was maybe fixed
+2019-03-05 12:01:11,810 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-05 12:01:11,810 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-05 12:01:19,031 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-05 12:01:19,031 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-05 12:01:19,031 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-05 12:02:01,575 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :elevationimageview:preBuild UP-TO-DATE
 :elevationimageview:preDebugBuild UP-TO-DATE
@@ -73,8 +73,8 @@
 :elevationimageview:mergeDebugJniLibFolders
 :elevationimageview:transformNativeLibsWithMergeJniLibsForDebug
 :elevationimageview:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/elevationimageview/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/elevationimageview/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/elevationimageview/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/elevationimageview/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
 :elevationimageview:transformNativeLibsWithIntermediateJniLibsForDebug
 :app:processDebugJavaRes NO-SOURCE
 :app:validateSigningDebug
@@ -115,8 +115,8 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :elevationimageview:mergeReleaseJniLibFolders
 :elevationimageview:transformNativeLibsWithMergeJniLibsForRelease
 :elevationimageview:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/elevationimageview/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/elevationimageview/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/elevationimageview/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/elevationimageview/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
 :elevationimageview:transformNativeLibsWithIntermediateJniLibsForRelease
 :app:processReleaseJavaRes NO-SOURCE
 :elevationimageview:generateDebugRFile
@@ -132,14 +132,12 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :app:compileDebugJavaWithJavac
 :app:compileDebugSources
 :app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
 :app:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
 :app:transformResourcesWithMergeJavaResForDebug
 :app:packageDebug
 :app:assembleDebug
@@ -161,15 +159,15 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :app:transformDexArchiveWithDexMergerForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
 :app:transformResourcesWithMergeJavaResForRelease
 :app:packageRelease
 :app:assembleRelease
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 45s
+BUILD SUCCESSFUL in 41s
 95 actionable tasks: 95 executed
 
-2019-01-29 01:17:05,604 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713769182-0/src/ElevationImageView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-05 12:02:01,674 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762069307-0/src/ElevationImageView-master/app/build/outputs/apk/debug/app-debug.apk

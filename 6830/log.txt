@@ -1,36 +1,34 @@
-2018-10-25 18:13:05,523 INFO  DownloadService - Downloading "https://github.com/nex3z/tflite-mnist-android/archive/master.zip", attempt 3
-2018-10-25 18:13:06,787 INFO  DownloadService - Downloaded https://github.com/nex3z/tflite-mnist-android/archive/master.zip, attempt 3
-2018-10-25 18:13:06,787 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/master.zip": 536 KB
-2018-10-25 18:13:06,787 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-25 18:13:06,788 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/master.zip: true
-2018-10-25 18:13:06,788 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src'.
-2018-10-25 18:13:06,810 INFO  FullProcessService - Size of directory with sources: 649 KB
-2018-10-25 18:13:06,810 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src]
-2018-10-25 18:13:06,841 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/.git/
+2019-03-05 12:07:07,010 INFO  DownloadService - Downloading "https://github.com/nex3z/tflite-mnist-android/archive/master.zip", attempt 3
+2019-03-05 12:07:08,169 INFO  DownloadService - Downloaded https://github.com/nex3z/tflite-mnist-android/archive/master.zip, attempt 3
+2019-03-05 12:07:08,169 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/master.zip": 536 KB
+2019-03-05 12:07:08,169 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-05 12:07:08,175 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/master.zip: true
+2019-03-05 12:07:08,175 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src'.
+2019-03-05 12:07:08,196 INFO  FullProcessService - Size of directory with sources: 649 KB
+2019-03-05 12:07:08,197 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src]
+2019-03-05 12:07:08,214 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/.git/
 
-2018-10-25 18:13:06,846 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/gradlew
-2018-10-25 18:13:06,851 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/build.gradle
-2018-10-25 18:13:06,855 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/settings.gradle
-2018-10-25 18:13:06,856 INFO  ProjectBuildService - Remote scripts: none
-2018-10-25 18:13:06,856 INFO  ProjectFixService - Fixing project...
-2018-10-25 18:13:06,865 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/app/local.properties
-2018-10-25 18:13:06,867 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-25 18:13:06,867 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-25 18:13:06,868 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/local.properties
-2018-10-25 18:13:06,869 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-25 18:13:06,870 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-25 18:13:06,871 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-25 18:13:06,872 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-25 18:13:06,873 INFO  ProjectFixService - Project was maybe fixed
-2018-10-25 18:13:06,873 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-25 18:13:06,873 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-25 18:13:15,183 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-25 18:13:15,184 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-25 18:13:15,184 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-25 18:13:58,930 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-05 12:07:08,217 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/gradlew
+2019-03-05 12:07:08,219 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/build.gradle
+2019-03-05 12:07:08,222 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/settings.gradle
+2019-03-05 12:07:08,222 INFO  ProjectBuildService - Remote scripts: none
+2019-03-05 12:07:08,222 INFO  ProjectFixService - Fixing project...
+2019-03-05 12:07:08,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/app/local.properties
+2019-03-05 12:07:08,229 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-05 12:07:08,229 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-05 12:07:08,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/local.properties
+2019-03-05 12:07:08,231 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-05 12:07:08,232 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-05 12:07:08,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-05 12:07:08,233 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-05 12:07:08,233 INFO  ProjectFixService - Project was maybe fixed
+2019-03-05 12:07:08,233 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-05 12:07:08,233 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-05 12:07:15,910 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-05 12:07:15,910 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-05 12:07:15,910 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-05 12:07:51,384 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://jcenter.bintray.com/org/tensorflow/tensorflow-lite/1.10.0/tensorflow-lite-1.10.0.pom
-Download https://jcenter.bintray.com/com/nex3z/finger-paint-view/0.1.0/finger-paint-view-0.1.0.pom
 Download https://jcenter.bintray.com/com/nex3z/finger-paint-view/0.1.0/finger-paint-view-0.1.0.aar
 Download https://jcenter.bintray.com/org/tensorflow/tensorflow-lite/1.10.0/tensorflow-lite-1.10.0.aar
 :app:preBuild UP-TO-DATE
@@ -115,7 +113,7 @@ D8: Stripped invalid locals information from 1 method.
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 43s
+BUILD SUCCESSFUL in 34s
 55 actionable tasks: 55 executed
 
-2018-10-25 18:13:59,016 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540465985520-0/src/tflite-mnist-android-master/android/app/build/outputs/apk/debug/app-debug.apk
+2019-03-05 12:07:51,462 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551762427007-0/src/tflite-mnist-android-master/android/app/build/outputs/apk/debug/app-debug.apk
