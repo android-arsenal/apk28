@@ -1,10 +1,21 @@
-2019-01-29 01:19:47,136 INFO  DownloadService - Downloading "https://github.com/agoda-com/android-farm/archive/master.zip", attempt 3
-2019-01-29 01:19:47,513 INFO  DownloadService - Downloaded https://github.com/agoda-com/android-farm/archive/master.zip, attempt 3
-2019-01-29 01:19:47,513 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713987132-0/master.zip": 21 KB
-2019-01-29 01:19:47,513 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-29 01:19:47,518 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713987132-0/master.zip: false
-2019-01-29 01:19:47,519 INFO  FullProcessService - Archive with sources does not contain any build script
-2019-01-29 01:19:47,519 ERROR FullProcessService - Could not find directory with sources
-2019-01-29 01:19:47,519 ERROR FullProcessService - Project will not be processed
-2019-01-29 01:19:47,519 ERROR FullProcessService - Project build has not produced APK file
-2019-01-29 01:19:47,519 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-08 23:52:00,717 INFO  DownloadService - Downloading "https://github.com/agoda-com/android-farm/archive/master.zip", attempt 3
+2019-03-08 23:53:01,679 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-08 23:53:03,300 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-08 23:53:03,300 INFO  DownloadService - Downloading "https://github.com/agoda-com/android-farm/archive/master.zip", attempt 3
+2019-03-08 23:54:05,552 DEBUG FullProcessService - Repository https://github.com/agoda-com/android-farm available: true
+2019-03-08 23:54:05,552 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-08 23:54:05,552 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/agoda-com/android-farm, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063920709-0/src]
+2019-03-08 23:54:07,442 INFO  SysUtils - 
+2019-03-08 23:54:07,455 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063920709-0/src/.git": true
+2019-03-08 23:54:07,456 INFO  FullProcessService - Size of directory with sources: 88 KB
+2019-03-08 23:54:07,456 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063920709-0/src]
+2019-03-08 23:54:07,474 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063920709-0/src/.git/
+
+2019-03-08 23:54:07,475 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-03-08 23:54:07,475 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-03-08 23:54:07,477 INFO  ProjectBuildService - Build script(s): none
+2019-03-08 23:54:07,478 INFO  ProjectBuildService - All script(s): none
+2019-03-08 23:54:07,478 INFO  ProjectBuildService - Remote scripts: none
+2019-03-08 23:54:07,478 ERROR FullProcessService - Project is not correct Gradle project
+2019-03-08 23:54:07,478 ERROR FullProcessService - Project build has not produced APK file
+2019-03-08 23:54:07,479 ERROR FullProcessService - Could not find generated or existed APK file

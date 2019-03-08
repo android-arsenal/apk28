@@ -1,9 +1,15 @@
-2019-01-29 02:07:23,339 INFO  DownloadService - Downloading "https://github.com/biagiopietro/MultiAppPicker/archive/master.zip", attempt 3
-2019-01-29 02:07:23,339 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-29 02:07:23,340 INFO  GithubDownloadService - Default branch of this repository: null
-2019-01-29 02:07:23,340 ERROR GithubDownloadService - Could not detect default branch for Github repository
-2019-01-29 02:07:23,340 DEBUG FullProcessService - Repository https://github.com/biagiopietro/MultiAppPicker available: false
-2019-01-29 02:07:23,340 ERROR FullProcessService - Could not find directory with sources
-2019-01-29 02:07:23,340 ERROR FullProcessService - Project will not be processed
-2019-01-29 02:07:23,340 ERROR FullProcessService - Project build has not produced APK file
-2019-01-29 02:07:23,340 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 00:27:29,704 INFO  DownloadService - Downloading "https://github.com/biagiopietro/MultiAppPicker/archive/master.zip", attempt 3
+2019-03-09 00:28:30,578 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-09 00:28:31,642 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-09 00:28:31,642 INFO  DownloadService - Downloading "https://github.com/biagiopietro/MultiAppPicker/archive/master.zip", attempt 3
+2019-03-09 00:29:34,014 DEBUG FullProcessService - Repository https://github.com/biagiopietro/MultiAppPicker available: true
+2019-03-09 00:29:34,014 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-09 00:29:34,014 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/biagiopietro/MultiAppPicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552066049702-0/src]
+2019-03-09 00:29:45,279 INFO  SysUtils - 
+2019-03-09 00:29:45,331 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552066049702-0/src/.git": true
+2019-03-09 00:29:45,425 INFO  FullProcessService - Size of directory with sources: 57 MB
+2019-03-09 00:29:45,425 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-03-09 00:29:45,425 ERROR FullProcessService - Project will not be processed
+2019-03-09 00:29:45,425 ERROR FullProcessService - Project build has not produced APK file
+2019-03-09 00:29:45,483 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552066049702-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-03-09 00:29:45,483 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552066049702-0/src/app/build/outputs/apk/debug/app-debug.apk

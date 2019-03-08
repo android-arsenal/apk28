@@ -1,40 +1,43 @@
-2019-01-29 01:19:02,816 INFO  DownloadService - Downloading "https://github.com/AleksanderMielczarek/GreenCoffeeProcessor/archive/master.zip", attempt 3
-2019-01-29 01:19:03,689 INFO  DownloadService - Downloaded https://github.com/AleksanderMielczarek/GreenCoffeeProcessor/archive/master.zip, attempt 3
-2019-01-29 01:19:03,689 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/master.zip": 163 KB
-2019-01-29 01:19:03,689 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-29 01:19:03,695 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/master.zip: true
-2019-01-29 01:19:03,695 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src'.
-2019-01-29 01:19:03,718 INFO  FullProcessService - Size of directory with sources: 189 KB
-2019-01-29 01:19:03,718 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src]
-2019-01-29 01:19:03,736 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/.git/
+2019-03-08 23:46:00,836 INFO  DownloadService - Downloading "https://github.com/AleksanderMielczarek/GreenCoffeeProcessor/archive/master.zip", attempt 3
+2019-03-08 23:47:01,718 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-08 23:47:03,376 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-08 23:47:03,376 INFO  DownloadService - Downloading "https://github.com/AleksanderMielczarek/GreenCoffeeProcessor/archive/master.zip", attempt 3
+2019-03-08 23:48:05,411 DEBUG FullProcessService - Repository https://github.com/AleksanderMielczarek/GreenCoffeeProcessor available: true
+2019-03-08 23:48:05,411 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-08 23:48:05,411 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AleksanderMielczarek/GreenCoffeeProcessor, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src]
+2019-03-08 23:48:07,360 INFO  SysUtils - 
+2019-03-08 23:48:07,370 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/.git": true
+2019-03-08 23:48:07,375 INFO  FullProcessService - Size of directory with sources: 189 KB
+2019-03-08 23:48:07,375 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src]
+2019-03-08 23:48:07,395 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/.git/
 
-2019-01-29 01:19:03,740 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/gradlew
-2019-01-29 01:19:03,744 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-processor/build.gradle
-2019-01-29 01:19:03,748 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/settings.gradle
-2019-01-29 01:19:03,748 INFO  ProjectBuildService - Remote scripts: none
-2019-01-29 01:19:03,748 INFO  ProjectFixService - Fixing project...
-2019-01-29 01:19:03,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/app/local.properties
-2019-01-29 01:19:03,761 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-29 01:19:03,761 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-29 01:19:03,762 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/local.properties
-2019-01-29 01:19:03,762 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-all.zip
-2019-01-29 01:19:03,762 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.7-bin.zip)
-2019-01-29 01:19:03,764 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-29 01:19:03,765 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-29 01:19:03,765 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-annotations/local.properties
-2019-01-29 01:19:03,768 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-29 01:19:03,768 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-29 01:19:03,768 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-processor/local.properties
-2019-01-29 01:19:03,771 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-29 01:19:03,771 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-29 01:19:03,772 INFO  ProjectFixService - Project was maybe fixed
-2019-01-29 01:19:03,772 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-29 01:19:03,772 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-29 01:19:07,953 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-29 01:19:07,953 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-29 01:19:07,953 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-29 01:19:07,953 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-29 01:19:11,019 ERROR SysUtils - Could not process external command
+2019-03-08 23:48:07,400 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/gradlew
+2019-03-08 23:48:07,404 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-processor/build.gradle
+2019-03-08 23:48:07,408 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/settings.gradle
+2019-03-08 23:48:07,409 INFO  ProjectBuildService - Remote scripts: none
+2019-03-08 23:48:07,409 INFO  ProjectFixService - Fixing project...
+2019-03-08 23:48:07,421 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/app/local.properties
+2019-03-08 23:48:07,424 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-08 23:48:07,424 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-08 23:48:07,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/local.properties
+2019-03-08 23:48:07,426 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-all.zip
+2019-03-08 23:48:07,427 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.7-bin.zip)
+2019-03-08 23:48:07,430 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-08 23:48:07,430 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-08 23:48:07,431 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-annotations/local.properties
+2019-03-08 23:48:07,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-08 23:48:07,434 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-08 23:48:07,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-processor/local.properties
+2019-03-08 23:48:07,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-08 23:48:07,439 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-08 23:48:07,440 INFO  ProjectFixService - Project was maybe fixed
+2019-03-08 23:48:07,440 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-08 23:48:07,440 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-08 23:48:13,030 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-08 23:48:13,030 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-08 23:48:13,030 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-08 23:48:13,030 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-08 23:48:16,168 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,26 +50,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-29 01:19:11,019 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-08 23:48:16,168 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/app/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/app/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -189,7 +192,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_azhuvzdxu5j77tx13dtb70rub.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/app/build.gradle:1)
+	at build_3txsaiv1w3kl8o0arwnnis610.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/app/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 100 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -215,13 +218,13 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 BUILD FAILED in 2s
 
-2019-01-29 01:19:11,025 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-29 01:19:11,025 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-29 01:19:13,928 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-29 01:19:13,928 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-29 01:19:13,928 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-29 01:19:13,928 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-29 01:19:16,874 ERROR SysUtils - Could not process external command
+2019-03-08 23:48:16,174 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-08 23:48:16,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-08 23:48:19,401 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-08 23:48:19,401 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-08 23:48:19,401 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-08 23:48:19,402 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-08 23:48:22,568 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -234,26 +237,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-29 01:19:16,875 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-08 23:48:22,568 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/app/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/app/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -376,7 +379,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_azhuvzdxu5j77tx13dtb70rub.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/app/build.gradle:1)
+	at build_3txsaiv1w3kl8o0arwnnis610.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/app/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 100 more
 Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand is not supported by the current version of the Android Gradle plugin since you are using Gradle version 4.6 or above. Suggestion: disable configuration on demand by setting org.gradle.configureondemand=false in your gradle.properties file or use a Gradle version less than 4.6.
@@ -400,15 +403,14 @@ Caused by: org.gradle.api.tasks.StopExecutionException: Configuration on demand 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 2s
+BUILD FAILED in 3s
 
-2019-01-29 01:19:16,880 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-29 01:19:16,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-29 01:19:20,882 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-01-29 01:19:20,882 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-01-29 01:19:20,882 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-01-29 01:19:31,268 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.41/kotlin-stdlib-jdk7-1.2.41.jar
+2019-03-08 23:48:22,573 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-08 23:48:22,573 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-08 23:48:26,816 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-03-08 23:48:26,816 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-03-08 23:48:26,816 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-03-08 23:48:36,554 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :greencoffee-annotations:compileKotlin
 > Task :greencoffee-annotations:compileJava NO-SOURCE
 > Task :greencoffee-annotations:processResources NO-SOURCE
@@ -420,12 +422,12 @@ Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2
 BUILD SUCCESSFUL in 9s
 2 actionable tasks: 2 executed
 
-2019-01-29 01:19:31,275 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-29 01:19:31,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-29 01:19:35,032 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-01-29 01:19:35,032 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-01-29 01:19:35,032 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548713942814-0/src/GreenCoffeeProcessor-master/greencoffee-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-01-29 01:19:47,055 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-08 23:48:36,562 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-08 23:48:36,562 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-08 23:48:40,591 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-03-08 23:48:40,592 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-03-08 23:48:40,592 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552063560833-0/src/greencoffee-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-03-08 23:48:52,679 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :greencoffee-annotations:compileKotlin UP-TO-DATE
 > Task :greencoffee-annotations:compileJava NO-SOURCE
 > Task :greencoffee-annotations:processResources NO-SOURCE
@@ -443,5 +445,5 @@ Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.2
 BUILD SUCCESSFUL in 11s
 5 actionable tasks: 3 executed, 2 up-to-date
 
-2019-01-29 01:19:47,065 ERROR FullProcessService - Project build has not produced APK file
-2019-01-29 01:19:47,075 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-08 23:48:52,689 ERROR FullProcessService - Project build has not produced APK file
+2019-03-08 23:48:52,699 ERROR FullProcessService - Could not find generated or existed APK file
