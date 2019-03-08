@@ -1,9 +1,254 @@
-2019-01-29 02:07:23,348 INFO  DownloadService - Downloading "https://github.com/G00fY2/version-compare/archive/master.zip", attempt 3
-2019-01-29 02:07:23,349 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-29 02:07:23,349 INFO  GithubDownloadService - Default branch of this repository: null
-2019-01-29 02:07:23,349 ERROR GithubDownloadService - Could not detect default branch for Github repository
-2019-01-29 02:07:23,350 DEBUG FullProcessService - Repository https://github.com/G00fY2/version-compare available: false
-2019-01-29 02:07:23,350 ERROR FullProcessService - Could not find directory with sources
-2019-01-29 02:07:23,350 ERROR FullProcessService - Project will not be processed
-2019-01-29 02:07:23,350 ERROR FullProcessService - Project build has not produced APK file
-2019-01-29 02:07:23,350 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-09 02:09:51,629 INFO  DownloadService - Downloading "https://github.com/G00fY2/version-compare/archive/master.zip", attempt 3
+2019-03-09 02:09:53,902 INFO  DownloadService - Downloaded https://github.com/G00fY2/version-compare/archive/master.zip, attempt 3
+2019-03-09 02:09:53,902 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/master.zip": 120 KB
+2019-03-09 02:09:53,902 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 02:09:53,908 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/master.zip: true
+2019-03-09 02:09:53,908 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src'.
+2019-03-09 02:09:53,924 INFO  FullProcessService - Size of directory with sources: 156 KB
+2019-03-09 02:09:53,924 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src]
+2019-03-09 02:09:53,947 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/.git/
+
+2019-03-09 02:09:53,950 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/gradlew
+2019-03-09 02:09:53,952 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/versioncompare/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/build.gradle
+2019-03-09 02:09:53,955 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/versioncompare/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/versioncompare/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/settings.gradle
+2019-03-09 02:09:53,956 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 02:09:53,956 INFO  ProjectFixService - Fixing project...
+2019-03-09 02:09:53,964 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/local.properties
+2019-03-09 02:09:53,965 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-09 02:09:53,965 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-09 02:09:53,966 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/versioncompare/local.properties
+2019-03-09 02:09:53,968 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/versioncompare/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-09 02:09:53,968 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/versioncompare/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-09 02:09:53,969 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/local.properties
+2019-03-09 02:09:53,969 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-03-09 02:09:53,970 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-03-09 02:09:53,971 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-09 02:09:53,971 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-09 02:09:53,972 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 02:09:53,972 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 02:09:53,972 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 02:10:03,364 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-09 02:10:03,364 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 02:10:03,364 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 02:10:37,497 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :versioncompare
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :sample:preBuild UP-TO-DATE
+> Task :versioncompare:preBuild UP-TO-DATE
+> Task :versioncompare:preDebugBuild UP-TO-DATE
+> Task :versioncompare:checkDebugManifest
+> Task :versioncompare:processDebugManifest
+> Task :sample:preDebugBuild
+> Task :versioncompare:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :versioncompare:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :versioncompare:compileDebugRenderscript
+> Task :versioncompare:generateDebugResValues
+> Task :versioncompare:generateDebugResources
+> Task :versioncompare:packageDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :versioncompare:generateDebugRFile
+> Task :sample:processDebugResources
+> Task :versioncompare:generateDebugBuildConfig
+> Task :versioncompare:prepareLintJar
+> Task :versioncompare:generateDebugSources
+> Task :versioncompare:javaPreCompileDebug
+> Task :versioncompare:compileDebugJavaWithJavac
+> Task :versioncompare:processDebugJavaRes NO-SOURCE
+> Task :versioncompare:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :versioncompare:mergeDebugShaders
+> Task :versioncompare:compileDebugShaders
+> Task :versioncompare:generateDebugAssets
+> Task :versioncompare:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :versioncompare:createFullJarDebug
+> Transform full.jar (project :versioncompare) with IdentityTransform
+> Task :sample:mergeExtDexDebug
+> Transform full.jar (project :versioncompare) with DexingTransform
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :versioncompare:compileDebugNdk NO-SOURCE
+> Task :versioncompare:mergeDebugJniLibFolders
+> Task :versioncompare:transformNativeLibsWithMergeJniLibsForDebug
+> Task :versioncompare:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :versioncompare:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:extractProguardFiles
+> Task :versioncompare:preReleaseBuild UP-TO-DATE
+> Task :versioncompare:checkReleaseManifest
+> Task :versioncompare:processReleaseManifest
+> Task :sample:preReleaseBuild
+> Task :versioncompare:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :versioncompare:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :versioncompare:compileReleaseRenderscript
+> Task :versioncompare:generateReleaseResValues
+> Task :versioncompare:generateReleaseResources
+> Task :versioncompare:packageReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :versioncompare:generateReleaseRFile
+> Task :sample:processReleaseResources
+> Task :versioncompare:generateReleaseBuildConfig
+> Task :versioncompare:generateReleaseSources
+> Task :versioncompare:javaPreCompileRelease
+> Task :versioncompare:compileReleaseJavaWithJavac
+> Task :versioncompare:processReleaseJavaRes NO-SOURCE
+> Task :versioncompare:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/de5b3464a4d21775539b33f6c7ea2d48/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :versioncompare:mergeReleaseShaders
+> Task :versioncompare:compileReleaseShaders
+> Task :versioncompare:generateReleaseAssets
+> Task :versioncompare:packageReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :versioncompare:mergeReleaseConsumerProguardFiles
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11/4839661cf6ce3c14b65ed7dcf5b9249b44ecca16/kotlin-stdlib-jdk7-1.3.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/versioncompare/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build/tmp/kotlin-classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Initializing...
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
+Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
+Note: kotlin.coroutines.jvm.internal.DebugMetadataKt accesses a declared field 'label' dynamically
+      Maybe this is program field 'kotlin.collections.SlidingWindowKt$windowedIterator$1 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.experimental.jvm.internal.CoroutineImpl { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$1 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$2 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$4 { int label; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1 { int label; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2 { int label; }'
+      Maybe this is library field 'android.R$attr { int label; }'
+      Maybe this is library field 'android.app.LauncherActivity$ListItem { java.lang.CharSequence label; }'
+      Maybe this is library field 'android.appwidget.AppWidgetProviderInfo { java.lang.String label; }'
+      Maybe this is library field 'android.inputmethodservice.Keyboard$Key { java.lang.CharSequence label; }'
+      Maybe this is library field 'android.speech.tts.TextToSpeech$EngineInfo { java.lang.String label; }'
+      Maybe this is library field 'android.view.inputmethod.EditorInfo { java.lang.CharSequence label; }'
+Note: there were 4 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 1 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Ignoring unused library classes...
+  Original number of library classes: 4803
+  Final number of library classes:    426
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 828
+  Final number of program classes:    44
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11/4839661cf6ce3c14b65ed7dcf5b9249b44ecca16/kotlin-stdlib-jdk7-1.3.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/versioncompare/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build/tmp/kotlin-classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+
+> Task :sample:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :sample:transformClassesAndDexWithShrinkResForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :versioncompare:compileReleaseNdk NO-SOURCE
+> Task :versioncompare:mergeReleaseJniLibFolders
+> Task :versioncompare:transformNativeLibsWithMergeJniLibsForRelease
+> Task :versioncompare:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :versioncompare:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 33s
+92 actionable tasks: 92 executed
+
+2019-03-09 02:10:37,529 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552072191624-0/src/version-compare-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
