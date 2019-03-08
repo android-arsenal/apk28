@@ -1,45 +1,108 @@
-2018-08-27 12:02:36,405 INFO  DownloadService - Downloading "https://github.com/quangctkm9207/mvp-android-arch-component/archive/master.zip", attempt 3
-2018-08-27 12:02:39,266 INFO  DownloadService - Downloaded https://github.com/quangctkm9207/mvp-android-arch-component/archive/master.zip, attempt 3
-2018-08-27 12:02:39,266 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/master.zip": 362 KB
-2018-08-27 12:02:39,266 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-08-27 12:02:39,266 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/master.zip: true
-2018-08-27 12:02:39,267 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src'.
-2018-08-27 12:02:39,310 INFO  FullProcessService - Size of directory with sources: 401 KB
-2018-08-27 12:02:39,310 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src]
-2018-08-27 12:02:39,347 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/.git/
+2019-03-08 20:58:49,211 INFO  DownloadService - Downloading "https://github.com/quangctkm9207/mvp-android-arch-component/archive/master.zip", attempt 3
+2019-03-08 20:58:54,433 INFO  DownloadService - Downloaded https://github.com/quangctkm9207/mvp-android-arch-component/archive/master.zip, attempt 3
+2019-03-08 20:58:54,434 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/master.zip": 362 KB
+2019-03-08 20:58:54,434 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-08 20:58:54,439 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/master.zip: true
+2019-03-08 20:58:54,439 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src'.
+2019-03-08 20:58:54,469 INFO  FullProcessService - Size of directory with sources: 401 KB
+2019-03-08 20:58:54,469 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src]
+2019-03-08 20:58:54,487 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/.git/
 
-2018-08-27 12:02:39,353 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/gradlew
-2018-08-27 12:02:39,360 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/build.gradle
-2018-08-27 12:02:39,365 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/settings.gradle
-2018-08-27 12:02:39,366 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/mcrafts/dot-gradles/master/test-report.gradle", attempt 3
-2018-08-27 12:02:40,164 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/mcrafts/dot-gradles/master/test-report.gradle, attempt 3
-2018-08-27 12:02:40,164 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/mcrafts/dot-gradles/master/test-report.gradle
-2018-08-27 12:02:40,164 INFO  ProjectFixService - Fixing project...
-2018-08-27 12:02:40,179 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/app/local.properties
-2018-08-27 12:02:40,182 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-08-27 12:02:40,182 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/local.properties
-2018-08-27 12:02:40,183 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
-2018-08-27 12:02:40,184 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
-2018-08-27 12:02:40,184 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-08-27 12:02:40,185 INFO  ProjectFixService - Project was maybe fixed
-2018-08-27 12:02:40,185 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-27 12:02:40,185 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-27 12:03:48,655 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-08-27 12:03:48,656 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-08-27 12:03:48,656 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-08-27 12:08:21,219 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-08 20:58:54,491 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/gradlew
+2019-03-08 20:58:54,494 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/build.gradle
+2019-03-08 20:58:54,498 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/settings.gradle
+2019-03-08 20:58:54,498 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/mcrafts/dot-gradles/master/test-report.gradle", attempt 3
+2019-03-08 20:58:54,746 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/mcrafts/dot-gradles/master/test-report.gradle, attempt 3
+2019-03-08 20:58:54,746 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/mcrafts/dot-gradles/master/test-report.gradle
+2019-03-08 20:58:54,746 INFO  ProjectFixService - Fixing project...
+2019-03-08 20:58:54,759 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/app/local.properties
+2019-03-08 20:58:54,761 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-08 20:58:54,761 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/local.properties
+2019-03-08 20:58:54,762 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
+2019-03-08 20:58:54,762 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
+2019-03-08 20:58:54,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-08 20:58:54,763 INFO  ProjectFixService - Project was maybe fixed
+2019-03-08 20:58:54,763 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-08 20:58:54,763 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-08 20:59:13,393 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-03-08 20:59:13,394 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-08 20:59:13,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-08 21:00:33,451 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
+Download https://maven.google.com/android/arch/lifecycle/runtime/1.0.0/runtime-1.0.0.pom
+Download https://maven.google.com/android/arch/lifecycle/extensions/1.0.0/extensions-1.0.0.pom
+Download https://maven.google.com/com/android/support/recyclerview-v7/27.0.2/recyclerview-v7-27.0.2.pom
+Download https://maven.google.com/android/arch/persistence/room/runtime/1.0.0/runtime-1.0.0.pom
+Download https://maven.google.com/com/android/support/design/27.0.2/design-27.0.2.pom
+Download https://maven.google.com/com/android/support/appcompat-v7/27.0.2/appcompat-v7-27.0.2.pom
+Download https://maven.google.com/com/android/support/cardview-v7/27.0.2/cardview-v7-27.0.2.pom
+Download https://maven.google.com/android/arch/persistence/room/rxjava2/1.0.0/rxjava2-1.0.0.pom
+Download https://jcenter.bintray.com/org/glassfish/javax.annotation/10.0-b28/javax.annotation-10.0-b28.pom
 Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.8.0/logging-interceptor-3.8.0.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.3.0/converter-gson-2.3.0.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.pom
 Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.3.1/glide-4.3.1.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava2/2.3.0/adapter-rxjava2-2.3.0.pom
+Download https://jcenter.bintray.com/com/jakewharton/timber/timber/4.5.1/timber-4.5.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife/8.8.1/butterknife-8.8.1.pom
+Download https://jcenter.bintray.com/org/glassfish/javaee-api/10.0-b28/javaee-api-10.0-b28.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/parent/3.8.0/parent-3.8.0.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/parent/2.3.0/parent-2.3.0.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit-adapters/2.3.0/retrofit-adapters-2.3.0.pom
 Download https://jcenter.bintray.com/com/google/dagger/dagger-android/2.11/dagger-android-2.11.pom
+Download https://jcenter.bintray.com/com/google/dagger/dagger/2.11/dagger-2.11.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit-converters/2.3.0/retrofit-converters-2.3.0.pom
 Download https://jcenter.bintray.com/com/google/dagger/dagger-android-support/2.11/dagger-android-support-2.11.pom
+Download https://jcenter.bintray.com/org/glassfish/glassfish-parent/10.0-b28/glassfish-parent-10.0-b28.pom
+Download https://jcenter.bintray.com/org/glassfish/pom/2/pom-2.pom
 Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.4/rxjava-2.1.4.pom
-Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.3.1/annotations-4.3.1.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxandroid/2.0.1/rxandroid-2.0.1.pom
+Download https://jcenter.bintray.com/com/facebook/stetho/stetho-okhttp3/1.5.0/stetho-okhttp3-1.5.0.pom
+Download https://jcenter.bintray.com/com/facebook/stetho/stetho/1.5.0/stetho-1.5.0.pom
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android/1.5.4/leakcanary-android-1.5.4.pom
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-analyzer/1.5.4/leakcanary-analyzer-1.5.4.pom
+Download https://maven.google.com/com/android/support/support-core-utils/27.0.2/support-core-utils-27.0.2.pom
+Download https://maven.google.com/com/android/support/support-fragment/27.0.2/support-fragment-27.0.2.pom
+Download https://maven.google.com/com/android/support/support-annotations/27.0.2/support-annotations-27.0.2.pom
+Download https://maven.google.com/com/android/support/animated-vector-drawable/27.0.2/animated-vector-drawable-27.0.2.pom
+Download https://maven.google.com/com/android/support/support-vector-drawable/27.0.2/support-vector-drawable-27.0.2.pom
+Download https://maven.google.com/com/android/support/transition/27.0.2/transition-27.0.2.pom
+Download https://maven.google.com/com/android/support/support-v4/27.0.2/support-v4-27.0.2.pom
+Download https://maven.google.com/com/android/support/support-core-ui/27.0.2/support-core-ui-27.0.2.pom
+Download https://maven.google.com/com/android/support/support-compat/27.0.2/support-compat-27.0.2.pom
+Download https://maven.google.com/android/arch/lifecycle/common/1.0.0/common-1.0.0.pom
+Download https://maven.google.com/android/arch/core/common/1.0.0/common-1.0.0.pom
+Download https://maven.google.com/android/arch/core/runtime/1.0.0/runtime-1.0.0.pom
+Download https://maven.google.com/android/arch/persistence/db/1.0.0/db-1.0.0.pom
+Download https://maven.google.com/android/arch/persistence/db-framework/1.0.0/db-framework-1.0.0.pom
+Download https://maven.google.com/android/arch/persistence/room/common/1.0.0/common-1.0.0.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp/3.8.0/okhttp-3.8.0.pom
 Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.3.1/gifdecoder-4.3.1.pom
+Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.3.1/annotations-4.3.1.pom
 Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.3.1/disklrucache-4.3.1.pom
-Download https://jcenter.bintray.com/com/google/dagger/dagger-android-support/2.11/dagger-android-support-2.11.aar
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/8.8.1/butterknife-annotations-8.8.1.pom
+Download https://jcenter.bintray.com/com/squareup/haha/haha/2.0.3/haha-2.0.3.pom
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-watcher/1.5.4/leakcanary-watcher-1.5.4.pom
+Download https://maven.google.com/android/arch/lifecycle/runtime/1.0.3/runtime-1.0.3.pom
+Download https://maven.google.com/android/arch/lifecycle/common/1.0.3/common-1.0.3.pom
+Download https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.1/reactive-streams-1.0.1.pom
+Download https://maven.google.com/com/android/support/support-media-compat/27.0.2/support-media-compat-27.0.2.pom
+Download https://maven.google.com/com/android/support/appcompat-v7/27.0.2/appcompat-v7-27.0.2.aar
+Download https://maven.google.com/com/android/support/recyclerview-v7/27.0.2/recyclerview-v7-27.0.2.aar
+Download https://maven.google.com/android/arch/lifecycle/extensions/1.0.0/extensions-1.0.0.aar
+Download https://maven.google.com/com/android/support/support-fragment/27.0.2/support-fragment-27.0.2.aar
+Download https://maven.google.com/com/android/support/animated-vector-drawable/27.0.2/animated-vector-drawable-27.0.2.aar
+Download https://maven.google.com/com/android/support/support-core-ui/27.0.2/support-core-ui-27.0.2.aar
+Download https://maven.google.com/android/arch/persistence/room/rxjava2/1.0.0/rxjava2-1.0.0.aar
+Download https://maven.google.com/com/android/support/support-core-utils/27.0.2/support-core-utils-27.0.2.aar
+Download https://maven.google.com/com/android/support/support-vector-drawable/27.0.2/support-vector-drawable-27.0.2.aar
+Download https://maven.google.com/com/android/support/support-compat/27.0.2/support-compat-27.0.2.aar
 Download https://jcenter.bintray.com/com/google/dagger/dagger-android/2.11/dagger-android-2.11.aar
+Download https://jcenter.bintray.com/com/jakewharton/timber/timber/4.5.1/timber-4.5.1.aar
+Download https://maven.google.com/android/arch/lifecycle/runtime/1.0.3/runtime-1.0.3.aar
+Download https://maven.google.com/android/arch/core/runtime/1.0.0/runtime-1.0.0.aar
+Download https://jcenter.bintray.com/com/google/dagger/dagger-android-support/2.11/dagger-android-support-2.11.aar
 :app:compileDebugAidl
 :app:compileDebugRenderscript
 :app:checkDebugManifest
@@ -55,34 +118,47 @@ Download https://jcenter.bintray.com/com/google/dagger/dagger-android/2.11/dagge
 :app:processDebugResources
 :app:generateDebugSources
 :app:javaPreCompileDebug
-Download https://jcenter.bintray.com/com/google/dagger/dagger-android-processor/2.11/dagger-android-processor-2.11.pom
+Download https://maven.google.com/android/arch/lifecycle/compiler/1.0.0/compiler-1.0.0.pom
+Download https://maven.google.com/android/arch/persistence/room/compiler/1.0.0/compiler-1.0.0.pom
 Download https://jcenter.bintray.com/com/google/dagger/dagger-compiler/2.11/dagger-compiler-2.11.pom
-Download https://jcenter.bintray.com/com/google/googlejavaformat/google-java-format/1.3/google-java-format-1.3.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/8.8.1/butterknife-compiler-8.8.1.pom
+Download https://jcenter.bintray.com/com/google/dagger/dagger-android-processor/2.11/dagger-android-processor-2.11.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3/kotlin-stdlib-1.1.3.pom
+Download https://jcenter.bintray.com/com/google/auto/auto-common/0.6/auto-common-0.6.pom
+Download https://maven.google.com/android/arch/persistence/room/migration/1.0.0/migration-1.0.0.pom
+Download https://jcenter.bintray.com/org/xerial/sqlite-jdbc/3.20.1/sqlite-jdbc-3.20.1.pom
 Download https://jcenter.bintray.com/com/google/dagger/dagger-producers/2.11/dagger-producers-2.11.pom
+Download https://jcenter.bintray.com/com/google/googlejavaformat/google-java-format/1.3/google-java-format-1.3.pom
 Download https://jcenter.bintray.com/com/google/googlejavaformat/google-java-format-parent/1.3/google-java-format-parent-1.3.pom
 Download https://jcenter.bintray.com/com/google/dagger/dagger-android-support-jarimpl/2.11/dagger-android-support-jarimpl-2.11.pom
 Download https://jcenter.bintray.com/com/google/dagger/dagger-android-jarimpl/2.11/dagger-android-jarimpl-2.11.pom
+Download https://maven.google.com/com/android/support/support-annotations/26.1.0/support-annotations-26.1.0.pom
 Download https://jcenter.bintray.com/com/google/errorprone/javac/9-dev-r3297-1-shaded/javac-9-dev-r3297-1-shaded.pom
+Download https://jcenter.bintray.com/com/google/auto/auto-common/0.8/auto-common-0.8.pom
 Download https://jcenter.bintray.com/com/google/dagger/dagger-android-processor/2.11/dagger-android-processor-2.11.jar
+Download https://maven.google.com/android/arch/lifecycle/compiler/1.0.0/compiler-1.0.0.jar
+Download https://maven.google.com/android/arch/lifecycle/common/1.0.3/common-1.0.3.jar
+Download https://jcenter.bintray.com/com/google/dagger/dagger-compiler/2.11/dagger-compiler-2.11.jar
 Download https://jcenter.bintray.com/com/google/dagger/dagger-producers/2.11/dagger-producers-2.11.jar
 Download https://jcenter.bintray.com/com/google/dagger/dagger/2.11/dagger-2.11.jar
-Download https://jcenter.bintray.com/com/google/dagger/dagger-compiler/2.11/dagger-compiler-2.11.jar
 Download https://jcenter.bintray.com/com/google/dagger/dagger-android-jarimpl/2.11/dagger-android-jarimpl-2.11.jar
-Download https://jcenter.bintray.com/com/google/googlejavaformat/google-java-format/1.3/google-java-format-1.3.jar
 Download https://jcenter.bintray.com/com/google/dagger/dagger-android-support-jarimpl/2.11/dagger-android-support-jarimpl-2.11.jar
+Download https://jcenter.bintray.com/com/google/googlejavaformat/google-java-format/1.3/google-java-format-1.3.jar
 Download https://jcenter.bintray.com/com/google/errorprone/javac/9-dev-r3297-1-shaded/javac-9-dev-r3297-1-shaded.jar
 Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.8.0/logging-interceptor-3.8.0.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.3.1/glide-4.3.1.jar
 Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.3.1/gifdecoder-4.3.1.jar
 Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.3.1/disklrucache-4.3.1.jar
 Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.3.1/annotations-4.3.1.jar
-Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.3.1/glide-4.3.1.jar
+Download https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.1/reactive-streams-1.0.1.jar
 Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.4/rxjava-2.1.4.jar
+Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp/3.8.0/okhttp-3.8.0.jar
 :app:compileDebugJavaWithJavacwarning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.lifecycle.LifecycleProcessor' less than -source '1.8'
 warning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.persistence.room.RoomProcessor' less than -source '1.8'
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/app/src/main/java/com/quangnguyen/stackoverflowclient/data/database/StackOverflowDb.java:8: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/app/src/main/java/com/quangnguyen/stackoverflowclient/data/database/StackOverflowDb.java:8: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
 public abstract class StackOverflowDb extends RoomDatabase {
                 ^
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/app/build/generated/source/apt/debug/com/quangnguyen/stackoverflowclient/data/database/QuestionDao_Impl.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/app/build/generated/source/apt/debug/com/quangnguyen/stackoverflowclient/data/database/QuestionDao_Impl.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 3 warnings
 
@@ -124,10 +200,10 @@ D8: InnerClass annotations are missing corresponding EnclosingMember annotations
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavacwarning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.lifecycle.LifecycleProcessor' less than -source '1.8'
 warning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.persistence.room.RoomProcessor' less than -source '1.8'
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/app/src/main/java/com/quangnguyen/stackoverflowclient/data/database/StackOverflowDb.java:8: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/app/src/main/java/com/quangnguyen/stackoverflowclient/data/database/StackOverflowDb.java:8: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
 public abstract class StackOverflowDb extends RoomDatabase {
                 ^
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/app/build/generated/source/apt/release/com/quangnguyen/stackoverflowclient/data/database/QuestionDao_Impl.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/app/build/generated/source/apt/release/com/quangnguyen/stackoverflowclient/data/database/QuestionDao_Impl.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 3 warnings
 
@@ -154,7 +230,7 @@ D8: InnerClass annotations are missing corresponding EnclosingMember annotations
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 4m 31s
+BUILD SUCCESSFUL in 1m 19s
 58 actionable tasks: 58 executed
 
-2018-08-27 12:08:21,806 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535346156401-0/src/mvp-android-arch-component-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-08 21:00:33,570 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552053529203-0/src/mvp-android-arch-component-master/app/build/outputs/apk/debug/app-debug.apk
