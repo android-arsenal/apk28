@@ -1,20 +1,10 @@
-2019-03-09 00:00:48,751 INFO  DownloadService - Downloading "https://github.com/gmazzo/okhttp-client-mock/archive/master.zip", attempt 3
-2019-03-09 00:01:49,553 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-09 00:01:50,977 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-09 00:01:50,977 INFO  DownloadService - Downloading "https://github.com/gmazzo/okhttp-client-mock/archive/master.zip", attempt 3
-2019-03-09 00:02:52,755 DEBUG FullProcessService - Repository https://github.com/gmazzo/okhttp-client-mock available: true
-2019-03-09 00:02:52,755 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-09 00:02:52,755 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/gmazzo/okhttp-client-mock, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064448743-0/src]
-2019-03-09 00:02:54,697 INFO  SysUtils - 
-2019-03-09 00:02:54,722 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064448743-0/src/.git": true
-2019-03-09 00:02:54,724 INFO  FullProcessService - Size of directory with sources: 112 KB
-2019-03-09 00:02:54,724 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064448743-0/src]
-2019-03-09 00:02:54,744 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064448743-0/src/.git/
-
-2019-03-09 00:02:54,746 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064448743-0/src/gradlew
-2019-03-09 00:02:54,748 INFO  ProjectBuildService - Build script(s): none
-2019-03-09 00:02:54,750 INFO  ProjectBuildService - All script(s): none
-2019-03-09 00:02:54,750 INFO  ProjectBuildService - Remote scripts: none
-2019-03-09 00:02:54,750 ERROR FullProcessService - Project is not correct Gradle project
-2019-03-09 00:02:54,750 ERROR FullProcessService - Project build has not produced APK file
-2019-03-09 00:02:54,752 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-10 01:29:51,668 INFO  DownloadService - Downloading "https://github.com/gmazzo/okhttp-client-mock/archive/master.zip", attempt 3
+2019-03-10 01:29:53,645 INFO  DownloadService - Downloaded https://github.com/gmazzo/okhttp-client-mock/archive/master.zip, attempt 3
+2019-03-10 01:29:53,645 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156191659-0/master.zip": 77 KB
+2019-03-10 01:29:53,645 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-10 01:29:53,650 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552156191659-0/master.zip: false
+2019-03-10 01:29:53,650 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-03-10 01:29:53,651 ERROR FullProcessService - Could not find directory with sources
+2019-03-10 01:29:53,651 ERROR FullProcessService - Project will not be processed
+2019-03-10 01:29:53,651 ERROR FullProcessService - Project build has not produced APK file
+2019-03-10 01:29:53,651 ERROR FullProcessService - Could not find generated or existed APK file
