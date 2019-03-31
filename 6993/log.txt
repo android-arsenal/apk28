@@ -1,36 +1,36 @@
-2019-03-04 11:02:14,834 INFO  DownloadService - Downloading "https://github.com/hummatli/AndroidAppUpdater/archive/master.zip", attempt 3
-2019-03-04 11:02:26,181 INFO  DownloadService - Downloaded https://github.com/hummatli/AndroidAppUpdater/archive/master.zip, attempt 3
-2019-03-04 11:02:26,182 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/master.zip": 10 MB
-2019-03-04 11:02:26,182 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-04 11:02:26,183 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/master.zip: true
-2019-03-04 11:02:26,184 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src'.
-2019-03-04 11:02:26,304 INFO  FullProcessService - Size of directory with sources: 12 MB
-2019-03-04 11:02:26,304 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src]
-2019-03-04 11:02:26,323 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/.git/
+2019-03-31 21:45:58,347 INFO  DownloadService - Downloading "https://github.com/hummatli/AndroidAppUpdater/archive/master.zip", attempt 3
+2019-03-31 21:46:05,143 INFO  DownloadService - Downloaded https://github.com/hummatli/AndroidAppUpdater/archive/master.zip, attempt 3
+2019-03-31 21:46:05,143 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/master.zip": 10 MB
+2019-03-31 21:46:05,143 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-31 21:46:05,144 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/master.zip: true
+2019-03-31 21:46:05,144 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src'.
+2019-03-31 21:46:05,266 INFO  FullProcessService - Size of directory with sources: 12 MB
+2019-03-31 21:46:05,266 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src]
+2019-03-31 21:46:05,286 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/.git/
 
-2019-03-04 11:02:26,329 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/gradlew
-2019-03-04 11:02:26,336 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/build.gradle
-2019-03-04 11:02:26,342 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/signing_confs/sample_conf.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/conf_for_maven/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/conf_for_maven/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/settings.gradle
-2019-03-04 11:02:26,343 INFO  ProjectBuildService - Remote scripts: none
-2019-03-04 11:02:26,343 INFO  ProjectFixService - Fixing project...
-2019-03-04 11:02:26,358 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/local.properties
-2019-03-04 11:02:26,360 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-04 11:02:26,360 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-04 11:02:26,361 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/local.properties
-2019-03-04 11:02:26,362 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-04 11:02:26,362 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-04 11:02:26,363 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/local.properties
-2019-03-04 11:02:26,363 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-04 11:02:26,364 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-04 11:02:26,366 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-04 11:02:26,366 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-04 11:02:26,366 INFO  ProjectFixService - Project was maybe fixed
-2019-03-04 11:02:26,366 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-04 11:02:26,367 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-04 11:02:34,403 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-04 11:02:34,404 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-04 11:02:34,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-04 11:02:57,629 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-31 21:46:05,293 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/gradlew
+2019-03-31 21:46:05,301 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/build.gradle
+2019-03-31 21:46:05,307 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/signing_confs/sample_conf.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/conf_for_maven/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/conf_for_maven/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/settings.gradle
+2019-03-31 21:46:05,308 INFO  ProjectBuildService - Remote scripts: none
+2019-03-31 21:46:05,308 INFO  ProjectFixService - Fixing project...
+2019-03-31 21:46:05,323 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/local.properties
+2019-03-31 21:46:05,325 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-31 21:46:05,325 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-31 21:46:05,326 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/local.properties
+2019-03-31 21:46:05,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-31 21:46:05,328 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-31 21:46:05,328 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/local.properties
+2019-03-31 21:46:05,329 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-31 21:46:05,329 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-31 21:46:05,331 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-31 21:46:05,331 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-31 21:46:05,331 INFO  ProjectFixService - Project was maybe fixed
+2019-03-31 21:46:05,331 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-31 21:46:05,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-31 21:46:14,574 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-31 21:46:14,574 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-31 21:46:14,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-31 21:46:40,558 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :android-app-updater:preBuild UP-TO-DATE
 > Task :android-app-updater:preDebugBuild UP-TO-DATE
 > Task :android-app-updater:compileDebugAidl NO-SOURCE
@@ -42,15 +42,15 @@
 > Task :android-app-updater:packageDebugResources
 > Task :android-app-updater:processDebugManifest
 > Task :android-app-updater:generateDebugRFile
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/AAUpdaterDlg.kt: (56, 35): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/AAUpdaterRestricterDlg.kt: (57, 35): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/AAUpdaterRestricterDlg.kt: (60, 17): The expression is unused
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/commons/Extensions.kt: (19, 5): Unreachable code
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/AAUpdaterController.kt: (79, 21): Condition 'programInfo.uriCurrent == null' is always 'false'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/AAUpdaterController.kt: (128, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/LocaleUpdater.kt: (15, 23): 'locale: Locale!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/LocaleUpdater.kt: (17, 19): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/Utils.kt: (18, 37): 'versionCode: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/AAUpdaterDlg.kt: (56, 35): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/AAUpdaterRestricterDlg.kt: (57, 35): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/AAUpdaterRestricterDlg.kt: (60, 17): The expression is unused
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/commons/Extensions.kt: (19, 5): Unreachable code
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/AAUpdaterController.kt: (79, 21): Condition 'programInfo.uriCurrent == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/AAUpdaterController.kt: (128, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/LocaleUpdater.kt: (15, 23): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/LocaleUpdater.kt: (17, 19): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/Utils.kt: (18, 37): 'versionCode: Int' is deprecated. Deprecated in Java
 > Task :android-app-updater:compileDebugKotlin
 > Task :android-app-updater:prepareLintJar
 > Task :android-app-updater:generateDebugSources
@@ -84,15 +84,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/
 > Task :android-app-updater:packageReleaseResources
 > Task :android-app-updater:processReleaseManifest
 > Task :android-app-updater:generateReleaseRFile
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/AAUpdaterDlg.kt: (56, 35): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/AAUpdaterRestricterDlg.kt: (57, 35): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/AAUpdaterRestricterDlg.kt: (60, 17): The expression is unused
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/commons/Extensions.kt: (19, 5): Unreachable code
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/AAUpdaterController.kt: (79, 21): Condition 'programInfo.uriCurrent == null' is always 'false'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/AAUpdaterController.kt: (128, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/LocaleUpdater.kt: (15, 23): 'locale: Locale!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/LocaleUpdater.kt: (17, 19): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/Utils.kt: (18, 37): 'versionCode: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/AAUpdaterDlg.kt: (56, 35): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/AAUpdaterRestricterDlg.kt: (57, 35): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/AAUpdaterRestricterDlg.kt: (60, 17): The expression is unused
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/commons/Extensions.kt: (19, 5): Unreachable code
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/AAUpdaterController.kt: (79, 21): Condition 'programInfo.uriCurrent == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/AAUpdaterController.kt: (128, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/LocaleUpdater.kt: (15, 23): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/LocaleUpdater.kt: (17, 19): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/android-app-updater/src/main/java/com/mobapphome/androidappupdater/tools/Utils.kt: (18, 37): 'versionCode: Int' is deprecated. Deprecated in Java
 > Task :android-app-updater:compileReleaseKotlin
 > Task :android-app-updater:generateReleaseSources
 > Task :android-app-updater:javaPreCompileRelease
@@ -123,16 +123,16 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/
 > Task :android-app-updater:assemble
 > Task :android-app-updater:build
 
-BUILD SUCCESSFUL in 22s
+BUILD SUCCESSFUL in 25s
 49 actionable tasks: 49 executed
 
-2019-03-04 11:02:57,684 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-04 11:02:57,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-04 11:03:01,949 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-04 11:03:01,949 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-04 11:03:01,949 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-04 11:03:01,949 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-04 11:03:05,889 ERROR SysUtils - Could not process external command
+2019-03-31 21:46:40,616 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-31 21:46:40,617 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-31 21:46:44,757 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-31 21:46:44,757 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-31 21:46:44,757 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-31 21:46:44,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-31 21:46:49,323 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -160,7 +160,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-04 11:03:05,890 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-31 21:46:49,324 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :sample-app
 Project evaluation failed including an error in afterEvaluate {}.
@@ -300,11 +300,11 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/build.gradle' line: 4
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/build.gradle' line: 4
 
 * What went wrong:
 A problem occurred evaluating project ':sample-app'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/signing_confs/conf.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/signing_confs/conf.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -416,7 +416,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/signing_confs/conf.gradle' as it does not exist.
+Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/signing_confs/conf.gradle' as it does not exist.
 	at org.gradle.groovy.scripts.internal.DefaultScriptSourceHasher.hash(DefaultScriptSourceHasher.java:48)
 	at org.gradle.groovy.scripts.internal.CrossBuildInMemoryCachingScriptClassCache.getOrCompile(CrossBuildInMemoryCachingScriptClassCache.java:45)
 	at org.gradle.groovy.scripts.internal.BuildScopeInMemoryCachingScriptClassCompiler.compile(BuildScopeInMemoryCachingScriptClassCompiler.java:50)
@@ -439,10 +439,10 @@ Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_579v3nmoxsol0frnlpn99s868.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/build.gradle:4)
+	at build_1ookj5u6fgavlvxs0ztgz4el2.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
-Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/signing_confs/conf.gradle (No such file or directory)
+Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/signing_confs/conf.gradle (No such file or directory)
 	at org.gradle.internal.hash.DefaultFileHasher.hash(DefaultFileHasher.java:38)
 	at org.gradle.api.internal.changedetection.state.CachingFileHasher.snapshot(CachingFileHasher.java:89)
 	at org.gradle.api.internal.changedetection.state.CachingFileHasher.snapshot(CachingFileHasher.java:72)
@@ -453,15 +453,15 @@ Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2ct
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 4s
 
-2019-03-04 11:03:05,947 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-04 11:03:05,947 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-04 11:03:12,778 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-04 11:03:12,778 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-04 11:03:12,778 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-04 11:03:12,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-04 11:03:19,561 ERROR SysUtils - Could not process external command
+2019-03-31 21:46:49,392 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-31 21:46:49,392 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-31 21:46:56,864 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-31 21:46:56,864 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-31 21:46:56,864 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-31 21:46:56,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-31 21:47:07,045 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -489,7 +489,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-04 11:03:19,561 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-31 21:47:07,045 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :sample-app
 Project evaluation failed including an error in afterEvaluate {}.
@@ -629,11 +629,11 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/build.gradle' line: 4
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/build.gradle' line: 4
 
 * What went wrong:
 A problem occurred evaluating project ':sample-app'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/signing_confs/conf.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/signing_confs/conf.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -745,7 +745,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/signing_confs/conf.gradle' as it does not exist.
+Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/signing_confs/conf.gradle' as it does not exist.
 	at org.gradle.groovy.scripts.internal.DefaultScriptSourceHasher.hash(DefaultScriptSourceHasher.java:48)
 	at org.gradle.groovy.scripts.internal.CrossBuildInMemoryCachingScriptClassCache.getOrCompile(CrossBuildInMemoryCachingScriptClassCache.java:45)
 	at org.gradle.groovy.scripts.internal.BuildScopeInMemoryCachingScriptClassCompiler.compile(BuildScopeInMemoryCachingScriptClassCompiler.java:50)
@@ -768,10 +768,10 @@ Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_579v3nmoxsol0frnlpn99s868.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/build.gradle:4)
+	at build_1ookj5u6fgavlvxs0ztgz4el2.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
-Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551672134827-0/src/AndroidAppUpdater-master/sample-app/signing_confs/conf.gradle (No such file or directory)
+Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554043558344-0/src/AndroidAppUpdater-master/sample-app/signing_confs/conf.gradle (No such file or directory)
 	at org.gradle.internal.hash.DefaultFileHasher.hash(DefaultFileHasher.java:38)
 	at org.gradle.api.internal.changedetection.state.CachingFileHasher.snapshot(CachingFileHasher.java:89)
 	at org.gradle.api.internal.changedetection.state.CachingFileHasher.snapshot(CachingFileHasher.java:72)
@@ -782,7 +782,7 @@ Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2ct
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 9s
 
-2019-03-04 11:03:19,620 ERROR FullProcessService - Project build has not produced APK file
-2019-03-04 11:03:19,674 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-31 21:47:07,107 ERROR FullProcessService - Project build has not produced APK file
+2019-03-31 21:47:07,164 ERROR FullProcessService - Could not find generated or existed APK file
