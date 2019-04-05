@@ -1,204 +1,220 @@
-2019-04-05 11:57:59,447 INFO  DownloadService - Downloading "https://github.com/TheJuki/KFormMaster/archive/master.zip", attempt 3
-2019-04-05 11:58:05,496 INFO  DownloadService - Downloaded https://github.com/TheJuki/KFormMaster/archive/master.zip, attempt 3
-2019-04-05 11:58:05,496 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/master.zip": 5 MB
-2019-04-05 11:58:05,496 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 11:58:05,499 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/master.zip: true
-2019-04-05 11:58:05,499 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src'.
-2019-04-05 11:58:05,605 INFO  FullProcessService - Size of directory with sources: 6 MB
-2019-04-05 11:58:05,605 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src]
-2019-04-05 11:58:05,623 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/.git/
+2019-04-05 15:41:47,125 INFO  DownloadService - Downloading "https://github.com/TheJuki/KFormMaster/archive/master.zip", attempt 3
+2019-04-05 15:42:00,020 INFO  DownloadService - Downloaded https://github.com/TheJuki/KFormMaster/archive/master.zip, attempt 3
+2019-04-05 15:42:00,020 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/master.zip": 5 MB
+2019-04-05 15:42:00,020 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 15:42:00,022 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/master.zip: true
+2019-04-05 15:42:00,023 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src'.
+2019-04-05 15:42:00,128 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-04-05 15:42:00,128 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src]
+2019-04-05 15:42:00,153 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/.git/
 
-2019-04-05 11:58:05,630 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/gradlew
-2019-04-05 11:58:05,636 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/build.gradle
-2019-04-05 11:58:05,643 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/settings.gradle
-2019-04-05 11:58:05,643 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 11:58:05,643 INFO  ProjectFixService - Fixing project...
-2019-04-05 11:58:05,657 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/local.properties
-2019-04-05 11:58:05,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 11:58:05,658 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 11:58:05,659 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/form/local.properties
-2019-04-05 11:58:05,660 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/form/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 11:58:05,660 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/form/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 11:58:05,661 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/local.properties
-2019-04-05 11:58:05,661 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-04-05 11:58:05,661 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-04-05 11:58:05,662 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 11:58:05,662 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 11:58:05,663 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 11:58:05,663 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 11:58:05,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 11:58:12,013 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-04-05 11:58:12,013 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-05 11:58:12,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-05 12:00:03,094 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with JetifyTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with IdentityTransform
-> Transform animal-sniffer-annotations.jar (org.codehaus.mojo:animal-sniffer-annotations:1.14) with JetifyTransform
+2019-04-05 15:42:00,160 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/gradlew
+2019-04-05 15:42:00,167 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/build.gradle
+2019-04-05 15:42:00,173 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/settings.gradle
+2019-04-05 15:42:00,173 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 15:42:00,173 INFO  ProjectFixService - Fixing project...
+2019-04-05 15:42:00,187 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/local.properties
+2019-04-05 15:42:00,188 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 15:42:00,188 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 15:42:00,189 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/form/local.properties
+2019-04-05 15:42:00,190 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/form/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 15:42:00,190 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/form/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 15:42:00,191 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/local.properties
+2019-04-05 15:42:00,191 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-04-05 15:42:00,191 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-04-05 15:42:00,192 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 15:42:00,193 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 15:42:00,193 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 15:42:00,193 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 15:42:00,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 15:42:06,489 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-04-05 15:42:06,489 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-05 15:42:06,489 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-05 15:43:46,885 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Transform j2objc-annotations.jar (com.google.j2objc:j2objc-annotations:1.1) with JetifyTransform
 > Transform jsr305.jar (com.google.code.findbugs:jsr305:1.3.9) with JetifyTransform
+> Transform animal-sniffer-annotations.jar (org.codehaus.mojo:animal-sniffer-annotations:1.14) with JetifyTransform
+> Transform error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.0.18) with JetifyTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
+> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.3.1) with JetifyTransform
+> Transform annotations.jar (com.github.bumptech.glide:annotations:4.3.1) with JetifyTransform
+> Transform checker-qual.jar (org.checkerframework:checker-qual:2.0.0) with JetifyTransform
 > Transform animal-sniffer-annotations.jar (org.codehaus.mojo:animal-sniffer-annotations:1.14) with IdentityTransform
 > Transform j2objc-annotations.jar (com.google.j2objc:j2objc-annotations:1.1) with IdentityTransform
 > Transform jsr305.jar (com.google.code.findbugs:jsr305:1.3.9) with IdentityTransform
-> Transform auto-value-annotations.jar (com.google.auto.value:auto-value-annotations:1.6.2) with JetifyTransform
-> Transform auto-value-annotations.jar (com.google.auto.value:auto-value-annotations:1.6.2) with IdentityTransform
-> Transform annotations.jar (com.github.bumptech.glide:annotations:4.3.1) with JetifyTransform
-> Transform annotations.jar (com.github.bumptech.glide:annotations:4.3.1) with IdentityTransform
-> Transform error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.0.18) with JetifyTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with JetifyTransform
-> Transform error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.0.18) with IdentityTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with IdentityTransform
-> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.3.1) with JetifyTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with JetifyTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with IdentityTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
 > Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.3.1) with IdentityTransform
+> Transform error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.0.18) with IdentityTransform
+> Transform annotations.jar (com.github.bumptech.glide:annotations:4.3.1) with IdentityTransform
+> Transform checker-qual.jar (org.checkerframework:checker-qual:2.0.0) with IdentityTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with JetifyTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with JetifyTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with JetifyTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with JetifyTransform
+> Transform guava.jar (com.google.guava:guava:23.5-android) with JetifyTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.5) with JetifyTransform
+> Transform auto-value-annotations.jar (com.google.auto.value:auto-value-annotations:1.6.2) with JetifyTransform
+> Transform volley.aar (com.android.volley:volley:1.1.1) with JetifyTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with IdentityTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with IdentityTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with ExtractAarTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with IdentityTransform
+> Transform auto-value-annotations.jar (com.google.auto.value:auto-value-annotations:1.6.2) with IdentityTransform
+> Transform volley.aar (com.android.volley:volley:1.1.1) with ExtractAarTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.5) with IdentityTransform
+> Transform gifdecoder.jar (com.github.bumptech.glide:gifdecoder:4.3.1) with JetifyTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with JetifyTransform
 > Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
 > Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with ExtractAarTransform
+> Transform gifdecoder.jar (com.github.bumptech.glide:gifdecoder:4.3.1) with IdentityTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
+> Transform volley.aar (com.android.volley:volley:1.1.1) with AarCompileClassesTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarCompileClassesTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
-> Transform checker-qual.jar (org.checkerframework:checker-qual:2.0.0) with JetifyTransform
-> Transform checker-qual.jar (org.checkerframework:checker-qual:2.0.0) with IdentityTransform
 > Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarCompileClassesTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarCompileClassesTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarCompileClassesTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarCompileClassesTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarCompileClassesTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarCompileClassesTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform guava.jar (com.google.guava:guava:23.5-android) with IdentityTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarCompileClassesTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarCompileClassesTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarCompileClassesTransform
 > Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarCompileClassesTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarCompileClassesTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarCompileClassesTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarCompileClassesTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
 > Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarCompileClassesTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
 > Transform cardview.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarCompileClassesTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarCompileClassesTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
-> Transform core.aar (androidx.core:core:1.0.0) with JetifyTransform
-> Transform volley.aar (com.android.volley:volley:1.1.1) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarCompileClassesTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarCompileClassesTransform
-> Transform volley.aar (com.android.volley:volley:1.1.1) with ExtractAarTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarCompileClassesTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarCompileClassesTransform
+> Transform core.aar (androidx.core:core:1.0.0) with JetifyTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarCompileClassesTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarCompileClassesTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarCompileClassesTransform
+> Transform core.aar (androidx.core:core:1.0.0) with ExtractAarTransform
 > Transform media.aar (androidx.media:media:1.0.0) with JetifyTransform
-> Transform volley.aar (com.android.volley:volley:1.1.1) with AarCompileClassesTransform
-> Transform gifdecoder.jar (com.github.bumptech.glide:gifdecoder:4.3.1) with JetifyTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
-> Transform gifdecoder.jar (com.github.bumptech.glide:gifdecoder:4.3.1) with IdentityTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarCompileClassesTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform media.aar (androidx.media:media:1.0.0) with ExtractAarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarCompileClassesTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarCompileClassesTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
-> Transform media.aar (androidx.media:media:1.0.0) with ExtractAarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarCompileClassesTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarCompileClassesTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
-> Transform gson.jar (com.google.code.gson:gson:2.8.5) with JetifyTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarCompileClassesTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarCompileClassesTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
-> Transform gson.jar (com.google.code.gson:gson:2.8.5) with IdentityTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarCompileClassesTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarCompileClassesTransform
 > Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarCompileClassesTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarCompileClassesTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarCompileClassesTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with ExtractAarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarCompileClassesTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarCompileClassesTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
 > Transform transition.aar (androidx.transition:transition:1.0.0) with ExtractAarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarCompileClassesTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarCompileClassesTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarCompileClassesTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarCompileClassesTransform
 > Transform transition.aar (androidx.transition:transition:1.0.0) with AarCompileClassesTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarCompileClassesTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarCompileClassesTransform
 > Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with JetifyTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with ExtractAarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with ExtractAarTransform
+> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with ExtractAarTransform
+> Transform media.aar (androidx.media:media:1.0.0) with AarCompileClassesTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarCompileClassesTransform
+> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with ExtractAarTransform
 > Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarCompileClassesTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarCompileClassesTransform
-> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with JetifyTransform
-> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with ExtractAarTransform
-> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarCompileClassesTransform
-> Transform core.aar (androidx.core:core:1.0.0) with ExtractAarTransform
 > Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with JetifyTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with ExtractAarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarCompileClassesTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarCompileClassesTransform
-> Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with JetifyTransform
+> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarCompileClassesTransform
+> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with JetifyTransform
 > Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with JetifyTransform
-> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with JetifyTransform
+> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with ExtractAarTransform
+> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with ExtractAarTransform
+> Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with JetifyTransform
 > Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with ExtractAarTransform
-> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with ExtractAarTransform
-> Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarCompileClassesTransform
 > Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with ExtractAarTransform
-> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarCompileClassesTransform
+> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarCompileClassesTransform
+> Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarCompileClassesTransform
+> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with JetifyTransform
 > Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarCompileClassesTransform
+> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with ExtractAarTransform
+> Transform kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.3.21) with JetifyTransform
+> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with JetifyTransform
+> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with ExtractAarTransform
+> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarCompileClassesTransform
 > Transform kotlin-stdlib-jdk8.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21) with JetifyTransform
 > Transform kotlin-stdlib-jdk8.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21) with IdentityTransform
 > Transform multidex.aar (androidx.multidex:multidex:2.0.1) with JetifyTransform
 > Transform multidex.aar (androidx.multidex:multidex:2.0.1) with ExtractAarTransform
-> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarCompileClassesTransform
+> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarCompileClassesTransform
 > Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarCompileClassesTransform
 > Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with ExtractAarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarCompileClassesTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with JetifyTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with ExtractAarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarCompileClassesTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with JetifyTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with JetifyTransform
 > Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with JetifyTransform
+> Transform kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.3.21) with IdentityTransform
 > Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with ExtractAarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with ExtractAarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarCompileClassesTransform
 > Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarCompileClassesTransform
 > Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with ExtractAarTransform
 > Transform material.aar (com.google.android.material:material:1.0.0) with ExtractAarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarCompileClassesTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarCompileClassesTransform
+> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with JetifyTransform
+> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarCompileClassesTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarCompileClassesTransform
+> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with JetifyTransform
+> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarCompileClassesTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
+> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with ExtractAarTransform
 > Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarCompileClassesTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
@@ -226,27 +242,74 @@
 > Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
 > Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
 > Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
 > Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
 > Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
 > Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
+> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarCompileClassesTransform
 > Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
 > Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
 > Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
 > Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarCompileClassesTransform
+> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
 > Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with ExtractAarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with JetifyTransform
-> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with ExtractAarTransform
-> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarCompileClassesTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
+> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
+> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
+> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
+> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
+> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarCompileClassesTransform
+> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
+> Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
+> Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
+> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
+> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
 > Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
+> Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
@@ -261,8 +324,8 @@
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
 > Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
 > Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
@@ -280,376 +343,310 @@
 > Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
 > Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
 > Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarCompileClassesTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
-> Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
-> Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
-> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
-> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
-> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
 > Task :app:preBuild UP-TO-DATE
 > Task :form:preBuild UP-TO-DATE
 > Task :form:preDebugBuild UP-TO-DATE
 > Task :form:checkDebugManifest
-> Transform kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.3.21) with JetifyTransform
-> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with JetifyTransform
 > Task :form:processDebugManifest
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
-> Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
-> Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
-> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
-> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
-> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Task :form:packageDebugRenderscript NO-SOURCE
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
-> Transform volley.aar (com.android.volley:volley:1.1.1) with LibrarySymbolTableTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
-> Transform kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.3.21) with IdentityTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
-> Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
-> Transform media.aar (androidx.media:media:1.0.0) with LibrarySymbolTableTransform
-> Transform core.aar (androidx.core:core:1.0.0) with LibrarySymbolTableTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with LibrarySymbolTableTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with LibrarySymbolTableTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with LibrarySymbolTableTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with LibrarySymbolTableTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with LibrarySymbolTableTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with LibrarySymbolTableTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with LibrarySymbolTableTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with LibrarySymbolTableTransform
-> Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with LibrarySymbolTableTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with LibrarySymbolTableTransform
-> Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with LibrarySymbolTableTransform
-> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with LibrarySymbolTableTransform
-> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with LibrarySymbolTableTransform
-> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with LibrarySymbolTableTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with LibrarySymbolTableTransform
-> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with LibrarySymbolTableTransform
-> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with LibrarySymbolTableTransform
-> Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
-> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
-> Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
-> Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
-> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
-> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
-> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Task :form:generateDebugResValues
-> Task :form:generateDebugBuildConfig
-> Task :form:prepareLintJar
-> Task :form:processDebugJavaRes NO-SOURCE
-> Task :app:prepareLintJar
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
-> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
-> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
-> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
-> Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
-> Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
-> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
-> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
-> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.2-5309881) with Aapt2Extractor
-> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with ExtractAarTransform
-> Task :form:mergeDebugShaders
-> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with JetifyTransform
-> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with ExtractAarTransform
-> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarCompileClassesTransform
-> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
-> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
-> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
-> Task :form:compileDebugAidl NO-SOURCE
-> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
-> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with LibrarySymbolTableTransform
-> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
-> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarCompileClassesTransform
-> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
-> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
-> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
-> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
-> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with LibrarySymbolTableTransform
-> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
-> Task :form:compileDebugRenderscript
-> Task :form:generateDebugResources
-> Task :form:packageDebugResources
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with JetifyTransform
-> Task :form:generateDebugRFile
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with ExtractAarTransform
-
-> Transform guava.jar (com.google.guava:guava:23.5-android) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
-
-> Task :form:compileDebugKotlin
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarCompileClassesTransform
-> Task :form:generateDebugSources
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with LibrarySymbolTableTransform
-> Transform guava.jar (com.google.guava:guava:23.5-android) with IdentityTransform
-> Task :form:javaPreCompileDebug
 > Task :app:preDebugBuild
+> Task :form:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
+> Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
+> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
+> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
+> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
+> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
+> Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
+> Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
+> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
+> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
+> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
+> Task :form:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with LibrarySymbolTableTransform
+> Transform volley.aar (com.android.volley:volley:1.1.1) with LibrarySymbolTableTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with LibrarySymbolTableTransform
+> Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.core:core:1.0.0) with LibrarySymbolTableTransform
+> Transform media.aar (androidx.media:media:1.0.0) with LibrarySymbolTableTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with LibrarySymbolTableTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with LibrarySymbolTableTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with LibrarySymbolTableTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with LibrarySymbolTableTransform
+> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with LibrarySymbolTableTransform
+> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with LibrarySymbolTableTransform
+> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with LibrarySymbolTableTransform
+> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with LibrarySymbolTableTransform
+> Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with LibrarySymbolTableTransform
+> Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with LibrarySymbolTableTransform
+> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with LibrarySymbolTableTransform
+> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with LibrarySymbolTableTransform
+> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with LibrarySymbolTableTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with LibrarySymbolTableTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with LibrarySymbolTableTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with LibrarySymbolTableTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with LibrarySymbolTableTransform
+> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with LibrarySymbolTableTransform
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.2-5309881) with Aapt2Extractor
 > Task :app:mainApkListPersistenceDebug
+> Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
+> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
+> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
+> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
+> Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
+> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
+> Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
+> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
+> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
+> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :form:compileDebugRenderscript
+> Task :form:generateDebugResValues
+> Task :form:generateDebugResources
+> Task :form:packageDebugResources
 > Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
+> Task :form:generateDebugRFile
 > Task :app:processDebugResources
+> Task :form:generateDebugBuildConfig
+> Task :form:compileDebugKotlin
+> Task :form:prepareLintJar
+> Task :form:generateDebugSources
+> Task :form:javaPreCompileDebug
 > Task :form:compileDebugJavaWithJavac
 > Task :form:jacocoDebug
+> Task :form:processDebugJavaRes NO-SOURCE
 > Task :form:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (210, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (210, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (214, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (228, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (243, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (258, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (276, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (291, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (309, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (324, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (341, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (360, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (376, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (392, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (408, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (434, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (447, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (459, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (502, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (510, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (510, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (217, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (217, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (102, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (112, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (123, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (134, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (145, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (156, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (169, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (181, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (193, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (207, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (220, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (235, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (250, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (272, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (284, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (295, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (315, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (322, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (322, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (210, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (210, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (214, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (228, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (243, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (258, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (276, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (291, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (309, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (324, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (341, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (360, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (376, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (392, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (408, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (434, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (447, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (459, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (502, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (510, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (510, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (217, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (217, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (102, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (112, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (123, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (134, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (145, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (156, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (169, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (181, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (193, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (207, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (220, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (235, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (250, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (272, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (284, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (295, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (315, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (322, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (322, 48): Parameter 'element' is never used, could be renamed to _
 
+> Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
-> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
+> Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
 > Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
+> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
+> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
+> Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
+> Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
+> Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
+> Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
+> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
+> Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
+> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
+> Task :form:mergeDebugShaders
 > Task :form:compileDebugShaders
 > Task :form:generateDebugAssets
 > Task :form:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
 > Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.0.0) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform media.aar (androidx.media:media:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
@@ -664,32 +661,32 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
 > Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
 > Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
+> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
 > Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
 > Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
-> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
 > Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
 > Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
 > Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
 > Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
 > Transform animal-sniffer-annotations.jar (org.codehaus.mojo:animal-sniffer-annotations:1.14) with IdentityTransform
-> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
 > Transform j2objc-annotations.jar (com.google.j2objc:j2objc-annotations:1.1) with IdentityTransform
 > Transform error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.0.18) with IdentityTransform
 > Transform checker-qual.jar (org.checkerframework:checker-qual:2.0.0) with IdentityTransform
+> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
 > Transform jsr305.jar (com.google.code.findbugs:jsr305:1.3.9) with IdentityTransform
 > Transform annotations.jar (com.github.bumptech.glide:annotations:4.3.1) with IdentityTransform
 > Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.3.1) with IdentityTransform
 > Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
 > Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with IdentityTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
 > Transform guava.jar (com.google.guava:guava:23.5-android) with IdentityTransform
-> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
 > Transform gson.jar (com.google.code.gson:gson:2.8.5) with IdentityTransform
 > Transform auto-value-annotations.jar (com.google.auto.value:auto-value-annotations:1.6.2) with IdentityTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
 > Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with IdentityTransform
 > Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with IdentityTransform
 > Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
 > Transform gifdecoder.jar (com.github.bumptech.glide:gifdecoder:4.3.1) with IdentityTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
 > Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
 > Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
@@ -697,10 +694,11 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/
 > Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
 > Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
 > Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with JetifyTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
 > Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
@@ -712,34 +710,38 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with IdentityTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
 > Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformClassesWithMultidexlistForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
 > Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
 > Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
 > Transform kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.3.21) with IdentityTransform
+> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
 > Transform kotlin-stdlib-jdk8.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21) with IdentityTransform
 > Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
 > Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
 > Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
 > Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
-> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
+> Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
 > Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
+> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
 > Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
 > Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
@@ -748,8 +750,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/
 > Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
 > Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
@@ -760,18 +762,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
 > Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
@@ -783,36 +785,19 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/
 > Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
 > Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
 > Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
+> Transform org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with IdentityTransform
 > Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
 > Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
 > Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
-> Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
 > Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
 > Task :app:mergeDebugJniLibFolders
 > Task :form:compileDebugNdk NO-SOURCE
 > Task :form:mergeDebugJniLibFolders
-
-> Transform org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${project.groupId}'
-
 > Task :form:transformNativeLibsWithMergeJniLibsForDebug
-> Transform org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with IdentityTransform
-> Transform org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with IdentityTransform
 > Task :form:transformNativeLibsWithStripDebugSymbolForDebug
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-play-services-clearcut-16.0.0.aar/9fbd404912f8937f6e53bd3cb5ef7041/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zzb.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-play-services-clearcut-16.0.0.aar/9fbd404912f8937f6e53bd3cb5ef7041/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zza.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-volley-1.1.1.aar/50a57b7ab650d14ec79d648453d35e1c/jars/classes.jar: D8: Type `android.net.http.AndroidHttpClient` was not found, it is required for default or static interface methods desugaring of `com.android.volley.RequestQueue com.android.volley.toolbox.Volley.newRequestQueue(android.content.Context, com.android.volley.toolbox.BaseHttpStack)`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/org.jacoco.agent-0.7.9-runtime.jar/5723965c4c5f76708e499fa1478cdfb5/jetified-org.jacoco.agent-0.7.9-runtime.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.jacoco.agent.rt.internal_8ff85ea.JmxRegistration.<init>(org.jacoco.agent.rt.IAgent)`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/org.jacoco.agent-0.7.9-runtime.jar/5723965c4c5f76708e499fa1478cdfb5/jetified-org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime$1` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/org.jacoco.agent-0.7.9-runtime.jar/5723965c4c5f76708e499fa1478cdfb5/jetified-org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.CoverageTransformer` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/guava-23.5-android.jar/a716a56c798c1d851125841e44eaf851/jetified-guava-23.5-android.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `void com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper.<clinit>()`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/guava-23.5-android.jar/a716a56c798c1d851125841e44eaf851/jetified-guava-23.5-android.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.cache.Striped64.getUnsafe()`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/guava-23.5-android.jar/a716a56c798c1d851125841e44eaf851/jetified-guava-23.5-android.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.hash.LittleEndianByteArray$UnsafeByteArray.getUnsafe()`
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformClassesWithMultidexlistForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
 > Task :form:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
@@ -852,72 +837,72 @@ ERROR: [TAG] Failed to resolve variable '${project.groupId}'
 > Task :form:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (210, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (210, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (214, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (228, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (243, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (258, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (276, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (291, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (309, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (324, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (341, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (360, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (376, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (392, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (408, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (434, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (447, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (459, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (502, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (510, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (510, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (217, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (217, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (102, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (112, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (123, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (134, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (145, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (156, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (169, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (181, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (193, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (207, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (220, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (235, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (250, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (272, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (284, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (295, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (315, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (322, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (322, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (210, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (210, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (214, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (228, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (243, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (258, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (276, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (291, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (309, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (324, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (341, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (360, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (376, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (392, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (408, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (434, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (447, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (459, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (502, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (510, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (510, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (217, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (217, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (102, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (112, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (123, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (134, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (145, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (156, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (169, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (181, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (193, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (207, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (220, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (235, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (250, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (272, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (284, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (295, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (315, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (322, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (322, 48): Parameter 'element' is never used, could be renamed to _
 
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
 > Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform media.aar (androidx.media:media:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
@@ -931,8 +916,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
 > Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
+> Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
 > Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
 > Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
 > Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
@@ -940,17 +925,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/
 > Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
 > Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
 > Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
 > Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
 > Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
 > Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
 > Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
 > Task :app:mergeReleaseShaders
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/e7b2680885fc1c8d5c3e33bbb998343e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :form:mergeReleaseShaders
@@ -959,33 +941,33 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :form:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
+> Transform j2objc-annotations.jar (com.google.j2objc:j2objc-annotations:1.1) with ExtractProGuardRulesTransform
+> Transform error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.0.18) with ExtractProGuardRulesTransform
+> Transform checker-qual.jar (org.checkerframework:checker-qual:2.0.0) with ExtractProGuardRulesTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:1.3.9) with ExtractProGuardRulesTransform
+> Transform annotations.jar (com.github.bumptech.glide:annotations:4.3.1) with ExtractProGuardRulesTransform
+> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.3.1) with ExtractProGuardRulesTransform
+> Transform animal-sniffer-annotations.jar (org.codehaus.mojo:animal-sniffer-annotations:1.14) with ExtractProGuardRulesTransform
 > Transform annotations.jar (org.jetbrains:annotations:13.0) with ExtractProGuardRulesTransform
 > Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with ExtractProGuardRulesTransform
 > Transform tokenautocomplete.aar (com.splitwise:tokenautocomplete:3.0.1) with AarTransform
-> Transform animal-sniffer-annotations.jar (org.codehaus.mojo:animal-sniffer-annotations:1.14) with ExtractProGuardRulesTransform
-> Transform annotations.jar (com.github.bumptech.glide:annotations:4.3.1) with ExtractProGuardRulesTransform
-> Transform error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.0.18) with ExtractProGuardRulesTransform
-> Transform disklrucache.jar (com.github.bumptech.glide:disklrucache:4.3.1) with ExtractProGuardRulesTransform
-> Transform j2objc-annotations.jar (com.google.j2objc:j2objc-annotations:1.1) with ExtractProGuardRulesTransform
-> Transform jsr305.jar (com.google.code.findbugs:jsr305:1.3.9) with ExtractProGuardRulesTransform
-> Transform checker-qual.jar (org.checkerframework:checker-qual:2.0.0) with ExtractProGuardRulesTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with ExtractProGuardRulesTransform
-> Transform auto-value-annotations.jar (com.google.auto.value:auto-value-annotations:1.6.2) with ExtractProGuardRulesTransform
+> Transform guava.jar (com.google.guava:guava:23.5-android) with ExtractProGuardRulesTransform
 > Transform gson.jar (com.google.code.gson:gson:2.8.5) with ExtractProGuardRulesTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with ExtractProGuardRulesTransform
+> Transform auto-value-annotations.jar (com.google.auto.value:auto-value-annotations:1.6.2) with ExtractProGuardRulesTransform
 > Transform volley.aar (com.android.volley:volley:1.1.1) with AarTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with ExtractProGuardRulesTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with ExtractProGuardRulesTransform
+> Transform gifdecoder.jar (com.github.bumptech.glide:gifdecoder:4.3.1) with ExtractProGuardRulesTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with ExtractProGuardRulesTransform
+> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
 > Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with ExtractProGuardRulesTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with ExtractProGuardRulesTransform
-> Transform gifdecoder.jar (com.github.bumptech.glide:gifdecoder:4.3.1) with ExtractProGuardRulesTransform
-> Transform glide.aar (com.github.bumptech.glide:glide:4.3.1) with AarTransform
-> Transform guava.jar (com.google.guava:guava:23.5-android) with ExtractProGuardRulesTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with ExtractProGuardRulesTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with ExtractProGuardRulesTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
@@ -994,11 +976,11 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Transform collection.jar (androidx.collection:collection:1.0.0) with ExtractProGuardRulesTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform media.aar (androidx.media:media:1.0.0) with AarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
 > Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
@@ -1007,26 +989,26 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform legacy-support-v4.aar (androidx.legacy:legacy-support-v4:1.0.0) with AarTransform
-> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
 > Transform play-services-basement.aar (com.google.android.gms:play-services-basement:16.2.0) with AarTransform
+> Transform play-services-places-placereport.aar (com.google.android.gms:play-services-places-placereport:16.0.0) with AarTransform
 > Transform play-services-tasks.aar (com.google.android.gms:play-services-tasks:16.0.1) with AarTransform
 > Transform play-services-base.aar (com.google.android.gms:play-services-base:16.1.0) with AarTransform
 > Transform play-services-phenotype.aar (com.google.android.gms:play-services-phenotype:16.0.0) with AarTransform
 > Transform play-services-maps.aar (com.google.android.gms:play-services-maps:16.0.0) with AarTransform
 > Transform play-services-location.aar (com.google.android.gms:play-services-location:16.0.0) with AarTransform
 > Transform play-services-clearcut.aar (com.google.android.gms:play-services-clearcut:16.0.0) with AarTransform
+> Transform kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.3.21) with ExtractProGuardRulesTransform
 > Transform kotlin-stdlib-jdk8.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21) with ExtractProGuardRulesTransform
+> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
 > Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
 > Transform RendererRecyclerViewAdapter.aar (com.github.vivchar:RendererRecyclerViewAdapter:2.7.0-SNAPSHOT:20181019.041934-1) with AarTransform
-> Transform multidex.aar (androidx.multidex:multidex:2.0.1) with AarTransform
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
 > Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
 > Transform places.aar (com.google.android.libraries.places:places:1.0.0) with AarTransform
-> Transform kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.3.21) with ExtractProGuardRulesTransform
 > Task :app:transformResourcesWithMergeJavaResForRelease
 > Task :form:mergeReleaseConsumerProguardFiles
 ProGuard, version 6.0.3
@@ -1098,10 +1080,10 @@ Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.checke
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/error_prone_annotations-2.0.18.jar/6c8f13c6eadd1c79d6b89a2144007277/jetified-error_prone_annotations-2.0.18.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/976d8d30bebc251db406f2bdb3eb01962b5685b3/j2objc-annotations-1.1.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/775b7e22fb10026eed3f86e8dc556dfafe35f2d5/animal-sniffer-annotations-1.14.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/form/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/tmp/kotlin-classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/form/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/tmp/kotlin-classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
@@ -1292,15 +1274,15 @@ Ignoring unused library classes...
 Printing kept classes, fields, and methods...
 Inlining subroutines...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 10485
   Final number of program classes:    5420
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/intermediates/transforms/proguard/release/0.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/intermediates/transforms/proguard/release/0.jar]
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/jetified-places-1.0.0.aar/cb1888ff22e9b48c4637b141e0dd7116/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/58d70dc3683602d732dd5e5da994d6b0/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/3c6bd2d69a95e91b04bf699f3b517c5d/jars/classes.jar] (filtered)
@@ -1368,13 +1350,13 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/error_prone_annotations-2.0.18.jar/6c8f13c6eadd1c79d6b89a2144007277/jetified-error_prone_annotations-2.0.18.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/976d8d30bebc251db406f2bdb3eb01962b5685b3/j2objc-annotations-1.1.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/775b7e22fb10026eed3f86e8dc556dfafe35f2d5/animal-sniffer-annotations-1.14.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/form/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/tmp/kotlin-classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.d.b.ej$a.a(long, byte)`
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.d.b.ej$b.a(long, byte)`
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `android.net.http.AndroidHttpClient` was not found, it is required for default or static interface methods desugaring of `com.a.a.o com.a.a.a.n.a(android.content.Context, com.a.a.a.b)`
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/form/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/tmp/kotlin-classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.d.b.ej$a.a(long, byte)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.d.b.ej$b.a(long, byte)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `android.net.http.AndroidHttpClient` was not found, it is required for default or static interface methods desugaring of `com.a.a.o com.a.a.a.n.a(android.content.Context, com.a.a.a.b)`
 
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:transformClassesWithMultidexlistForRelease
@@ -1398,7 +1380,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 50s
+BUILD SUCCESSFUL in 1m 39s
 95 actionable tasks: 95 executed
 
-2019-04-05 12:00:03,241 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554440279444-0/src/KFormMaster-master/app/build/outputs/apk/debug/app-debug.apk
+2019-04-05 15:43:47,064 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554453707121-0/src/KFormMaster-master/app/build/outputs/apk/debug/app-debug.apk
