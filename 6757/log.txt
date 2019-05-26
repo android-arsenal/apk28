@@ -1,39 +1,36 @@
-2019-03-09 00:17:16,492 INFO  DownloadService - Downloading "https://github.com/AmrDeveloper/ReactButton/archive/master.zip", attempt 3
-2019-03-09 00:18:17,342 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-09 00:18:19,676 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-09 00:18:19,676 INFO  DownloadService - Downloading "https://github.com/AmrDeveloper/ReactButton/archive/master.zip", attempt 3
-2019-03-09 00:19:21,510 DEBUG FullProcessService - Repository https://github.com/AmrDeveloper/ReactButton available: true
-2019-03-09 00:19:21,510 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-09 00:19:21,510 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AmrDeveloper/ReactButton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src]
-2019-03-09 00:19:23,250 INFO  SysUtils - 
-2019-03-09 00:19:23,289 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/.git": true
-2019-03-09 00:19:23,292 INFO  FullProcessService - Size of directory with sources: 175 KB
-2019-03-09 00:19:23,292 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src]
-2019-03-09 00:19:23,313 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/.git/
+2019-05-26 17:41:48,698 INFO  DownloadService - Downloading "https://github.com/AmrDeveloper/ReactButton/archive/master.zip", attempt 3
+2019-05-26 17:41:50,659 INFO  DownloadService - Downloaded https://github.com/AmrDeveloper/ReactButton/archive/master.zip, attempt 3
+2019-05-26 17:41:50,659 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/master.zip": 150 KB
+2019-05-26 17:41:50,659 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-26 17:41:50,660 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/master.zip: true
+2019-05-26 17:41:50,660 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src'.
+2019-05-26 17:41:50,681 INFO  FullProcessService - Size of directory with sources: 175 KB
+2019-05-26 17:41:50,682 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src]
+2019-05-26 17:41:50,709 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/.git/
 
-2019-03-09 00:19:23,317 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/gradlew
-2019-03-09 00:19:23,320 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/reactbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/build.gradle
-2019-03-09 00:19:23,323 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/reactbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/settings.gradle
-2019-03-09 00:19:23,324 INFO  ProjectBuildService - Remote scripts: none
-2019-03-09 00:19:23,324 INFO  ProjectFixService - Fixing project...
-2019-03-09 00:19:23,333 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/app/local.properties
-2019-03-09 00:19:23,334 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-09 00:19:23,334 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-09 00:19:23,335 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/reactbutton/local.properties
-2019-03-09 00:19:23,336 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/reactbutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-09 00:19:23,336 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/reactbutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-09 00:19:23,337 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/local.properties
-2019-03-09 00:19:23,337 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-09 00:19:23,338 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-09 00:19:23,339 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-09 00:19:23,339 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-09 00:19:23,340 INFO  ProjectFixService - Project was maybe fixed
-2019-03-09 00:19:23,340 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 00:19:23,340 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 00:19:30,957 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-03-09 00:19:30,957 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-09 00:19:30,957 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-09 00:19:46,041 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-26 17:41:50,712 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew
+2019-05-26 17:41:50,715 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/build.gradle
+2019-05-26 17:41:50,717 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/settings.gradle
+2019-05-26 17:41:50,717 INFO  ProjectBuildService - Remote scripts: none
+2019-05-26 17:41:50,717 INFO  ProjectFixService - Fixing project...
+2019-05-26 17:41:50,724 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/local.properties
+2019-05-26 17:41:50,725 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 17:41:50,725 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 17:41:50,727 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/local.properties
+2019-05-26 17:41:50,727 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 17:41:50,728 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 17:41:50,729 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/local.properties
+2019-05-26 17:41:50,729 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-05-26 17:41:50,729 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-05-26 17:41:50,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 17:41:50,731 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 17:41:50,731 INFO  ProjectFixService - Project was maybe fixed
+2019-05-26 17:41:50,732 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 17:41:50,732 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 17:41:58,296 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-05-26 17:41:58,296 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-26 17:41:58,296 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-26 17:42:15,136 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :reactbutton:preBuild UP-TO-DATE
@@ -137,15 +134,15 @@
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 16s
 66 actionable tasks: 66 executed
 
-2019-03-09 00:19:46,121 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 00:19:46,121 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/reactbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 00:19:51,990 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-03-09 00:19:51,990 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-09 00:19:51,990 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/reactbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-09 00:20:01,424 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-26 17:42:15,212 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 17:42:15,212 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 17:42:21,871 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-05-26 17:42:21,871 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-26 17:42:21,872 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-26 17:42:31,809 INFO  SysUtils - Configuration on demand is an incubating feature.
 :reactbutton:preBuild UP-TO-DATE
 :reactbutton:preDebugBuild UP-TO-DATE
 :reactbutton:compileDebugAidl NO-SOURCE
@@ -218,12 +215,12 @@ BUILD SUCCESSFUL in 14s
 BUILD SUCCESSFUL in 9s
 45 actionable tasks: 26 executed, 19 up-to-date
 
-2019-03-09 00:20:01,527 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 00:20:01,527 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 00:20:07,693 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-03-09 00:20:07,693 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-09 00:20:07,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552065436485-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-09 00:20:15,526 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-26 17:42:31,902 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 17:42:31,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 17:42:39,027 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-05-26 17:42:39,027 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-26 17:42:39,027 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-26 17:42:47,880 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :reactbutton:preBuild UP-TO-DATE
@@ -322,9 +319,9 @@ BUILD SUCCESSFUL in 9s
 :app:bundleReleaseAar UP-TO-DATE
 :app:compileReleaseSources UP-TO-DATE
 :app:mergeReleaseResources UP-TO-DATE
-:app:verifyReleaseResources
-:app:assembleRelease
-:app:assemble
+:app:verifyReleaseResources UP-TO-DATE
+:app:assembleRelease UP-TO-DATE
+:app:assemble UP-TO-DATE
 :app:build
 :reactbutton:extractDebugAnnotations UP-TO-DATE
 :reactbutton:mergeDebugConsumerProguardFiles UP-TO-DATE
@@ -358,13 +355,13 @@ BUILD SUCCESSFUL in 9s
 :reactbutton:bundleReleaseAar UP-TO-DATE
 :reactbutton:compileReleaseSources UP-TO-DATE
 :reactbutton:mergeReleaseResources UP-TO-DATE
-:reactbutton:verifyReleaseResources UP-TO-DATE
-:reactbutton:assembleRelease UP-TO-DATE
-:reactbutton:assemble UP-TO-DATE
+:reactbutton:verifyReleaseResources
+:reactbutton:assembleRelease
+:reactbutton:assemble
 :reactbutton:build
 
-BUILD SUCCESSFUL in 7s
+BUILD SUCCESSFUL in 8s
 92 actionable tasks: 1 executed, 91 up-to-date
 
-2019-03-09 00:20:15,636 ERROR FullProcessService - Project build has not produced APK file
-2019-03-09 00:20:15,739 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-26 17:42:47,972 ERROR FullProcessService - Project build has not produced APK file
+2019-05-26 17:42:48,051 ERROR FullProcessService - Could not find generated or existed APK file
