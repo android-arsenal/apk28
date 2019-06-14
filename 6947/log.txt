@@ -1,36 +1,36 @@
-2019-05-26 17:14:17,792 INFO  DownloadService - Downloading "https://github.com/StringCare/AndroidLibrary/archive/master.zip", attempt 3
-2019-05-26 17:14:20,546 INFO  DownloadService - Downloaded https://github.com/StringCare/AndroidLibrary/archive/master.zip, attempt 3
-2019-05-26 17:14:20,546 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/master.zip": 398 KB
-2019-05-26 17:14:20,546 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 17:14:20,547 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/master.zip: true
-2019-05-26 17:14:20,547 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src'.
-2019-05-26 17:14:20,569 INFO  FullProcessService - Size of directory with sources: 444 KB
-2019-05-26 17:14:20,569 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src]
-2019-05-26 17:14:20,593 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/.git/
+2019-06-14 11:32:22,343 INFO  DownloadService - Downloading "https://github.com/StringCare/AndroidLibrary/archive/master.zip", attempt 3
+2019-06-14 11:32:25,653 INFO  DownloadService - Downloaded https://github.com/StringCare/AndroidLibrary/archive/master.zip, attempt 3
+2019-06-14 11:32:25,653 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/master.zip": 860 KB
+2019-06-14 11:32:25,653 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-14 11:32:25,653 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/master.zip: true
+2019-06-14 11:32:25,654 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src'.
+2019-06-14 11:32:25,681 INFO  FullProcessService - Size of directory with sources: 926 KB
+2019-06-14 11:32:25,681 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src]
+2019-06-14 11:32:25,704 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/.git/
 
-2019-05-26 17:14:20,596 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/gradlew
-2019-05-26 17:14:20,599 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/build.gradle
-2019-05-26 17:14:20,602 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle
-2019-05-26 17:14:20,602 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 17:14:20,602 INFO  ProjectFixService - Fixing project...
-2019-05-26 17:14:20,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/app/local.properties
-2019-05-26 17:14:20,610 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-26 17:14:20,610 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/dynamic_feature_cell/local.properties
-2019-05-26 17:14:20,611 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 17:14:20,611 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/library/local.properties
-2019-05-26 17:14:20,611 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-26 17:14:20,612 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/local.properties
-2019-05-26 17:14:20,612 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-26 17:14:20,613 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-26 17:14:20,614 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-26 17:14:20,614 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 17:14:20,614 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 17:14:20,614 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 17:14:27,949 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-05-26 17:14:27,949 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-05-26 17:14:27,949 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-05-26 17:14:27,950 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-26 17:14:31,581 ERROR SysUtils - Could not process external command
+2019-06-14 11:32:25,708 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/gradlew
+2019-06-14 11:32:25,712 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/build.gradle
+2019-06-14 11:32:25,715 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle
+2019-06-14 11:32:25,715 INFO  ProjectBuildService - Remote scripts: none
+2019-06-14 11:32:25,715 INFO  ProjectFixService - Fixing project...
+2019-06-14 11:32:25,722 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/app/local.properties
+2019-06-14 11:32:25,723 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-06-14 11:32:25,724 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/dynamic_feature_cell/local.properties
+2019-06-14 11:32:25,725 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-14 11:32:25,726 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/library/local.properties
+2019-06-14 11:32:25,727 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-06-14 11:32:25,728 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/local.properties
+2019-06-14 11:32:25,728 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-14 11:32:25,729 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-14 11:32:25,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-06-14 11:32:25,730 INFO  ProjectFixService - Project was maybe fixed
+2019-06-14 11:32:25,730 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 11:32:25,731 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 11:32:30,431 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-14 11:32:30,431 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-14 11:32:30,431 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-14 11:32:30,431 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-14 11:32:33,632 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,7 +43,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -57,18 +58,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-26 17:14:31,581 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-14 11:32:33,632 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/build.gradle' line: 42
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/build.gradle' line: 44
 
 * What went wrong:
 A problem occurred evaluating root project 'AndroidLibrary-master'.
-> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib1059163439198406863: dlopen(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib1059163439198406863, 1): Library not loaded: /usr/local/opt/boost/lib/libboost_system.dylib
-    Referenced from: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib1059163439198406863
-    Reason: image not found
+> Could not get unknown property 'StringCare' for root project 'AndroidLibrary-master' of type org.gradle.api.Project.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -183,37 +182,12 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.UnsatisfiedLinkError: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib1059163439198406863: dlopen(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib1059163439198406863, 1): Library not loaded: /usr/local/opt/boost/lib/libboost_system.dylib
-  Referenced from: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib1059163439198406863
-  Reason: image not found
-	at FileUtils.loadLib(FileUtils.java:304)
-	at FileUtils.<clinit>(FileUtils.java:278)
-	at StringCare.apply(StringCarePlugin.groovy:22)
-	at StringCare.apply(StringCarePlugin.groovy)
-	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
-	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:177)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.access$300(DefaultPluginManager.java:51)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:267)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$2.execute(DefaultPluginManager.java:155)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$2.execute(DefaultPluginManager.java:152)
-	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:48)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:152)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:137)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:130)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyPlugin(DefaultObjectConfigurationAction.java:114)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$100(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$2.run(DefaultObjectConfigurationAction.java:77)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
-	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
-	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_46mnsenvt52816hkziz2kja7g.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/build.gradle:42)
+Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 'StringCare' for root project 'AndroidLibrary-master' of type org.gradle.api.Project.
+	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:83)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.getMissingProperty(BasicScript.java:155)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:61)
+	at org.gradle.groovy.scripts.BasicScript.getProperty(BasicScript.java:64)
+	at build_3cw33iels4wf4npgvbwvo3bt3.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/build.gradle:44)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 107 more
 
@@ -222,13 +196,13 @@ Caused by: java.lang.UnsatisfiedLinkError: /private/var/folders/bq/vtzpc5ns5sg2c
 
 BUILD FAILED in 3s
 
-2019-05-26 17:14:31,585 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 17:14:31,585 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 17:14:33,440 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-05-26 17:14:33,440 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-05-26 17:14:33,440 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-05-26 17:14:33,440 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-26 17:14:35,311 ERROR SysUtils - Could not process external command
+2019-06-14 11:32:33,637 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 11:32:33,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 11:32:35,463 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-14 11:32:35,463 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-14 11:32:35,463 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-14 11:32:35,464 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-14 11:32:37,281 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -241,7 +215,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -255,17 +230,17 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-26 17:14:35,311 INFO  SysUtils - 
+2019-06-14 11:32:37,281 INFO  SysUtils - 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 	at org.gradle.initialization.AbstractProjectSpec.selectProject(AbstractProjectSpec.java:40)
 	at org.gradle.initialization.DefaultSettingsLoader.setDefaultProject(DefaultSettingsLoader.java:88)
 	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:52)
@@ -348,13 +323,13 @@ org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtz
 
 BUILD FAILED in 1s
 
-2019-05-26 17:14:35,315 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 17:14:35,315 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 17:14:38,628 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-05-26 17:14:38,628 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-05-26 17:14:38,628 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-05-26 17:14:38,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-26 17:14:42,176 ERROR SysUtils - Could not process external command
+2019-06-14 11:32:37,285 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 11:32:37,285 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 11:32:40,518 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-14 11:32:40,518 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-14 11:32:40,518 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-14 11:32:40,518 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-14 11:32:43,482 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -367,7 +342,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -381,18 +357,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-26 17:14:42,176 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-14 11:32:43,482 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/build.gradle' line: 42
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/build.gradle' line: 44
 
 * What went wrong:
 A problem occurred evaluating root project 'AndroidLibrary-master'.
-> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib4642113775673969563: dlopen(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib4642113775673969563, 1): Library not loaded: /usr/local/opt/boost/lib/libboost_system.dylib
-    Referenced from: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib4642113775673969563
-    Reason: image not found
+> Could not get unknown property 'StringCare' for root project 'AndroidLibrary-master' of type org.gradle.api.Project.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -507,52 +481,27 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.UnsatisfiedLinkError: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib4642113775673969563: dlopen(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib4642113775673969563, 1): Library not loaded: /usr/local/opt/boost/lib/libboost_system.dylib
-  Referenced from: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib4642113775673969563
-  Reason: image not found
-	at FileUtils.loadLib(FileUtils.java:304)
-	at FileUtils.<clinit>(FileUtils.java:278)
-	at StringCare.apply(StringCarePlugin.groovy:22)
-	at StringCare.apply(StringCarePlugin.groovy)
-	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
-	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:177)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.access$300(DefaultPluginManager.java:51)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:267)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$2.execute(DefaultPluginManager.java:155)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$2.execute(DefaultPluginManager.java:152)
-	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:48)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:152)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:137)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:130)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyPlugin(DefaultObjectConfigurationAction.java:114)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$100(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$2.run(DefaultObjectConfigurationAction.java:77)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
-	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
-	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_46mnsenvt52816hkziz2kja7g.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/build.gradle:42)
+Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 'StringCare' for root project 'AndroidLibrary-master' of type org.gradle.api.Project.
+	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:83)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.getMissingProperty(BasicScript.java:155)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:61)
+	at org.gradle.groovy.scripts.BasicScript.getProperty(BasicScript.java:64)
+	at build_3cw33iels4wf4npgvbwvo3bt3.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/build.gradle:44)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 107 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 2s
 
-2019-05-26 17:14:42,181 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 17:14:42,181 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 17:14:45,591 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-05-26 17:14:45,591 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-05-26 17:14:45,591 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-05-26 17:14:45,591 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-26 17:14:49,078 ERROR SysUtils - Could not process external command
+2019-06-14 11:32:43,486 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 11:32:43,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 11:32:47,240 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-14 11:32:47,241 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-14 11:32:47,241 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-14 11:32:47,241 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-14 11:32:52,449 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -565,7 +514,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -579,18 +529,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-26 17:14:49,078 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-14 11:32:52,449 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/build.gradle' line: 42
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/build.gradle' line: 44
 
 * What went wrong:
 A problem occurred evaluating root project 'AndroidLibrary-master'.
-> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib8514225816732606636: dlopen(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib8514225816732606636, 1): Library not loaded: /usr/local/opt/boost/lib/libboost_system.dylib
-    Referenced from: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib8514225816732606636
-    Reason: image not found
+> Could not get unknown property 'StringCare' for root project 'AndroidLibrary-master' of type org.gradle.api.Project.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -705,44 +653,19 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.UnsatisfiedLinkError: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib8514225816732606636: dlopen(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib8514225816732606636, 1): Library not loaded: /usr/local/opt/boost/lib/libboost_system.dylib
-  Referenced from: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/libsignKey.dylib8514225816732606636
-  Reason: image not found
-	at FileUtils.loadLib(FileUtils.java:304)
-	at FileUtils.<clinit>(FileUtils.java:278)
-	at StringCare.apply(StringCarePlugin.groovy:22)
-	at StringCare.apply(StringCarePlugin.groovy)
-	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
-	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:177)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.access$300(DefaultPluginManager.java:51)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:267)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$2.execute(DefaultPluginManager.java:155)
-	at org.gradle.api.internal.plugins.DefaultPluginManager$2.execute(DefaultPluginManager.java:152)
-	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:48)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:152)
-	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:137)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:130)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyPlugin(DefaultObjectConfigurationAction.java:114)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$100(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$2.run(DefaultObjectConfigurationAction.java:77)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
-	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
-	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_46mnsenvt52816hkziz2kja7g.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558865657790-0/src/AndroidLibrary-master/build.gradle:42)
+Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 'StringCare' for root project 'AndroidLibrary-master' of type org.gradle.api.Project.
+	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:83)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.getMissingProperty(BasicScript.java:155)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:61)
+	at org.gradle.groovy.scripts.BasicScript.getProperty(BasicScript.java:64)
+	at build_3cw33iels4wf4npgvbwvo3bt3.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486742333-0/src/AndroidLibrary-master/build.gradle:44)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 107 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 4s
 
-2019-05-26 17:14:49,082 ERROR FullProcessService - Project build has not produced APK file
-2019-05-26 17:14:49,085 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-14 11:32:52,454 ERROR FullProcessService - Project build has not produced APK file
+2019-06-14 11:32:52,459 ERROR FullProcessService - Could not find generated or existed APK file
