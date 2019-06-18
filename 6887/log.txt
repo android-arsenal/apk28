@@ -1,108 +1,111 @@
-2019-05-29 13:56:14,235 INFO  DownloadService - Downloading "https://github.com/AliAsadi/avoid-memory-leak-android/archive/master.zip", attempt 3
-2019-05-29 13:56:16,292 INFO  DownloadService - Downloaded https://github.com/AliAsadi/avoid-memory-leak-android/archive/master.zip, attempt 3
-2019-05-29 13:56:16,292 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/master.zip": 167 KB
-2019-05-29 13:56:16,292 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-29 13:56:16,294 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/master.zip: true
-2019-05-29 13:56:16,294 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src'.
-2019-05-29 13:56:16,311 INFO  FullProcessService - Size of directory with sources: 257 KB
-2019-05-29 13:56:16,311 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src]
-2019-05-29 13:56:16,327 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/.git/
+2019-06-18 12:52:25,620 INFO  DownloadService - Downloading "https://github.com/AliAsadi/avoid-memory-leak-android/archive/master.zip", attempt 3
+2019-06-18 12:52:28,871 INFO  DownloadService - Downloaded https://github.com/AliAsadi/avoid-memory-leak-android/archive/master.zip, attempt 3
+2019-06-18 12:52:28,872 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/master.zip": 1 MB
+2019-06-18 12:52:28,872 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-18 12:52:28,872 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/master.zip: true
+2019-06-18 12:52:28,873 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src'.
+2019-06-18 12:52:28,907 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-06-18 12:52:28,908 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src]
+2019-06-18 12:52:28,923 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/.git/
 
-2019-05-29 13:56:16,330 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/gradlew
-2019-05-29 13:56:16,332 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/build.gradle
-2019-05-29 13:56:16,334 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/settings.gradle
-2019-05-29 13:56:16,334 INFO  ProjectBuildService - Remote scripts: none
-2019-05-29 13:56:16,334 INFO  ProjectFixService - Fixing project...
-2019-05-29 13:56:16,340 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/app/local.properties
-2019-05-29 13:56:16,340 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2019-05-29 13:56:16,340 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2019-05-29 13:56:16,341 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/local.properties
-2019-05-29 13:56:16,342 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-05-29 13:56:16,342 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-05-29 13:56:16,343 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2019-05-29 13:56:16,344 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2019-05-29 13:56:16,344 INFO  ProjectFixService - Project was maybe fixed
-2019-05-29 13:56:16,344 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-29 13:56:16,344 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-29 13:56:24,363 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-29 13:56:24,363 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-29 13:56:24,363 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-29 13:56:52,184 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :app:preBuild UP-TO-DATE
-> Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript
-> Task :app:checkDebugManifest
-> Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:mergeDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:processDebugResources
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugNdk NO-SOURCE
-> Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :app:mergeDebugAssets
-> Task :app:mergeExtDexDebug
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:mergeDexDebug
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :app:mergeDebugJniLibFolders
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:preReleaseBuild
-> Task :app:compileReleaseAidl NO-SOURCE
-> Task :app:compileReleaseRenderscript
-> Task :app:checkReleaseManifest
-> Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseSources
-> Task :app:javaPreCompileRelease
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :app:mergeReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:processReleaseResources
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseNdk NO-SOURCE
-> Task :app:compileReleaseSources
+2019-06-18 12:52:28,926 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/gradlew
+2019-06-18 12:52:28,928 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/fixed-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/leak-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/build.gradle
+2019-06-18 12:52:28,931 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/fixed-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/leak-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/settings.gradle
+2019-06-18 12:52:28,931 INFO  ProjectBuildService - Remote scripts: none
+2019-06-18 12:52:28,931 INFO  ProjectFixService - Fixing project...
+2019-06-18 12:52:28,938 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/fixed-app/local.properties
+2019-06-18 12:52:28,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/fixed-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-18 12:52:28,938 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/fixed-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-18 12:52:28,939 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/leak-app/local.properties
+2019-06-18 12:52:28,940 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/leak-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-18 12:52:28,940 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/leak-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-18 12:52:28,941 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/local.properties
+2019-06-18 12:52:28,941 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-06-18 12:52:28,941 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-06-18 12:52:28,942 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-18 12:52:28,942 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-18 12:52:28,942 INFO  ProjectFixService - Project was maybe fixed
+2019-06-18 12:52:28,943 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-18 12:52:28,943 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/fixed-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-18 12:52:36,890 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-18 12:52:36,890 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-18 12:52:36,890 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/fixed-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-18 12:53:01,535 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :fixed-app:preBuild UP-TO-DATE
+> Task :fixed-app:preDebugBuild
+> Task :fixed-app:compileDebugAidl NO-SOURCE
+> Task :fixed-app:compileDebugRenderscript
+> Task :fixed-app:checkDebugManifest
+> Task :fixed-app:generateDebugBuildConfig
+> Task :fixed-app:prepareLintJar
+> Task :fixed-app:generateDebugSources
+> Task :fixed-app:javaPreCompileDebug
+> Task :fixed-app:mainApkListPersistenceDebug
+> Task :fixed-app:generateDebugResValues
+> Task :fixed-app:generateDebugResources
+> Task :fixed-app:mergeDebugResources
+> Task :fixed-app:createDebugCompatibleScreenManifests
+> Task :fixed-app:processDebugManifest
+> Task :fixed-app:processDebugResources
+> Task :fixed-app:compileDebugJavaWithJavac
+> Task :fixed-app:compileDebugNdk NO-SOURCE
+> Task :fixed-app:compileDebugSources
+> Task :fixed-app:mergeDebugShaders
+> Task :fixed-app:compileDebugShaders
+> Task :fixed-app:generateDebugAssets
+> Task :fixed-app:mergeDebugAssets
+> Task :fixed-app:mergeExtDexDebug
+> Task :fixed-app:transformClassesWithDexBuilderForDebug
+> Task :fixed-app:mergeDexDebug
+> Task :fixed-app:validateSigningDebug
+> Task :fixed-app:signingConfigWriterDebug
+> Task :fixed-app:mergeDebugJniLibFolders
+> Task :fixed-app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :fixed-app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :fixed-app:processDebugJavaRes NO-SOURCE
+> Task :fixed-app:transformResourcesWithMergeJavaResForDebug
+> Task :fixed-app:packageDebug
+> Task :fixed-app:assembleDebug
+> Task :fixed-app:preReleaseBuild
+> Task :fixed-app:compileReleaseAidl NO-SOURCE
+> Task :fixed-app:compileReleaseRenderscript
+> Task :fixed-app:checkReleaseManifest
+> Task :fixed-app:generateReleaseBuildConfig
+> Task :fixed-app:generateReleaseSources
+> Task :fixed-app:javaPreCompileRelease
+> Task :fixed-app:mainApkListPersistenceRelease
+> Task :fixed-app:generateReleaseResValues
+> Task :fixed-app:generateReleaseResources
+> Task :fixed-app:mergeReleaseResources
+> Task :fixed-app:createReleaseCompatibleScreenManifests
+> Task :fixed-app:processReleaseManifest
+> Task :fixed-app:processReleaseResources
+> Task :fixed-app:compileReleaseJavaWithJavac
+> Task :fixed-app:compileReleaseNdk NO-SOURCE
+> Task :fixed-app:compileReleaseSources
 
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/b1aaa314d8f924ebf79656edcb0aec49/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar
+> Task :fixed-app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/fedf39bfad7cc69b81cacc95d1d38609/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :app:mergeExtDexRelease
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:mergeDexRelease
-> Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
-> Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
-> Task :app:packageRelease
-> Task :app:assembleRelease
-> Task :app:assemble
-> Task :app:build
+> Task :fixed-app:mergeExtDexRelease
+> Task :fixed-app:transformClassesWithDexBuilderForRelease
+> Task :fixed-app:mergeDexRelease
+> Task :fixed-app:mergeReleaseShaders
+> Task :fixed-app:compileReleaseShaders
+> Task :fixed-app:generateReleaseAssets
+> Task :fixed-app:mergeReleaseAssets
+> Task :fixed-app:signingConfigWriterRelease
+> Task :fixed-app:mergeReleaseJniLibFolders
+> Task :fixed-app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :fixed-app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :fixed-app:processReleaseJavaRes NO-SOURCE
+> Task :fixed-app:transformResourcesWithMergeJavaResForRelease
+> Task :fixed-app:packageRelease
+> Task :fixed-app:assembleRelease
+> Task :fixed-app:assemble
+> Task :fixed-app:build
 
-BUILD SUCCESSFUL in 27s
+BUILD SUCCESSFUL in 24s
 51 actionable tasks: 51 executed
 
-2019-05-29 13:56:52,236 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112974227-0/src/avoid-memory-leak-android-master/app/build/outputs/apk/debug/app-debug.apk
+2019-06-18 12:53:01,584 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837145611-0/src/avoid-memory-leak-android-master/fixed-app/build/outputs/apk/release/fixed-app-release-unsigned.apk
