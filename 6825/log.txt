@@ -1,42 +1,50 @@
-2018-09-15 22:40:57,029 INFO  DownloadService - Downloading "https://github.com/Livin21/MissMe/archive/master.zip", attempt 3
-2018-09-15 22:40:58,669 INFO  DownloadService - Downloaded https://github.com/Livin21/MissMe/archive/master.zip, attempt 3
-2018-09-15 22:40:58,670 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/master.zip": 166 KB
-2018-09-15 22:40:58,670 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-15 22:40:58,675 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/master.zip: true
-2018-09-15 22:40:58,676 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src'.
-2018-09-15 22:40:58,710 INFO  FullProcessService - Size of directory with sources: 211 KB
-2018-09-15 22:40:58,711 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src]
-2018-09-15 22:40:58,732 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/.git/
+2019-07-05 00:55:37,609 INFO  DownloadService - Downloading "https://github.com/Livin21/MissMe/archive/master.zip", attempt 3
+2019-07-05 00:55:38,296 INFO  DownloadService - Downloaded https://github.com/Livin21/MissMe/archive/master.zip, attempt 3
+2019-07-05 00:55:38,296 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/master.zip": 168 KB
+2019-07-05 00:55:38,296 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 00:55:38,302 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/master.zip: true
+2019-07-05 00:55:38,302 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src'.
+2019-07-05 00:55:38,324 INFO  FullProcessService - Size of directory with sources: 214 KB
+2019-07-05 00:55:38,324 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src]
+2019-07-05 00:55:38,339 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/.git/
 
-2018-09-15 22:40:58,737 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/gradlew
-2018-09-15 22:40:58,746 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/missme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/build.gradle
-2018-09-15 22:40:58,754 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/missme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/settings.gradle
-2018-09-15 22:40:58,755 INFO  ProjectBuildService - Remote scripts: none
-2018-09-15 22:40:58,756 INFO  ProjectFixService - Fixing project...
-2018-09-15 22:40:58,768 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/app/local.properties
-2018-09-15 22:40:58,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-15 22:40:58,770 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-15 22:40:58,771 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/missme/local.properties
-2018-09-15 22:40:58,772 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/missme/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-15 22:40:58,773 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/missme/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-15 22:40:58,774 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/local.properties
-2018-09-15 22:40:58,775 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-09-15 22:40:58,775 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-09-15 22:40:58,778 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-15 22:40:58,778 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-15 22:40:58,779 INFO  ProjectFixService - Project was maybe fixed
-2018-09-15 22:40:58,779 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-15 22:40:58,779 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-15 22:41:05,532 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-09-15 22:41:05,532 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-09-15 22:41:05,532 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-09-15 22:41:57,294 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 00:55:38,342 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/gradlew
+2019-07-05 00:55:38,344 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/missme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/build.gradle
+2019-07-05 00:55:38,346 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/missme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/settings.gradle
+2019-07-05 00:55:38,347 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 00:55:38,347 INFO  ProjectFixService - Fixing project...
+2019-07-05 00:55:38,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/app/local.properties
+2019-07-05 00:55:38,353 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-05 00:55:38,353 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-05 00:55:38,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/missme/local.properties
+2019-07-05 00:55:38,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/missme/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-05 00:55:38,354 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/missme/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-05 00:55:38,355 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/local.properties
+2019-07-05 00:55:38,355 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-07-05 00:55:38,356 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-07-05 00:55:38,356 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-05 00:55:38,357 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-05 00:55:38,357 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 00:55:38,357 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 00:55:38,357 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 00:55:44,428 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 00:55:44,428 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 00:55:44,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 00:56:31,616 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :missme:preBuild UP-TO-DATE
 :missme:preDebugBuild UP-TO-DATE
 :missme:checkDebugManifest
 :missme:processDebugManifest
 :app:preDebugBuild
+Download https://maven.google.com/com/android/support/support-core-utils/27.0.2/support-core-utils-27.0.2.aar
+Download https://maven.google.com/com/android/support/animated-vector-drawable/27.0.2/animated-vector-drawable-27.0.2.aar
+Download https://maven.google.com/com/android/support/support-fragment/27.0.2/support-fragment-27.0.2.aar
+Download https://maven.google.com/com/android/support/support-vector-drawable/27.0.2/support-vector-drawable-27.0.2.aar
+Download https://maven.google.com/com/android/support/support-core-ui/27.0.2/support-core-ui-27.0.2.aar
+Download https://maven.google.com/com/android/support/appcompat-v7/27.0.2/appcompat-v7-27.0.2.aar
+Download https://maven.google.com/com/android/support/support-compat/27.0.2/support-compat-27.0.2.aar
+Download https://maven.google.com/com/android/support/cardview-v7/27.0.2/cardview-v7-27.0.2.aar
 :missme:compileDebugAidl
 :app:compileDebugAidl
 :missme:packageDebugRenderscript NO-SOURCE
@@ -118,17 +126,47 @@
 :missme:generateDebugRFile
 :app:processDebugResources
 :missme:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/missme/src/main/java/com/lmntrx/android/library/livin/missme/ProgressDialog.kt: (30, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+Download https://maven.google.com/com/android/support/support-annotations/27.0.2/support-annotations-27.0.2.jar
 :missme:generateDebugSources
 :missme:javaPreCompileDebug
 :missme:compileDebugJavaWithJavac
 :missme:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko/0.10.4/anko-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7/0.10.4/anko-appcompat-v7-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4/0.10.4/anko-support-v4-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-commons/0.10.4/anko-appcompat-v7-commons-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4-commons/0.10.4/anko-support-v4-commons-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sqlite/0.10.4/anko-sqlite-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-commons/0.10.4/anko-commons-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-coroutines/0.10.4/anko-coroutines-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-android/0.15/kotlinx-coroutines-android-0.15.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-coroutines/0.10.4/anko-appcompat-v7-coroutines-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk25-coroutines/0.10.4/anko-sdk25-coroutines-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk25/0.10.4/anko-sdk25-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-core/0.15/kotlinx-coroutines-core-0.15.jar
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/app/src/main/java/com/lmntrx/android/livin/missmeapp/MainActivity.kt: (167, 50): Parameter 'it' is never used, could be renamed to _
 :app:generateDebugSources
 :app:javaPreCompileDebug
 :app:compileDebugJavaWithJavac
 :app:compileDebugSources
 :app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 13 methods.
+D8: Stripped invalid locals information from 16 methods.
+D8: Stripped invalid locals information from 11 methods.
+D8: Stripped invalid locals information from 14 methods.
+D8: Stripped invalid locals information from 13 methods.
+D8: Stripped invalid locals information from 4 methods.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 2 methods.
+D8: Stripped invalid locals information from 2 methods.
+D8: Stripped invalid locals information from 2 methods.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
 :app:transformClassesWithMultidexlistForDebugWarning: The rule `-keep public class *extends java.lang.annotation.Annotation {
   *;
 }` uses extends but actually matches implements.
@@ -142,12 +180,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/
 :missme:generateReleaseRFile
 :app:processReleaseResources
 :missme:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/missme/src/main/java/com/lmntrx/android/library/livin/missme/ProgressDialog.kt: (30, 20): 'ProgressDialog' is deprecated. Deprecated in Java
 :missme:generateReleaseSources
 :missme:javaPreCompileRelease
 :missme:compileReleaseJavaWithJavac
 :missme:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/app/src/main/java/com/lmntrx/android/livin/missmeapp/MainActivity.kt: (167, 50): Parameter 'it' is never used, could be renamed to _
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
@@ -167,7 +205,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 51s
+BUILD SUCCESSFUL in 46s
 95 actionable tasks: 95 executed
 
-2018-09-15 22:41:57,391 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026057020-0/src/MissMe-master/MissMe/app/build/outputs/apk/debug/app-debug.apk
+2019-07-05 00:56:31,676 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562262937606-0/src/MissMe-master/MissMe/app/build/outputs/apk/debug/app-debug.apk
