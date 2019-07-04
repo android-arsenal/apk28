@@ -1,367 +1,373 @@
-2019-05-26 17:41:48,698 INFO  DownloadService - Downloading "https://github.com/AmrDeveloper/ReactButton/archive/master.zip", attempt 3
-2019-05-26 17:41:50,659 INFO  DownloadService - Downloaded https://github.com/AmrDeveloper/ReactButton/archive/master.zip, attempt 3
-2019-05-26 17:41:50,659 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/master.zip": 150 KB
-2019-05-26 17:41:50,659 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 17:41:50,660 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/master.zip: true
-2019-05-26 17:41:50,660 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src'.
-2019-05-26 17:41:50,681 INFO  FullProcessService - Size of directory with sources: 175 KB
-2019-05-26 17:41:50,682 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src]
-2019-05-26 17:41:50,709 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/.git/
+2019-07-05 01:26:54,748 INFO  DownloadService - Downloading "https://github.com/AmrDeveloper/ReactButton/archive/master.zip", attempt 3
+2019-07-05 01:26:56,316 INFO  DownloadService - Downloaded https://github.com/AmrDeveloper/ReactButton/archive/master.zip, attempt 3
+2019-07-05 01:26:56,317 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/master.zip": 170 KB
+2019-07-05 01:26:56,317 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 01:26:56,322 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/master.zip: true
+2019-07-05 01:26:56,322 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src'.
+2019-07-05 01:26:56,342 INFO  FullProcessService - Size of directory with sources: 305 KB
+2019-07-05 01:26:56,342 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src]
+2019-07-05 01:26:56,358 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/.git/
 
-2019-05-26 17:41:50,712 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew
-2019-05-26 17:41:50,715 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/build.gradle
-2019-05-26 17:41:50,717 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/settings.gradle
-2019-05-26 17:41:50,717 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 17:41:50,717 INFO  ProjectFixService - Fixing project...
-2019-05-26 17:41:50,724 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/local.properties
-2019-05-26 17:41:50,725 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 17:41:50,725 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 17:41:50,727 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/local.properties
-2019-05-26 17:41:50,727 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 17:41:50,728 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 17:41:50,729 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/local.properties
-2019-05-26 17:41:50,729 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-05-26 17:41:50,729 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-05-26 17:41:50,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 17:41:50,731 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-26 17:41:50,731 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 17:41:50,732 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 17:41:50,732 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 17:41:58,296 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-05-26 17:41:58,296 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-26 17:41:58,296 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-26 17:42:15,136 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:preBuild UP-TO-DATE
-:app:preDebugBuild UP-TO-DATE
-:reactbutton:preBuild UP-TO-DATE
-:reactbutton:preDebugBuild UP-TO-DATE
-:reactbutton:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:reactbutton:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:generateDebugResValues
-:app:generateDebugResources
-:app:packageDebugResources
-:app:processDebugManifest
-:reactbutton:compileDebugRenderscript
-:reactbutton:generateDebugResValues
-:reactbutton:generateDebugResources
-:reactbutton:packageDebugResources
-:reactbutton:checkDebugManifest
-:reactbutton:processDebugManifest
-:reactbutton:generateDebugRFile
-:app:generateDebugRFile
-:app:prepareLintJar
-:app:generateDebugSources
-:reactbutton:generateDebugBuildConfig
-:reactbutton:prepareLintJar
-:reactbutton:generateDebugSources
-:reactbutton:javaPreCompileDebug
-:reactbutton:compileDebugJavaWithJavac
-:reactbutton:processDebugJavaRes NO-SOURCE
-:reactbutton:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:extractDebugAnnotations
-:app:mergeDebugConsumerProguardFiles
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:app:packageDebugAssets
-:app:packageDebugRenderscript NO-SOURCE
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:transformClassesAndResourcesWithSyncLibJarsForDebug
-:app:compileDebugNdk NO-SOURCE
-:app:mergeDebugJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:transformNativeLibsWithSyncJniLibsForDebug
-:app:bundleDebugAar
-:app:compileDebugSources
-:app:assembleDebug
-:app:preReleaseBuild UP-TO-DATE
-:reactbutton:preReleaseBuild UP-TO-DATE
-:reactbutton:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:reactbutton:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:app:packageReleaseResources
-:app:processReleaseManifest
-:reactbutton:compileReleaseRenderscript
-:reactbutton:generateReleaseResValues
-:reactbutton:generateReleaseResources
-:reactbutton:packageReleaseResources
-:reactbutton:checkReleaseManifest
-:reactbutton:processReleaseManifest
-:reactbutton:generateReleaseRFile
-:app:generateReleaseRFile
-:app:generateReleaseSources
-:reactbutton:generateReleaseBuildConfig
-:reactbutton:generateReleaseSources
-:reactbutton:javaPreCompileRelease
-:reactbutton:compileReleaseJavaWithJavac
-:reactbutton:processReleaseJavaRes NO-SOURCE
-:reactbutton:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:extractReleaseAnnotations
-:app:mergeReleaseConsumerProguardFiles
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:app:packageReleaseAssets
-:app:packageReleaseRenderscript NO-SOURCE
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:transformClassesAndResourcesWithSyncLibJarsForRelease
-:app:compileReleaseNdk NO-SOURCE
-:app:mergeReleaseJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:transformNativeLibsWithSyncJniLibsForRelease
-:app:bundleReleaseAar
-:app:compileReleaseSources
-:app:mergeReleaseResources
-:app:verifyReleaseResources
-:app:assembleRelease
-:app:assemble
-:app:build
+2019-07-05 01:26:56,360 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/gradlew
+2019-07-05 01:26:56,363 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/reactbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/build.gradle
+2019-07-05 01:26:56,365 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/reactbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/settings.gradle
+2019-07-05 01:26:56,366 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 01:26:56,366 INFO  ProjectFixService - Fixing project...
+2019-07-05 01:26:56,371 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/app/local.properties
+2019-07-05 01:26:56,372 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:26:56,372 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:26:56,372 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/reactbutton/local.properties
+2019-07-05 01:26:56,373 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/reactbutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:26:56,373 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/reactbutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:26:56,374 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/local.properties
+2019-07-05 01:26:56,374 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-05 01:26:56,374 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-05 01:26:56,375 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:26:56,375 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 01:26:56,375 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 01:26:56,376 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 01:26:56,376 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 01:27:02,459 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-07-05 01:27:02,459 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 01:27:02,460 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 01:27:13,607 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :reactbutton:preBuild UP-TO-DATE
+> Task :reactbutton:preDebugBuild UP-TO-DATE
+> Task :reactbutton:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :reactbutton:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:processDebugManifest
+> Task :reactbutton:compileDebugRenderscript NO-SOURCE
+> Task :reactbutton:generateDebugResValues
+> Task :reactbutton:generateDebugResources
+> Task :reactbutton:packageDebugResources
+> Task :reactbutton:checkDebugManifest
+> Task :reactbutton:processDebugManifest
+> Task :reactbutton:generateDebugRFile
+> Task :app:generateDebugRFile
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :reactbutton:generateDebugBuildConfig
+> Task :reactbutton:prepareLintJar
+> Task :reactbutton:generateDebugSources
+> Task :reactbutton:javaPreCompileDebug
+> Task :reactbutton:compileDebugJavaWithJavac
+> Task :reactbutton:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:extractDebugAnnotations
+> Task :app:mergeDebugConsumerProguardFiles
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :app:packageDebugAssets
+> Task :app:packageDebugRenderscript NO-SOURCE
+> Task :app:prepareLintJarForPublish
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:transformNativeLibsWithSyncJniLibsForDebug
+> Task :app:bundleDebugAar
+> Task :app:compileDebugSources
+> Task :app:assembleDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :reactbutton:preReleaseBuild UP-TO-DATE
+> Task :reactbutton:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :reactbutton:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:packageReleaseResources
+> Task :app:processReleaseManifest
+> Task :reactbutton:compileReleaseRenderscript NO-SOURCE
+> Task :reactbutton:generateReleaseResValues
+> Task :reactbutton:generateReleaseResources
+> Task :reactbutton:packageReleaseResources
+> Task :reactbutton:checkReleaseManifest
+> Task :reactbutton:processReleaseManifest
+> Task :reactbutton:generateReleaseRFile
+> Task :app:generateReleaseRFile
+> Task :app:generateReleaseSources
+> Task :reactbutton:generateReleaseBuildConfig
+> Task :reactbutton:generateReleaseSources
+> Task :reactbutton:javaPreCompileRelease
+> Task :reactbutton:compileReleaseJavaWithJavac
+> Task :reactbutton:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:extractReleaseAnnotations
+> Task :app:mergeReleaseConsumerProguardFiles
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :app:packageReleaseAssets
+> Task :app:packageReleaseRenderscript NO-SOURCE
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:transformNativeLibsWithSyncJniLibsForRelease
+> Task :app:bundleReleaseAar
+> Task :app:compileReleaseSources
+> Task :app:mergeReleaseResources
+> Task :app:verifyReleaseResources
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
 
-BUILD SUCCESSFUL in 16s
-66 actionable tasks: 66 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-05-26 17:42:15,212 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 17:42:15,212 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 17:42:21,871 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-05-26 17:42:21,871 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-26 17:42:21,872 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/reactbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-26 17:42:31,809 INFO  SysUtils - Configuration on demand is an incubating feature.
-:reactbutton:preBuild UP-TO-DATE
-:reactbutton:preDebugBuild UP-TO-DATE
-:reactbutton:compileDebugAidl NO-SOURCE
-:reactbutton:compileDebugRenderscript UP-TO-DATE
-:reactbutton:checkDebugManifest UP-TO-DATE
-:reactbutton:generateDebugBuildConfig UP-TO-DATE
-:reactbutton:generateDebugResValues UP-TO-DATE
-:reactbutton:generateDebugResources UP-TO-DATE
-:reactbutton:packageDebugResources UP-TO-DATE
-:reactbutton:processDebugManifest UP-TO-DATE
-:reactbutton:generateDebugRFile UP-TO-DATE
-:reactbutton:prepareLintJar UP-TO-DATE
-:reactbutton:generateDebugSources UP-TO-DATE
-:reactbutton:javaPreCompileDebug UP-TO-DATE
-:reactbutton:compileDebugJavaWithJavac UP-TO-DATE
-:reactbutton:extractDebugAnnotations
-:reactbutton:mergeDebugConsumerProguardFiles
-:reactbutton:mergeDebugShaders
-:reactbutton:compileDebugShaders
-:reactbutton:generateDebugAssets
-:reactbutton:packageDebugAssets
-:reactbutton:packageDebugRenderscript NO-SOURCE
-:reactbutton:processDebugJavaRes NO-SOURCE
-:reactbutton:transformResourcesWithMergeJavaResForDebug
-:reactbutton:transformClassesAndResourcesWithSyncLibJarsForDebug
-:reactbutton:compileDebugNdk NO-SOURCE
-:reactbutton:mergeDebugJniLibFolders
-:reactbutton:transformNativeLibsWithMergeJniLibsForDebug
-:reactbutton:transformNativeLibsWithStripDebugSymbolForDebug
-:reactbutton:transformNativeLibsWithSyncJniLibsForDebug
-:reactbutton:bundleDebugAar
-:reactbutton:compileDebugSources UP-TO-DATE
-:reactbutton:assembleDebug
-:reactbutton:preReleaseBuild UP-TO-DATE
-:reactbutton:compileReleaseAidl NO-SOURCE
-:reactbutton:compileReleaseRenderscript UP-TO-DATE
-:reactbutton:checkReleaseManifest UP-TO-DATE
-:reactbutton:generateReleaseBuildConfig UP-TO-DATE
-:reactbutton:generateReleaseResValues UP-TO-DATE
-:reactbutton:generateReleaseResources UP-TO-DATE
-:reactbutton:packageReleaseResources UP-TO-DATE
-:reactbutton:processReleaseManifest UP-TO-DATE
-:reactbutton:generateReleaseRFile UP-TO-DATE
-:reactbutton:generateReleaseSources UP-TO-DATE
-:reactbutton:javaPreCompileRelease UP-TO-DATE
-:reactbutton:compileReleaseJavaWithJavac UP-TO-DATE
-:reactbutton:extractReleaseAnnotations
-:reactbutton:mergeReleaseConsumerProguardFiles
-:reactbutton:mergeReleaseShaders
-:reactbutton:compileReleaseShaders
-:reactbutton:generateReleaseAssets
-:reactbutton:packageReleaseAssets
-:reactbutton:packageReleaseRenderscript NO-SOURCE
-:reactbutton:processReleaseJavaRes NO-SOURCE
-:reactbutton:transformResourcesWithMergeJavaResForRelease
-:reactbutton:transformClassesAndResourcesWithSyncLibJarsForRelease
-:reactbutton:compileReleaseNdk NO-SOURCE
-:reactbutton:mergeReleaseJniLibFolders
-:reactbutton:transformNativeLibsWithMergeJniLibsForRelease
-:reactbutton:transformNativeLibsWithStripDebugSymbolForRelease
-:reactbutton:transformNativeLibsWithSyncJniLibsForRelease
-:reactbutton:bundleReleaseAar
-:reactbutton:compileReleaseSources UP-TO-DATE
-:reactbutton:mergeReleaseResources
-:reactbutton:verifyReleaseResources
-:reactbutton:assembleRelease
-:reactbutton:assemble
-:reactbutton:build
+BUILD SUCCESSFUL in 10s
+63 actionable tasks: 63 executed
 
-BUILD SUCCESSFUL in 9s
-45 actionable tasks: 26 executed, 19 up-to-date
+2019-07-05 01:27:13,648 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 01:27:13,648 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/reactbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 01:27:19,286 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-07-05 01:27:19,287 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 01:27:19,287 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/reactbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 01:27:26,816 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :reactbutton:preBuild UP-TO-DATE
+> Task :reactbutton:preDebugBuild UP-TO-DATE
+> Task :reactbutton:compileDebugAidl NO-SOURCE
+> Task :reactbutton:compileDebugRenderscript NO-SOURCE
+> Task :reactbutton:checkDebugManifest UP-TO-DATE
+> Task :reactbutton:generateDebugBuildConfig UP-TO-DATE
+> Task :reactbutton:generateDebugResValues UP-TO-DATE
+> Task :reactbutton:generateDebugResources UP-TO-DATE
+> Task :reactbutton:packageDebugResources UP-TO-DATE
+> Task :reactbutton:processDebugManifest UP-TO-DATE
+> Task :reactbutton:generateDebugRFile UP-TO-DATE
+> Task :reactbutton:prepareLintJar UP-TO-DATE
+> Task :reactbutton:generateDebugSources UP-TO-DATE
+> Task :reactbutton:javaPreCompileDebug UP-TO-DATE
+> Task :reactbutton:compileDebugJavaWithJavac UP-TO-DATE
+> Task :reactbutton:extractDebugAnnotations
+> Task :reactbutton:mergeDebugConsumerProguardFiles
+> Task :reactbutton:mergeDebugShaders
+> Task :reactbutton:compileDebugShaders
+> Task :reactbutton:generateDebugAssets
+> Task :reactbutton:packageDebugAssets
+> Task :reactbutton:packageDebugRenderscript NO-SOURCE
+> Task :reactbutton:prepareLintJarForPublish
+> Task :reactbutton:processDebugJavaRes NO-SOURCE
+> Task :reactbutton:transformResourcesWithMergeJavaResForDebug
+> Task :reactbutton:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :reactbutton:mergeDebugJniLibFolders
+> Task :reactbutton:transformNativeLibsWithMergeJniLibsForDebug
+> Task :reactbutton:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :reactbutton:transformNativeLibsWithSyncJniLibsForDebug
+> Task :reactbutton:bundleDebugAar
+> Task :reactbutton:compileDebugSources UP-TO-DATE
+> Task :reactbutton:assembleDebug
+> Task :reactbutton:preReleaseBuild UP-TO-DATE
+> Task :reactbutton:compileReleaseAidl NO-SOURCE
+> Task :reactbutton:compileReleaseRenderscript NO-SOURCE
+> Task :reactbutton:checkReleaseManifest UP-TO-DATE
+> Task :reactbutton:generateReleaseBuildConfig UP-TO-DATE
+> Task :reactbutton:generateReleaseResValues UP-TO-DATE
+> Task :reactbutton:generateReleaseResources UP-TO-DATE
+> Task :reactbutton:packageReleaseResources UP-TO-DATE
+> Task :reactbutton:processReleaseManifest UP-TO-DATE
+> Task :reactbutton:generateReleaseRFile UP-TO-DATE
+> Task :reactbutton:generateReleaseSources UP-TO-DATE
+> Task :reactbutton:javaPreCompileRelease UP-TO-DATE
+> Task :reactbutton:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :reactbutton:extractReleaseAnnotations
+> Task :reactbutton:mergeReleaseConsumerProguardFiles
+> Task :reactbutton:mergeReleaseShaders
+> Task :reactbutton:compileReleaseShaders
+> Task :reactbutton:generateReleaseAssets
+> Task :reactbutton:packageReleaseAssets
+> Task :reactbutton:packageReleaseRenderscript NO-SOURCE
+> Task :reactbutton:processReleaseJavaRes NO-SOURCE
+> Task :reactbutton:transformResourcesWithMergeJavaResForRelease
+> Task :reactbutton:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :reactbutton:mergeReleaseJniLibFolders
+> Task :reactbutton:transformNativeLibsWithMergeJniLibsForRelease
+> Task :reactbutton:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :reactbutton:transformNativeLibsWithSyncJniLibsForRelease
+> Task :reactbutton:bundleReleaseAar
+> Task :reactbutton:compileReleaseSources UP-TO-DATE
+> Task :reactbutton:mergeReleaseResources
+> Task :reactbutton:verifyReleaseResources
+> Task :reactbutton:assembleRelease
+> Task :reactbutton:assemble
+> Task :reactbutton:build
 
-2019-05-26 17:42:31,902 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 17:42:31,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 17:42:39,027 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-05-26 17:42:39,027 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-26 17:42:39,027 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558867308695-0/src/ReactButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-26 17:42:47,880 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:preBuild UP-TO-DATE
-:app:preDebugBuild UP-TO-DATE
-:reactbutton:preBuild UP-TO-DATE
-:reactbutton:preDebugBuild UP-TO-DATE
-:reactbutton:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:reactbutton:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript UP-TO-DATE
-:app:checkDebugManifest UP-TO-DATE
-:app:generateDebugBuildConfig UP-TO-DATE
-:app:generateDebugResValues UP-TO-DATE
-:app:generateDebugResources UP-TO-DATE
-:app:packageDebugResources UP-TO-DATE
-:app:processDebugManifest UP-TO-DATE
-:reactbutton:compileDebugRenderscript UP-TO-DATE
-:reactbutton:generateDebugResValues UP-TO-DATE
-:reactbutton:generateDebugResources UP-TO-DATE
-:reactbutton:packageDebugResources UP-TO-DATE
-:reactbutton:checkDebugManifest UP-TO-DATE
-:reactbutton:processDebugManifest UP-TO-DATE
-:reactbutton:generateDebugRFile UP-TO-DATE
-:app:generateDebugRFile UP-TO-DATE
-:app:prepareLintJar UP-TO-DATE
-:app:generateDebugSources UP-TO-DATE
-:reactbutton:generateDebugBuildConfig UP-TO-DATE
-:reactbutton:prepareLintJar UP-TO-DATE
-:reactbutton:generateDebugSources UP-TO-DATE
-:reactbutton:javaPreCompileDebug UP-TO-DATE
-:reactbutton:compileDebugJavaWithJavac UP-TO-DATE
-:reactbutton:processDebugJavaRes NO-SOURCE
-:reactbutton:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
-:app:javaPreCompileDebug UP-TO-DATE
-:app:compileDebugJavaWithJavac UP-TO-DATE
-:app:extractDebugAnnotations UP-TO-DATE
-:app:mergeDebugConsumerProguardFiles UP-TO-DATE
-:app:mergeDebugShaders UP-TO-DATE
-:app:compileDebugShaders UP-TO-DATE
-:app:generateDebugAssets UP-TO-DATE
-:app:packageDebugAssets UP-TO-DATE
-:app:packageDebugRenderscript NO-SOURCE
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
-:app:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-:app:compileDebugNdk NO-SOURCE
-:app:mergeDebugJniLibFolders UP-TO-DATE
-:app:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:app:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:app:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
-:app:bundleDebugAar UP-TO-DATE
-:app:compileDebugSources UP-TO-DATE
-:app:assembleDebug UP-TO-DATE
-:app:preReleaseBuild UP-TO-DATE
-:reactbutton:preReleaseBuild UP-TO-DATE
-:reactbutton:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:reactbutton:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript UP-TO-DATE
-:app:checkReleaseManifest UP-TO-DATE
-:app:generateReleaseBuildConfig UP-TO-DATE
-:app:generateReleaseResValues UP-TO-DATE
-:app:generateReleaseResources UP-TO-DATE
-:app:packageReleaseResources UP-TO-DATE
-:app:processReleaseManifest UP-TO-DATE
-:reactbutton:compileReleaseRenderscript UP-TO-DATE
-:reactbutton:generateReleaseResValues UP-TO-DATE
-:reactbutton:generateReleaseResources UP-TO-DATE
-:reactbutton:packageReleaseResources UP-TO-DATE
-:reactbutton:checkReleaseManifest UP-TO-DATE
-:reactbutton:processReleaseManifest UP-TO-DATE
-:reactbutton:generateReleaseRFile UP-TO-DATE
-:app:generateReleaseRFile UP-TO-DATE
-:app:generateReleaseSources UP-TO-DATE
-:reactbutton:generateReleaseBuildConfig UP-TO-DATE
-:reactbutton:generateReleaseSources UP-TO-DATE
-:reactbutton:javaPreCompileRelease UP-TO-DATE
-:reactbutton:compileReleaseJavaWithJavac UP-TO-DATE
-:reactbutton:processReleaseJavaRes NO-SOURCE
-:reactbutton:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
-:app:javaPreCompileRelease UP-TO-DATE
-:app:compileReleaseJavaWithJavac UP-TO-DATE
-:app:extractReleaseAnnotations UP-TO-DATE
-:app:mergeReleaseConsumerProguardFiles UP-TO-DATE
-:app:mergeReleaseShaders UP-TO-DATE
-:app:compileReleaseShaders UP-TO-DATE
-:app:generateReleaseAssets UP-TO-DATE
-:app:packageReleaseAssets UP-TO-DATE
-:app:packageReleaseRenderscript NO-SOURCE
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
-:app:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-:app:compileReleaseNdk NO-SOURCE
-:app:mergeReleaseJniLibFolders UP-TO-DATE
-:app:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:app:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:app:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
-:app:bundleReleaseAar UP-TO-DATE
-:app:compileReleaseSources UP-TO-DATE
-:app:mergeReleaseResources UP-TO-DATE
-:app:verifyReleaseResources UP-TO-DATE
-:app:assembleRelease UP-TO-DATE
-:app:assemble UP-TO-DATE
-:app:build
-:reactbutton:extractDebugAnnotations UP-TO-DATE
-:reactbutton:mergeDebugConsumerProguardFiles UP-TO-DATE
-:reactbutton:mergeDebugShaders UP-TO-DATE
-:reactbutton:compileDebugShaders UP-TO-DATE
-:reactbutton:generateDebugAssets UP-TO-DATE
-:reactbutton:packageDebugAssets UP-TO-DATE
-:reactbutton:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
-:reactbutton:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-:reactbutton:compileDebugNdk NO-SOURCE
-:reactbutton:mergeDebugJniLibFolders UP-TO-DATE
-:reactbutton:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:reactbutton:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:reactbutton:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
-:reactbutton:bundleDebugAar UP-TO-DATE
-:reactbutton:compileDebugSources UP-TO-DATE
-:reactbutton:assembleDebug UP-TO-DATE
-:reactbutton:extractReleaseAnnotations UP-TO-DATE
-:reactbutton:mergeReleaseConsumerProguardFiles UP-TO-DATE
-:reactbutton:mergeReleaseShaders UP-TO-DATE
-:reactbutton:compileReleaseShaders UP-TO-DATE
-:reactbutton:generateReleaseAssets UP-TO-DATE
-:reactbutton:packageReleaseAssets UP-TO-DATE
-:reactbutton:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
-:reactbutton:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-:reactbutton:compileReleaseNdk NO-SOURCE
-:reactbutton:mergeReleaseJniLibFolders UP-TO-DATE
-:reactbutton:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:reactbutton:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:reactbutton:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
-:reactbutton:bundleReleaseAar UP-TO-DATE
-:reactbutton:compileReleaseSources UP-TO-DATE
-:reactbutton:mergeReleaseResources UP-TO-DATE
-:reactbutton:verifyReleaseResources
-:reactbutton:assembleRelease
-:reactbutton:assemble
-:reactbutton:build
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 8s
-92 actionable tasks: 1 executed, 91 up-to-date
+BUILD SUCCESSFUL in 7s
+44 actionable tasks: 27 executed, 17 up-to-date
 
-2019-05-26 17:42:47,972 ERROR FullProcessService - Project build has not produced APK file
-2019-05-26 17:42:48,051 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 01:27:26,868 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 01:27:26,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 01:27:32,506 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-07-05 01:27:32,506 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 01:27:32,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562264814740-0/src/ReactButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 01:27:39,399 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :reactbutton:preBuild UP-TO-DATE
+> Task :reactbutton:preDebugBuild UP-TO-DATE
+> Task :reactbutton:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :reactbutton:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :reactbutton:compileDebugRenderscript NO-SOURCE
+> Task :reactbutton:generateDebugResValues UP-TO-DATE
+> Task :reactbutton:generateDebugResources UP-TO-DATE
+> Task :reactbutton:packageDebugResources UP-TO-DATE
+> Task :reactbutton:checkDebugManifest UP-TO-DATE
+> Task :reactbutton:processDebugManifest UP-TO-DATE
+> Task :reactbutton:generateDebugRFile UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:prepareLintJar UP-TO-DATE
+> Task :app:generateDebugSources UP-TO-DATE
+> Task :reactbutton:generateDebugBuildConfig UP-TO-DATE
+> Task :reactbutton:prepareLintJar UP-TO-DATE
+> Task :reactbutton:generateDebugSources UP-TO-DATE
+> Task :reactbutton:javaPreCompileDebug UP-TO-DATE
+> Task :reactbutton:compileDebugJavaWithJavac UP-TO-DATE
+> Task :reactbutton:bundleLibCompileDebug UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:extractDebugAnnotations UP-TO-DATE
+> Task :app:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:packageDebugAssets UP-TO-DATE
+> Task :app:packageDebugRenderscript NO-SOURCE
+> Task :app:prepareLintJarForPublish UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :app:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :app:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :app:bundleDebugAar UP-TO-DATE
+> Task :app:compileDebugSources UP-TO-DATE
+> Task :app:assembleDebug UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :reactbutton:preReleaseBuild UP-TO-DATE
+> Task :reactbutton:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :reactbutton:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest UP-TO-DATE
+> Task :app:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :app:packageReleaseResources UP-TO-DATE
+> Task :app:processReleaseManifest UP-TO-DATE
+> Task :reactbutton:compileReleaseRenderscript NO-SOURCE
+> Task :reactbutton:generateReleaseResValues UP-TO-DATE
+> Task :reactbutton:generateReleaseResources UP-TO-DATE
+> Task :reactbutton:packageReleaseResources UP-TO-DATE
+> Task :reactbutton:checkReleaseManifest UP-TO-DATE
+> Task :reactbutton:processReleaseManifest UP-TO-DATE
+> Task :reactbutton:generateReleaseRFile UP-TO-DATE
+> Task :app:generateReleaseRFile UP-TO-DATE
+> Task :app:generateReleaseSources UP-TO-DATE
+> Task :reactbutton:generateReleaseBuildConfig UP-TO-DATE
+> Task :reactbutton:generateReleaseSources UP-TO-DATE
+> Task :reactbutton:javaPreCompileRelease UP-TO-DATE
+> Task :reactbutton:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :reactbutton:bundleLibCompileRelease UP-TO-DATE
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :app:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:extractReleaseAnnotations UP-TO-DATE
+> Task :app:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :app:mergeReleaseShaders UP-TO-DATE
+> Task :app:compileReleaseShaders UP-TO-DATE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:packageReleaseAssets UP-TO-DATE
+> Task :app:packageReleaseRenderscript NO-SOURCE
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :app:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :app:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :app:bundleReleaseAar UP-TO-DATE
+> Task :app:compileReleaseSources UP-TO-DATE
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :app:verifyReleaseResources UP-TO-DATE
+> Task :app:assembleRelease UP-TO-DATE
+> Task :app:assemble UP-TO-DATE
+> Task :app:build
+> Task :reactbutton:extractDebugAnnotations UP-TO-DATE
+> Task :reactbutton:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :reactbutton:mergeDebugShaders UP-TO-DATE
+> Task :reactbutton:compileDebugShaders UP-TO-DATE
+> Task :reactbutton:generateDebugAssets UP-TO-DATE
+> Task :reactbutton:packageDebugAssets UP-TO-DATE
+> Task :reactbutton:prepareLintJarForPublish UP-TO-DATE
+> Task :reactbutton:processDebugJavaRes NO-SOURCE
+> Task :reactbutton:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :reactbutton:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :reactbutton:mergeDebugJniLibFolders UP-TO-DATE
+> Task :reactbutton:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :reactbutton:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :reactbutton:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :reactbutton:bundleDebugAar UP-TO-DATE
+> Task :reactbutton:compileDebugSources UP-TO-DATE
+> Task :reactbutton:assembleDebug UP-TO-DATE
+> Task :reactbutton:extractReleaseAnnotations UP-TO-DATE
+> Task :reactbutton:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :reactbutton:mergeReleaseShaders UP-TO-DATE
+> Task :reactbutton:compileReleaseShaders UP-TO-DATE
+> Task :reactbutton:generateReleaseAssets UP-TO-DATE
+> Task :reactbutton:packageReleaseAssets UP-TO-DATE
+> Task :reactbutton:processReleaseJavaRes NO-SOURCE
+> Task :reactbutton:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :reactbutton:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :reactbutton:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :reactbutton:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :reactbutton:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :reactbutton:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :reactbutton:bundleReleaseAar UP-TO-DATE
+> Task :reactbutton:compileReleaseSources UP-TO-DATE
+> Task :reactbutton:mergeReleaseResources UP-TO-DATE
+> Task :reactbutton:verifyReleaseResources
+> Task :reactbutton:assembleRelease
+> Task :reactbutton:assemble
+> Task :reactbutton:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+90 actionable tasks: 1 executed, 89 up-to-date
+
+2019-07-05 01:27:39,458 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 01:27:39,518 ERROR FullProcessService - Could not find generated or existed APK file
