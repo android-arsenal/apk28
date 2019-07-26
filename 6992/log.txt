@@ -1,39 +1,36 @@
-2019-07-20 11:59:46,931 INFO  DownloadService - Downloading "https://github.com/kroegerama/retrofit-kaiteki/archive/master.zip", attempt 3
-2019-07-20 12:00:47,451 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-20 12:00:48,346 INFO  GithubDownloadService - Default branch of this repository: master
-2019-07-20 12:00:48,346 INFO  DownloadService - Downloading "https://github.com/kroegerama/retrofit-kaiteki/archive/master.zip", attempt 3
-2019-07-20 12:01:49,780 DEBUG FullProcessService - Repository https://github.com/kroegerama/retrofit-kaiteki available: true
-2019-07-20 12:01:49,780 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-07-20 12:01:49,780 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kroegerama/retrofit-kaiteki, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src]
-2019-07-20 12:01:51,853 INFO  SysUtils - 
-2019-07-20 12:01:51,860 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/.git": true
-2019-07-20 12:01:51,863 INFO  FullProcessService - Size of directory with sources: 223 KB
-2019-07-20 12:01:51,863 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src]
-2019-07-20 12:01:51,880 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/.git/
+2019-07-26 13:16:22,412 INFO  DownloadService - Downloading "https://github.com/kroegerama/retrofit-kaiteki/archive/master.zip", attempt 3
+2019-07-26 13:16:24,548 INFO  DownloadService - Downloaded https://github.com/kroegerama/retrofit-kaiteki/archive/master.zip, attempt 3
+2019-07-26 13:16:24,548 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/master.zip": 179 KB
+2019-07-26 13:16:24,548 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-26 13:16:24,554 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/master.zip: true
+2019-07-26 13:16:24,554 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src'.
+2019-07-26 13:16:24,591 INFO  FullProcessService - Size of directory with sources: 223 KB
+2019-07-26 13:16:24,591 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src]
+2019-07-26 13:16:24,633 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/.git/
 
-2019-07-20 12:01:51,882 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/gradlew
-2019-07-20 12:01:51,885 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/build.gradle
-2019-07-20 12:01:51,887 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/settings.gradle
-2019-07-20 12:01:51,887 INFO  ProjectBuildService - Remote scripts: none
-2019-07-20 12:01:51,887 INFO  ProjectFixService - Fixing project...
-2019-07-20 12:01:51,893 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/example/local.properties
-2019-07-20 12:01:51,893 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-07-20 12:01:51,894 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-07-20 12:01:51,894 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/local.properties
-2019-07-20 12:01:51,895 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-07-20 12:01:51,895 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-07-20 12:01:51,896 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/local.properties
-2019-07-20 12:01:51,896 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-20 12:01:51,897 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-20 12:01:51,897 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-07-20 12:01:51,898 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-07-20 12:01:51,898 INFO  ProjectFixService - Project was maybe fixed
-2019-07-20 12:01:51,898 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 12:01:51,898 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 12:02:02,504 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-20 12:02:02,505 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-20 12:02:02,505 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-20 12:03:48,908 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-26 13:16:24,637 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/gradlew
+2019-07-26 13:16:24,643 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/build.gradle
+2019-07-26 13:16:24,650 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/settings.gradle
+2019-07-26 13:16:24,651 INFO  ProjectBuildService - Remote scripts: none
+2019-07-26 13:16:24,652 INFO  ProjectFixService - Fixing project...
+2019-07-26 13:16:24,665 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/example/local.properties
+2019-07-26 13:16:24,666 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-07-26 13:16:24,667 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-07-26 13:16:24,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/local.properties
+2019-07-26 13:16:24,671 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-07-26 13:16:24,672 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-07-26 13:16:24,674 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/local.properties
+2019-07-26 13:16:24,675 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-26 13:16:24,676 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-26 13:16:24,689 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-07-26 13:16:24,690 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-07-26 13:16:24,691 INFO  ProjectFixService - Project was maybe fixed
+2019-07-26 13:16:24,692 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-26 13:16:24,692 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-26 13:16:53,891 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-26 13:16:53,892 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-26 13:16:53,892 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-26 13:18:51,041 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :example:preBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
@@ -62,12 +59,12 @@
 
 > Task :library:compileDebugKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: retrofit.kaiteki
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/src/main/java/com/kroegerama/kaiteki/retrofit/Utils.kt: (57, 20): Type mismatch: inferred type is ResponseBody? but ResponseBody was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCall.kt: (116, 56): Type mismatch: inferred type is Nothing? but Array<Annotation!> was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCall.kt: (119, 25): Unchecked cast: Converter<*, RequestBody!> to Converter<T, RequestBody>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCall.kt: (133, 32): Unchecked cast: Converter<ResponseBody!, *> to Converter<ResponseBody, T>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCallAdapterFactory.kt: (21, 103): Unchecked cast: CallAdapter<*, *>! to CallAdapter<Any, Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/src/main/java/com/kroegerama/kaiteki/retrofit/retry/RetryCallAdapterFactory.kt: (17, 103): Unchecked cast: CallAdapter<*, *>! to CallAdapter<Any, Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/retrofit/Utils.kt: (57, 20): Type mismatch: inferred type is ResponseBody? but ResponseBody was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCall.kt: (116, 56): Type mismatch: inferred type is Nothing? but Array<Annotation!> was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCall.kt: (119, 25): Unchecked cast: Converter<*, RequestBody!> to Converter<T, RequestBody>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCall.kt: (133, 32): Unchecked cast: Converter<ResponseBody!, *> to Converter<ResponseBody, T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCallAdapterFactory.kt: (21, 103): Unchecked cast: CallAdapter<*, *>! to CallAdapter<Any, Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/retrofit/retry/RetryCallAdapterFactory.kt: (17, 103): Unchecked cast: CallAdapter<*, *>! to CallAdapter<Any, Any>
 
 > Task :library:prepareLintJar
 > Task :library:generateDebugSources
@@ -76,8 +73,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/
 > Task :library:bundleLibCompileDebug
 
 > Task :example:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/example/src/main/java/com/kroegerama/kaiteki/retrofit/app/AcMain.kt: (56, 46): Unchecked cast: Call<String> to Call<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/example/src/main/java/com/kroegerama/kaiteki/retrofit/app/AcMain.kt: (58, 54): Unchecked cast: Call<Post> to Call<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/example/src/main/java/com/kroegerama/kaiteki/retrofit/app/AcMain.kt: (56, 46): Unchecked cast: Call<String> to Call<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/example/src/main/java/com/kroegerama/kaiteki/retrofit/app/AcMain.kt: (58, 54): Unchecked cast: Call<Post> to Call<Any>
 
 > Task :example:prepareLintJar
 > Task :example:generateDebugSources
@@ -139,12 +136,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/
 
 > Task :library:compileReleaseKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: retrofit.kaiteki
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/src/main/java/com/kroegerama/kaiteki/retrofit/Utils.kt: (57, 20): Type mismatch: inferred type is ResponseBody? but ResponseBody was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCall.kt: (116, 56): Type mismatch: inferred type is Nothing? but Array<Annotation!> was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCall.kt: (119, 25): Unchecked cast: Converter<*, RequestBody!> to Converter<T, RequestBody>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCall.kt: (133, 32): Unchecked cast: Converter<ResponseBody!, *> to Converter<ResponseBody, T>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCallAdapterFactory.kt: (21, 103): Unchecked cast: CallAdapter<*, *>! to CallAdapter<Any, Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/library/src/main/java/com/kroegerama/kaiteki/retrofit/retry/RetryCallAdapterFactory.kt: (17, 103): Unchecked cast: CallAdapter<*, *>! to CallAdapter<Any, Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/retrofit/Utils.kt: (57, 20): Type mismatch: inferred type is ResponseBody? but ResponseBody was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCall.kt: (116, 56): Type mismatch: inferred type is Nothing? but Array<Annotation!> was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCall.kt: (119, 25): Unchecked cast: Converter<*, RequestBody!> to Converter<T, RequestBody>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCall.kt: (133, 32): Unchecked cast: Converter<ResponseBody!, *> to Converter<ResponseBody, T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/retrofit/cache/CacheCallAdapterFactory.kt: (21, 103): Unchecked cast: CallAdapter<*, *>! to CallAdapter<Any, Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/retrofit/retry/RetryCallAdapterFactory.kt: (17, 103): Unchecked cast: CallAdapter<*, *>! to CallAdapter<Any, Any>
 
 > Task :library:generateReleaseSources
 > Task :library:javaPreCompileRelease
@@ -152,18 +149,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/
 > Task :library:bundleLibCompileRelease
 
 > Task :example:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/example/src/main/java/com/kroegerama/kaiteki/retrofit/app/AcMain.kt: (56, 46): Unchecked cast: Call<String> to Call<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/example/src/main/java/com/kroegerama/kaiteki/retrofit/app/AcMain.kt: (58, 54): Unchecked cast: Call<Post> to Call<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/example/src/main/java/com/kroegerama/kaiteki/retrofit/app/AcMain.kt: (56, 46): Unchecked cast: Call<String> to Call<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/example/src/main/java/com/kroegerama/kaiteki/retrofit/app/AcMain.kt: (58, 54): Unchecked cast: Call<Post> to Call<Any>
 
 > Task :example:generateReleaseSources
 > Task :example:javaPreCompileRelease
 > Task :example:compileReleaseJavaWithJavac
 > Task :example:compileReleaseSources
 > Task :library:prepareLintJarForPublish
-
 > Task :example:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8431378665e78b45e4ed5e8236a0496a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:bundleLibResRelease
 > Task :library:bundleLibRuntimeRelease
@@ -171,7 +165,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :example:checkReleaseDuplicateClasses
 > Task :example:mergeExtDexRelease
 > Task :example:transformClassesWithDexBuilderForRelease
-> Task :example:mergeDexRelease
 > Task :example:mergeReleaseShaders
 > Task :example:compileReleaseShaders
 > Task :example:generateReleaseAssets
@@ -190,6 +183,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :example:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :example:processReleaseJavaRes NO-SOURCE
 > Task :example:transformResourcesWithMergeJavaResForRelease
+> Task :example:mergeDexRelease
 > Task :example:packageRelease
 > Task :example:assembleRelease
 > Task :example:assemble
@@ -199,7 +193,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 45s
+BUILD SUCCESSFUL in 1m 56s
 95 actionable tasks: 95 executed
 
-2019-07-20 12:03:48,982 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563598786927-0/src/example/build/outputs/apk/release/example-release-unsigned.apk
+2019-07-26 13:18:51,164 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564121782407-0/src/retrofit-kaiteki-master/example/build/outputs/apk/release/example-release-unsigned.apk
