@@ -1,47 +1,38 @@
-2019-05-19 17:28:51,919 INFO  DownloadService - Downloading "https://github.com/deva666/Peko/archive/master.zip", attempt 3
-2019-05-19 17:28:52,437 INFO  DownloadService - Downloaded https://github.com/deva666/Peko/archive/master.zip, attempt 3
-2019-05-19 17:28:52,437 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/master.zip": 153 KB
-2019-05-19 17:28:52,437 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-19 17:28:52,443 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/master.zip: true
-2019-05-19 17:28:52,443 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src'.
-2019-05-19 17:28:52,467 INFO  FullProcessService - Size of directory with sources: 189 KB
-2019-05-19 17:28:52,467 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src]
-2019-05-19 17:28:52,485 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/.git/
+2019-09-01 21:28:56,966 INFO  DownloadService - Downloading "https://github.com/deva666/Peko/archive/master.zip", attempt 3
+2019-09-01 21:28:58,945 INFO  DownloadService - Downloaded https://github.com/deva666/Peko/archive/master.zip, attempt 3
+2019-09-01 21:28:58,945 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/master.zip": 157 KB
+2019-09-01 21:28:58,945 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-01 21:28:58,951 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/master.zip: true
+2019-09-01 21:28:58,951 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src'.
+2019-09-01 21:28:58,971 INFO  FullProcessService - Size of directory with sources: 200 KB
+2019-09-01 21:28:58,972 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src]
+2019-09-01 21:28:58,994 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/.git/
 
-2019-05-19 17:28:52,488 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/gradlew
-2019-05-19 17:28:52,492 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/peko/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/build.gradle
-2019-05-19 17:28:52,495 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/peko/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/peko/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/settings.gradle
-2019-05-19 17:28:52,498 INFO  ProjectBuildService - Remote scripts: none
-2019-05-19 17:28:52,498 INFO  ProjectFixService - Fixing project...
-2019-05-19 17:28:52,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/examples/local.properties
-2019-05-19 17:28:52,508 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/examples/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-19 17:28:52,509 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/peko/local.properties
-2019-05-19 17:28:52,509 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/peko/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-19 17:28:52,510 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/local.properties
-2019-05-19 17:28:52,510 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-19 17:28:52,510 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-19 17:28:52,512 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-19 17:28:52,512 INFO  ProjectFixService - Project was maybe fixed
-2019-05-19 17:28:52,512 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 17:28:52,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 17:29:01,440 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-19 17:29:01,441 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-19 17:29:01,441 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-19 17:29:56,954 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :peko
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
+2019-09-01 21:28:58,997 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/gradlew
+2019-09-01 21:28:59,000 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/peko/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/build.gradle
+2019-09-01 21:28:59,002 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/peko/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/peko/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/settings.gradle
+2019-09-01 21:28:59,002 INFO  ProjectBuildService - Remote scripts: none
+2019-09-01 21:28:59,002 INFO  ProjectFixService - Fixing project...
+2019-09-01 21:28:59,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/examples/local.properties
+2019-09-01 21:28:59,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/examples/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-09-01 21:28:59,010 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/peko/local.properties
+2019-09-01 21:28:59,010 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/peko/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-09-01 21:28:59,010 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/local.properties
+2019-09-01 21:28:59,010 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-01 21:28:59,011 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-01 21:28:59,012 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-09-01 21:28:59,012 INFO  ProjectFixService - Project was maybe fixed
+2019-09-01 21:28:59,012 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-01 21:28:59,012 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-01 21:29:05,222 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-01 21:29:05,223 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-01 21:29:05,223 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-01 21:30:06,077 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :examples:preBuild UP-TO-DATE
+> Task :examples:preDebugBuild UP-TO-DATE
 > Task :peko:preBuild UP-TO-DATE
 > Task :peko:preDebugBuild UP-TO-DATE
-> Task :peko:checkDebugManifest
-> Task :peko:processDebugManifest
 > Task :peko:compileDebugAidl NO-SOURCE
-> Task :examples:preDebugBuild
 > Task :examples:compileDebugAidl NO-SOURCE
 > Task :peko:packageDebugRenderscript NO-SOURCE
 > Task :examples:checkDebugManifest
@@ -50,20 +41,17 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :examples:mainApkListPersistenceDebug
 > Task :examples:generateDebugResValues
 > Task :examples:generateDebugResources
-> Task :peko:compileDebugRenderscript NO-SOURCE
 > Task :peko:generateDebugResValues
+> Task :peko:compileDebugRenderscript NO-SOURCE
 > Task :peko:generateDebugResources
-> Task :examples:createDebugCompatibleScreenManifests
-> Task :examples:processDebugManifest
 > Task :peko:packageDebugResources
+> Task :examples:createDebugCompatibleScreenManifests
+> Task :peko:checkDebugManifest
 > Task :examples:mergeDebugResources
-> Task :peko:generateDebugRFile
-> Task :examples:processDebugResources
+> Task :peko:processDebugManifest
+> Task :examples:processDebugManifest
+> Task :peko:parseDebugLibraryResources
 > Task :peko:generateDebugBuildConfig
-> Task :peko:prepareLintJar
-> Task :peko:generateDebugSources
-> Task :examples:prepareLintJar
-> Task :examples:generateDebugSources
 > Task :examples:mergeDebugShaders
 > Task :examples:compileDebugShaders
 > Task :examples:generateDebugAssets
@@ -72,39 +60,40 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :peko:generateDebugAssets
 > Task :peko:packageDebugAssets
 > Task :examples:mergeDebugAssets
+> Task :examples:processDebugJavaRes NO-SOURCE
+> Task :peko:processDebugJavaRes NO-SOURCE
+> Task :peko:generateDebugRFile
+> Task :examples:processDebugResources
 > Task :peko:kaptGenerateStubsDebugKotlin
+
 > Task :peko:kaptDebugKotlin
+w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.lifecycle.LifecycleProcessor (NON_INCREMENTAL).
+
 > Task :peko:compileDebugKotlin
 > Task :peko:javaPreCompileDebug
 > Task :peko:compileDebugJavaWithJavac
+> Task :peko:bundleLibResDebug
 > Task :peko:bundleLibCompileDebug
 > Task :examples:compileDebugKotlin
 > Task :examples:javaPreCompileDebug
 > Task :examples:compileDebugJavaWithJavac
 > Task :examples:compileDebugSources
+> Task :examples:mergeDebugJavaResource
 > Task :examples:checkDebugDuplicateClasses
-> Task :peko:processDebugJavaRes NO-SOURCE
-> Task :peko:bundleLibResDebug
 > Task :peko:bundleLibRuntimeDebug
 > Task :peko:createFullJarDebug
-> Task :examples:mergeLibDexDebug
 > Task :examples:transformClassesWithDexBuilderForDebug
-> Task :examples:mergeProjectDexDebug
+> Task :examples:mergeLibDexDebug
 > Task :examples:validateSigningDebug
 > Task :examples:signingConfigWriterDebug
 > Task :examples:mergeDebugJniLibFolders
 > Task :peko:mergeDebugJniLibFolders
-> Task :peko:transformNativeLibsWithMergeJniLibsForDebug
-> Task :peko:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :peko:mergeDebugNativeLibs
+> Task :peko:stripDebugDebugSymbols
 > Task :peko:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :examples:transformNativeLibsWithMergeJniLibsForDebug
-> Task :examples:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :examples:processDebugJavaRes NO-SOURCE
-> Task :examples:transformResourcesWithMergeJavaResForDebug
+> Task :examples:mergeProjectDexDebug
+> Task :examples:preReleaseBuild UP-TO-DATE
 > Task :peko:preReleaseBuild UP-TO-DATE
-> Task :peko:checkReleaseManifest
-> Task :peko:processReleaseManifest
-> Task :examples:preReleaseBuild
 > Task :peko:compileReleaseAidl NO-SOURCE
 > Task :examples:compileReleaseAidl NO-SOURCE
 > Task :peko:packageReleaseRenderscript NO-SOURCE
@@ -118,37 +107,44 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :peko:generateReleaseResValues
 > Task :peko:generateReleaseResources
 > Task :peko:packageReleaseResources
-> Task :examples:mergeReleaseResources
+> Task :examples:mergeDebugNativeLibs
+> Task :examples:stripDebugDebugSymbols
 > Task :examples:createReleaseCompatibleScreenManifests
+> Task :peko:checkReleaseManifest
+> Task :peko:processReleaseManifest
 > Task :examples:processReleaseManifest
+> Task :peko:generateReleaseBuildConfig
+> Task :peko:parseReleaseLibraryResources
+> Task :examples:mergeReleaseResources
 > Task :peko:generateReleaseRFile
 > Task :examples:processReleaseResources
-> Task :peko:generateReleaseBuildConfig
 > Task :peko:kaptGenerateStubsReleaseKotlin
-> Task :examples:mergeExtDexDebug
-> Task :examples:packageDebug
-> Task :examples:assembleDebug
+
 > Task :peko:kaptReleaseKotlin
+w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.lifecycle.LifecycleProcessor (NON_INCREMENTAL).
+
 > Task :peko:compileReleaseKotlin
-> Task :peko:generateReleaseSources
 > Task :peko:javaPreCompileRelease
 > Task :peko:compileReleaseJavaWithJavac
+> Task :examples:prepareLintJar
+> Task :peko:processReleaseJavaRes NO-SOURCE
+> Task :examples:checkReleaseDuplicateClasses
+> Task :peko:bundleLibResRelease
 > Task :peko:bundleLibCompileRelease
+> Task :peko:prepareLintJarForPublish
 > Task :examples:compileReleaseKotlin
-> Task :examples:generateReleaseSources
+> Task :peko:bundleLibRuntimeRelease
+> Task :peko:createFullJarRelease
 > Task :examples:javaPreCompileRelease
 > Task :examples:compileReleaseJavaWithJavac
 > Task :examples:compileReleaseSources
-> Task :peko:prepareLintJarForPublish
 
 > Task :examples:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7805acf6796d4aa2536714d89d5f5a15/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/3e4ddd6cd040ade89456a4e8b2ace522/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :peko:processReleaseJavaRes NO-SOURCE
-> Task :peko:bundleLibResRelease
-> Task :peko:bundleLibRuntimeRelease
-> Task :peko:createFullJarRelease
-> Task :examples:checkReleaseDuplicateClasses
+> Task :examples:mergeExtDexDebug
+> Task :examples:packageDebug
+> Task :examples:assembleDebug
 > Task :examples:transformClassesWithDexBuilderForRelease
 > Task :examples:mergeReleaseShaders
 > Task :examples:compileReleaseShaders
@@ -158,16 +154,16 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :peko:generateReleaseAssets
 > Task :peko:packageReleaseAssets
 > Task :examples:mergeReleaseAssets
+> Task :examples:processReleaseJavaRes NO-SOURCE
 > Task :examples:signingConfigWriterRelease
 > Task :examples:mergeReleaseJniLibFolders
 > Task :peko:mergeReleaseJniLibFolders
-> Task :peko:transformNativeLibsWithMergeJniLibsForRelease
-> Task :peko:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :peko:mergeReleaseNativeLibs
+> Task :peko:stripReleaseDebugSymbols
 > Task :peko:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :examples:transformNativeLibsWithMergeJniLibsForRelease
-> Task :examples:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :examples:processReleaseJavaRes NO-SOURCE
-> Task :examples:transformResourcesWithMergeJavaResForRelease
+> Task :examples:mergeReleaseNativeLibs
+> Task :examples:stripReleaseDebugSymbols
+> Task :examples:mergeReleaseJavaResource
 > Task :examples:mergeExtDexRelease
 > Task :examples:mergeDexRelease
 > Task :examples:packageRelease
@@ -177,9 +173,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 54s
-100 actionable tasks: 100 executed
+BUILD SUCCESSFUL in 1m 0s
+99 actionable tasks: 99 executed
 
-2019-05-19 17:29:57,063 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261731915-0/src/Peko-master/examples/build/outputs/apk/release/examples-release-unsigned.apk
+2019-09-01 21:30:06,157 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348136958-0/src/Peko-master/examples/build/outputs/apk/release/examples-release-unsigned.apk

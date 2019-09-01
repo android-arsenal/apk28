@@ -1,33 +1,33 @@
-2019-08-11 19:17:09,704 INFO  DownloadService - Downloading "https://github.com/pwittchen/ReactiveBus/archive/master.zip", attempt 3
-2019-08-11 19:17:11,780 INFO  DownloadService - Downloaded https://github.com/pwittchen/ReactiveBus/archive/master.zip, attempt 3
-2019-08-11 19:17:11,780 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/master.zip": 72 KB
-2019-08-11 19:17:11,780 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-11 19:17:11,785 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/master.zip: true
-2019-08-11 19:17:11,785 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src'.
-2019-08-11 19:17:11,794 INFO  FullProcessService - Size of directory with sources: 102 KB
-2019-08-11 19:17:11,795 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src]
-2019-08-11 19:17:11,820 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/.git/
+2019-09-01 21:31:10,454 INFO  DownloadService - Downloading "https://github.com/pwittchen/ReactiveBus/archive/master.zip", attempt 3
+2019-09-01 21:31:10,945 INFO  DownloadService - Downloaded https://github.com/pwittchen/ReactiveBus/archive/master.zip, attempt 3
+2019-09-01 21:31:10,946 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/master.zip": 72 KB
+2019-09-01 21:31:10,946 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-01 21:31:10,946 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/master.zip: true
+2019-09-01 21:31:10,946 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src'.
+2019-09-01 21:31:10,954 INFO  FullProcessService - Size of directory with sources: 102 KB
+2019-09-01 21:31:10,954 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src]
+2019-09-01 21:31:10,972 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/.git/
 
-2019-08-11 19:17:11,822 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/gradlew
-2019-08-11 19:17:11,825 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/library/build.gradle
-2019-08-11 19:17:11,827 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/library/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/settings.gradle
-2019-08-11 19:17:11,828 INFO  ProjectBuildService - Remote scripts: none
-2019-08-11 19:17:11,828 INFO  ProjectFixService - Fixing project...
-2019-08-11 19:17:11,835 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/local.properties
-2019-08-11 19:17:11,836 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-11 19:17:11,836 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-11 19:17:11,838 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-11 19:17:11,838 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-11 19:17:11,839 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/library/local.properties
-2019-08-11 19:17:11,841 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-11 19:17:11,842 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-11 19:17:11,842 INFO  ProjectFixService - Project was maybe fixed
-2019-08-11 19:17:11,842 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-11 19:17:11,843 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-11 19:17:18,077 INFO  ProjectTaskService - Detected possible tasks: 51
-2019-08-11 19:17:18,077 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-08-11 19:17:18,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-08-11 19:17:29,588 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-01 21:31:10,974 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/gradlew
+2019-09-01 21:31:10,976 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/library/build.gradle
+2019-09-01 21:31:10,977 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/library/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/settings.gradle
+2019-09-01 21:31:10,977 INFO  ProjectBuildService - Remote scripts: none
+2019-09-01 21:31:10,977 INFO  ProjectFixService - Fixing project...
+2019-09-01 21:31:10,982 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/local.properties
+2019-09-01 21:31:10,983 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-09-01 21:31:10,983 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-09-01 21:31:10,984 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-01 21:31:10,985 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-01 21:31:10,986 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/library/local.properties
+2019-09-01 21:31:10,987 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-01 21:31:10,987 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-01 21:31:10,988 INFO  ProjectFixService - Project was maybe fixed
+2019-09-01 21:31:10,988 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-01 21:31:10,988 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-01 21:31:15,090 INFO  ProjectTaskService - Detected possible tasks: 51
+2019-09-01 21:31:15,090 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-09-01 21:31:15,091 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-09-01 21:31:22,387 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :library:compileJava
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
@@ -46,15 +46,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 7s
 4 actionable tasks: 4 executed
 
-2019-08-11 19:17:29,594 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-11 19:17:29,594 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-11 19:17:34,964 INFO  ProjectTaskService - Detected possible tasks: 55
-2019-08-11 19:17:34,964 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-08-11 19:17:34,965 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525829701-0/src/ReactiveBus-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-08-11 19:17:39,238 ERROR SysUtils - Could not process external command
+2019-09-01 21:31:22,391 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-01 21:31:22,391 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-01 21:31:25,979 INFO  ProjectTaskService - Detected possible tasks: 55
+2019-09-01 21:31:25,979 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-09-01 21:31:25,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348270452-0/src/ReactiveBus-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-09-01 21:31:29,565 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -75,14 +75,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-11 19:17:39,239 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-01 21:31:29,565 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :compileJava FAILED
 
 FAILURE: Build failed with an exception.
@@ -90,7 +90,7 @@ FAILURE: Build failed with an exception.
 * What went wrong:
 Execution failed for task ':compileJava'.
 > Could not resolve all files for configuration ':compileClasspath'.
-   > Cannot resolve external dependency io.reactivex.rxjava2:rxjava:2.2.11 because no repositories are defined.
+   > Cannot resolve external dependency io.reactivex.rxjava2:rxjava:2.2.12 because no repositories are defined.
      Required by:
          project :
 
@@ -155,7 +155,7 @@ Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfigurat
 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:55)
 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
 	... 22 more
-Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Cannot resolve external dependency io.reactivex.rxjava2:rxjava:2.2.11 because no repositories are defined.
+Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Cannot resolve external dependency io.reactivex.rxjava2:rxjava:2.2.12 because no repositories are defined.
 Required by:
     project :
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.NoRepositoriesResolver.resolve(NoRepositoriesResolver.java:70)
@@ -199,8 +199,8 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 4s
+BUILD FAILED in 3s
 1 actionable task: 1 executed
 
-2019-08-11 19:17:39,242 ERROR FullProcessService - Project build has not produced APK file
-2019-08-11 19:17:39,245 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-01 21:31:29,568 ERROR FullProcessService - Project build has not produced APK file
+2019-09-01 21:31:29,571 ERROR FullProcessService - Could not find generated or existed APK file
