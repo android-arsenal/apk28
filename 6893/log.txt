@@ -1,37 +1,40 @@
-2019-03-04 19:38:14,963 INFO  DownloadService - Downloading "https://github.com/prabhat1707/Firebase-Push-Notification-Api-/archive/master.zip", attempt 3
-2019-03-04 19:38:15,476 INFO  DownloadService - Downloaded https://github.com/prabhat1707/Firebase-Push-Notification-Api-/archive/master.zip, attempt 3
-2019-03-04 19:38:15,477 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/master.zip": 161 KB
-2019-03-04 19:38:15,477 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-04 19:38:15,478 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/master.zip: true
-2019-03-04 19:38:15,478 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src'.
-2019-03-04 19:38:15,501 INFO  FullProcessService - Size of directory with sources: 182 KB
-2019-03-04 19:38:15,501 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src]
-2019-03-04 19:38:15,518 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/.git/
+2019-09-03 12:41:39,090 INFO  DownloadService - Downloading "https://github.com/prabhat1707/Firebase-Push-Notification-Api-/archive/master.zip", attempt 3
+2019-09-03 12:42:39,925 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-09-03 12:42:41,139 INFO  GithubDownloadService - Default branch of this repository: master
+2019-09-03 12:42:41,140 INFO  DownloadService - Downloading "https://github.com/prabhat1707/Firebase-Push-Notification-Api-/archive/master.zip", attempt 3
+2019-09-03 12:43:42,798 DEBUG FullProcessService - Repository https://github.com/prabhat1707/Firebase-Push-Notification-Api- available: true
+2019-09-03 12:43:42,798 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-09-03 12:43:42,799 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/prabhat1707/Firebase-Push-Notification-Api-, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src]
+2019-09-03 12:43:44,801 INFO  SysUtils - 
+2019-09-03 12:43:44,832 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/.git": true
+2019-09-03 12:43:44,835 INFO  FullProcessService - Size of directory with sources: 180 KB
+2019-09-03 12:43:44,835 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src]
+2019-09-03 12:43:44,851 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/.git/
 
-2019-03-04 19:38:15,522 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/gradlew
-2019-03-04 19:38:15,526 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/firebasenotificationhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/build.gradle
-2019-03-04 19:38:15,529 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/firebasenotificationhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/settings.gradle
-2019-03-04 19:38:15,530 INFO  ProjectBuildService - Remote scripts: none
-2019-03-04 19:38:15,530 INFO  ProjectFixService - Fixing project...
-2019-03-04 19:38:15,539 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/app/local.properties
-2019-03-04 19:38:15,540 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-03-04 19:38:15,540 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-03-04 19:38:15,541 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/firebasenotificationhelper/local.properties
-2019-03-04 19:38:15,542 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/firebasenotificationhelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-03-04 19:38:15,542 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/firebasenotificationhelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-03-04 19:38:15,543 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/local.properties
-2019-03-04 19:38:15,543 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-03-04 19:38:15,544 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-03-04 19:38:15,545 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-03-04 19:38:15,545 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-03-04 19:38:15,545 INFO  ProjectFixService - Project was maybe fixed
-2019-03-04 19:38:15,545 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-04 19:38:15,545 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-04 19:38:24,018 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-04 19:38:24,018 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-04 19:38:24,018 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-04 19:38:24,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-04 19:38:30,952 ERROR SysUtils - Could not process external command
+2019-09-03 12:43:44,853 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/gradlew
+2019-09-03 12:43:44,856 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/firebasenotificationhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/build.gradle
+2019-09-03 12:43:44,859 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/firebasenotificationhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/settings.gradle
+2019-09-03 12:43:44,860 INFO  ProjectBuildService - Remote scripts: none
+2019-09-03 12:43:44,861 INFO  ProjectFixService - Fixing project...
+2019-09-03 12:43:44,868 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/app/local.properties
+2019-09-03 12:43:44,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 12:43:44,869 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 12:43:44,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/firebasenotificationhelper/local.properties
+2019-09-03 12:43:44,871 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/firebasenotificationhelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-09-03 12:43:44,871 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/firebasenotificationhelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-09-03 12:43:44,872 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/local.properties
+2019-09-03 12:43:44,872 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-09-03 12:43:44,873 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-09-03 12:43:44,874 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-09-03 12:43:44,874 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-09-03 12:43:44,875 INFO  ProjectFixService - Project was maybe fixed
+2019-09-03 12:43:44,875 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 12:43:44,875 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 12:43:53,147 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-03 12:43:53,148 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 12:43:53,148 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 12:43:53,148 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 12:43:59,319 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-04 19:38:30,952 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 12:43:59,319 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -196,15 +199,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-03-04 19:38:30,958 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-04 19:38:30,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/firebasenotificationhelper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-04 19:38:37,151 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-04 19:38:37,151 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-04 19:38:37,151 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-04 19:38:37,151 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/firebasenotificationhelper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-04 19:38:42,870 ERROR SysUtils - Could not process external command
+2019-09-03 12:43:59,323 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 12:43:59,323 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/firebasenotificationhelper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 12:44:04,810 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-03 12:44:04,810 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 12:44:04,810 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 12:44:04,810 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/firebasenotificationhelper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 12:44:11,029 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -232,7 +235,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-04 19:38:42,870 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 12:44:11,030 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -361,7 +364,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
@@ -370,13 +373,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-03-04 19:38:42,876 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-04 19:38:42,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-04 19:38:48,854 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-04 19:38:48,854 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-04 19:38:48,854 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-04 19:38:48,855 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551703094959-0/src/Firebase-Push-Notification-Api--master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-04 19:38:55,146 ERROR SysUtils - Could not process external command
+2019-09-03 12:44:11,034 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 12:44:11,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 12:44:19,007 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-03 12:44:19,008 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 12:44:19,008 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 12:44:19,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489299087-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 12:44:25,704 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -404,7 +407,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-04 19:38:55,146 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 12:44:25,705 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -534,7 +537,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
@@ -543,5 +546,5 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 6s
 
-2019-03-04 19:38:55,151 ERROR FullProcessService - Project build has not produced APK file
-2019-03-04 19:38:55,156 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-03 12:44:25,708 ERROR FullProcessService - Project build has not produced APK file
+2019-09-03 12:44:25,712 ERROR FullProcessService - Could not find generated or existed APK file
