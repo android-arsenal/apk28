@@ -1,38 +1,41 @@
-2019-05-29 11:53:00,066 INFO  DownloadService - Downloading "https://github.com/akshay2211/PixImagePicker/archive/master.zip", attempt 3
-2019-05-29 11:53:03,365 INFO  DownloadService - Downloaded https://github.com/akshay2211/PixImagePicker/archive/master.zip, attempt 3
-2019-05-29 11:53:03,366 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/master.zip": 4 MB
-2019-05-29 11:53:03,366 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-29 11:53:03,367 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/master.zip: true
-2019-05-29 11:53:03,368 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src'.
-2019-05-29 11:53:03,414 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-05-29 11:53:03,414 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src]
-2019-05-29 11:53:03,431 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/.git/
+2019-09-08 21:09:32,234 INFO  DownloadService - Downloading "https://github.com/akshay2211/PixImagePicker/archive/master.zip", attempt 3
+2019-09-08 21:10:32,742 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-09-08 21:10:33,741 INFO  GithubDownloadService - Default branch of this repository: master
+2019-09-08 21:10:33,741 INFO  DownloadService - Downloading "https://github.com/akshay2211/PixImagePicker/archive/master.zip", attempt 3
+2019-09-08 21:11:35,304 DEBUG FullProcessService - Repository https://github.com/akshay2211/PixImagePicker available: true
+2019-09-08 21:11:35,304 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-09-08 21:11:35,304 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/akshay2211/PixImagePicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src]
+2019-09-08 21:11:40,550 INFO  SysUtils - 
+2019-09-08 21:11:40,559 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/.git": true
+2019-09-08 21:11:40,562 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-09-08 21:11:40,562 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src]
+2019-09-08 21:11:40,579 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/.git/
 
-2019-05-29 11:53:03,434 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/gradlew
-2019-05-29 11:53:03,437 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/pix/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/build.gradle
-2019-05-29 11:53:03,440 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/pix/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/settings.gradle
-2019-05-29 11:53:03,441 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2019-05-29 11:53:03,682 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2019-05-29 11:53:03,683 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2019-05-29 11:53:03,683 INFO  ProjectFixService - Fixing project...
-2019-05-29 11:53:03,693 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/app/local.properties
-2019-05-29 11:53:03,694 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-29 11:53:03,694 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-29 11:53:03,696 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/pix/local.properties
-2019-05-29 11:53:03,699 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/pix/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-29 11:53:03,699 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/pix/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-29 11:53:03,700 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/local.properties
-2019-05-29 11:53:03,701 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-29 11:53:03,701 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-29 11:53:03,702 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-29 11:53:03,702 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-29 11:53:03,703 INFO  ProjectFixService - Project was maybe fixed
-2019-05-29 11:53:03,703 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-29 11:53:03,703 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-29 11:53:09,855 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-05-29 11:53:09,855 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-29 11:53:09,856 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-29 11:53:15,596 ERROR SysUtils - Could not process external command
+2019-09-08 21:11:40,583 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/gradlew
+2019-09-08 21:11:40,586 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/pix/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/build.gradle
+2019-09-08 21:11:40,590 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/pix/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/settings.gradle
+2019-09-08 21:11:40,591 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-09-08 21:11:41,546 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-09-08 21:11:41,546 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-09-08 21:11:41,546 INFO  ProjectFixService - Fixing project...
+2019-09-08 21:11:41,555 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/app/local.properties
+2019-09-08 21:11:41,556 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-08 21:11:41,556 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-08 21:11:41,557 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/pix/local.properties
+2019-09-08 21:11:41,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/pix/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-08 21:11:41,557 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/pix/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-08 21:11:41,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/local.properties
+2019-09-08 21:11:41,559 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-09-08 21:11:41,559 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-09-08 21:11:41,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-08 21:11:41,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-08 21:11:41,561 INFO  ProjectFixService - Project was maybe fixed
+2019-09-08 21:11:41,561 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-08 21:11:41,561 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-08 21:11:51,165 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-09-08 21:11:51,165 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-08 21:11:51,165 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-08 21:11:59,329 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,14 +56,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-29 11:53:15,596 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-08 21:11:59,329 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -155,11 +158,11 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 7s
 
-2019-05-29 11:53:15,596 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-05-29 11:53:15,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-29 11:53:59,199 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-08 21:11:59,329 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-09-08 21:11:59,329 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-08 21:13:03,554 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :pix:preBuild UP-TO-DATE
 > Task :pix:preDebugBuild UP-TO-DATE
@@ -174,8 +177,25 @@ BUILD FAILED in 5s
 > Task :pix:compileDebugShaders
 > Task :pix:generateDebugAssets
 > Task :pix:packageDebugAssets
-> Task :pix:compileDebugAidl NO-SOURCE
+> Task :pix:processDebugJavaRes NO-SOURCE
+> Task :pix:mergeDebugJniLibFolders
+> Task :pix:transformNativeLibsWithMergeJniLibsForDebug
+> Task :pix:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :pix:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :pix:preReleaseBuild UP-TO-DATE
+> Task :pix:checkReleaseManifest
+> Task :pix:processReleaseManifest
+> Task :pix:packageReleaseRenderscript NO-SOURCE
+> Task :pix:generateReleaseResValues
+> Task :pix:generateReleaseBuildConfig
+> Task :pix:prepareLintJarForPublish
+> Task :pix:mergeReleaseShaders
+> Task :pix:compileReleaseShaders
+> Task :pix:generateReleaseAssets
+> Task :pix:packageReleaseAssets
+> Task :pix:compileDebugRenderscript NO-SOURCE
 > Task :app:preDebugBuild
+> Task :pix:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
@@ -183,7 +203,6 @@ BUILD FAILED in 5s
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :pix:compileDebugRenderscript NO-SOURCE
 > Task :pix:generateDebugResources
 > Task :pix:packageDebugResources
 > Task :app:mergeDebugResources
@@ -196,7 +215,7 @@ BUILD FAILED in 5s
 > Task :pix:javaPreCompileDebug
 
 > Task :pix:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/pix/src/main/java/com/fxn/utility/Utility.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/pix/src/main/java/com/fxn/utility/Utility.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :pix:bundleLibCompileDebug
@@ -211,31 +230,22 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mergeDebugAssets
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-> Task :pix:bundleLibRuntimeDebug
 > Task :app:checkDebugDuplicateClasses
+> Task :pix:bundleLibRuntimeDebug
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :pix:processDebugJavaRes NO-SOURCE
 > Task :pix:bundleLibResDebug
-> Task :pix:mergeDebugJniLibFolders
-> Task :pix:transformNativeLibsWithMergeJniLibsForDebug
-> Task :pix:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :pix:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :pix:preReleaseBuild UP-TO-DATE
-> Task :pix:checkReleaseManifest
-> Task :pix:processReleaseManifest
 > Task :app:preReleaseBuild
 > Task :pix:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
-> Task :pix:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
@@ -243,7 +253,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :pix:compileReleaseRenderscript NO-SOURCE
-> Task :pix:generateReleaseResValues
 > Task :pix:generateReleaseResources
 > Task :pix:packageReleaseResources
 > Task :app:mergeReleaseResources
@@ -251,13 +260,12 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:processReleaseManifest
 > Task :pix:generateReleaseRFile
 > Task :app:processReleaseResources
-> Task :pix:generateReleaseBuildConfig
 > Task :pix:compileReleaseKotlin
 > Task :pix:generateReleaseSources
 > Task :pix:javaPreCompileRelease
 
 > Task :pix:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/pix/src/main/java/com/fxn/utility/Utility.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/pix/src/main/java/com/fxn/utility/Utility.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :pix:bundleLibCompileRelease
@@ -266,15 +274,10 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :pix:prepareLintJarForPublish
-> Task :app:lintVitalRelease SKIPPED
 > Task :app:mergeReleaseShaders
+> Task :app:lintVitalRelease SKIPPED
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
-> Task :pix:mergeReleaseShaders
-> Task :pix:compileReleaseShaders
-> Task :pix:generateReleaseAssets
-> Task :pix:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
 > Task :app:checkReleaseDuplicateClasses
@@ -298,10 +301,11 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:assemble
 
 > Task :app:lint
-Ran lint on variant release: 31 issues found
-Ran lint on variant debug: 31 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/app/build/reports/lint-results.xml
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/53c3a12fb6e497103c2a512d24ee6cdd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant debug: 34 issues found
+Ran lint on variant release: 34 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/app/build/reports/lint-results.xml
 
 > Task :app:generateDebugUnitTestSources
 > Task :app:preDebugUnitTestBuild UP-TO-DATE
@@ -325,7 +329,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 42s
+BUILD SUCCESSFUL in 1m 3s
 101 actionable tasks: 101 executed
 
-2019-05-29 11:53:59,278 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105580057-0/src/PixImagePicker-master/app/build/outputs/apk/debug/app-debug.apk
+2019-09-08 21:13:03,634 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951772231-0/src/app/build/outputs/apk/debug/app-debug.apk
