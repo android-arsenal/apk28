@@ -1,47 +1,47 @@
-2019-05-26 17:20:45,032 INFO  DownloadService - Downloading "https://github.com/qhutch/ElevationImageView/archive/master.zip", attempt 3
-2019-05-26 17:20:47,084 INFO  DownloadService - Downloaded https://github.com/qhutch/ElevationImageView/archive/master.zip, attempt 3
-2019-05-26 17:20:47,084 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/master.zip": 1 MB
-2019-05-26 17:20:47,084 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 17:20:47,085 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/master.zip: true
-2019-05-26 17:20:47,085 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src'.
-2019-05-26 17:20:47,120 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-05-26 17:20:47,120 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src]
-2019-05-26 17:20:47,140 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/.git/
+2019-09-26 17:46:55,319 INFO  DownloadService - Downloading "https://github.com/qhutch/ElevationImageView/archive/master.zip", attempt 3
+2019-09-26 17:46:58,796 INFO  DownloadService - Downloaded https://github.com/qhutch/ElevationImageView/archive/master.zip, attempt 3
+2019-09-26 17:46:58,796 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/master.zip": 1 MB
+2019-09-26 17:46:58,797 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 17:46:58,802 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/master.zip: true
+2019-09-26 17:46:58,803 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src'.
+2019-09-26 17:46:58,833 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-09-26 17:46:58,833 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src]
+2019-09-26 17:46:58,855 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/.git/
 
-2019-05-26 17:20:47,145 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/gradlew
-2019-05-26 17:20:47,150 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/elevationimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/build.gradle
-2019-05-26 17:20:47,153 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/elevationimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/settings.gradle
-2019-05-26 17:20:47,157 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 17:20:47,157 INFO  ProjectFixService - Fixing project...
-2019-05-26 17:20:47,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/app/local.properties
-2019-05-26 17:20:47,176 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-26 17:20:47,176 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-26 17:20:47,178 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/elevationimageview/local.properties
-2019-05-26 17:20:47,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/elevationimageview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-26 17:20:47,183 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/elevationimageview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-26 17:20:47,185 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/local.properties
-2019-05-26 17:20:47,188 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-26 17:20:47,189 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-26 17:20:47,191 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-26 17:20:47,192 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-26 17:20:47,193 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 17:20:47,193 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 17:20:47,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 17:20:54,809 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-26 17:20:54,810 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-26 17:20:54,810 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-26 17:21:58,370 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 17:46:58,858 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/gradlew
+2019-09-26 17:46:58,860 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/elevationimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/build.gradle
+2019-09-26 17:46:58,862 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/elevationimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/settings.gradle
+2019-09-26 17:46:58,862 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 17:46:58,862 INFO  ProjectFixService - Fixing project...
+2019-09-26 17:46:58,868 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/app/local.properties
+2019-09-26 17:46:58,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-26 17:46:58,871 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-26 17:46:58,872 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/elevationimageview/local.properties
+2019-09-26 17:46:58,874 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/elevationimageview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-26 17:46:58,874 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/elevationimageview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-26 17:46:58,875 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/local.properties
+2019-09-26 17:46:58,876 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-09-26 17:46:58,876 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-09-26 17:46:58,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-26 17:46:58,878 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-26 17:46:58,878 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 17:46:58,878 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 17:46:58,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 17:47:06,952 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-26 17:47:06,952 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-26 17:47:06,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-26 17:47:50,988 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :elevationimageview:preBuild UP-TO-DATE
 > Task :elevationimageview:preDebugBuild UP-TO-DATE
 > Task :elevationimageview:checkDebugManifest
 > Task :elevationimageview:processDebugManifest
-> Task :app:preDebugBuild
-> Task :elevationimageview:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :elevationimageview:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
+> Task :elevationimageview:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
@@ -49,10 +49,10 @@
 > Task :elevationimageview:compileDebugRenderscript NO-SOURCE
 > Task :elevationimageview:generateDebugResValues
 > Task :elevationimageview:generateDebugResources
-> Task :elevationimageview:packageDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
+> Task :elevationimageview:packageDebugResources
+> Task :app:mergeDebugResources
 > Task :elevationimageview:generateDebugRFile
 > Task :app:processDebugResources
 > Task :elevationimageview:generateDebugBuildConfig
@@ -117,22 +117,25 @@
 > Task :app:processReleaseResources
 > Task :elevationimageview:generateReleaseBuildConfig
 > Task :elevationimageview:compileReleaseKotlin
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :elevationimageview:generateReleaseSources
 > Task :elevationimageview:javaPreCompileRelease
 > Task :elevationimageview:compileReleaseJavaWithJavac
 > Task :elevationimageview:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :elevationimageview:prepareLintJarForPublish
-> Task :app:lintVitalRelease
 > Task :elevationimageview:processReleaseJavaRes NO-SOURCE
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/ced92d29967273c1771a4f1a559e0481/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :elevationimageview:bundleLibResRelease
 > Task :elevationimageview:bundleLibRuntimeRelease
 > Task :elevationimageview:createFullJarRelease
@@ -167,7 +170,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 2s
+BUILD SUCCESSFUL in 43s
 95 actionable tasks: 95 executed
 
-2019-05-26 17:21:58,468 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558866045028-0/src/ElevationImageView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-09-26 17:47:51,060 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569494815311-0/src/ElevationImageView-master/app/build/outputs/apk/debug/app-debug.apk
