@@ -1,37 +1,37 @@
-2019-07-20 12:46:18,960 INFO  DownloadService - Downloading "https://github.com/ivanisidrowu/palumu/archive/master.zip", attempt 3
-2019-07-20 12:46:24,856 INFO  DownloadService - Downloaded https://github.com/ivanisidrowu/palumu/archive/master.zip, attempt 3
-2019-07-20 12:46:24,857 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/master.zip": 6 MB
-2019-07-20 12:46:24,857 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-20 12:46:24,859 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/master.zip: true
-2019-07-20 12:46:24,859 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src'.
-2019-07-20 12:46:24,932 INFO  FullProcessService - Size of directory with sources: 6 MB
-2019-07-20 12:46:24,932 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src]
-2019-07-20 12:46:24,951 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/.git/
+2019-09-26 14:25:59,689 INFO  DownloadService - Downloading "https://github.com/ivanisidrowu/palumu/archive/master.zip", attempt 3
+2019-09-26 14:26:07,708 INFO  DownloadService - Downloaded https://github.com/ivanisidrowu/palumu/archive/master.zip, attempt 3
+2019-09-26 14:26:07,709 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/master.zip": 6 MB
+2019-09-26 14:26:07,709 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 14:26:07,716 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/master.zip: true
+2019-09-26 14:26:07,717 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src'.
+2019-09-26 14:26:07,786 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-09-26 14:26:07,787 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src]
+2019-09-26 14:26:07,820 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/.git/
 
-2019-07-20 12:46:24,954 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/gradlew
-2019-07-20 12:46:24,956 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/palumu-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/build.gradle
-2019-07-20 12:46:24,958 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/palumu-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/settings.gradle
-2019-07-20 12:46:24,958 INFO  ProjectBuildService - Remote scripts: none
-2019-07-20 12:46:24,958 INFO  ProjectFixService - Fixing project...
-2019-07-20 12:46:24,964 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/app/local.properties
-2019-07-20 12:46:24,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-20 12:46:24,965 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-20 12:46:24,966 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/palumu-lib/local.properties
-2019-07-20 12:46:24,966 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/palumu-lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-20 12:46:24,966 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/palumu-lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-20 12:46:24,967 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/local.properties
-2019-07-20 12:46:24,967 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-07-20 12:46:24,968 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-07-20 12:46:24,969 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-20 12:46:24,969 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-20 12:46:24,970 INFO  ProjectFixService - Project was maybe fixed
-2019-07-20 12:46:24,970 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 12:46:24,970 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 12:46:42,421 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-20 12:46:42,421 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-20 12:46:42,421 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-20 12:46:42,421 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-20 12:46:48,248 ERROR SysUtils - Could not process external command
+2019-09-26 14:26:07,823 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/gradlew
+2019-09-26 14:26:07,825 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/palumu-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/build.gradle
+2019-09-26 14:26:07,827 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/palumu-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/settings.gradle
+2019-09-26 14:26:07,827 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 14:26:07,827 INFO  ProjectFixService - Fixing project...
+2019-09-26 14:26:07,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/app/local.properties
+2019-09-26 14:26:07,832 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-26 14:26:07,832 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-26 14:26:07,833 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/palumu-lib/local.properties
+2019-09-26 14:26:07,834 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/palumu-lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-26 14:26:07,834 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/palumu-lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-26 14:26:07,834 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/local.properties
+2019-09-26 14:26:07,835 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-09-26 14:26:07,835 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-09-26 14:26:07,836 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-26 14:26:07,836 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-26 14:26:07,836 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 14:26:07,836 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 14:26:07,836 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 14:26:28,185 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-26 14:26:28,185 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-26 14:26:28,185 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-26 14:26:28,186 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-26 14:26:33,142 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,22 +44,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-20 12:46:48,248 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 14:26:33,142 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 app: 'androidProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.github.bumptech.glide:compiler:4.4.0' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
 
@@ -197,15 +196,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2019-07-20 12:46:48,253 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 12:46:48,253 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/palumu-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 12:46:54,362 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-20 12:46:54,362 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-20 12:46:54,362 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-20 12:46:54,362 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/palumu-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-20 12:47:01,415 ERROR SysUtils - Could not process external command
+2019-09-26 14:26:33,145 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 14:26:33,145 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/palumu-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 14:26:38,235 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-26 14:26:38,235 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-26 14:26:38,235 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-26 14:26:38,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/palumu-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-26 14:26:43,113 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -218,22 +217,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-20 12:47:01,415 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 14:26:43,113 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':palumu-lib' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -363,22 +361,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 4s
 
-2019-07-20 12:47:01,419 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 12:47:01,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 12:47:06,899 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-20 12:47:06,899 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-20 12:47:06,899 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-20 12:47:06,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601578956-0/src/palumu-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-20 12:47:12,932 ERROR SysUtils - Could not process external command
+2019-09-26 14:26:43,116 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 14:26:43,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 14:26:48,117 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-26 14:26:48,117 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-26 14:26:48,117 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-26 14:26:48,117 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569482759687-0/src/palumu-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-26 14:26:53,174 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -391,22 +389,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-20 12:47:12,932 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 14:26:53,174 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 app: 'androidProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.github.bumptech.glide:compiler:4.4.0' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
 
@@ -544,7 +541,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2019-07-20 12:47:12,935 ERROR FullProcessService - Project build has not produced APK file
-2019-07-20 12:47:12,938 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-26 14:26:53,177 ERROR FullProcessService - Project build has not produced APK file
+2019-09-26 14:26:53,180 ERROR FullProcessService - Could not find generated or existed APK file
