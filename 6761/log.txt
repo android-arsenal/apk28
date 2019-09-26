@@ -1,39 +1,36 @@
-2019-09-03 12:47:35,540 INFO  DownloadService - Downloading "https://github.com/TheJuki/KFormMaster/archive/master.zip", attempt 3
-2019-09-03 12:48:36,069 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-09-03 12:48:36,973 INFO  GithubDownloadService - Default branch of this repository: master
-2019-09-03 12:48:36,973 INFO  DownloadService - Downloading "https://github.com/TheJuki/KFormMaster/archive/master.zip", attempt 3
-2019-09-03 12:49:39,030 DEBUG FullProcessService - Repository https://github.com/TheJuki/KFormMaster available: true
-2019-09-03 12:49:39,030 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-09-03 12:49:39,030 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/TheJuki/KFormMaster, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src]
-2019-09-03 12:49:42,894 INFO  SysUtils - 
-2019-09-03 12:49:42,903 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/.git": true
-2019-09-03 12:49:42,910 INFO  FullProcessService - Size of directory with sources: 6 MB
-2019-09-03 12:49:42,910 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src]
-2019-09-03 12:49:42,926 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/.git/
+2019-09-26 15:10:18,832 INFO  DownloadService - Downloading "https://github.com/TheJuki/KFormMaster/archive/master.zip", attempt 3
+2019-09-26 15:10:23,186 INFO  DownloadService - Downloaded https://github.com/TheJuki/KFormMaster/archive/master.zip, attempt 3
+2019-09-26 15:10:23,187 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/master.zip": 5 MB
+2019-09-26 15:10:23,187 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 15:10:23,189 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/master.zip: true
+2019-09-26 15:10:23,189 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src'.
+2019-09-26 15:10:23,293 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-09-26 15:10:23,293 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src]
+2019-09-26 15:10:23,311 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/.git/
 
-2019-09-03 12:49:42,931 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/gradlew
-2019-09-03 12:49:42,937 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/build.gradle
-2019-09-03 12:49:42,942 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/settings.gradle
-2019-09-03 12:49:42,943 INFO  ProjectBuildService - Remote scripts: none
-2019-09-03 12:49:42,943 INFO  ProjectFixService - Fixing project...
-2019-09-03 12:49:42,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/local.properties
-2019-09-03 12:49:42,956 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-03 12:49:42,956 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-03 12:49:42,957 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/form/local.properties
-2019-09-03 12:49:42,958 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/form/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-03 12:49:42,958 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/form/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-03 12:49:42,959 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/local.properties
-2019-09-03 12:49:42,959 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-03 12:49:42,959 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-03 12:49:42,961 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-03 12:49:42,961 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-03 12:49:42,962 INFO  ProjectFixService - Project was maybe fixed
-2019-09-03 12:49:42,962 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-03 12:49:42,962 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-03 12:49:51,023 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-03 12:49:51,023 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-03 12:49:51,023 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-03 12:52:20,498 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 15:10:23,316 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/gradlew
+2019-09-26 15:10:23,322 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/build.gradle
+2019-09-26 15:10:23,327 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/form/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/settings.gradle
+2019-09-26 15:10:23,327 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 15:10:23,327 INFO  ProjectFixService - Fixing project...
+2019-09-26 15:10:23,339 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/local.properties
+2019-09-26 15:10:23,340 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 15:10:23,340 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 15:10:23,342 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/form/local.properties
+2019-09-26 15:10:23,343 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/form/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 15:10:23,343 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/form/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 15:10:23,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/local.properties
+2019-09-26 15:10:23,344 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-26 15:10:23,345 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-26 15:10:23,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 15:10:23,346 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 15:10:23,346 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 15:10:23,347 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 15:10:23,347 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 15:10:30,587 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-26 15:10:30,587 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-26 15:10:30,587 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-26 15:12:45,942 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :form:preBuild UP-TO-DATE
@@ -70,55 +67,62 @@
 > Task :form:processDebugJavaRes NO-SOURCE
 > Task :form:generateDebugRFile
 > Task :app:processDebugResources
+
 > Task :form:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/form/src/main/java/com/thejuki/kformmaster/model/FormPickerDateElement.kt: (141, 36): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/form/src/main/java/com/thejuki/kformmaster/model/FormPickerDateTimeElement.kt: (162, 36): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/form/src/main/java/com/thejuki/kformmaster/model/FormPickerTimeElement.kt: (129, 36): Type mismatch: inferred type is Date? but Date was expected
+
 > Task :form:javaPreCompileDebug
 > Task :form:compileDebugJavaWithJavac
 > Task :form:bundleLibResDebug
 > Task :form:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (221, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (221, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (273, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (287, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (302, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (317, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (335, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (350, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (369, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (386, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (405, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (432, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (449, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (465, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (481, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (507, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (520, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (532, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (575, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (583, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (583, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (219, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (219, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (120, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (130, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (141, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (152, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (163, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (174, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (187, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (199, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (211, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (225, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (238, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (253, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (268, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (290, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (302, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (313, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (333, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (340, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (340, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (221, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (221, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormTabbedActivity.kt: (76, 88): 'constructor FragmentPagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (271, 84): Type mismatch: inferred type is String? but CharSequence was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (273, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (287, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (302, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (317, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (335, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (350, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (370, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (388, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (408, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (435, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (452, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (468, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (484, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (510, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (523, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (535, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (578, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (586, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (586, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (219, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (219, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (120, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (130, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (141, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (152, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (163, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (174, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (187, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (199, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (211, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (225, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (238, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (253, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (268, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (290, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (302, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (313, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (333, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (340, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (340, 48): Parameter 'element' is never used, could be renamed to _
 
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
@@ -130,6 +134,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :form:mergeDebugJniLibFolders
+> Task :form:mergeDebugNativeLibs
+> Task :form:stripDebugDebugSymbols
+> Task :form:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:extractProguardFiles
 > Task :app:preReleaseBuild
 > Task :form:preReleaseBuild UP-TO-DATE
@@ -148,26 +155,17 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/
 > Task :form:packageReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :form:checkReleaseManifest
-> Task :form:processReleaseManifest
-> Task :app:processReleaseManifest
 > Task :form:jacocoDebug
-> Task :form:mergeDebugNativeLibs
-> Task :form:stripDebugDebugSymbols
-> Task :form:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:mergeReleaseResources
-> Task :form:generateReleaseBuildConfig
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
-> Task :form:parseReleaseLibraryResources
+> Task :form:generateReleaseBuildConfig
+> Task :form:processReleaseManifest
+> Task :app:processReleaseManifest
 > Task :form:bundleLibRuntimeDebug
 > Task :form:createFullJarDebug
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :form:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :form:compileReleaseKotlin
-> Task :app:multiDexListDebug
-> Task :form:javaPreCompileRelease
-> Task :form:compileReleaseJavaWithJavac
+> Task :app:mergeReleaseResources
+> Task :form:parseReleaseLibraryResources
 > Task :app:prepareLintJar
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -181,82 +179,92 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/
 > Task :app:mergeReleaseJniLibFolders
 > Task :form:processReleaseJavaRes NO-SOURCE
 > Task :form:mergeReleaseJniLibFolders
-> Task :form:bundleLibResRelease
-> Task :form:bundleLibCompileRelease
-
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (221, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (221, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (273, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (287, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (302, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (317, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (335, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (350, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (369, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (386, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (405, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (432, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (449, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (465, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (481, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (507, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (520, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (532, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (575, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (583, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (583, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (219, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (219, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (120, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (130, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (141, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (152, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (163, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (174, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (187, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (199, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (211, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (225, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (238, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (253, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (268, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (290, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (302, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (313, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (333, 48): Parameter 'element' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (340, 38): Parameter 'newValue' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (340, 48): Parameter 'element' is never used, could be renamed to _
-
+> Task :form:prepareLintJarForPublish
 > Task :form:mergeReleaseNativeLibs
 > Task :form:stripReleaseDebugSymbols
 > Task :form:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :form:prepareLintJarForPublish
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :form:generateReleaseRFile
+> Task :app:processReleaseResources
+
+> Task :form:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/form/src/main/java/com/thejuki/kformmaster/model/FormPickerDateElement.kt: (141, 36): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/form/src/main/java/com/thejuki/kformmaster/model/FormPickerDateTimeElement.kt: (162, 36): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/form/src/main/java/com/thejuki/kformmaster/model/FormPickerTimeElement.kt: (129, 36): Type mismatch: inferred type is Date? but Date was expected
+
+> Task :app:multiDexListDebug
+> Task :form:javaPreCompileRelease
+> Task :form:compileReleaseJavaWithJavac
+> Task :form:mergeReleaseGeneratedProguardFiles
+> Task :form:mergeReleaseConsumerProguardFiles
+> Task :form:bundleLibResRelease
+> Task :form:bundleLibRuntimeRelease
+> Task :form:bundleLibCompileRelease
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (221, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormListenerActivity.kt: (221, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FormTabbedActivity.kt: (76, 88): 'constructor FragmentPagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (271, 84): Type mismatch: inferred type is String? but CharSequence was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (273, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (287, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (302, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (317, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (335, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (350, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (370, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (388, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (408, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (435, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (452, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (468, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (484, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (510, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (523, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (535, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (578, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (586, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/FullscreenFormActivity.kt: (586, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (219, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/PartialScreenFormActivity.kt: (219, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (120, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (130, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (141, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (152, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (163, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (174, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (187, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (199, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (211, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (225, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (238, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (253, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (268, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (290, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (302, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (313, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (333, 48): Parameter 'element' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (340, 38): Parameter 'newValue' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/src/main/java/com/thejuki/kformmasterexample/fragment/FormFragment.kt: (340, 48): Parameter 'element' is never used, could be renamed to _
+
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9e7da8bc3f6bec98b494c3f03eac358e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/76d23d09259e6c65056b4419b366db32/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseGeneratedProguardFiles
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :form:mergeReleaseGeneratedProguardFiles
-> Task :form:mergeReleaseConsumerProguardFiles
-> Task :form:bundleLibRuntimeRelease
+> Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
-R8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
-  <init>();
-}` uses extends but actually matches implements.
 > Task :app:transformClassesAndResourcesWithR8ForRelease
 
 > Task :app:transformClassesAndDexWithShrinkResForRelease
-Removed unused resources: Binary resource data reduced from 1126KB to 1088KB: Removed 3%
+Removed unused resources: Binary resource data reduced from 1148KB to 1109KB: Removed 3%
 
 > Task :app:packageRelease
 > Task :app:assembleRelease
@@ -267,7 +275,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 2m 28s
+BUILD SUCCESSFUL in 2m 14s
 97 actionable tasks: 97 executed
 
-2019-09-03 12:52:20,634 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567489655531-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-09-26 15:12:46,068 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569485418823-0/src/KFormMaster-master/app/build/outputs/apk/debug/app-debug.apk
