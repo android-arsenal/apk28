@@ -1,36 +1,39 @@
-2019-07-24 12:53:04,003 INFO  DownloadService - Downloading "https://github.com/hedzr/android-file-chooser/archive/master.zip", attempt 3
-2019-07-24 12:53:05,239 INFO  DownloadService - Downloaded https://github.com/hedzr/android-file-chooser/archive/master.zip, attempt 3
-2019-07-24 12:53:05,239 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/master.zip": 426 KB
-2019-07-24 12:53:05,239 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-24 12:53:05,241 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/master.zip: true
-2019-07-24 12:53:05,241 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src'.
-2019-07-24 12:53:05,288 INFO  FullProcessService - Size of directory with sources: 638 KB
-2019-07-24 12:53:05,288 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src]
-2019-07-24 12:53:05,308 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/.git/
+2019-10-01 11:04:49,105 INFO  DownloadService - Downloading "https://github.com/hedzr/android-file-chooser/archive/master.zip", attempt 3
+2019-10-01 11:05:49,832 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-10-01 11:05:50,605 INFO  GithubDownloadService - Default branch of this repository: master
+2019-10-01 11:05:50,605 INFO  DownloadService - Downloading "https://github.com/hedzr/android-file-chooser/archive/master.zip", attempt 3
+2019-10-01 11:06:52,152 DEBUG FullProcessService - Repository https://github.com/hedzr/android-file-chooser available: true
+2019-10-01 11:06:52,152 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-10-01 11:06:52,152 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/hedzr/android-file-chooser, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src]
+2019-10-01 11:06:57,717 INFO  SysUtils - 
+2019-10-01 11:06:57,729 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/.git": true
+2019-10-01 11:06:57,735 INFO  FullProcessService - Size of directory with sources: 638 KB
+2019-10-01 11:06:57,736 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src]
+2019-10-01 11:06:57,759 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/.git/
 
-2019-07-24 12:53:05,313 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/gradlew
-2019-07-24 12:53:05,324 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/build.gradle
-2019-07-24 12:53:05,330 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/library/_mavenlocal.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/library/_bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/library/_sonatype.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/settings.gradle
-2019-07-24 12:53:05,331 INFO  ProjectBuildService - Remote scripts: none
-2019-07-24 12:53:05,331 INFO  ProjectFixService - Fixing project...
-2019-07-24 12:53:05,362 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/app/local.properties
-2019-07-24 12:53:05,370 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-24 12:53:05,371 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-24 12:53:05,372 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/library/local.properties
-2019-07-24 12:53:05,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-24 12:53:05,380 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-24 12:53:05,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/local.properties
-2019-07-24 12:53:05,383 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-24 12:53:05,384 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-24 12:53:05,392 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-24 12:53:05,392 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-24 12:53:05,392 INFO  ProjectFixService - Project was maybe fixed
-2019-07-24 12:53:05,392 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-24 12:53:05,393 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-24 12:53:13,400 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-24 12:53:13,400 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-24 12:53:13,401 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-24 12:54:18,607 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-01 11:06:57,766 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/gradlew
+2019-10-01 11:06:57,779 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/build.gradle
+2019-10-01 11:06:57,786 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/library/_mavenlocal.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/library/_bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/library/_sonatype.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/settings.gradle
+2019-10-01 11:06:57,792 INFO  ProjectBuildService - Remote scripts: none
+2019-10-01 11:06:57,792 INFO  ProjectFixService - Fixing project...
+2019-10-01 11:06:57,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/app/local.properties
+2019-10-01 11:06:57,843 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-01 11:06:57,843 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-01 11:06:57,846 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/library/local.properties
+2019-10-01 11:06:57,858 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-01 11:06:57,858 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-01 11:06:57,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/local.properties
+2019-10-01 11:06:57,861 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-10-01 11:06:57,861 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-10-01 11:06:57,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-01 11:06:57,869 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-01 11:06:57,870 INFO  ProjectFixService - Project was maybe fixed
+2019-10-01 11:06:57,871 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-01 11:06:57,871 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-01 11:07:15,405 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-01 11:07:15,405 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-01 11:07:15,405 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-01 11:08:32,658 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 no valid ksPath, ignore it.
@@ -82,7 +85,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:javaPreCompileDebug
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/app/src/main/java/com/obsez/android/lib/filechooser/demo/ChooseFileActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/app/src/main/java/com/obsez/android/lib/filechooser/demo/ChooseFileActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugSources
@@ -153,7 +156,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:javaPreCompileRelease
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/app/src/main/java/com/obsez/android/lib/filechooser/demo/ChooseFileActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/app/src/main/java/com/obsez/android/lib/filechooser/demo/ChooseFileActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
@@ -191,7 +194,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 4s
+BUILD SUCCESSFUL in 1m 16s
 89 actionable tasks: 89 executed
 
-2019-07-24 12:54:18,749 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947583995-0/src/android-file-chooser-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-01 11:08:32,960 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569902689101-0/src/app/build/outputs/apk/debug/app-debug.apk

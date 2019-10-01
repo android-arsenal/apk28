@@ -1,38 +1,45 @@
-2019-05-16 12:59:13,143 INFO  DownloadService - Downloading "https://github.com/pthomain/SharedPreferenceStore/archive/master.zip", attempt 3
-2019-05-16 12:59:16,208 INFO  DownloadService - Downloaded https://github.com/pthomain/SharedPreferenceStore/archive/master.zip, attempt 3
-2019-05-16 12:59:16,209 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/master.zip": 285 KB
-2019-05-16 12:59:16,209 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-16 12:59:16,210 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/master.zip: true
-2019-05-16 12:59:16,210 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src'.
-2019-05-16 12:59:16,250 INFO  FullProcessService - Size of directory with sources: 399 KB
-2019-05-16 12:59:16,250 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src]
-2019-05-16 12:59:16,273 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/.git/
+2019-10-01 11:16:20,335 INFO  DownloadService - Downloading "https://github.com/pthomain/SharedPreferenceStore/archive/master.zip", attempt 3
+2019-10-01 11:17:21,022 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-10-01 11:17:22,190 INFO  GithubDownloadService - Default branch of this repository: master
+2019-10-01 11:17:22,190 INFO  DownloadService - Downloading "https://github.com/pthomain/SharedPreferenceStore/archive/master.zip", attempt 3
+2019-10-01 11:18:25,101 DEBUG FullProcessService - Repository https://github.com/pthomain/SharedPreferenceStore available: true
+2019-10-01 11:18:25,102 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-10-01 11:18:25,102 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/pthomain/SharedPreferenceStore, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src]
+2019-10-01 11:18:27,540 INFO  SysUtils - 
+2019-10-01 11:18:27,553 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/.git": true
+2019-10-01 11:18:27,560 INFO  FullProcessService - Size of directory with sources: 417 KB
+2019-10-01 11:18:27,560 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src]
+2019-10-01 11:18:27,592 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/.git/
 
-2019-05-16 12:59:16,278 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/mumbo/gradlew
-2019-05-16 12:59:16,284 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/mumbo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/build.gradle
-2019-05-16 12:59:16,289 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/mumbo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/settings.gradle
-2019-05-16 12:59:16,289 INFO  ProjectBuildService - Remote scripts: none
-2019-05-16 12:59:16,289 INFO  ProjectFixService - Fixing project...
-2019-05-16 12:59:16,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/mumbo/local.properties
-2019-05-16 12:59:16,303 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-16 12:59:16,303 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-16 12:59:16,305 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/mumbo/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-16 12:59:16,305 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/app/local.properties
-2019-05-16 12:59:16,307 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-16 12:59:16,307 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/lib/local.properties
-2019-05-16 12:59:16,309 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/lib/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-16 12:59:16,310 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/local.properties
-2019-05-16 12:59:16,310 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4-rc-1-all.zip
-2019-05-16 12:59:16,311 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4-bin.zip)
-2019-05-16 12:59:16,311 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-16 12:59:16,311 INFO  ProjectFixService - Project was maybe fixed
-2019-05-16 12:59:16,311 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-16 12:59:16,311 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/mumbo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/mumbo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-16 12:59:54,664 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-05-16 12:59:54,666 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-05-16 12:59:54,666 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-05-16 12:59:54,666 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/mumbo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/mumbo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-16 12:59:58,143 ERROR SysUtils - Could not process external command
+2019-10-01 11:18:27,597 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/mumbo/gradlew
+2019-10-01 11:18:27,603 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/mumbo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/build.gradle
+2019-10-01 11:18:27,608 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/mumbo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/settings.gradle
+2019-10-01 11:18:27,608 INFO  ProjectBuildService - Remote scripts: none
+2019-10-01 11:18:27,608 INFO  ProjectFixService - Fixing project...
+2019-10-01 11:18:27,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/mumbo/local.properties
+2019-10-01 11:18:27,623 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-10-01 11:18:27,623 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-10-01 11:18:27,625 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/mumbo/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-01 11:18:27,626 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/mumbo/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-01 11:18:27,627 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/app/local.properties
+2019-10-01 11:18:27,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-01 11:18:27,628 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-01 11:18:27,629 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/local.properties
+2019-10-01 11:18:27,632 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-01 11:18:27,633 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-01 11:18:27,634 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/local.properties
+2019-10-01 11:18:27,634 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-01 11:18:27,635 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-01 11:18:27,636 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-01 11:18:27,636 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-01 11:18:27,637 INFO  ProjectFixService - Project was maybe fixed
+2019-10-01 11:18:27,637 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-01 11:18:27,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/mumbo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/mumbo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-01 11:19:04,033 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-01 11:19:04,033 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-01 11:19:04,033 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-01 11:19:04,033 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/mumbo/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/mumbo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-01 11:19:11,027 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,24 +60,24 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-16 12:59:58,143 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-01 11:19:11,027 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/mumbo/build.gradle' line: 22
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/mumbo/build.gradle' line: 22
 
 * What went wrong:
 A problem occurred evaluating project ':mumbo_store'.
 > Failed to apply plugin [id 'com.android.library']
-   > Minimum supported Gradle version is 5.4-rc-1. Current version is 5.1.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-5.4-rc-1-all.zip
+   > Minimum supported Gradle version is 5.4.1. Current version is 5.1.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-5.4.1-all.zip
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -211,11 +218,11 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_8io0vvvddxn5e23msnu1mrtto.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/mumbo/build.gradle:22)
+	at build_692d9p19r5trozakinz4j70vc.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/mumbo/build.gradle:22)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 123 more
-Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 5.4-rc-1. Current version is 5.1.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-5.4-rc-1-all.zip
-	at com.android.build.gradle.BasePlugin.checkGradleVersion(BasePlugin.java:644)
+Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 5.4.1. Current version is 5.1.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-5.4.1-all.zip
+	at com.android.build.gradle.BasePlugin.checkGradleVersion(BasePlugin.java:645)
 	at com.android.build.gradle.BasePlugin.basePluginApply(BasePlugin.java:227)
 	at com.android.build.gradle.BasePlugin.lambda$apply$0(BasePlugin.java:216)
 	at com.android.build.gradle.internal.crash.CrashReporting.runAction(crash_reporting.kt:27)
@@ -240,30 +247,25 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 5.4-r
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 6s
 
-2019-05-16 12:59:58,151 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-16 12:59:58,152 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-16 13:00:31,941 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-16 13:00:31,947 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-16 13:00:31,947 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-16 13:03:36,763 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :mumbo_store
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
+2019-10-01 11:19:11,033 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-01 11:19:11,034 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-01 11:19:21,159 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-01 11:19:21,160 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-01 11:19:21,160 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-01 11:21:52,881 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :lib:preBuild UP-TO-DATE
 > Task :lib:preDebugBuild UP-TO-DATE
 > Task :lib:compileDebugAidl NO-SOURCE
-> Task :lib:compileDebugRenderscript NO-SOURCE
 > Task :lib:checkDebugManifest
+> Task :lib:compileDebugRenderscript NO-SOURCE
 > Task :lib:generateDebugBuildConfig
 > Task :lib:generateDebugResValues
 > Task :lib:generateDebugResources
 > Task :lib:packageDebugResources
+> Task :lib:parseDebugLibraryResources
+> Task :lib:processDebugManifest
 > Task :lib:processDebugJavaRes NO-SOURCE
 > Task :mumbo_store:preBuild UP-TO-DATE
 > Task :mumbo_store:preDebugBuild UP-TO-DATE
@@ -272,9 +274,12 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :mumbo_store:compileDebugRenderscript NO-SOURCE
 > Task :mumbo_store:checkDebugManifest
 > Task :mumbo_store:generateDebugBuildConfig
+> Task :lib:generateDebugRFile
 > Task :mumbo_store:generateDebugResValues
 > Task :mumbo_store:generateDebugResources
 > Task :mumbo_store:packageDebugResources
+> Task :mumbo_store:parseDebugLibraryResources
+> Task :mumbo_store:processDebugManifest
 > Task :mumbo_store:processDebugJavaRes NO-SOURCE
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
@@ -283,15 +288,46 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
+> Task :mumbo_store:generateDebugRFile
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :lib:parseDebugLibraryResources
-> Task :lib:processDebugManifest
-> Task :mumbo_store:parseDebugLibraryResources
-> Task :mumbo_store:processDebugManifest
+> Task :lib:kaptGenerateStubsDebugKotlin
+> Task :lib:kaptDebugKotlin
+
+> Task :lib:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/src/main/java/uk/co/glass_software/android/shared_preferences/persistence/preferences/SharedPreferenceStore.kt: (135, 60): Conditional branch result of type Boolean is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/src/main/java/uk/co/glass_software/android/shared_preferences/persistence/preferences/SharedPreferenceStore.kt: (136, 58): Conditional branch result of type Float is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/src/main/java/uk/co/glass_software/android/shared_preferences/persistence/preferences/SharedPreferenceStore.kt: (137, 57): Conditional branch result of type Long is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/src/main/java/uk/co/glass_software/android/shared_preferences/persistence/preferences/SharedPreferenceStore.kt: (138, 56): Conditional branch result of type Int is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/src/main/java/uk/co/glass_software/android/shared_preferences/persistence/preferences/SharedPreferenceStore.kt: (139, 59): Conditional branch result of type String? is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/src/main/java/uk/co/glass_software/android/shared_preferences/persistence/preferences/SharedPreferenceStore.kt: (140, 37): Conditional branch result of type O? is implicitly cast to Any?
+
 > Task :app:mergeDebugResources
+> Task :lib:javaPreCompileDebug
+> Task :lib:compileDebugJavaWithJavac
+> Task :lib:bundleLibResDebug
+> Task :lib:bundleLibRuntimeDebug
+> Task :lib:createFullJarDebug
+> Task :lib:bundleLibCompileDebug
+> Task :mumbo_store:kaptGenerateStubsDebugKotlin
+> Task :mumbo_store:kaptDebugKotlin
+> Task :mumbo_store:compileDebugKotlin
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :mumbo_store:javaPreCompileDebug
+> Task :mumbo_store:compileDebugJavaWithJavac
+> Task :mumbo_store:bundleLibResDebug
+> Task :mumbo_store:bundleLibRuntimeDebug
+> Task :mumbo_store:createFullJarDebug
+> Task :mumbo_store:bundleLibCompileDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -305,14 +341,20 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :mumbo_store:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
 > Task :app:desugarDebugFileDependencies
+> Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :lib:mergeDebugJniLibFolders
 > Task :mumbo_store:mergeDebugJniLibFolders
-> Task :lib:preReleaseBuild UP-TO-DATE
+> Task :lib:mergeDebugNativeLibs
+> Task :lib:stripDebugDebugSymbols
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :lib:extractProguardFiles
+> Task :lib:preReleaseBuild
 > Task :lib:compileReleaseAidl NO-SOURCE
 > Task :lib:compileReleaseRenderscript NO-SOURCE
 > Task :lib:checkReleaseManifest
@@ -320,14 +362,26 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :lib:generateReleaseResValues
 > Task :lib:generateReleaseResources
 > Task :lib:packageReleaseResources
-> Task :lib:mergeDebugNativeLibs
-> Task :lib:stripDebugDebugSymbols
-> Task :lib:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :mumbo_store:mergeDebugNativeLibs
 > Task :mumbo_store:stripDebugDebugSymbols
 > Task :mumbo_store:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :lib:parseReleaseLibraryResources
+> Task :lib:processReleaseManifest
+> Task :lib:generateReleaseRFile
+> Task :lib:kaptGenerateStubsReleaseKotlin
+> Task :lib:kaptReleaseKotlin
+
+> Task :lib:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/src/main/java/uk/co/glass_software/android/shared_preferences/persistence/preferences/SharedPreferenceStore.kt: (135, 60): Conditional branch result of type Boolean is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/src/main/java/uk/co/glass_software/android/shared_preferences/persistence/preferences/SharedPreferenceStore.kt: (136, 58): Conditional branch result of type Float is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/src/main/java/uk/co/glass_software/android/shared_preferences/persistence/preferences/SharedPreferenceStore.kt: (137, 57): Conditional branch result of type Long is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/src/main/java/uk/co/glass_software/android/shared_preferences/persistence/preferences/SharedPreferenceStore.kt: (138, 56): Conditional branch result of type Int is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/src/main/java/uk/co/glass_software/android/shared_preferences/persistence/preferences/SharedPreferenceStore.kt: (139, 59): Conditional branch result of type String? is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/lib/src/main/java/uk/co/glass_software/android/shared_preferences/persistence/preferences/SharedPreferenceStore.kt: (140, 37): Conditional branch result of type O? is implicitly cast to Any?
+
 > Task :lib:processReleaseJavaRes NO-SOURCE
-> Task :mumbo_store:preReleaseBuild UP-TO-DATE
+> Task :mumbo_store:extractProguardFiles
+> Task :mumbo_store:preReleaseBuild
 > Task :mumbo_store:compileReleaseAidl NO-SOURCE
 > Task :lib:packageReleaseRenderscript NO-SOURCE
 > Task :mumbo_store:compileReleaseRenderscript NO-SOURCE
@@ -336,9 +390,9 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :mumbo_store:generateReleaseResValues
 > Task :mumbo_store:generateReleaseResources
 > Task :mumbo_store:packageReleaseResources
-> Task :lib:processReleaseManifest
 > Task :mumbo_store:processReleaseJavaRes NO-SOURCE
-> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:extractProguardFiles
+> Task :app:preReleaseBuild
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :mumbo_store:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
@@ -347,20 +401,36 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:prepareLintJar
 > Task :mumbo_store:processReleaseManifest
+> Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
-> Task :lib:parseReleaseLibraryResources
-> Task :app:processDebugManifest
-> Task :lib:generateReleaseRFile
+> Task :app:mergeDebugNativeLibs
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libfb.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libconcealjni.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+
+> Task :app:mergeReleaseResources
+> Task :app:multiDexListDebug
 > Task :mumbo_store:parseReleaseLibraryResources
-> Task :lib:kaptGenerateStubsReleaseKotlin
-> Task :lib:kaptReleaseKotlin
-> Task :lib:compileReleaseKotlin
-> Task :mumbo_store:prepareLintJarForPublish
-> Task :app:checkReleaseDuplicateClasses
-> Task :app:desugarReleaseFileDependencies
+> Task :lib:javaPreCompileRelease
+> Task :lib:compileReleaseJavaWithJavac
+> Task :lib:bundleLibResRelease
+> Task :mumbo_store:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :lib:bundleLibCompileRelease
+> Task :mumbo_store:kaptGenerateStubsReleaseKotlin
+> Task :mumbo_store:kaptReleaseKotlin
+> Task :mumbo_store:compileReleaseKotlin
+> Task :lib:bundleLibRuntimeRelease
+> Task :lib:createFullJarRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :mumbo_store:javaPreCompileRelease
+> Task :mumbo_store:compileReleaseJavaWithJavac
+> Task :mumbo_store:bundleLibResRelease
+> Task :app:prepareLintJar
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -373,98 +443,49 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :mumbo_store:generateReleaseAssets
 > Task :mumbo_store:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :lib:mergeReleaseJniLibFolders
-> Task :app:mergeReleaseResources
-> Task :mumbo_store:mergeReleaseJniLibFolders
-> Task :mumbo_store:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :lib:javaPreCompileRelease
-> Task :lib:compileReleaseJavaWithJavac
 > Task :lib:prepareLintJarForPublish
-> Task :lib:generateDebugRFile
-> Task :lib:kaptGenerateStubsDebugKotlin
-> Task :lib:kaptDebugKotlin
-> Task :lib:compileDebugKotlin
-> Task :mumbo_store:mergeReleaseNativeLibs
-> Task :mumbo_store:stripReleaseDebugSymbols
-> Task :mumbo_store:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :lib:bundleLibResRelease
-> Task :lib:javaPreCompileDebug
-> Task :lib:compileDebugJavaWithJavac
-> Task :lib:bundleLibResDebug
-> Task :lib:bundleLibRuntimeRelease
-> Task :lib:createFullJarRelease
-> Task :lib:bundleLibCompileRelease
-> Task :mumbo_store:kaptGenerateStubsReleaseKotlin
-> Task :mumbo_store:kaptReleaseKotlin
-> Task :mumbo_store:compileReleaseKotlin
+> Task :mumbo_store:mergeReleaseJniLibFolders
 > Task :lib:mergeReleaseNativeLibs
-> Task :lib:bundleLibCompileDebug
 > Task :lib:stripReleaseDebugSymbols
 > Task :lib:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :mumbo_store:javaPreCompileRelease
-> Task :mumbo_store:compileReleaseJavaWithJavac
-> Task :mumbo_store:generateDebugRFile
-> Task :mumbo_store:kaptGenerateStubsDebugKotlin
-> Task :mumbo_store:kaptDebugKotlin
-> Task :mumbo_store:compileDebugKotlin
-> Task :app:processDebugResources
-> Task :lib:bundleLibRuntimeDebug
-> Task :mumbo_store:javaPreCompileDebug
-> Task :lib:createFullJarDebug
-> Task :mumbo_store:bundleLibRuntimeRelease
-> Task :mumbo_store:compileDebugJavaWithJavac
-> Task :mumbo_store:bundleLibResRelease
-> Task :mumbo_store:createFullJarRelease
-> Task :mumbo_store:bundleLibCompileDebug
-> Task :app:kaptGenerateStubsDebugKotlin
-> Task :app:kaptDebugKotlin
-> Task :app:compileDebugKotlin
-> Task :mumbo_store:bundleLibResDebug
 > Task :mumbo_store:bundleLibCompileRelease
-> Task :app:javaPreCompileDebug
 > Task :app:kaptGenerateStubsReleaseKotlin
 > Task :app:kaptReleaseKotlin
 > Task :app:compileReleaseKotlin
-> Task :mumbo_store:bundleLibRuntimeDebug
-> Task :mumbo_store:createFullJarDebug
-> Task :app:mergeDebugNativeLibs
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
+> Task :mumbo_store:bundleLibRuntimeRelease
+> Task :mumbo_store:createFullJarRelease
+> Task :mumbo_store:prepareLintJarForPublish
+> Task :mumbo_store:mergeReleaseNativeLibs
+> Task :mumbo_store:stripReleaseDebugSymbols
+> Task :mumbo_store:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:javaPreCompileRelease
-> Task :app:transformClassesWithDexBuilderForDebug
-
-> Task :app:stripDebugDebugSymbols
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libfb.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libconcealjni.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/401ad353d6056cc93ed3b8ad8968acb7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/56277438ea08f731aee215f61df48ea6/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/1f59882d2e288bf860146d56f0b02ace/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :app:mergeDebugJavaResource
-> Task :app:multiDexListDebug
-> Task :app:mergeDexDebug
-AGPBI: {"kind":"warning","text":"Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator.getUnsafe()`","sources":[{"file":"/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"}],"tool":"D8"}
-
-> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseNativeLibs
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/app/build/intermediates/merged_native_libs/release/out/lib/armeabi/libfb.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/app/build/intermediates/merged_native_libs/release/out/lib/armeabi/libconcealjni.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+
 > Task :app:stripReleaseDebugSymbols
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/app/build/intermediates/merged_native_libs/release/out/lib/armeabi/libfb.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/app/build/intermediates/merged_native_libs/release/out/lib/armeabi/libconcealjni.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :lib:mergeReleaseGeneratedProguardFiles
+> Task :lib:mergeReleaseConsumerProguardFiles
+> Task :mumbo_store:mergeReleaseGeneratedProguardFiles
+> Task :mumbo_store:mergeReleaseConsumerProguardFiles
 > Task :app:mergeReleaseJavaResource
-> Task :app:multiDexListRelease
-
-> Task :app:mergeDexRelease
-AGPBI: {"kind":"warning","text":"Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator.getUnsafe()`","sources":[{"file":"/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"}],"tool":"D8"}
-
-> Task :app:packageDebug
-> Task :app:assembleDebug
+R8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
+  <init>();
+}` uses extends but actually matches implements.
+> Task :app:transformClassesAndResourcesWithR8ForRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
@@ -472,9 +493,9 @@ AGPBI: {"kind":"warning","text":"Type `sun.misc.Unsafe` was not found, it is req
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 3m 4s
-151 actionable tasks: 151 executed
+BUILD SUCCESSFUL in 2m 30s
+155 actionable tasks: 155 executed
 
-2019-05-16 13:03:36,938 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986353138-0/src/SharedPreferenceStore-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-01 11:21:52,992 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569903380332-0/src/app/build/outputs/apk/debug/app-debug.apk
