@@ -1,626 +1,185 @@
-2019-10-06 21:25:41,808 INFO  DownloadService - Downloading "https://github.com/sangcomz/Chameleon/archive/master.zip", attempt 3
-2019-10-06 21:25:46,170 INFO  DownloadService - Downloaded https://github.com/sangcomz/Chameleon/archive/master.zip, attempt 3
-2019-10-06 21:25:46,171 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/master.zip": 2 MB
-2019-10-06 21:25:46,171 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-06 21:25:46,171 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/master.zip: true
-2019-10-06 21:25:46,172 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src'.
-2019-10-06 21:25:46,219 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-10-06 21:25:46,219 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src]
-2019-10-06 21:25:46,241 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/.git/
+2019-10-29 18:19:36,204 INFO  DownloadService - Downloading "https://github.com/sangcomz/Chameleon/archive/master.zip", attempt 3
+2019-10-29 18:19:41,038 INFO  DownloadService - Downloaded https://github.com/sangcomz/Chameleon/archive/master.zip, attempt 3
+2019-10-29 18:19:41,038 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/master.zip": 2 MB
+2019-10-29 18:19:41,038 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-29 18:19:41,039 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/master.zip: true
+2019-10-29 18:19:41,039 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src'.
+2019-10-29 18:19:41,100 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-10-29 18:19:41,100 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src]
+2019-10-29 18:19:41,127 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/.git/
 
-2019-10-06 21:25:46,245 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/gradlew
-2019-10-06 21:25:46,249 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/chameleon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/build.gradle
-2019-10-06 21:25:46,253 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/chameleon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/gradle/release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/settings.gradle
-2019-10-06 21:25:46,253 INFO  ProjectBuildService - Remote scripts: none
-2019-10-06 21:25:46,253 INFO  ProjectFixService - Fixing project...
-2019-10-06 21:25:46,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/app/local.properties
-2019-10-06 21:25:46,264 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-06 21:25:46,264 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-06 21:25:46,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/chameleon/local.properties
-2019-10-06 21:25:46,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/chameleon/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-06 21:25:46,267 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/chameleon/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-06 21:25:46,268 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/local.properties
-2019-10-06 21:25:46,268 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-10-06 21:25:46,269 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-10-06 21:25:46,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-06 21:25:46,271 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-06 21:25:46,271 INFO  ProjectFixService - Project was maybe fixed
-2019-10-06 21:25:46,271 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 21:25:46,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 21:25:55,062 INFO  ProjectTaskService - Detected possible tasks: 75
-2019-10-06 21:25:55,062 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-06 21:25:55,062 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-06 21:26:53,056 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-10-06 21:26:53,056 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-29 18:19:41,131 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/gradlew
+2019-10-29 18:19:41,135 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/chameleon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/build.gradle
+2019-10-29 18:19:41,139 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/chameleon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/gradle/release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/settings.gradle
+2019-10-29 18:19:41,139 INFO  ProjectBuildService - Remote scripts: none
+2019-10-29 18:19:41,139 INFO  ProjectFixService - Fixing project...
+2019-10-29 18:19:41,149 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/app/local.properties
+2019-10-29 18:19:41,151 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-29 18:19:41,152 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-29 18:19:41,153 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/chameleon/local.properties
+2019-10-29 18:19:41,156 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/chameleon/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-29 18:19:41,156 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/chameleon/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-29 18:19:41,157 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/local.properties
+2019-10-29 18:19:41,158 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-29 18:19:41,158 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-29 18:19:41,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-29 18:19:41,161 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-29 18:19:41,161 INFO  ProjectFixService - Project was maybe fixed
+2019-10-29 18:19:41,161 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-29 18:19:41,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-29 18:19:49,239 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-10-29 18:19:49,239 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-29 18:19:49,239 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-29 18:21:03,550 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+WARNING: API 'variantOutput.getPackageApplication()' is obsolete and has been replaced with 'variant.getPackageApplicationProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageApplication(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 Signing not ready. Did you specify a signingConfig for the variation Release?
+
+> Configure project :chameleon
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-:app:checkDebugClasspath
-Download https://dl.google.com/dl/android/maven2/com/android/support/exifinterface/27.1.0/exifinterface-27.1.0.aar
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.2.0/rxjava-2.2.0.jar
-:app:preBuild UP-TO-DATE
-:chameleon:preBuild UP-TO-DATE
-:chameleon:preDebugBuild UP-TO-DATE
-:chameleon:checkDebugManifest
-:chameleon:processDebugManifest
-:app:preDebugBuild
-:chameleon:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:chameleon:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:chameleon:compileDebugRenderscript
-:chameleon:generateDebugResValues
-:chameleon:generateDebugResources
-:chameleon:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:chameleon:generateDebugRFile
-:app:processDebugResources
-:chameleon:generateDebugBuildConfig
-:chameleon:compileDebugKotlin
-:chameleon:prepareLintJar
-:chameleon:generateDebugSources
-:chameleon:javaPreCompileDebug
-:chameleon:compileDebugJavaWithJavac
-:chameleon:processDebugJavaRes NO-SOURCE
-:chameleon:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-:app:prepareLintJar
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:chameleon:mergeDebugShaders
-:chameleon:compileDebugShaders
-:chameleon:generateDebugAssets
-:chameleon:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:chameleon:compileDebugNdk NO-SOURCE
-:chameleon:mergeDebugJniLibFolders
-:chameleon:transformNativeLibsWithMergeJniLibsForDebug
-:chameleon:transformNativeLibsWithStripDebugSymbolForDebug
-:chameleon:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:app:extractProguardFiles
-:chameleon:preReleaseBuild UP-TO-DATE
-:chameleon:checkReleaseManifest
-:chameleon:processReleaseManifest
-:app:preReleaseBuild
-:chameleon:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:chameleon:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:chameleon:compileReleaseRenderscript
-:chameleon:generateReleaseResValues
-:chameleon:generateReleaseResources
-:chameleon:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:chameleon:generateReleaseRFile
-:app:processReleaseResources
-:chameleon:generateReleaseBuildConfig
-:chameleon:compileReleaseKotlin
-:chameleon:generateReleaseSources
-:chameleon:javaPreCompileRelease
-:chameleon:compileReleaseJavaWithJavac
-:chameleon:processReleaseJavaRes NO-SOURCE
-:chameleon:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/77b31dfa6d64aed375852624b1d71894/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:chameleon:mergeReleaseShaders
-:chameleon:compileReleaseShaders
-:chameleon:generateReleaseAssets
-:chameleon:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:chameleon:mergeReleaseConsumerProguardFiles
-:app:transformClassesAndResourcesWithProguardForRelease
-Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
-thread-pool size=4
-ProGuard, version 6.0.3
-Reading input...
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.10/4d147bf43060dc43d61b096e24da1e67dfe0c032/kotlin-stdlib-jdk7-1.3.10.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/aed45c396281c9a8e6e90e2cb27337b5/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/c0532075fc9548fe7eec1227b15e1ae9/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/0eec1f1f9562c93849c0c7b1c26d9b05/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/17efdf20e511caa0928924a973320856/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.0/2c622e8f1cab8d5871d32bb2023af515216056d8/rxjava-2.2.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/50c14bd8dc64b187737b5673b2b146fd/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/6d21c5055947c68eebc5d148e70ccbf2/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/fb63093dd569375afbdd190b8f10448c/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/9df8257612d314713aad664d3ff2a8fb/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/cd8ec9970b5912c2b5371a97bb1c1886/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/da95359173a42070eb25914b44392296/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/ee062f775bcc200ae45f9bd69cd3de0d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a37f957a46572a93bd1ebfdc743c098a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/7e1b0a91dbaef89f16174e758bb86a2b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/06c37cd111c699f6c5987eccd24a17fd/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b6c9e81796df57e61eb00a12701f5ca7/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/dc17c603d5fd17aeb349c4f6d0baba34/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ab63b115908852353f8a9018001469e7/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/9dbc21636df40667226cd202aae98986/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/87367ca2e94753c5b50676d20461ec8b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/4645e8e8d15bd78f400a0e0f7c27f36c/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5a562a0e44cc5e08a787c63471436a28/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/172c6d40372edb35ae1265ecd952ec3a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/496c0e200cfeae334ba3eaff9575f616/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a41b00347a0d778399504c3a28c69917/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/204dbf1780836bb82dab21e8fd22550e/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/42d7fe05e00fcdf08a496f540ffa6449/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/4a730b5eed469b7a36e7ba14a2fb339b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/afa18a98913b4d8937bc5e97c20f71ac/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2a3fa564867446ed7125b402e253f646/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/795c03ecb8cfe76f3976999b5f2eeffb/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/c840c31c3999bdbe52313217ebec547a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/1b19d99229dcedad7caf50534dce38fe82845269/kotlin-stdlib-common-1.3.10.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/chameleon/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/app/build/tmp/kotlin-classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
-Initializing...
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Authenticator: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache$2: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache$CacheResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache$CacheResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cache$Entry: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.CacheControl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.CacheControl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Challenge: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Connection: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionPool: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionPool: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ConnectionSpec$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.EventListener: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.FormBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Interceptor$Chain: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody$1: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody$2: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.RequestBody$3: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.ResponseBody$1: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.Route: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.WebSocket: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.WebSocketListener: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.Util: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.cache.CacheStrategy: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.cache.CacheStrategy: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.cache.DiskLruCache: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.cache.DiskLruCache$Snapshot: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.connection.RealConnection: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.http.RealResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.http.RealResponseBody: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.platform.AndroidPlatform: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.OpenSSLProvider
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.OpenSSLProvider
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class org.conscrypt.Conscrypt
-Warning: okhttp3.internal.platform.ConscryptPlatform: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.platform.Jdk9Platform: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.platform.JdkWithJettyBootPlatform: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.platform.Platform: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.internal.ws.RealWebSocket: can't find referenced class javax.annotation.Nullable
-Warning: okhttp3.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
-Warning: okio.AsyncTimeout: can't find referenced class javax.annotation.Nullable
-Warning: okio.AsyncTimeout: can't find referenced class javax.annotation.Nullable
-Warning: okio.AsyncTimeout: can't find referenced class javax.annotation.Nullable
-Warning: okio.AsyncTimeout: can't find referenced class javax.annotation.Nullable
-Warning: okio.Buffer: can't find referenced class javax.annotation.Nullable
-Warning: okio.Buffer: can't find referenced class javax.annotation.Nullable
-Warning: okio.BufferedSource: can't find referenced class javax.annotation.Nullable
-Warning: okio.ByteString: can't find referenced class javax.annotation.Nullable
-Warning: okio.HashingSink: can't find referenced class javax.annotation.Nullable
-Warning: okio.HashingSink: can't find referenced class javax.annotation.Nullable
-Warning: okio.Okio$4: can't find referenced class javax.annotation.Nullable
-Warning: okio.RealBufferedSource: can't find referenced class javax.annotation.Nullable
-Warning: okio.Segment: can't find referenced class javax.annotation.Nullable
-Warning: okio.SegmentPool: can't find referenced class javax.annotation.Nullable
-Warning: okio.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
-Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
-Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
-Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
-Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
-Note: okhttp3.internal.platform.ConscryptPlatform: can't find dynamically referenced class org.conscrypt.ConscryptEngineSocket
-Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
-Note: kotlin.coroutines.jvm.internal.DebugMetadataKt accesses a declared field 'label' dynamically
-      Maybe this is program field 'kotlin.collections.SlidingWindowKt$windowedIterator$1 { int label; }'
-      Maybe this is program field 'kotlin.coroutines.experimental.jvm.internal.CoroutineImpl { int label; }'
-      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1 { int label; }'
-      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2 { int label; }'
-      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$1 { int label; }'
-      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$2 { int label; }'
-      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3 { int label; }'
-      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$4 { int label; }'
-      Maybe this is program field 'kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1 { int label; }'
-      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2 { int label; }'
-      Maybe this is library field 'android.R$attr { int label; }'
-      Maybe this is library field 'android.app.LauncherActivity$ListItem { java.lang.CharSequence label; }'
-      Maybe this is library field 'android.appwidget.AppWidgetProviderInfo { java.lang.String label; }'
-      Maybe this is library field 'android.inputmethodservice.Keyboard$Key { java.lang.CharSequence label; }'
-      Maybe this is library field 'android.speech.tts.TextToSpeech$EngineInfo { java.lang.String label; }'
-      Maybe this is library field 'android.view.inputmethod.EditorInfo { java.lang.CharSequence label; }'
-Note: the configuration keeps the entry point 'xyz.sangcomz.chameleon.Chameleon { void setErrorButtonClickListener(kotlin.jvm.functions.Function1); }', but not the descriptor class 'kotlin.jvm.functions.Function1'
-Note: the configuration keeps the entry point 'xyz.sangcomz.chameleon.Chameleon { void setEmptyButtonClickListener(kotlin.jvm.functions.Function1); }', but not the descriptor class 'kotlin.jvm.functions.Function1'
-Note: the configuration keeps the entry point 'xyz.sangcomz.chameleon.Chameleon { void setStateChangeListener(kotlin.jvm.functions.Function2); }', but not the descriptor class 'kotlin.jvm.functions.Function2'
-Note: there were 3 unkept descriptor classes in kept class members.
-      You should consider explicitly keeping the mentioned classes
-      (using '-keep').
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
-Note: there were 9 unresolved dynamic references to classes or interfaces.
-      You should check if you need to specify additional program jars.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
-Note: there were 1 accesses to class members by means of introspection.
-      You should consider explicitly keeping the mentioned class members
-      (using '-keep' or '-keepclassmembers').
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
-Warning: there were 191 unresolved references to classes or interfaces.
-         You may need to add missing library jars or update their versions.
-         If your code works fine without the missing classes, you can suppress
-         the warnings with '-dontwarn' options.
-         (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedclass)
-Warning: Exception while processing task java.io.IOException: Please correct the above warnings first.
-Thread(Tasks limiter_1): destruction
-:app:transformClassesAndResourcesWithProguardForRelease FAILED
+It will be removed soon. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 
-FAILURE: Build failed with an exception.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :chameleon:preBuild UP-TO-DATE
+> Task :chameleon:preDebugBuild UP-TO-DATE
+> Task :chameleon:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :chameleon:generateDebugResValues
+> Task :app:createDebugCompatibleScreenManifests
+> Task :chameleon:checkDebugManifest
+> Task :chameleon:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :chameleon:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :chameleon:compileDebugRenderscript NO-SOURCE
+> Task :chameleon:processDebugManifest
+> Task :chameleon:generateDebugResources
+> Task :chameleon:packageDebugResources
+> Task :app:processDebugManifest
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :chameleon:mergeDebugShaders
+> Task :chameleon:compileDebugShaders
+> Task :chameleon:generateDebugAssets
+> Task :chameleon:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:mergeDebugResources
+> Task :chameleon:parseDebugLibraryResources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :chameleon:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :chameleon:generateDebugRFile
+> Task :app:processDebugResources
+> Task :chameleon:compileDebugKotlin
+> Task :chameleon:javaPreCompileDebug
+> Task :chameleon:compileDebugJavaWithJavac
+> Task :chameleon:bundleLibResDebug
+> Task :chameleon:bundleLibRuntimeDebug
+> Task :chameleon:createFullJarDebug
+> Task :chameleon:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugJniLibFolders
+> Task :chameleon:mergeDebugJniLibFolders
+> Task :app:extractProguardFiles
+> Task :app:preReleaseBuild
+> Task :chameleon:preReleaseBuild UP-TO-DATE
+> Task :chameleon:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :chameleon:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :chameleon:compileReleaseRenderscript NO-SOURCE
+> Task :chameleon:generateReleaseResValues
+> Task :chameleon:generateReleaseResources
+> Task :chameleon:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :chameleon:checkReleaseManifest
+> Task :chameleon:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :chameleon:mergeDebugNativeLibs
+> Task :chameleon:stripDebugDebugSymbols
+> Task :chameleon:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :chameleon:parseReleaseLibraryResources
+> Task :chameleon:generateReleaseBuildConfig
+> Task :app:prepareLintJar
+> Task :chameleon:generateReleaseRFile
+> Task :chameleon:compileReleaseKotlin
+> Task :chameleon:prepareLintJarForPublish
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :chameleon:mergeReleaseShaders
+> Task :chameleon:compileReleaseShaders
+> Task :chameleon:generateReleaseAssets
+> Task :chameleon:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :chameleon:processReleaseJavaRes NO-SOURCE
+> Task :chameleon:mergeReleaseJniLibFolders
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :chameleon:javaPreCompileRelease
+> Task :chameleon:compileReleaseJavaWithJavac
+> Task :chameleon:mergeReleaseNativeLibs
+> Task :chameleon:stripReleaseDebugSymbols
+> Task :chameleon:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :chameleon:bundleLibResRelease
+> Task :chameleon:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
 
-* What went wrong:
-Execution failed for task ':app:transformClassesAndResourcesWithProguardForRelease'.
-> Job failed, see logs for details
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/d38e6e35c972316ba345a7e1d12ecb51/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :chameleon:mergeReleaseGeneratedProguardFiles
+> Task :chameleon:mergeReleaseConsumerProguardFiles
+> Task :chameleon:bundleLibRuntimeRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:transformClassesAndResourcesWithR8ForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:assemble
+> Task :app:build
 
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:transformClassesAndResourcesWithProguardForRelease'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
-	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
-	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:59)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:130)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:46)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:210)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
-	at org.gradle.launcher.Main.doAction(Main.java:36)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: Job failed, see logs for details
-	at com.android.build.gradle.internal.transforms.ProGuardTransform.transform(ProGuardTransform.java:207)
-	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:239)
-	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:235)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
-	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:230)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
-	... 93 more
-Caused by: java.io.IOException: Please correct the above warnings first.
-	at proguard.Initializer.execute(Initializer.java:485)
-	at proguard.ProGuard.initialize(ProGuard.java:271)
-	at proguard.ProGuard.execute(ProGuard.java:113)
-	at com.android.build.gradle.internal.transforms.BaseProguardAction.runProguard(BaseProguardAction.java:64)
-	at com.android.build.gradle.internal.transforms.ProGuardTransform.doMinification(ProGuardTransform.java:262)
-	at com.android.build.gradle.internal.transforms.ProGuardTransform.access$000(ProGuardTransform.java:65)
-	at com.android.build.gradle.internal.transforms.ProGuardTransform$1.run(ProGuardTransform.java:176)
-	at com.android.builder.tasks.Job.runTask(Job.java:47)
-	at com.android.build.gradle.tasks.SimpleWorkQueue$EmptyThreadContext.runTask(SimpleWorkQueue.java:41)
-	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:282)
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
+BUILD SUCCESSFUL in 1m 13s
+94 actionable tasks: 94 executed
 
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 57s
-86 actionable tasks: 86 executed
-
-2019-10-06 21:26:53,151 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371941799-0/src/Chameleon-master/app/build/outputs/apk/debug/chameleon-debug-0.1.2.apk
+2019-10-29 18:21:03,618 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347976202-0/src/Chameleon-master/app/build/outputs/apk/release/chameleon-release-unsigned-0.2.0.apk
