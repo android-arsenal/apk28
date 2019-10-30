@@ -1,40 +1,40 @@
-2019-06-16 15:40:46,618 INFO  DownloadService - Downloading "https://github.com/adorsys/fingerprint-android/archive/master.zip", attempt 3
-2019-06-16 15:40:48,600 INFO  DownloadService - Downloaded https://github.com/adorsys/fingerprint-android/archive/master.zip, attempt 3
-2019-06-16 15:40:48,600 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/master.zip": 147 KB
-2019-06-16 15:40:48,600 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-16 15:40:48,600 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/master.zip: true
-2019-06-16 15:40:48,600 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src'.
-2019-06-16 15:40:48,615 INFO  FullProcessService - Size of directory with sources: 177 KB
-2019-06-16 15:40:48,615 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src]
-2019-06-16 15:40:48,633 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/.git/
+2019-10-30 12:28:51,311 INFO  DownloadService - Downloading "https://github.com/adorsys/fingerprint-android/archive/master.zip", attempt 3
+2019-10-30 12:28:53,142 INFO  DownloadService - Downloaded https://github.com/adorsys/fingerprint-android/archive/master.zip, attempt 3
+2019-10-30 12:28:53,142 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/master.zip": 147 KB
+2019-10-30 12:28:53,142 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-30 12:28:53,147 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/master.zip: true
+2019-10-30 12:28:53,148 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src'.
+2019-10-30 12:28:53,163 INFO  FullProcessService - Size of directory with sources: 177 KB
+2019-10-30 12:28:53,163 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src]
+2019-10-30 12:28:53,186 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/.git/
 
-2019-06-16 15:40:48,636 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/gradlew
-2019-06-16 15:40:48,638 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/finger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/build.gradle
-2019-06-16 15:40:48,640 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/finger/build.gradle
-2019-06-16 15:40:48,646 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle", attempt 3
-2019-06-16 15:40:49,428 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle, attempt 3
-2019-06-16 15:40:49,428 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle", attempt 3
-2019-06-16 15:40:50,132 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle, attempt 3
-2019-06-16 15:40:50,132 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle
-2019-06-16 15:40:50,132 INFO  ProjectFixService - Fixing project...
-2019-06-16 15:40:50,140 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/app/local.properties
-2019-06-16 15:40:50,142 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:40:50,142 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:40:50,143 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/finger/local.properties
-2019-06-16 15:40:50,146 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/finger/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:40:50,146 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/finger/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:40:50,148 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/local.properties
-2019-06-16 15:40:50,149 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-06-16 15:40:50,149 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-06-16 15:40:50,151 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:40:50,151 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:40:50,151 INFO  ProjectFixService - Project was maybe fixed
-2019-06-16 15:40:50,151 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-16 15:40:50,152 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-16 15:41:06,375 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-06-16 15:41:06,376 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-16 15:41:06,376 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-16 15:41:13,848 ERROR SysUtils - Could not process external command
+2019-10-30 12:28:53,188 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/gradlew
+2019-10-30 12:28:53,190 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/finger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/build.gradle
+2019-10-30 12:28:53,192 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/finger/build.gradle
+2019-10-30 12:28:53,192 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle", attempt 3
+2019-10-30 12:28:53,463 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle, attempt 3
+2019-10-30 12:28:53,463 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle", attempt 3
+2019-10-30 12:28:53,744 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle, attempt 3
+2019-10-30 12:28:53,744 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle
+2019-10-30 12:28:53,744 INFO  ProjectFixService - Fixing project...
+2019-10-30 12:28:53,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/app/local.properties
+2019-10-30 12:28:53,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-10-30 12:28:53,752 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-10-30 12:28:53,753 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/finger/local.properties
+2019-10-30 12:28:53,757 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/finger/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-10-30 12:28:53,757 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/finger/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-10-30 12:28:53,759 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/local.properties
+2019-10-30 12:28:53,759 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-30 12:28:53,759 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-30 12:28:53,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-10-30 12:28:53,761 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-10-30 12:28:53,761 INFO  ProjectFixService - Project was maybe fixed
+2019-10-30 12:28:53,761 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-30 12:28:53,761 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-30 12:28:59,513 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-10-30 12:28:59,514 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-30 12:28:59,514 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-30 12:29:04,193 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,22 +47,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-16 15:41:13,848 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-30 12:29:04,194 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -85,10 +84,12 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
 	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
 	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
@@ -106,14 +107,16 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
 	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
 	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:49)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:44)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
 	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
@@ -138,13 +141,13 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
 	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:403)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:376)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:369)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:299)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
 	at org.gradle.launcher.Main.doAction(Main.java:36)
 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
@@ -157,36 +160,35 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 4s
 
-2019-06-16 15:41:13,848 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-06-16 15:41:13,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-16 15:42:12,057 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-30 12:29:04,194 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-10-30 12:29:04,194 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-30 12:29:53,078 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :finger:preBuild UP-TO-DATE
 > Task :finger:preDebugBuild UP-TO-DATE
-> Task :finger:checkDebugManifest
-> Task :finger:processDebugManifest
-> Task :finger:packageDebugRenderscript NO-SOURCE
 > Task :finger:compileDebugAidl NO-SOURCE
-> Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :finger:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :finger:compileDebugRenderscript NO-SOURCE
 > Task :finger:generateDebugResValues
+> Task :finger:compileDebugRenderscript NO-SOURCE
 > Task :finger:generateDebugResources
+> Task :finger:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :finger:checkDebugManifest
+> Task :app:mergeDebugResources
+> Task :finger:processDebugManifest
 > Task :app:processDebugManifest
+> Task :finger:parseDebugLibraryResources
 > Task :finger:generateDebugBuildConfig
-> Task :finger:prepareLintJar
-> Task :finger:generateDebugSources
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -195,39 +197,34 @@ BUILD FAILED in 7s
 > Task :finger:generateDebugAssets
 > Task :finger:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
 > Task :finger:processDebugJavaRes NO-SOURCE
 > Task :app:checkDebugDuplicateClasses
-> Task :finger:packageDebugResources
-> Task :app:mergeDebugResources
 > Task :finger:generateDebugRFile
 > Task :app:processDebugResources
+
 > Task :finger:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/finger/src/main/java/de/adorsys/android/finger/Finger.kt: (10, 43): 'FingerprintManagerCompat' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/finger/src/main/java/de/adorsys/android/finger/Finger.kt: (33, 37): 'FingerprintManagerCompat' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/finger/src/main/java/de/adorsys/android/finger/Finger.kt: (39, 17): 'FingerprintManagerCompat' is deprecated. Deprecated in Java
+
 > Task :finger:javaPreCompileDebug
 > Task :finger:compileDebugJavaWithJavac
+> Task :finger:bundleLibResDebug
+> Task :finger:bundleLibRuntimeDebug
+> Task :finger:createFullJarDebug
 > Task :finger:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :finger:bundleLibResDebug
-> Task :finger:bundleLibRuntimeDebug
-> Task :finger:createFullJarDebug
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :finger:mergeDebugJniLibFolders
-> Task :finger:transformNativeLibsWithMergeJniLibsForDebug
-> Task :finger:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :finger:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :finger:preReleaseBuild UP-TO-DATE
-> Task :finger:checkReleaseManifest
-> Task :finger:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :finger:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :finger:packageReleaseRenderscript NO-SOURCE
@@ -241,33 +238,43 @@ BUILD FAILED in 7s
 > Task :finger:generateReleaseResValues
 > Task :finger:generateReleaseResources
 > Task :finger:packageReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :finger:checkReleaseManifest
+> Task :app:mergeDebugJavaResource
+> Task :finger:generateReleaseBuildConfig
+> Task :finger:parseReleaseLibraryResources
+> Task :finger:mergeDebugNativeLibs
+> Task :finger:stripDebugDebugSymbols
+> Task :finger:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :finger:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :app:prepareLintJar
+> Task :finger:processReleaseJavaRes NO-SOURCE
+> Task :finger:prepareLintJarForPublish
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :finger:generateReleaseRFile
 > Task :app:processReleaseResources
-> Task :finger:generateReleaseBuildConfig
+
 > Task :finger:compileReleaseKotlin
-> Task :finger:generateReleaseSources
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/finger/src/main/java/de/adorsys/android/finger/Finger.kt: (10, 43): 'FingerprintManagerCompat' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/finger/src/main/java/de/adorsys/android/finger/Finger.kt: (33, 37): 'FingerprintManagerCompat' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/finger/src/main/java/de/adorsys/android/finger/Finger.kt: (39, 17): 'FingerprintManagerCompat' is deprecated. Deprecated in Java
+
 > Task :finger:javaPreCompileRelease
 > Task :finger:compileReleaseJavaWithJavac
 > Task :finger:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
 > Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:generateReleaseSources
+> Task :finger:bundleLibRuntimeRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :finger:prepareLintJarForPublish
 > Task :app:lintVitalRelease SKIPPED
-> Task :finger:processReleaseJavaRes NO-SOURCE
 > Task :finger:bundleLibResRelease
-> Task :finger:bundleLibRuntimeRelease
 > Task :finger:createFullJarRelease
-> Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -277,52 +284,51 @@ BUILD FAILED in 7s
 > Task :finger:generateReleaseAssets
 > Task :finger:packageReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :finger:mergeReleaseJniLibFolders
-> Task :finger:transformNativeLibsWithMergeJniLibsForRelease
-> Task :finger:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :finger:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
 
 > Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f3063c88f040dacc0be2277aabe84e67/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant debug: 1 issues found
-Ran lint on variant release: 1 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/app/build/reports/lint-results.xml
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/beb7179b0107e138f492bb21541b3c7a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Ran lint on variant debug: 0 issues found
+Ran lint on variant release: 0 issues found
 
+> Task :app:mergeReleaseJavaResource
+> Task :app:compileDebugUnitTestKotlin NO-SOURCE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:processDebugUnitTestJavaRes NO-SOURCE
+> Task :app:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :finger:mergeReleaseNativeLibs
+> Task :finger:stripReleaseDebugSymbols
+> Task :finger:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:testDebugUnitTest NO-SOURCE
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :app:testReleaseUnitTest NO-SOURCE
+> Task :app:test UP-TO-DATE
+> Task :app:check
 > Task :app:mergeExtDexRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
-> Task :app:compileDebugUnitTestKotlin NO-SOURCE
-> Task :app:generateDebugUnitTestSources
-> Task :app:preDebugUnitTestBuild UP-TO-DATE
-> Task :app:javaPreCompileDebugUnitTest
-> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
-> Task :app:processDebugUnitTestJavaRes NO-SOURCE
-> Task :app:testDebugUnitTest NO-SOURCE
-> Task :app:compileReleaseUnitTestKotlin NO-SOURCE
-> Task :app:generateReleaseUnitTestSources
-> Task :app:preReleaseUnitTestBuild UP-TO-DATE
-> Task :app:javaPreCompileReleaseUnitTest
-> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
-> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
-> Task :app:testReleaseUnitTest NO-SOURCE
-> Task :app:test UP-TO-DATE
-> Task :app:check
 > Task :app:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 57s
-97 actionable tasks: 97 executed
+BUILD SUCCESSFUL in 47s
+96 actionable tasks: 96 executed
 
-2019-06-16 15:42:12,125 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674446609-0/src/fingerprint-android-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-30 12:29:53,141 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413331309-0/src/fingerprint-android-master/app/build/outputs/apk/debug/app-debug.apk
