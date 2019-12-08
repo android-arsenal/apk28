@@ -1,41 +1,44 @@
-2018-10-30 16:17:17,614 INFO  DownloadService - Downloading "https://github.com/yehiahd/FastSave-Android/archive/master.zip", attempt 3
-2018-10-30 16:18:18,468 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-30 16:18:19,600 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-30 16:18:19,600 INFO  DownloadService - Downloading "https://github.com/yehiahd/FastSave-Android/archive/master.zip", attempt 3
-2018-10-30 16:19:21,444 DEBUG FullProcessService - Repository https://github.com/yehiahd/FastSave-Android available: true
-2018-10-30 16:19:21,444 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-30 16:19:21,445 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/yehiahd/FastSave-Android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src]
-2018-10-30 16:19:23,205 INFO  SysUtils - 
-2018-10-30 16:19:23,214 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/.git": true
-2018-10-30 16:19:23,219 INFO  FullProcessService - Size of directory with sources: 177 KB
-2018-10-30 16:19:23,219 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src]
-2018-10-30 16:19:23,235 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/.git/
+2019-12-08 20:25:56,610 INFO  DownloadService - Downloading "https://github.com/yehiahd/FastSave-Android/archive/master.zip", attempt 3
+2019-12-08 20:25:58,558 INFO  DownloadService - Downloaded https://github.com/yehiahd/FastSave-Android/archive/master.zip, attempt 3
+2019-12-08 20:25:58,559 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/master.zip": 154 KB
+2019-12-08 20:25:58,559 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-08 20:25:58,564 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/master.zip: true
+2019-12-08 20:25:58,564 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src'.
+2019-12-08 20:25:58,586 INFO  FullProcessService - Size of directory with sources: 177 KB
+2019-12-08 20:25:58,586 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src]
+2019-12-08 20:25:58,613 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/.git/
 
-2018-10-30 16:19:23,239 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/gradlew
-2018-10-30 16:19:23,243 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/fastsave/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/build.gradle
-2018-10-30 16:19:23,246 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/fastsave/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/settings.gradle
-2018-10-30 16:19:23,247 INFO  ProjectBuildService - Remote scripts: none
-2018-10-30 16:19:23,247 INFO  ProjectFixService - Fixing project...
-2018-10-30 16:19:23,255 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/local.properties
-2018-10-30 16:19:23,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2018-10-30 16:19:23,256 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2018-10-30 16:19:23,257 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/fastsave/local.properties
-2018-10-30 16:19:23,258 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/fastsave/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-30 16:19:23,258 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/fastsave/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-30 16:19:23,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/local.properties
-2018-10-30 16:19:23,259 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-30 16:19:23,260 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-30 16:19:23,261 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2018-10-30 16:19:23,261 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2018-10-30 16:19:23,262 INFO  ProjectFixService - Project was maybe fixed
-2018-10-30 16:19:23,262 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-30 16:19:23,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-30 16:19:29,036 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-30 16:19:29,036 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-30 16:19:29,037 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-30 16:19:59,454 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-08 20:25:58,616 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/gradlew
+2019-12-08 20:25:58,618 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/fastsave/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/build.gradle
+2019-12-08 20:25:58,621 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/fastsave/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/settings.gradle
+2019-12-08 20:25:58,621 INFO  ProjectBuildService - Remote scripts: none
+2019-12-08 20:25:58,622 INFO  ProjectFixService - Fixing project...
+2019-12-08 20:25:58,628 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/app/local.properties
+2019-12-08 20:25:58,629 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-12-08 20:25:58,629 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-12-08 20:25:58,631 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/fastsave/local.properties
+2019-12-08 20:25:58,632 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/fastsave/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-12-08 20:25:58,632 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/fastsave/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-12-08 20:25:58,633 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/local.properties
+2019-12-08 20:25:58,633 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-12-08 20:25:58,634 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-12-08 20:25:58,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-12-08 20:25:58,635 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-12-08 20:25:58,636 INFO  ProjectFixService - Project was maybe fixed
+2019-12-08 20:25:58,636 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-08 20:25:58,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-08 20:26:05,973 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-12-08 20:26:05,973 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-08 20:26:05,973 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-08 20:26:42,764 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-WARNING: Conflict with dependency 'com.google.code.gson:gson' in project ':app'. Resolved versions for runtime classpath (2.8.2) and compile classpath (2.8.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build.gradle:
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db/1.0.0/db-1.0.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/runtime/1.0.0/runtime-1.0.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/common/1.0.0/common-1.0.0.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db-framework/1.0.0/db-framework-1.0.0.aar
+Download https://jcenter.bintray.com/com/amitshekhar/android/debug-db/1.0.3/debug-db-1.0.3.aar
+Download https://jcenter.bintray.com/net/zetetic/android-database-sqlcipher/3.5.7/android-database-sqlcipher-3.5.7.aar
+WARNING: Conflict with dependency 'com.google.code.gson:gson' in project ':app'. Resolved versions for runtime classpath (2.8.2) and compile classpath (2.8.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/app/build.gradle:
 dependencies {
     implementation("com.google.code.gson:gson:2.8.2")
 }
@@ -97,7 +100,7 @@ dependencies {
 :fastsave:transformNativeLibsWithIntermediateJniLibsForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
 :app:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libsqlcipher.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libsqlcipher.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :app:checkDebugLibraries
 :app:processDebugJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForDebug
@@ -168,7 +171,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 29s
+BUILD SUCCESSFUL in 36s
 90 actionable tasks: 90 executed
 
-2018-10-30 16:19:59,531 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891037610-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-12-08 20:26:42,824 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811556607-0/src/FastSave-Android-master/app/build/outputs/apk/debug/app-debug.apk

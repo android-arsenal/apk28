@@ -1,9 +1,173 @@
-2019-11-10 23:08:30,631 INFO  DownloadService - Downloading "https://github.com/Mostafa-MA-Saleh/EditCredit/archive/master.zip", attempt 3
-2019-11-10 23:08:30,632 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-11-10 23:08:30,633 INFO  GithubDownloadService - Default branch of this repository: null
-2019-11-10 23:08:30,633 ERROR GithubDownloadService - Could not detect default branch for Github repository
-2019-11-10 23:08:30,634 DEBUG FullProcessService - Repository https://github.com/Mostafa-MA-Saleh/EditCredit available: false
-2019-11-10 23:08:30,634 ERROR FullProcessService - Could not find directory with sources
-2019-11-10 23:08:30,634 ERROR FullProcessService - Project will not be processed
-2019-11-10 23:08:30,634 ERROR FullProcessService - Project build has not produced APK file
-2019-11-10 23:08:30,634 ERROR FullProcessService - Could not find generated or existed APK file
+2019-12-08 20:16:37,184 INFO  DownloadService - Downloading "https://github.com/Mostafa-MA-Saleh/EditCredit/archive/master.zip", attempt 3
+2019-12-08 20:16:39,270 INFO  DownloadService - Downloaded https://github.com/Mostafa-MA-Saleh/EditCredit/archive/master.zip, attempt 3
+2019-12-08 20:16:39,271 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/master.zip": 205 KB
+2019-12-08 20:16:39,271 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-08 20:16:39,276 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/master.zip: true
+2019-12-08 20:16:39,277 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src'.
+2019-12-08 20:16:39,297 INFO  FullProcessService - Size of directory with sources: 240 KB
+2019-12-08 20:16:39,297 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src]
+2019-12-08 20:16:39,316 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/.git/
+
+2019-12-08 20:16:39,319 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/gradlew
+2019-12-08 20:16:39,322 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/editcredit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/build.gradle
+2019-12-08 20:16:39,324 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/editcredit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/settings.gradle
+2019-12-08 20:16:39,324 INFO  ProjectBuildService - Remote scripts: none
+2019-12-08 20:16:39,325 INFO  ProjectFixService - Fixing project...
+2019-12-08 20:16:39,332 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/app/local.properties
+2019-12-08 20:16:39,333 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-08 20:16:39,334 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-08 20:16:39,335 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/editcredit/local.properties
+2019-12-08 20:16:39,337 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/editcredit/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-08 20:16:39,337 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/editcredit/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-08 20:16:39,338 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/local.properties
+2019-12-08 20:16:39,339 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-08 20:16:39,339 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-08 20:16:39,341 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-08 20:16:39,341 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-08 20:16:39,341 INFO  ProjectFixService - Project was maybe fixed
+2019-12-08 20:16:39,341 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-08 20:16:39,342 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-08 20:16:46,123 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-08 20:16:46,123 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-08 20:16:46,123 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-08 20:17:35,566 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :editcredit:preBuild UP-TO-DATE
+> Task :editcredit:preDebugBuild UP-TO-DATE
+> Task :editcredit:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :editcredit:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :editcredit:generateDebugResValues
+> Task :editcredit:compileDebugRenderscript NO-SOURCE
+> Task :editcredit:generateDebugResources
+> Task :editcredit:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :editcredit:checkDebugManifest
+> Task :app:mergeDebugResources
+> Task :editcredit:processDebugManifest
+> Task :app:processDebugManifest
+> Task :editcredit:parseDebugLibraryResources
+> Task :editcredit:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :editcredit:mergeDebugShaders
+> Task :editcredit:compileDebugShaders
+> Task :editcredit:generateDebugAssets
+> Task :editcredit:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :editcredit:processDebugJavaRes NO-SOURCE
+> Task :editcredit:generateDebugRFile
+> Task :app:processDebugResources
+> Task :editcredit:compileDebugKotlin
+> Task :app:checkDebugDuplicateClasses
+> Task :editcredit:javaPreCompileDebug
+> Task :editcredit:compileDebugJavaWithJavac
+> Task :editcredit:bundleLibResDebug
+> Task :editcredit:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :editcredit:bundleLibRuntimeDebug
+> Task :editcredit:createFullJarDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :editcredit:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :editcredit:preReleaseBuild UP-TO-DATE
+> Task :editcredit:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :editcredit:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :editcredit:compileReleaseRenderscript NO-SOURCE
+> Task :editcredit:generateReleaseResValues
+> Task :editcredit:generateReleaseResources
+> Task :editcredit:packageReleaseResources
+> Task :app:mergeDebugJavaResource
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :editcredit:checkReleaseManifest
+> Task :editcredit:mergeDebugNativeLibs
+> Task :editcredit:stripDebugDebugSymbols
+> Task :editcredit:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :editcredit:generateReleaseBuildConfig
+> Task :editcredit:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :editcredit:parseReleaseLibraryResources
+> Task :app:mergeReleaseResources
+> Task :editcredit:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :editcredit:compileReleaseKotlin
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :editcredit:javaPreCompileRelease
+> Task :editcredit:compileReleaseJavaWithJavac
+> Task :app:prepareLintJar
+> Task :editcredit:processReleaseJavaRes NO-SOURCE
+> Task :editcredit:prepareLintJarForPublish
+> Task :app:checkReleaseDuplicateClasses
+> Task :editcredit:bundleLibResRelease
+> Task :editcredit:bundleLibRuntimeRelease
+> Task :editcredit:createFullJarRelease
+> Task :editcredit:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/ac0de1dbd36822b4b38cc0458e62fada/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :editcredit:mergeReleaseShaders
+> Task :editcredit:compileReleaseShaders
+> Task :editcredit:generateReleaseAssets
+> Task :editcredit:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :editcredit:mergeReleaseJniLibFolders
+> Task :editcredit:mergeReleaseNativeLibs
+> Task :editcredit:stripReleaseDebugSymbols
+> Task :editcredit:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 48s
+94 actionable tasks: 94 executed
+
+2019-12-08 20:17:35,632 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575810997180-0/src/EditCredit-master/app/build/outputs/apk/debug/app-debug.apk
