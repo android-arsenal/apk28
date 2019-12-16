@@ -1,40 +1,61 @@
-2019-10-30 12:26:37,549 INFO  DownloadService - Downloading "https://github.com/sensorberg-dev/permission-bitte/archive/master.zip", attempt 3
-2019-10-30 12:26:38,572 INFO  DownloadService - Downloaded https://github.com/sensorberg-dev/permission-bitte/archive/master.zip, attempt 3
-2019-10-30 12:26:38,573 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/master.zip": 142 KB
-2019-10-30 12:26:38,573 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-30 12:26:38,578 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/master.zip: true
-2019-10-30 12:26:38,579 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src'.
-2019-10-30 12:26:38,594 INFO  FullProcessService - Size of directory with sources: 159 KB
-2019-10-30 12:26:38,594 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src]
-2019-10-30 12:26:38,613 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/.git/
+2019-12-16 12:52:37,827 INFO  DownloadService - Downloading "https://github.com/sensorberg-dev/permission-bitte/archive/master.zip", attempt 3
+2019-12-16 12:52:38,386 INFO  DownloadService - Downloaded https://github.com/sensorberg-dev/permission-bitte/archive/master.zip, attempt 3
+2019-12-16 12:52:38,386 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/master.zip": 146 KB
+2019-12-16 12:52:38,386 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-16 12:52:38,392 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/master.zip: true
+2019-12-16 12:52:38,392 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src'.
+2019-12-16 12:52:38,408 INFO  FullProcessService - Size of directory with sources: 166 KB
+2019-12-16 12:52:38,408 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src]
+2019-12-16 12:52:38,427 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/.git/
 
-2019-10-30 12:26:38,615 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/gradlew
-2019-10-30 12:26:38,617 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/permission-bitte/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/build.gradle
-2019-10-30 12:26:38,619 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/permission-bitte/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/settings.gradle
-2019-10-30 12:26:38,619 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sensorberg-dev/gradle-scripts/master/common-def.gradle", attempt 3
-2019-10-30 12:26:40,027 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sensorberg-dev/gradle-scripts/master/common-def.gradle, attempt 3
-2019-10-30 12:26:40,028 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sensorberg-dev/gradle-scripts/master/common-def.gradle
-2019-10-30 12:26:40,028 INFO  ProjectFixService - Fixing project...
-2019-10-30 12:26:40,035 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/permission-bitte/local.properties
-2019-10-30 12:26:40,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/permission-bitte/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-10-30 12:26:40,036 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/sample/local.properties
-2019-10-30 12:26:40,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/sample/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-10-30 12:26:40,037 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/local.properties
-2019-10-30 12:26:40,037 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-30 12:26:40,037 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-30 12:26:40,038 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-10-30 12:26:40,038 INFO  ProjectFixService - Project was maybe fixed
-2019-10-30 12:26:40,038 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-30 12:26:40,038 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/permission-bitte/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-30 12:26:48,468 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-30 12:26:48,468 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-30 12:26:48,468 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/permission-bitte/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-30 12:26:59,866 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-16 12:52:38,429 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/gradlew
+2019-12-16 12:52:38,431 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/permission-bitte/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/build.gradle
+2019-12-16 12:52:38,433 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/permission-bitte/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/settings.gradle
+2019-12-16 12:52:38,434 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sensorberg-dev/gradle-scripts/master/common-def.gradle", attempt 3
+2019-12-16 12:52:38,781 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sensorberg-dev/gradle-scripts/master/common-def.gradle, attempt 3
+2019-12-16 12:52:38,781 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sensorberg-dev/gradle-scripts/master/common-def.gradle
+2019-12-16 12:52:38,781 INFO  ProjectFixService - Fixing project...
+2019-12-16 12:52:38,788 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/permission-bitte/local.properties
+2019-12-16 12:52:38,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/permission-bitte/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-16 12:52:38,790 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/permission-bitte/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-16 12:52:38,791 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/sample/local.properties
+2019-12-16 12:52:38,796 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-16 12:52:38,796 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-16 12:52:38,797 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/local.properties
+2019-12-16 12:52:38,798 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.0.1-all.zip
+2019-12-16 12:52:38,798 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.0.1-bin.zip)
+2019-12-16 12:52:38,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-16 12:52:38,800 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-16 12:52:38,800 INFO  ProjectFixService - Project was maybe fixed
+2019-12-16 12:52:38,800 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-16 12:52:38,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/permission-bitte/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-16 12:54:22,858 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-12-16 12:54:22,858 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-16 12:54:22,858 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/permission-bitte/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-16 12:54:42,176 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:pluginUnderTestMetadata UP-TO-DATE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:validatePlugins UP-TO-DATE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
 
 > Configure project :permission-bitte
-Finding 'PERMISSION_BITTE_URL' property
-Finding 'PERMISSION_BITTE_USERNAME' property
-Finding 'PERMISSION_BITTE_PASSWORD' property
+Finding 'MAVEN_JCENTER_USERNAME' property
+Finding 'MAVEN_JCENTER_PASSWORD' property
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
@@ -46,11 +67,12 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :permission-bitte:generateReleaseBuildConfig
 > Task :permission-bitte:generateReleaseResValues
 > Task :permission-bitte:androidSourcesJar
+> Task :permission-bitte:javaPreCompileRelease
+> Task :permission-bitte:processReleaseManifest
 > Task :permission-bitte:compileReleaseAidl NO-SOURCE
 > Task :permission-bitte:compileReleaseRenderscript NO-SOURCE
 > Task :permission-bitte:generateReleaseResources
 > Task :permission-bitte:packageReleaseResources
-> Task :permission-bitte:processReleaseManifest
 > Task :permission-bitte:preDebugBuild UP-TO-DATE
 > Task :permission-bitte:compileDebugAidl NO-SOURCE
 > Task :permission-bitte:compileDebugRenderscript NO-SOURCE
@@ -59,17 +81,14 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :permission-bitte:generateDebugResValues
 > Task :permission-bitte:generateDebugResources
 > Task :permission-bitte:packageDebugResources
-> Task :permission-bitte:parseReleaseLibraryResources
-> Task :permission-bitte:parseDebugLibraryResources
 > Task :permission-bitte:mergeDebugShaders
 > Task :permission-bitte:compileDebugShaders
 > Task :permission-bitte:generateDebugAssets
 > Task :permission-bitte:packageDebugAssets
 > Task :permission-bitte:packageDebugRenderscript NO-SOURCE
-> Task :permission-bitte:javaPreCompileDebug
+> Task :permission-bitte:processDebugManifest
 > Task :permission-bitte:processDebugJavaRes NO-SOURCE
 > Task :permission-bitte:mergeDebugJniLibFolders
-> Task :permission-bitte:prepareLintJarForPublish
 > Task :permission-bitte:mergeReleaseShaders
 > Task :permission-bitte:compileReleaseShaders
 > Task :permission-bitte:generateReleaseAssets
@@ -77,8 +96,18 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :permission-bitte:packageReleaseRenderscript NO-SOURCE
 > Task :permission-bitte:processReleaseJavaRes NO-SOURCE
 > Task :permission-bitte:mergeReleaseJniLibFolders
+> Task :permission-bitte:javaPreCompileDebug
+> Task :permission-bitte:prepareLintJarForPublish
+> Task :permission-bitte:parseReleaseLibraryResources
+> Task :permission-bitte:parseDebugLibraryResources
+> Task :permission-bitte:mergeDebugNativeLibs
+> Task :permission-bitte:stripDebugDebugSymbols
+> Task :permission-bitte:transformNativeLibsWithSyncJniLibsForDebug
+> Task :permission-bitte:mergeReleaseNativeLibs
+> Task :permission-bitte:stripReleaseDebugSymbols
+> Task :permission-bitte:transformNativeLibsWithSyncJniLibsForRelease
+> Task :permission-bitte:mergeReleaseResources
 > Task :permission-bitte:generateReleaseRFile
-> Task :permission-bitte:javaPreCompileRelease
 > Task :permission-bitte:compileReleaseJavaWithJavac
 
 > Task :permission-bitte:androidJavadocs
@@ -89,52 +118,62 @@ javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/re
 > Task :permission-bitte:extractReleaseAnnotations
 > Task :permission-bitte:mergeReleaseGeneratedProguardFiles
 > Task :permission-bitte:mergeReleaseConsumerProguardFiles
-> Task :permission-bitte:compileReleaseSources
-> Task :permission-bitte:mergeReleaseNativeLibs
-> Task :permission-bitte:stripReleaseDebugSymbols
-> Task :permission-bitte:transformNativeLibsWithSyncJniLibsForRelease
-> Task :permission-bitte:mergeDebugNativeLibs
-> Task :permission-bitte:stripDebugDebugSymbols
-> Task :permission-bitte:transformNativeLibsWithSyncJniLibsForDebug
-> Task :permission-bitte:processDebugManifest
-> Task :permission-bitte:mergeReleaseJavaResource
-> Task :permission-bitte:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :permission-bitte:bundleReleaseAar
-> Task :permission-bitte:signArchives SKIPPED
-> Task :permission-bitte:mergeReleaseResources
 > Task :permission-bitte:generateDebugRFile
 > Task :permission-bitte:compileDebugJavaWithJavac
 > Task :permission-bitte:extractDebugAnnotations
 > Task :permission-bitte:mergeDebugGeneratedProguardFiles
 > Task :permission-bitte:mergeDebugConsumerProguardFiles
 > Task :permission-bitte:compileDebugSources
+> Task :permission-bitte:compileReleaseSources
+> Task :permission-bitte:verifyReleaseResources
+> Task :permission-bitte:mergeReleaseJavaResource
+> Task :permission-bitte:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :permission-bitte:bundleReleaseAar
+> Task :permission-bitte:assembleRelease
+> Task :permission-bitte:signArchives SKIPPED
 > Task :permission-bitte:mergeDebugJavaResource
 > Task :permission-bitte:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :permission-bitte:bundleDebugAar
 > Task :permission-bitte:assembleDebug
-> Task :permission-bitte:verifyReleaseResources
-> Task :permission-bitte:assembleRelease
 > Task :permission-bitte:assemble
 > Task :permission-bitte:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 19s
 50 actionable tasks: 50 executed
 
-2019-10-30 12:26:59,888 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-30 12:26:59,888 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-30 12:27:05,643 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-30 12:27:05,643 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-30 12:27:05,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-30 12:27:33,013 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-16 12:54:42,203 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-16 12:54:42,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-16 12:54:51,945 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-12-16 12:54:51,945 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-16 12:54:51,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-16 12:55:34,197 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:pluginUnderTestMetadata UP-TO-DATE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:validatePlugins UP-TO-DATE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
 
 > Configure project :permission-bitte
-Finding 'PERMISSION_BITTE_URL' property
-Finding 'PERMISSION_BITTE_USERNAME' property
-Finding 'PERMISSION_BITTE_PASSWORD' property
+Finding 'MAVEN_JCENTER_USERNAME' property
+Finding 'MAVEN_JCENTER_PASSWORD' property
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
@@ -144,8 +183,8 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :permission-bitte:preDebugBuild UP-TO-DATE
 > Task :permission-bitte:compileDebugAidl NO-SOURCE
 > Task :permission-bitte:checkDebugManifest UP-TO-DATE
-> Task :permission-bitte:compileDebugRenderscript NO-SOURCE
 > Task :permission-bitte:generateDebugBuildConfig UP-TO-DATE
+> Task :permission-bitte:compileDebugRenderscript NO-SOURCE
 > Task :permission-bitte:generateDebugResValues UP-TO-DATE
 > Task :permission-bitte:generateDebugResources UP-TO-DATE
 > Task :permission-bitte:packageDebugResources UP-TO-DATE
@@ -158,17 +197,17 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :permission-bitte:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
 > Task :permission-bitte:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
 > Task :sample:javaPreCompileDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
-> Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugJavaWithJavac
@@ -221,16 +260,19 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
 > Task :permission-bitte:bundleLibCompileRelease
-> Task :sample:javaPreCompileRelease
 > Task :permission-bitte:prepareLintJarForPublish UP-TO-DATE
 > Task :sample:prepareLintJar
 > Task :permission-bitte:processReleaseJavaRes NO-SOURCE
+> Task :sample:javaPreCompileRelease
 > Task :sample:checkReleaseDuplicateClasses
+> Task :permission-bitte:bundleLibResRelease
+> Task :permission-bitte:bundleLibRuntimeRelease
+> Task :permission-bitte:createFullJarRelease
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 
@@ -241,11 +283,8 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :sample:compileReleaseSources
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7cd51732ae8beef50a81b1187b900aae/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/2110c71be56428f5f0510ab92df34c50/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :permission-bitte:bundleLibResRelease
-> Task :permission-bitte:bundleLibRuntimeRelease
-> Task :permission-bitte:createFullJarRelease
 > Task :sample:transformClassesWithDexBuilderForRelease
 > Task :permission-bitte:mergeReleaseShaders UP-TO-DATE
 > Task :permission-bitte:compileReleaseShaders UP-TO-DATE
@@ -262,10 +301,10 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :permission-bitte:stripReleaseDebugSymbols UP-TO-DATE
 > Task :permission-bitte:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
-> Task :sample:mergeExtDexDebug
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
 > Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeExtDexDebug
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
@@ -276,11 +315,11 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:assemble
 > Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 26s
+BUILD SUCCESSFUL in 41s
 90 actionable tasks: 59 executed, 31 up-to-date
 
-2019-10-30 12:27:33,078 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413197547-0/src/permission-bitte-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-12-16 12:55:34,270 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576475557823-0/src/permission-bitte-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
