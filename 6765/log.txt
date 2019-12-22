@@ -1,40 +1,43 @@
-2019-10-08 13:19:54,541 INFO  DownloadService - Downloading "https://github.com/hakobast/DropdownTextView/archive/master.zip", attempt 3
-2019-10-08 13:19:59,055 INFO  DownloadService - Downloaded https://github.com/hakobast/DropdownTextView/archive/master.zip, attempt 3
-2019-10-08 13:19:59,055 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/master.zip": 3 MB
-2019-10-08 13:19:59,055 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-08 13:19:59,057 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/master.zip: true
-2019-10-08 13:19:59,057 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src'.
-2019-10-08 13:19:59,106 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-10-08 13:19:59,107 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src]
-2019-10-08 13:19:59,144 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/.git/
+2019-12-22 23:13:54,806 INFO  DownloadService - Downloading "https://github.com/hakobast/DropdownTextView/archive/master.zip", attempt 3
+2019-12-22 23:14:55,540 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-12-22 23:14:56,675 INFO  GithubDownloadService - Default branch of this repository: master
+2019-12-22 23:14:56,675 INFO  DownloadService - Downloading "https://github.com/hakobast/DropdownTextView/archive/master.zip", attempt 3
+2019-12-22 23:15:58,163 DEBUG FullProcessService - Repository https://github.com/hakobast/DropdownTextView available: true
+2019-12-22 23:15:58,163 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-12-22 23:15:58,164 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/hakobast/DropdownTextView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src]
+2019-12-22 23:16:01,061 INFO  SysUtils - 
+2019-12-22 23:16:01,068 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/.git": true
+2019-12-22 23:16:01,071 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-12-22 23:16:01,071 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src]
+2019-12-22 23:16:01,088 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/.git/
 
-2019-10-08 13:19:59,147 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/gradlew
-2019-10-08 13:19:59,150 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/dropdown-textview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/build.gradle
-2019-10-08 13:19:59,153 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/dropdown-textview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/settings.gradle
-2019-10-08 13:19:59,153 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-10-08 13:20:00,060 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-10-08 13:20:00,060 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-10-08 13:20:00,247 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-10-08 13:20:00,248 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-10-08 13:20:00,248 INFO  ProjectFixService - Fixing project...
-2019-10-08 13:20:00,260 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/app/local.properties
-2019-10-08 13:20:00,261 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-10-08 13:20:00,261 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-10-08 13:20:00,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/dropdown-textview/local.properties
-2019-10-08 13:20:00,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/dropdown-textview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-10-08 13:20:00,263 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/dropdown-textview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-10-08 13:20:00,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/local.properties
-2019-10-08 13:20:00,265 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-08 13:20:00,265 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-08 13:20:00,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-10-08 13:20:00,267 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-10-08 13:20:00,268 INFO  ProjectFixService - Project was maybe fixed
-2019-10-08 13:20:00,268 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-08 13:20:00,268 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-08 13:20:08,214 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-10-08 13:20:08,215 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-08 13:20:08,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-08 13:20:13,734 ERROR SysUtils - Could not process external command
+2019-12-22 23:16:01,091 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/gradlew
+2019-12-22 23:16:01,093 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/dropdown-textview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/build.gradle
+2019-12-22 23:16:01,096 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/dropdown-textview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/settings.gradle
+2019-12-22 23:16:01,096 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-12-22 23:16:01,163 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-12-22 23:16:01,164 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-12-22 23:16:01,230 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-12-22 23:16:01,230 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-12-22 23:16:01,230 INFO  ProjectFixService - Fixing project...
+2019-12-22 23:16:01,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/app/local.properties
+2019-12-22 23:16:01,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-22 23:16:01,241 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-22 23:16:01,242 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/dropdown-textview/local.properties
+2019-12-22 23:16:01,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/dropdown-textview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-22 23:16:01,246 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/dropdown-textview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-22 23:16:01,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/local.properties
+2019-12-22 23:16:01,247 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-22 23:16:01,248 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-22 23:16:01,249 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-22 23:16:01,249 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-22 23:16:01,249 INFO  ProjectFixService - Project was maybe fixed
+2019-12-22 23:16:01,250 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 23:16:01,250 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 23:16:09,352 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-12-22 23:16:09,352 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-22 23:16:09,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-22 23:16:14,586 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,8 +50,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,7 +64,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-08 13:20:13,734 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-22 23:16:14,586 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -163,9 +165,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-10-08 13:20:13,734 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-10-08 13:20:13,735 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-08 13:21:10,537 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-22 23:16:14,586 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-12-22 23:16:14,587 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-22 23:17:17,667 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :dropdown-textview:preBuild UP-TO-DATE
@@ -205,8 +207,8 @@ BUILD FAILED in 5s
 > Task :app:processDebugResources
 
 > Task :dropdown-textview:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/dropdown-textview/src/main/java/hakobastvatsatryan/DropdownTextView.kt: (112, 32): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/dropdown-textview/src/main/java/hakobastvatsatryan/DropdownTextView.kt: (117, 19): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/dropdown-textview/src/main/java/hakobastvatsatryan/DropdownTextView.kt: (112, 32): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/dropdown-textview/src/main/java/hakobastvatsatryan/DropdownTextView.kt: (117, 19): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
 
 > Task :dropdown-textview:javaPreCompileDebug
 > Task :dropdown-textview:compileDebugJavaWithJavac
@@ -240,14 +242,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/
 > Task :dropdown-textview:packageReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :dropdown-textview:checkReleaseManifest
+> Task :dropdown-textview:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :dropdown-textview:generateReleaseBuildConfig
 > Task :dropdown-textview:mergeDebugNativeLibs
 > Task :dropdown-textview:stripDebugDebugSymbols
 > Task :dropdown-textview:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:mergeDebugJavaResource
-> Task :dropdown-textview:generateReleaseBuildConfig
 > Task :dropdown-textview:parseReleaseLibraryResources
-> Task :dropdown-textview:processReleaseManifest
-> Task :app:processReleaseManifest
 > Task :app:mergeReleaseResources
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
@@ -255,18 +257,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/
 > Task :app:processReleaseResources
 
 > Task :dropdown-textview:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/dropdown-textview/src/main/java/hakobastvatsatryan/DropdownTextView.kt: (112, 32): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/dropdown-textview/src/main/java/hakobastvatsatryan/DropdownTextView.kt: (117, 19): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/dropdown-textview/src/main/java/hakobastvatsatryan/DropdownTextView.kt: (112, 32): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/dropdown-textview/src/main/java/hakobastvatsatryan/DropdownTextView.kt: (117, 19): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
 
-> Task :app:prepareLintJar
 > Task :dropdown-textview:javaPreCompileRelease
 > Task :dropdown-textview:compileReleaseJavaWithJavac
+> Task :app:prepareLintJar
 > Task :dropdown-textview:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :dropdown-textview:bundleLibResRelease
 > Task :dropdown-textview:prepareLintJarForPublish
 > Task :dropdown-textview:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :dropdown-textview:bundleLibResRelease
-> Task :app:checkReleaseDuplicateClasses
 > Task :dropdown-textview:bundleLibRuntimeRelease
 > Task :dropdown-textview:createFullJarRelease
 > Task :app:javaPreCompileRelease
@@ -289,47 +291,47 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/
 
 > Task :app:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e5c4a825fa8dbd12e85f0778a552725c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-Ran lint on variant debug: 5 issues found
 Ran lint on variant release: 5 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/app/build/reports/lint-results.xml
+Ran lint on variant debug: 5 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/app/build/reports/lint-results.xml
 
-> Task :dropdown-textview:mergeReleaseNativeLibs
-> Task :dropdown-textview:stripReleaseDebugSymbols
-> Task :dropdown-textview:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:mergeExtDexDebug
-> Task :app:mergeReleaseJavaResource
 > Task :app:preDebugUnitTestBuild UP-TO-DATE
 > Task :app:processDebugUnitTestJavaRes NO-SOURCE
 > Task :app:preReleaseUnitTestBuild UP-TO-DATE
 > Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :dropdown-textview:mergeReleaseNativeLibs
+> Task :dropdown-textview:stripReleaseDebugSymbols
+> Task :dropdown-textview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
 > Task :app:compileDebugUnitTestKotlin
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
 > Task :app:compileReleaseUnitTestKotlin
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:testDebugUnitTest
 > Task :app:mergeExtDexRelease
 > Task :app:javaPreCompileReleaseUnitTest
 > Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
 > Task :app:testReleaseUnitTest
+> Task :app:test
+> Task :app:check
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
-> Task :app:javaPreCompileDebugUnitTest
-> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
-> Task :app:testDebugUnitTest
-> Task :app:test
-> Task :app:check
 > Task :app:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 56s
+BUILD SUCCESSFUL in 1m 2s
 100 actionable tasks: 100 executed
 
-2019-10-08 13:21:10,618 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515594539-0/src/DropdownTextView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-22 23:17:17,739 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031234804-0/src/app/build/outputs/apk/debug/app-debug.apk

@@ -1,36 +1,39 @@
-2019-05-16 13:05:41,270 INFO  DownloadService - Downloading "https://github.com/PuffoCyano/Range-Time-Picker-Dialog/archive/master.zip", attempt 3
-2019-05-16 13:05:43,873 INFO  DownloadService - Downloaded https://github.com/PuffoCyano/Range-Time-Picker-Dialog/archive/master.zip, attempt 3
-2019-05-16 13:05:43,874 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/master.zip": 163 KB
-2019-05-16 13:05:43,874 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-16 13:05:43,875 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/master.zip: true
-2019-05-16 13:05:43,875 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src'.
-2019-05-16 13:05:43,902 INFO  FullProcessService - Size of directory with sources: 204 KB
-2019-05-16 13:05:43,902 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src]
-2019-05-16 13:05:43,921 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/.git/
+2019-12-22 23:07:29,896 INFO  DownloadService - Downloading "https://github.com/PuffoCyano/Range-Time-Picker-Dialog/archive/master.zip", attempt 3
+2019-12-22 23:08:30,482 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-12-22 23:08:31,368 INFO  GithubDownloadService - Default branch of this repository: master
+2019-12-22 23:08:31,368 INFO  DownloadService - Downloading "https://github.com/PuffoCyano/Range-Time-Picker-Dialog/archive/master.zip", attempt 3
+2019-12-22 23:09:32,615 DEBUG FullProcessService - Repository https://github.com/PuffoCyano/Range-Time-Picker-Dialog available: true
+2019-12-22 23:09:32,615 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-12-22 23:09:32,615 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/PuffoCyano/Range-Time-Picker-Dialog, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src]
+2019-12-22 23:09:34,949 INFO  SysUtils - 
+2019-12-22 23:09:34,956 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/.git": true
+2019-12-22 23:09:34,959 INFO  FullProcessService - Size of directory with sources: 204 KB
+2019-12-22 23:09:34,959 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src]
+2019-12-22 23:09:34,978 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/.git/
 
-2019-05-16 13:05:43,925 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/gradlew
-2019-05-16 13:05:43,929 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/rangetimepickerdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/build.gradle
-2019-05-16 13:05:43,932 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/rangetimepickerdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/settings.gradle
-2019-05-16 13:05:43,933 INFO  ProjectBuildService - Remote scripts: none
-2019-05-16 13:05:43,933 INFO  ProjectFixService - Fixing project...
-2019-05-16 13:05:43,941 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/app/local.properties
-2019-05-16 13:05:43,942 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-16 13:05:43,942 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-16 13:05:43,943 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/rangetimepickerdialog/local.properties
-2019-05-16 13:05:43,944 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/rangetimepickerdialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-16 13:05:43,944 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/rangetimepickerdialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-16 13:05:43,944 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/local.properties
-2019-05-16 13:05:43,945 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-05-16 13:05:43,945 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-05-16 13:05:43,946 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-16 13:05:43,946 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-16 13:05:43,946 INFO  ProjectFixService - Project was maybe fixed
-2019-05-16 13:05:43,947 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-16 13:05:43,947 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-16 13:05:51,659 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-05-16 13:05:51,659 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-16 13:05:51,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-16 13:06:23,992 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-22 23:09:34,980 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/gradlew
+2019-12-22 23:09:34,983 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/rangetimepickerdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/build.gradle
+2019-12-22 23:09:34,986 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/rangetimepickerdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/settings.gradle
+2019-12-22 23:09:34,986 INFO  ProjectBuildService - Remote scripts: none
+2019-12-22 23:09:34,986 INFO  ProjectFixService - Fixing project...
+2019-12-22 23:09:34,992 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/app/local.properties
+2019-12-22 23:09:34,993 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-22 23:09:34,993 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-22 23:09:34,994 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/rangetimepickerdialog/local.properties
+2019-12-22 23:09:34,994 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/rangetimepickerdialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-22 23:09:34,994 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/rangetimepickerdialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-22 23:09:34,995 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/local.properties
+2019-12-22 23:09:34,995 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-12-22 23:09:34,995 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-12-22 23:09:34,996 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-22 23:09:34,997 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-22 23:09:34,997 INFO  ProjectFixService - Project was maybe fixed
+2019-12-22 23:09:34,997 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 23:09:34,997 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 23:09:43,504 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-12-22 23:09:43,504 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-22 23:09:43,504 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-22 23:10:18,324 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :rangetimepickerdialog:preBuild UP-TO-DATE
@@ -63,13 +66,13 @@
 :rangetimepickerdialog:prepareLintJar
 :rangetimepickerdialog:generateDebugSources
 :rangetimepickerdialog:javaPreCompileDebug
-:rangetimepickerdialog:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/rangetimepickerdialog/src/main/java/com/mcsoft/timerangepickerdialog/RangeTimePickerDialog.java uses or overrides a deprecated API.
+:rangetimepickerdialog:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/rangetimepickerdialog/src/main/java/com/mcsoft/timerangepickerdialog/RangeTimePickerDialog.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :rangetimepickerdialog:processDebugJavaRes NO-SOURCE
 :rangetimepickerdialog:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/app/src/main/java/com/mcsoft/exampleapprangetimepickerdialog/MainActivity.java uses or overrides a deprecated API.
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/app/src/main/java/com/mcsoft/exampleapprangetimepickerdialog/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileDebugNdk NO-SOURCE
@@ -127,18 +130,19 @@ Note: Recompile with -Xlint:deprecation for details.
 :rangetimepickerdialog:generateReleaseBuildConfig
 :rangetimepickerdialog:generateReleaseSources
 :rangetimepickerdialog:javaPreCompileRelease
-:rangetimepickerdialog:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/rangetimepickerdialog/src/main/java/com/mcsoft/timerangepickerdialog/RangeTimePickerDialog.java uses or overrides a deprecated API.
+:rangetimepickerdialog:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/rangetimepickerdialog/src/main/java/com/mcsoft/timerangepickerdialog/RangeTimePickerDialog.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :rangetimepickerdialog:processReleaseJavaRes NO-SOURCE
 :rangetimepickerdialog:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/app/src/main/java/com/mcsoft/exampleapprangetimepickerdialog/MainActivity.java uses or overrides a deprecated API.
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/app/src/main/java/com/mcsoft/exampleapprangetimepickerdialog/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4c664dd8a93f97c8b454b4802926a61e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -166,7 +170,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 31s
+BUILD SUCCESSFUL in 34s
 90 actionable tasks: 90 executed
 
-2019-05-16 13:06:24,097 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557986741267-0/src/Range-Time-Picker-Dialog-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-22 23:10:18,409 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030849892-0/src/app/build/outputs/apk/debug/app-debug.apk

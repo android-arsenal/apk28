@@ -1,34 +1,37 @@
-2019-03-08 23:16:16,327 INFO  DownloadService - Downloading "https://github.com/rozkminiacz/GoogleMapsPolyline/archive/master.zip", attempt 3
-2019-03-08 23:16:16,990 INFO  DownloadService - Downloaded https://github.com/rozkminiacz/GoogleMapsPolyline/archive/master.zip, attempt 3
-2019-03-08 23:16:16,990 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/master.zip": 197 KB
-2019-03-08 23:16:16,990 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-08 23:16:16,992 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/master.zip: true
-2019-03-08 23:16:16,992 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src'.
-2019-03-08 23:16:17,013 INFO  FullProcessService - Size of directory with sources: 218 KB
-2019-03-08 23:16:17,013 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src]
-2019-03-08 23:16:17,032 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/.git/
+2019-12-22 23:00:57,091 INFO  DownloadService - Downloading "https://github.com/rozkminiacz/GoogleMapsPolyline/archive/master.zip", attempt 3
+2019-12-22 23:01:57,719 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-12-22 23:01:58,599 INFO  GithubDownloadService - Default branch of this repository: master
+2019-12-22 23:01:58,599 INFO  DownloadService - Downloading "https://github.com/rozkminiacz/GoogleMapsPolyline/archive/master.zip", attempt 3
+2019-12-22 23:03:00,227 DEBUG FullProcessService - Repository https://github.com/rozkminiacz/GoogleMapsPolyline available: true
+2019-12-22 23:03:00,227 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-12-22 23:03:00,227 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/rozkminiacz/GoogleMapsPolyline, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src]
+2019-12-22 23:03:02,313 INFO  SysUtils - 
+2019-12-22 23:03:02,342 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/.git": true
+2019-12-22 23:03:02,346 INFO  FullProcessService - Size of directory with sources: 218 KB
+2019-12-22 23:03:02,346 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src]
+2019-12-22 23:03:02,368 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/.git/
 
-2019-03-08 23:16:17,035 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gradlew
-2019-03-08 23:16:17,039 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gmapspolyline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/build.gradle
-2019-03-08 23:16:17,042 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gmapspolyline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/settings.gradle
-2019-03-08 23:16:17,043 INFO  ProjectBuildService - Remote scripts: none
-2019-03-08 23:16:17,043 INFO  ProjectFixService - Fixing project...
-2019-03-08 23:16:17,051 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/app/local.properties
-2019-03-08 23:16:17,051 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-03-08 23:16:17,052 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gmapspolyline/local.properties
-2019-03-08 23:16:17,052 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gmapspolyline/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-03-08 23:16:17,053 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/local.properties
-2019-03-08 23:16:17,054 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-03-08 23:16:17,054 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-03-08 23:16:17,055 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-03-08 23:16:17,056 INFO  ProjectFixService - Project was maybe fixed
-2019-03-08 23:16:17,056 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-08 23:16:17,056 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-08 23:16:23,802 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-08 23:16:23,802 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-08 23:16:23,802 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-08 23:16:23,802 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-08 23:16:30,675 ERROR SysUtils - Could not process external command
+2019-12-22 23:03:02,371 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gradlew
+2019-12-22 23:03:02,374 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gmapspolyline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/build.gradle
+2019-12-22 23:03:02,377 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gmapspolyline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/settings.gradle
+2019-12-22 23:03:02,377 INFO  ProjectBuildService - Remote scripts: none
+2019-12-22 23:03:02,377 INFO  ProjectFixService - Fixing project...
+2019-12-22 23:03:02,384 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/app/local.properties
+2019-12-22 23:03:02,384 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-12-22 23:03:02,385 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gmapspolyline/local.properties
+2019-12-22 23:03:02,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gmapspolyline/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-12-22 23:03:02,385 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/local.properties
+2019-12-22 23:03:02,386 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-12-22 23:03:02,386 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-12-22 23:03:02,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-12-22 23:03:02,387 INFO  ProjectFixService - Project was maybe fixed
+2019-12-22 23:03:02,387 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 23:03:02,387 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 23:03:09,651 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-22 23:03:09,651 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-22 23:03:09,651 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-22 23:03:09,651 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-22 23:03:15,712 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-08 23:16:30,675 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-22 23:03:15,712 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -192,15 +194,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-03-08 23:16:30,680 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-08 23:16:30,680 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gmapspolyline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-08 23:16:39,724 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-08 23:16:39,724 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-08 23:16:39,724 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-08 23:16:39,724 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gmapspolyline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-08 23:16:48,082 ERROR SysUtils - Could not process external command
+2019-12-22 23:03:15,715 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 23:03:15,716 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gmapspolyline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 23:03:21,913 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-22 23:03:21,914 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-22 23:03:21,914 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-22 23:03:21,914 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gmapspolyline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-22 23:03:28,318 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -213,8 +215,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -228,7 +229,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-08 23:16:48,082 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-22 23:03:28,318 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':gmapspolyline' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -365,15 +366,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 6s
 
-2019-03-08 23:16:48,086 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-08 23:16:48,087 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-08 23:16:55,007 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-08 23:16:55,007 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-08 23:16:55,007 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-08 23:16:55,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552061776324-0/src/GoogleMapsPolyline-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-08 23:17:01,605 ERROR SysUtils - Could not process external command
+2019-12-22 23:03:28,322 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 23:03:28,322 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 23:03:34,369 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-22 23:03:34,369 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-22 23:03:34,369 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-22 23:03:34,369 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577030457088-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-22 23:03:41,801 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -386,8 +387,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -401,7 +401,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-08 23:17:01,605 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-22 23:03:41,801 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -537,7 +537,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 7s
 
-2019-03-08 23:17:01,610 ERROR FullProcessService - Project build has not produced APK file
-2019-03-08 23:17:01,614 ERROR FullProcessService - Could not find generated or existed APK file
+2019-12-22 23:03:41,804 ERROR FullProcessService - Project build has not produced APK file
+2019-12-22 23:03:41,807 ERROR FullProcessService - Could not find generated or existed APK file

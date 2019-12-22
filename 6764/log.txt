@@ -1,45 +1,47 @@
-2019-03-08 23:57:38,294 INFO  DownloadService - Downloading "https://github.com/DeweyReed/HmsPicker/archive/master.zip", attempt 3
-2019-03-08 23:58:39,120 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-08 23:58:40,447 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-08 23:58:40,448 INFO  DownloadService - Downloading "https://github.com/DeweyReed/HmsPicker/archive/master.zip", attempt 3
-2019-03-08 23:59:42,713 DEBUG FullProcessService - Repository https://github.com/DeweyReed/HmsPicker available: true
-2019-03-08 23:59:42,713 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-08 23:59:42,713 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/DeweyReed/HmsPicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src]
-2019-03-08 23:59:44,542 INFO  SysUtils - 
-2019-03-08 23:59:44,552 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/.git": true
-2019-03-08 23:59:44,559 INFO  FullProcessService - Size of directory with sources: 342 KB
-2019-03-08 23:59:44,559 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src]
-2019-03-08 23:59:44,576 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/.git/
+2019-12-22 23:17:29,728 INFO  DownloadService - Downloading "https://github.com/DeweyReed/HmsPicker/archive/master.zip", attempt 3
+2019-12-22 23:18:30,382 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-12-22 23:18:31,644 INFO  GithubDownloadService - Default branch of this repository: master
+2019-12-22 23:18:31,644 INFO  DownloadService - Downloading "https://github.com/DeweyReed/HmsPicker/archive/master.zip", attempt 3
+2019-12-22 23:19:33,106 DEBUG FullProcessService - Repository https://github.com/DeweyReed/HmsPicker available: true
+2019-12-22 23:19:33,106 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-12-22 23:19:33,106 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/DeweyReed/HmsPicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src]
+2019-12-22 23:19:35,246 INFO  SysUtils - 
+2019-12-22 23:19:35,254 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/.git": true
+2019-12-22 23:19:35,258 INFO  FullProcessService - Size of directory with sources: 342 KB
+2019-12-22 23:19:35,259 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src]
+2019-12-22 23:19:35,280 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/.git/
 
-2019-03-08 23:59:44,581 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/gradlew
-2019-03-08 23:59:44,587 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/build.gradle
-2019-03-08 23:59:44,592 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/settings.gradle
-2019-03-08 23:59:44,592 INFO  ProjectBuildService - Remote scripts: none
-2019-03-08 23:59:44,592 INFO  ProjectFixService - Fixing project...
-2019-03-08 23:59:44,604 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/app/local.properties
-2019-03-08 23:59:44,606 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-08 23:59:44,606 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-08 23:59:44,607 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/library/local.properties
-2019-03-08 23:59:44,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-08 23:59:44,608 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-08 23:59:44,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/local.properties
-2019-03-08 23:59:44,610 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-03-08 23:59:44,610 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-03-08 23:59:44,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-08 23:59:44,612 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-08 23:59:44,612 INFO  ProjectFixService - Project was maybe fixed
-2019-03-08 23:59:44,612 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-08 23:59:44,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-08 23:59:50,843 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-08 23:59:50,843 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-08 23:59:50,843 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-09 00:00:38,177 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-22 23:19:35,284 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/gradlew
+2019-12-22 23:19:35,288 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/build.gradle
+2019-12-22 23:19:35,292 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/settings.gradle
+2019-12-22 23:19:35,292 INFO  ProjectBuildService - Remote scripts: none
+2019-12-22 23:19:35,292 INFO  ProjectFixService - Fixing project...
+2019-12-22 23:19:35,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/app/local.properties
+2019-12-22 23:19:35,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-22 23:19:35,303 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-22 23:19:35,304 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/library/local.properties
+2019-12-22 23:19:35,305 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-22 23:19:35,305 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-22 23:19:35,306 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/local.properties
+2019-12-22 23:19:35,306 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-12-22 23:19:35,306 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-12-22 23:19:35,307 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-22 23:19:35,308 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-22 23:19:35,308 INFO  ProjectFixService - Project was maybe fixed
+2019-12-22 23:19:35,308 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 23:19:35,309 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 23:19:53,432 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-12-22 23:19:53,432 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-22 23:19:53,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-22 23:20:51,038 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:checkDebugManifest
 :library:processDebugManifest
 :app:preDebugBuild
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-analyzer/1.5.4/leakcanary-analyzer-1.5.4.aar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android/1.5.4/leakcanary-android-1.5.4.aar
 :library:compileDebugAidl
 :app:compileDebugAidl
 :library:packageDebugRenderscript NO-SOURCE
@@ -83,6 +85,7 @@
 :library:checkReleaseManifest
 :library:processReleaseManifest
 :app:preReleaseBuild
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android-no-op/1.5.4/leakcanary-android-no-op-1.5.4.aar
 :library:compileReleaseAidl
 :app:compileReleaseAidl
 :library:packageReleaseRenderscript NO-SOURCE
@@ -126,6 +129,9 @@
 :library:compileDebugJavaWithJavac
 :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:compileDebugKotlin
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-watcher/1.5.4/leakcanary-watcher-1.5.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-commons/0.10.4/anko-commons-0.10.4.jar
+Download https://jcenter.bintray.com/com/squareup/haha/haha/2.0.3/haha-2.0.3.jar
 :app:generateDebugSources
 :app:javaPreCompileDebug
 :app:compileDebugJavaWithJavac
@@ -153,6 +159,14 @@ D8: Stripped invalid locals information from 1 method.
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseSources
 :app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.2/lint-gradle-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.2/lint-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.jar
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
@@ -164,7 +178,7 @@ D8: Stripped invalid locals information from 1 method.
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 46s
+BUILD SUCCESSFUL in 56s
 95 actionable tasks: 95 executed
 
-2019-03-09 00:00:38,274 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552064258291-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-12-22 23:20:51,107 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577031449725-0/src/app/build/outputs/apk/debug/app-debug.apk
