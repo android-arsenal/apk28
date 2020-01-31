@@ -1,39 +1,39 @@
-2020-01-04 22:36:37,910 INFO  DownloadService - Downloading "https://github.com/StringCare/AndroidLibrary/archive/master.zip", attempt 3
-2020-01-04 22:36:40,900 INFO  DownloadService - Downloaded https://github.com/StringCare/AndroidLibrary/archive/master.zip, attempt 3
-2020-01-04 22:36:40,900 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/master.zip": 1 MB
-2020-01-04 22:36:40,900 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-04 22:36:40,906 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/master.zip: true
-2020-01-04 22:36:40,906 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src'.
-2020-01-04 22:36:40,940 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-01-04 22:36:40,940 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src]
-2020-01-04 22:36:40,959 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/.git/
+2020-01-31 11:26:08,352 INFO  DownloadService - Downloading "https://github.com/StringCare/AndroidLibrary/archive/master.zip", attempt 3
+2020-01-31 11:26:11,480 INFO  DownloadService - Downloaded https://github.com/StringCare/AndroidLibrary/archive/master.zip, attempt 3
+2020-01-31 11:26:11,481 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/master.zip": 1 MB
+2020-01-31 11:26:11,481 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-31 11:26:11,481 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/master.zip: true
+2020-01-31 11:26:11,482 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src'.
+2020-01-31 11:26:11,520 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-01-31 11:26:11,520 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src]
+2020-01-31 11:26:11,541 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/.git/
 
-2020-01-04 22:36:40,962 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/gradlew
-2020-01-04 22:36:40,966 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/build.gradle
-2020-01-04 22:36:40,969 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle
-2020-01-04 22:36:40,970 INFO  ProjectBuildService - Remote scripts: none
-2020-01-04 22:36:40,970 INFO  ProjectFixService - Fixing project...
-2020-01-04 22:36:40,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/app/local.properties
-2020-01-04 22:36:40,980 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-04 22:36:40,981 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/dynamic_feature_cell/local.properties
-2020-01-04 22:36:40,982 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-04 22:36:40,983 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/library/local.properties
-2020-01-04 22:36:40,984 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-04 22:36:40,984 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/local.properties
-2020-01-04 22:36:40,985 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5-all.zip
-2020-01-04 22:36:40,985 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5-bin.zip)
-2020-01-04 22:36:40,986 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-04 22:36:40,986 INFO  ProjectFixService - Project was maybe fixed
-2020-01-04 22:36:40,986 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-04 22:36:40,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-04 22:36:49,699 INFO  VirusProcessorServiceImpl - Queued project 7105 to scan viruses
-2020-01-04 22:36:55,751 INFO  ProjectTaskService - Detected possible tasks: 91
-2020-01-04 22:36:55,751 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
-2020-01-04 22:36:55,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
-2020-01-04 22:38:11,848 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-31 11:26:11,547 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/gradlew
+2020-01-31 11:26:11,551 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/build.gradle
+2020-01-31 11:26:11,554 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle
+2020-01-31 11:26:11,555 INFO  ProjectBuildService - Remote scripts: none
+2020-01-31 11:26:11,555 INFO  ProjectFixService - Fixing project...
+2020-01-31 11:26:11,562 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/app/local.properties
+2020-01-31 11:26:11,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-31 11:26:11,563 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/dynamic_feature_cell/local.properties
+2020-01-31 11:26:11,564 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/dynamic_feature_cell/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-31 11:26:11,564 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/library/local.properties
+2020-01-31 11:26:11,565 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-31 11:26:11,565 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/local.properties
+2020-01-31 11:26:11,565 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5-all.zip
+2020-01-31 11:26:11,566 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5-bin.zip)
+2020-01-31 11:26:11,567 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-31 11:26:11,567 INFO  ProjectFixService - Project was maybe fixed
+2020-01-31 11:26:11,567 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-31 11:26:11,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-31 11:26:21,674 INFO  ProjectTaskService - Detected possible tasks: 91
+2020-01-31 11:26:21,674 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2020-01-31 11:26:21,674 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2020-01-31 11:26:22,787 INFO  VirusProcessorServiceImpl - Queued project 7009 to scan viruses
+2020-01-31 11:27:24,362 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
-:PATH:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/
+:PATH:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/
 
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDevDebugBuild UP-TO-DATE
@@ -118,37 +118,34 @@ No SHA1 key found for :app:prodDebug
 
 > Task :app:createDevReleaseCompatibleScreenManifests
 > Task :app:processDevReleaseManifest
-
-> Task :app:mergeProdDebugResources
-:app:restoreStringResources
+> Task :app:mergeDevDebugNativeLibs
+> Task :app:stripDevDebugDebugSymbols
+> Task :app:mergeProdDebugNativeLibs
+> Task :app:stripProdDebugDebugSymbols
 
 > Task :app:mergeDevReleaseResources
 	ApplicationId: com.efraespada.otherobfuscator
 No SHA1 key found for :app:devRelease
 :app:obfuscateStringResources
+:app:restoreStringResources
+
+> Task :app:processDevReleaseResources
+> Task :app:compileDevReleaseKotlin
+
+> Task :app:mergeProdDebugResources
+:app:restoreStringResources
 
 > Task :app:processProdDebugResources
 > Task :app:compileProdDebugKotlin
-> Task :app:mergeProdDebugNativeLibs
-> Task :app:stripProdDebugDebugSymbols
-
-> Task :app:mergeDevReleaseResources
-:app:restoreStringResources
-
+> Task :app:javaPreCompileDevRelease
+> Task :app:compileDevReleaseJavaWithJavac
+> Task :app:compileDevReleaseSources
 > Task :app:javaPreCompileProdDebug
 > Task :app:compileProdDebugJavaWithJavac
 > Task :app:compileProdDebugSources
 > Task :app:transformClassesWithDexBuilderForProdDebug
-> Task :app:processDevReleaseResources
-> Task :app:compileDevReleaseKotlin
-> Task :app:mergeDevDebugNativeLibs
-> Task :app:stripDevDebugDebugSymbols
-> Task :app:javaPreCompileDevRelease
-> Task :app:compileDevReleaseJavaWithJavac
-> Task :app:compileDevReleaseSources
-> Task :app:mergeExtDexDevDebug
-> Task :app:mergeProdDebugJavaResource
 > Task :app:mergeExtDexProdDebug
+> Task :app:mergeExtDexDevDebug
 > Task :app:prepareLintJar
 
 > Task :app:lintVitalDevRelease
@@ -165,15 +162,15 @@ No SHA1 key found for :app:devRelease
 :app:restoreAssets
 
 > Task :app:processDevReleaseJavaRes NO-SOURCE
-> Task :app:mergeDexProdDebug
-> Task :app:packageProdDebug
-> Task :app:assembleProdDebug
 > Task :app:checkDevReleaseDuplicateClasses
 > Task :app:desugarDevReleaseFileDependencies
-> Task :app:mergeDevReleaseJavaResource
+> Task :app:mergeDexProdDebug
 > Task :app:transformClassesWithDexBuilderForDevRelease
 > Task :app:signingConfigWriterDevRelease
 > Task :app:mergeDevReleaseJniLibFolders
+> Task :app:mergeDexDevDebug
+> Task :app:packageDevDebug
+> Task :app:assembleDevDebug
 > Task :app:preProdReleaseBuild UP-TO-DATE
 > Task :app:compileProdReleaseAidl NO-SOURCE
 > Task :app:compileProdReleaseRenderscript NO-SOURCE
@@ -182,16 +179,13 @@ No SHA1 key found for :app:devRelease
 > Task :app:mainApkListPersistenceProdRelease
 > Task :app:generateProdReleaseResValues
 > Task :app:generateProdReleaseResources
-> Task :app:mergeExtDexDevRelease
+> Task :app:mergeDevReleaseNativeLibs
+> Task :app:stripDevReleaseDebugSymbols
 > Task :app:createProdReleaseCompatibleScreenManifests
 > Task :app:processProdReleaseManifest
 > Task :app:checkProdReleaseDuplicateClasses
-> Task :app:mergeDexDevDebug
-> Task :app:packageDevDebug
-> Task :app:assembleDevDebug
-> Task :app:assembleDebug
-> Task :app:mergeDevReleaseNativeLibs
-> Task :app:stripDevReleaseDebugSymbols
+> Task :app:mergeDevReleaseJavaResource
+> Task :app:mergeExtDexDevRelease
 
 > Task :app:mergeProdReleaseResources
 	ApplicationId: com.efraespada.stringobfuscator
@@ -201,14 +195,18 @@ No SHA1 key found for :app:prodRelease
 
 > Task :app:processProdReleaseResources
 > Task :app:compileProdReleaseKotlin
-> Task :app:mergeDexDevRelease
-> Task :app:packageDevRelease
-> Task :app:assembleDevRelease
-> Task :app:assembleDev
+> Task :app:mergeProdDebugJavaResource
+> Task :app:packageProdDebug
+> Task :app:assembleProdDebug
+> Task :app:assembleDebug
 > Task :app:javaPreCompileProdRelease
 > Task :app:compileProdReleaseJavaWithJavac
 > Task :app:compileProdReleaseSources
 > Task :app:lintVitalProdRelease
+> Task :app:mergeDexDevRelease
+> Task :app:packageDevRelease
+> Task :app:assembleDevRelease
+> Task :app:assembleDev
 > Task :app:desugarProdReleaseFileDependencies
 > Task :app:transformClassesWithDexBuilderForProdRelease
 > Task :app:mergeProdReleaseShaders
@@ -226,8 +224,8 @@ No SHA1 key found for :app:prodRelease
 > Task :app:mergeProdReleaseJniLibFolders
 > Task :app:mergeProdReleaseNativeLibs
 > Task :app:stripProdReleaseDebugSymbols
-> Task :app:mergeExtDexProdRelease
 > Task :app:mergeProdReleaseJavaResource
+> Task :app:mergeExtDexProdRelease
 > Task :app:mergeDexProdRelease
 > Task :app:packageProdRelease
 > Task :app:assembleProdRelease
@@ -240,7 +238,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.5/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 15s
+BUILD SUCCESSFUL in 1m 2s
 105 actionable tasks: 105 executed
 
-2020-01-04 22:38:11,976 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152197906-0/src/AndroidLibrary-master/app/build/outputs/apk/prod/release/app-prod-release-unsigned.apk
+2020-01-31 11:27:24,510 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444768348-0/src/AndroidLibrary-master/app/build/outputs/apk/prod/release/app-prod-release-unsigned.apk
