@@ -1,11 +1,14 @@
-2019-12-08 20:22:26,164 INFO  DownloadService - Downloading "https://github.com/adityaarora1/LiveEdgeDetection/archive/master.zip", attempt 3
-2019-12-08 20:22:44,055 INFO  DownloadService - Downloaded https://github.com/adityaarora1/LiveEdgeDetection/archive/master.zip, attempt 3
-2019-12-08 20:22:44,056 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811346161-0/master.zip": 48 MB
-2019-12-08 20:22:44,056 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-08 20:22:44,063 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811346161-0/master.zip: true
-2019-12-08 20:22:44,063 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811346161-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575811346161-0/src'.
-2019-12-08 20:22:45,054 INFO  FullProcessService - Size of directory with sources: 119 MB
-2019-12-08 20:22:45,054 ERROR FullProcessService - Source directory should be less than 50 MB
-2019-12-08 20:22:45,054 ERROR FullProcessService - Project will not be processed
-2019-12-08 20:22:45,054 ERROR FullProcessService - Project build has not produced APK file
-2019-12-08 20:22:45,062 ERROR FullProcessService - Could not find generated or existed APK file
+2020-03-29 18:58:05,031 INFO  DownloadService - Downloading "https://github.com/adityaarora1/LiveEdgeDetection/archive/master.zip", attempt 3
+2020-03-29 18:59:05,681 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-03-29 18:59:06,615 INFO  GithubDownloadService - Default branch of this repository: master
+2020-03-29 18:59:06,616 INFO  DownloadService - Downloading "https://github.com/adityaarora1/LiveEdgeDetection/archive/master.zip", attempt 3
+2020-03-29 19:00:07,949 DEBUG FullProcessService - Repository https://github.com/adityaarora1/LiveEdgeDetection available: true
+2020-03-29 19:00:07,949 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-03-29 19:00:07,949 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/adityaarora1/LiveEdgeDetection, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483085029-0/src]
+2020-03-29 19:02:11,851 INFO  SysUtils - 
+2020-03-29 19:02:11,870 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483085029-0/src/.git": true
+2020-03-29 19:02:11,887 INFO  FullProcessService - Size of directory with sources: 119 MB
+2020-03-29 19:02:11,887 ERROR FullProcessService - Source directory should be less than 50 MB
+2020-03-29 19:02:11,887 ERROR FullProcessService - Project will not be processed
+2020-03-29 19:02:11,887 ERROR FullProcessService - Project build has not produced APK file
+2020-03-29 19:02:11,899 ERROR FullProcessService - Could not find generated or existed APK file

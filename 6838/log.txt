@@ -1,33 +1,37 @@
-2020-01-19 19:07:25,542 INFO  DownloadService - Downloading "https://github.com/pwittchen/ReactiveBus/archive/master.zip", attempt 3
-2020-01-19 19:07:27,644 INFO  DownloadService - Downloaded https://github.com/pwittchen/ReactiveBus/archive/master.zip, attempt 3
-2020-01-19 19:07:27,644 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/master.zip": 73 KB
-2020-01-19 19:07:27,644 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-19 19:07:27,649 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/master.zip: true
-2020-01-19 19:07:27,650 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src'.
-2020-01-19 19:07:27,660 INFO  FullProcessService - Size of directory with sources: 102 KB
-2020-01-19 19:07:27,660 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src]
-2020-01-19 19:07:27,684 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/.git/
+2020-03-29 19:05:13,528 INFO  DownloadService - Downloading "https://github.com/pwittchen/ReactiveBus/archive/master.zip", attempt 3
+2020-03-29 19:05:23,421 INFO  VirusProcessorServiceImpl - Queued project 6854 to scan viruses
+2020-03-29 19:06:14,250 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-03-29 19:06:15,181 INFO  GithubDownloadService - Default branch of this repository: master
+2020-03-29 19:06:15,181 INFO  DownloadService - Downloading "https://github.com/pwittchen/ReactiveBus/archive/master.zip", attempt 3
+2020-03-29 19:07:16,777 DEBUG FullProcessService - Repository https://github.com/pwittchen/ReactiveBus available: true
+2020-03-29 19:07:16,777 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-03-29 19:07:16,777 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/pwittchen/ReactiveBus, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src]
+2020-03-29 19:07:20,707 INFO  SysUtils - 
+2020-03-29 19:07:20,726 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/.git": true
+2020-03-29 19:07:20,727 INFO  FullProcessService - Size of directory with sources: 102 KB
+2020-03-29 19:07:20,727 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src]
+2020-03-29 19:07:20,746 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/.git/
 
-2020-01-19 19:07:27,686 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/gradlew
-2020-01-19 19:07:27,687 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/library/build.gradle
-2020-01-19 19:07:27,689 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/library/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/settings.gradle
-2020-01-19 19:07:27,689 INFO  ProjectBuildService - Remote scripts: none
-2020-01-19 19:07:27,689 INFO  ProjectFixService - Fixing project...
-2020-01-19 19:07:27,694 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/local.properties
-2020-01-19 19:07:27,694 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-01-19 19:07:27,695 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-01-19 19:07:27,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-19 19:07:27,697 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-19 19:07:27,698 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/library/local.properties
-2020-01-19 19:07:27,699 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-19 19:07:27,700 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-19 19:07:27,700 INFO  ProjectFixService - Project was maybe fixed
-2020-01-19 19:07:27,700 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-19 19:07:27,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-19 19:07:32,914 INFO  ProjectTaskService - Detected possible tasks: 51
-2020-01-19 19:07:32,914 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2020-01-19 19:07:32,914 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2020-01-19 19:07:39,078 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 19:07:20,748 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/gradlew
+2020-03-29 19:07:20,750 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/library/build.gradle
+2020-03-29 19:07:20,753 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/library/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/settings.gradle
+2020-03-29 19:07:20,753 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 19:07:20,753 INFO  ProjectFixService - Fixing project...
+2020-03-29 19:07:20,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/local.properties
+2020-03-29 19:07:20,759 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-03-29 19:07:20,759 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-03-29 19:07:20,761 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 19:07:20,761 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 19:07:20,762 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/library/local.properties
+2020-03-29 19:07:20,764 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 19:07:20,764 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 19:07:20,765 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 19:07:20,765 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 19:07:20,765 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 19:07:26,006 INFO  ProjectTaskService - Detected possible tasks: 51
+2020-03-29 19:07:26,006 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-03-29 19:07:26,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-03-29 19:07:32,048 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :library:compileJava
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
@@ -49,12 +53,12 @@ See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 5s
 4 actionable tasks: 4 executed
 
-2020-01-19 19:07:39,081 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-19 19:07:39,082 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-19 19:07:42,456 INFO  ProjectTaskService - Detected possible tasks: 55
-2020-01-19 19:07:42,456 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2020-01-19 19:07:42,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435645534-0/src/ReactiveBus-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2020-01-19 19:07:45,903 ERROR SysUtils - Could not process external command
+2020-03-29 19:07:32,052 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 19:07:32,053 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 19:07:35,574 INFO  ProjectTaskService - Detected possible tasks: 55
+2020-03-29 19:07:35,574 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-03-29 19:07:35,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483513526-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-03-29 19:07:39,170 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -67,22 +71,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-19 19:07:45,903 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 19:07:39,170 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :compileJava FAILED
 
 FAILURE: Build failed with an exception.
@@ -90,7 +93,7 @@ FAILURE: Build failed with an exception.
 * What went wrong:
 Execution failed for task ':compileJava'.
 > Could not resolve all files for configuration ':compileClasspath'.
-   > Cannot resolve external dependency io.reactivex.rxjava2:rxjava:2.2.17 because no repositories are defined.
+   > Cannot resolve external dependency io.reactivex.rxjava2:rxjava:2.2.19 because no repositories are defined.
      Required by:
          project :
 
@@ -155,7 +158,7 @@ Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfigurat
 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:55)
 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
 	... 22 more
-Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Cannot resolve external dependency io.reactivex.rxjava2:rxjava:2.2.17 because no repositories are defined.
+Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Cannot resolve external dependency io.reactivex.rxjava2:rxjava:2.2.19 because no repositories are defined.
 Required by:
     project :
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.NoRepositoriesResolver.resolve(NoRepositoriesResolver.java:70)
@@ -202,5 +205,5 @@ See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:comm
 BUILD FAILED in 3s
 1 actionable task: 1 executed
 
-2020-01-19 19:07:45,907 ERROR FullProcessService - Project build has not produced APK file
-2020-01-19 19:07:45,910 ERROR FullProcessService - Could not find generated or existed APK file
+2020-03-29 19:07:39,175 ERROR FullProcessService - Project build has not produced APK file
+2020-03-29 19:07:39,178 ERROR FullProcessService - Could not find generated or existed APK file

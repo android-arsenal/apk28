@@ -1,37 +1,39 @@
-2020-01-28 11:17:11,821 INFO  DownloadService - Downloading "https://github.com/Team-Blox/TreeView/archive/master.zip", attempt 3
-2020-01-28 11:17:14,932 INFO  DownloadService - Downloaded https://github.com/Team-Blox/TreeView/archive/master.zip, attempt 3
-2020-01-28 11:17:14,933 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/master.zip": 1 MB
-2020-01-28 11:17:14,933 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-28 11:17:14,938 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/master.zip: true
-2020-01-28 11:17:14,938 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src'.
-2020-01-28 11:17:14,974 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-01-28 11:17:14,974 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src]
-2020-01-28 11:17:15,003 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/.git/
+2020-03-29 19:07:39,203 INFO  DownloadService - Downloading "https://github.com/Team-Blox/TreeView/archive/master.zip", attempt 3
+2020-03-29 19:08:40,013 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-03-29 19:08:41,497 INFO  GithubDownloadService - Default branch of this repository: master
+2020-03-29 19:08:41,497 INFO  DownloadService - Downloading "https://github.com/Team-Blox/TreeView/archive/master.zip", attempt 3
+2020-03-29 19:09:44,023 DEBUG FullProcessService - Repository https://github.com/Team-Blox/TreeView available: true
+2020-03-29 19:09:44,023 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-03-29 19:09:44,023 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Team-Blox/TreeView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src]
+2020-03-29 19:09:51,583 INFO  SysUtils - 
+2020-03-29 19:09:51,591 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/.git": true
+2020-03-29 19:09:51,594 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-03-29 19:09:51,594 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src]
+2020-03-29 19:09:51,614 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/.git/
 
-2020-01-28 11:17:15,006 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/gradlew
-2020-01-28 11:17:15,008 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/build.gradle
-2020-01-28 11:17:15,010 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/gradle/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/settings.gradle
-2020-01-28 11:17:15,011 INFO  ProjectBuildService - Remote scripts: none
-2020-01-28 11:17:15,011 INFO  ProjectFixService - Fixing project...
-2020-01-28 11:17:15,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/local.properties
-2020-01-28 11:17:15,019 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2020-01-28 11:17:15,019 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2020-01-28 11:17:15,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/sample/local.properties
-2020-01-28 11:17:15,021 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2020-01-28 11:17:15,021 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2020-01-28 11:17:15,022 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/local.properties
-2020-01-28 11:17:15,022 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
-2020-01-28 11:17:15,022 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
-2020-01-28 11:17:15,024 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2020-01-28 11:17:15,024 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2020-01-28 11:17:15,024 INFO  ProjectFixService - Project was maybe fixed
-2020-01-28 11:17:15,024 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-28 11:17:15,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-28 11:17:25,250 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-28 11:17:25,250 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-28 11:17:25,250 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-28 11:17:30,849 INFO  VirusProcessorServiceImpl - Queued project 6885 to scan viruses
-2020-01-28 11:17:40,635 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 19:09:51,617 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/gradlew
+2020-03-29 19:09:51,621 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/build.gradle
+2020-03-29 19:09:51,624 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/gradle/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/settings.gradle
+2020-03-29 19:09:51,624 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 19:09:51,624 INFO  ProjectFixService - Fixing project...
+2020-03-29 19:09:51,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/local.properties
+2020-03-29 19:09:51,633 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-03-29 19:09:51,633 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-03-29 19:09:51,634 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/sample/local.properties
+2020-03-29 19:09:51,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-03-29 19:09:51,635 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-03-29 19:09:51,636 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/local.properties
+2020-03-29 19:09:51,636 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2020-03-29 19:09:51,636 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2020-03-29 19:09:51,638 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-03-29 19:09:51,638 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-03-29 19:09:51,638 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 19:09:51,638 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 19:09:51,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 19:10:00,226 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-29 19:10:00,226 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-29 19:10:00,227 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-29 19:10:16,085 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :graphview:preBuild UP-TO-DATE
 > Task :graphview:preDebugBuild UP-TO-DATE
 > Task :graphview:compileDebugAidl NO-SOURCE
@@ -48,7 +50,7 @@
 > Task :graphview:javaPreCompileDebug
 
 > Task :graphview:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/BaseGraphAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/BaseGraphAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :graphview:extractDebugAnnotations
@@ -83,11 +85,11 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :graphview:javaPreCompileRelease
 
 > Task :graphview:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/BaseGraphAdapter.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
 
 > Task :graphview:extractReleaseAnnotations
 > Task :graphview:mergeReleaseConsumerProguardFiles
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/BaseGraphAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 > Task :graphview:mergeReleaseShaders
 > Task :graphview:compileReleaseShaders
 > Task :graphview:generateReleaseAssets
@@ -108,289 +110,289 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :graphview:assembleRelease
 
 > Task :graphview:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphView.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphView.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.ColorInt;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphView.java:5: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphView.java:5: error: package android.support.annotation does not exist
 import android.support.annotation.Px;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphView.java:11: error: package com.otaliastudios.zoom does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphView.java:11: error: package com.otaliastudios.zoom does not exist
 import com.otaliastudios.zoom.ZoomLayout;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphView.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphView.java:13: error: cannot find symbol
 public class GraphView extends ZoomLayout {
                                ^
   symbol: class ZoomLayout
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphNodeContainerView.java:11: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphNodeContainerView.java:11: error: package android.support.annotation does not exist
 import android.support.annotation.ColorInt;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphNodeContainerView.java:12: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphNodeContainerView.java:12: error: package android.support.annotation does not exist
 import android.support.annotation.Px;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:3: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/ViewHolder.java:3: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/ViewHolder.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:3: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/BaseGraphAdapter.java:5: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/BaseGraphAdapter.java:5: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/layered/SugiyamaAlgorithm.java:6: error: package com.annimon.stream does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/layered/SugiyamaAlgorithm.java:6: error: package com.annimon.stream does not exist
 import com.annimon.stream.Stream;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphView.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphView.java:55: error: cannot find symbol
     public void setLineThickness(@Px int lineThickness) {
                                   ^
   symbol:   class Px
   location: class GraphView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphView.java:62: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphView.java:62: error: cannot find symbol
     @ColorInt
      ^
   symbol:   class ColorInt
   location: class GraphView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphView.java:73: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphView.java:73: error: cannot find symbol
     public void setLineColor(@ColorInt int lineColor) {
                               ^
   symbol:   class ColorInt
   location: class GraphView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphNodeContainerView.java:213: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphNodeContainerView.java:213: error: cannot find symbol
     public void setLineThickness(@Px int lineThickness) {
                                   ^
   symbol:   class Px
   location: class GraphNodeContainerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphNodeContainerView.java:222: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphNodeContainerView.java:222: error: cannot find symbol
     @ColorInt
      ^
   symbol:   class ColorInt
   location: class GraphNodeContainerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphNodeContainerView.java:233: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphNodeContainerView.java:233: error: cannot find symbol
     public void setLineColor(@ColorInt int lineColor) {
                               ^
   symbol:   class ColorInt
   location: class GraphNodeContainerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:29: error: cannot find symbol
     void setAlgorithm(@NonNull Algorithm algorithm);
                        ^
   symbol:   class NonNull
   location: interface GraphAdapter<VH>
   where VH is a type-variable:
     VH extends ViewHolder declared in interface GraphAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:36: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:36: error: cannot find symbol
     void setGraph(@NonNull Graph graph);
                    ^
   symbol:   class NonNull
   location: interface GraphAdapter<VH>
   where VH is a type-variable:
     VH extends ViewHolder declared in interface GraphAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:54: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: interface GraphAdapter<VH>
   where VH is a type-variable:
     VH extends ViewHolder declared in interface GraphAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/ViewHolder.java:9: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/ViewHolder.java:9: error: cannot find symbol
     public ViewHolder(@NonNull View itemView) {
                        ^
   symbol:   class NonNull
   location: class ViewHolder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:22: error: cannot find symbol
     public void addNode(@NonNull Node node) {
                          ^
   symbol:   class NonNull
   location: class Graph
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:33: error: cannot find symbol
     public void addNodes(@NonNull Node... nodes) {
                           ^
   symbol:   class NonNull
   location: class Graph
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:45: error: cannot find symbol
     public void removeNode(@NonNull Node node) {
                             ^
   symbol:   class NonNull
   location: class Graph
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:82: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:82: error: cannot find symbol
     public void removeNodes(@NonNull Node... nodes) {
                              ^
   symbol:   class NonNull
   location: class Graph
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:95: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:95: error: cannot find symbol
     public Edge addEdge(@NonNull Node source, @NonNull Node destination) {
                          ^
   symbol:   class NonNull
   location: class Graph
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:95: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:95: error: cannot find symbol
     public Edge addEdge(@NonNull Node source, @NonNull Node destination) {
                                                ^
   symbol:   class NonNull
   location: class Graph
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:107: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:107: error: cannot find symbol
     public void addEdge(@NonNull Edge edge) {
                          ^
   symbol:   class NonNull
   location: class Graph
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:126: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:126: error: cannot find symbol
     public void addEdges(@NonNull Edge... edges) {
                           ^
   symbol:   class NonNull
   location: class Graph
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:142: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:142: error: cannot find symbol
     public void removeEdges(@NonNull Edge... edges) {
                              ^
   symbol:   class NonNull
   location: class Graph
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/BaseGraphAdapter.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/BaseGraphAdapter.java:22: error: cannot find symbol
     public BaseGraphAdapter(@NonNull Graph graph) {
                              ^
   symbol:   class NonNull
   location: class BaseGraphAdapter<VH>
   where VH is a type-variable:
     VH extends ViewHolder declared in class BaseGraphAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/BaseGraphAdapter.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/BaseGraphAdapter.java:43: error: cannot find symbol
     public void setAlgorithm(@NonNull Algorithm algorithm) {
                               ^
   symbol:   class NonNull
   location: class BaseGraphAdapter<VH>
   where VH is a type-variable:
     VH extends ViewHolder declared in class BaseGraphAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/BaseGraphAdapter.java:58: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/BaseGraphAdapter.java:58: error: cannot find symbol
     public void setGraph(@NonNull Graph graph) {
                           ^
   symbol:   class NonNull
   location: class BaseGraphAdapter<VH>
   where VH is a type-variable:
     VH extends ViewHolder declared in class BaseGraphAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:49: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:49: warning: no description for @param
      * @param startX
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:50: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:50: warning: no description for @param
      * @param startY
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:51: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:51: warning: no description for @param
      * @param stopX
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:52: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:52: warning: no description for @param
      * @param stopY
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:53: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:53: warning: no description for @param
      * @param destination
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:54: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:54: warning: no description for @return
      * @return
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:99: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:99: warning: no description for @param
      * @param canvas
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:100: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:100: warning: no description for @param
      * @param paint
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:101: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:101: warning: no description for @param
      * @param x1
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:102: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:102: warning: no description for @param
      * @param y1
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:103: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:103: warning: no description for @param
      * @param x2
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:104: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:104: warning: no description for @param
      * @param y2
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:106: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/edgerenderer/ArrowEdgeRenderer.java:106: warning: no @return
     protected float[] drawTriangle(Canvas canvas, Paint paint, float x1, float y1, float x2, float y2) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:20: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:20: warning: no description for @return
      * @return
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:34: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:34: warning: no description for @param
      * @param graph
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:41: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:41: warning: no description for @param
      * @param position
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:42: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:42: warning: no description for @return
      * @return
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:49: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:49: warning: no description for @param
      * @param position
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:50: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/GraphAdapter.java:50: warning: no description for @return
      * @return
        ^
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:20: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:20: warning: no description for @param
      * @param node
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:31: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:31: warning: no description for @param
      * @param nodes
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:43: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:43: warning: no description for @param
      * @param node
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:80: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:80: warning: no description for @param
      * @param nodes
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:92: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:92: warning: no description for @param
      * @param source
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:93: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:93: warning: no description for @param
      * @param destination
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:95: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:95: warning: no @return
     public Edge addEdge(@NonNull Node source, @NonNull Node destination) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:105: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:105: warning: no description for @param
      * @param edge
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:124: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:124: warning: no description for @param
      * @param edges
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:140: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:140: warning: no description for @param
      * @param edges
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:174: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:174: warning: no description for @param
      * @param position
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:175: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:175: warning: no description for @return
      * @return
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:193: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:193: warning: no description for @return
      * @return
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:202: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:202: warning: no description for @return
      * @return
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:211: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:211: warning: no description for @return
      * @return
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:228: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:228: warning: no description for @param
      * @param node
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:229: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:229: warning: no description for @return
      * @return
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:244: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:244: warning: no description for @param
      * @param node
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:245: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:245: warning: no description for @return
      * @return
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:259: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:259: warning: no description for @param
      * @param node
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:260: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:260: warning: no description for @return
      * @return
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:275: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:275: warning: no description for @param
      * @param node
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/graphview/src/main/java/de/blox/graphview/Graph.java:276: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/graphview/src/main/java/de/blox/graphview/Graph.java:276: warning: no description for @return
      * @return
        ^
 javadoc: warning - Class NonNull not found.
@@ -425,12 +427,12 @@ javadoc: warning - Class NonNull not found.
 BUILD SUCCESSFUL in 15s
 48 actionable tasks: 48 executed
 
-2020-01-28 11:17:40,671 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-28 11:17:40,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-28 11:17:47,619 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-28 11:17:47,620 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-28 11:17:47,620 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-28 11:18:27,138 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 19:10:16,129 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 19:10:16,129 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 19:10:21,993 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-29 19:10:21,993 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 19:10:21,993 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 19:11:01,801 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
@@ -509,7 +511,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 38s
+BUILD SUCCESSFUL in 39s
 51 actionable tasks: 51 executed
 
-2020-01-28 11:18:27,231 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580185031814-0/src/GraphView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-03-29 19:11:01,912 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483659200-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

@@ -1,41 +1,44 @@
-2019-09-01 22:01:37,287 INFO  DownloadService - Downloading "https://github.com/aafanasev/kson/archive/master.zip", attempt 3
-2019-09-01 22:01:39,254 INFO  DownloadService - Downloaded https://github.com/aafanasev/kson/archive/master.zip, attempt 3
-2019-09-01 22:01:39,254 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/master.zip": 194 KB
-2019-09-01 22:01:39,254 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-01 22:01:39,255 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/master.zip: true
-2019-09-01 22:01:39,255 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src'.
-2019-09-01 22:01:39,271 INFO  FullProcessService - Size of directory with sources: 476 KB
-2019-09-01 22:01:39,272 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src]
-2019-09-01 22:01:39,288 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/.git/
+2020-03-29 18:30:10,115 INFO  DownloadService - Downloading "https://github.com/aafanasev/kson/archive/master.zip", attempt 3
+2020-03-29 18:31:10,725 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-03-29 18:31:11,748 INFO  GithubDownloadService - Default branch of this repository: master
+2020-03-29 18:31:11,749 INFO  DownloadService - Downloading "https://github.com/aafanasev/kson/archive/master.zip", attempt 3
+2020-03-29 18:32:13,025 DEBUG FullProcessService - Repository https://github.com/aafanasev/kson available: true
+2020-03-29 18:32:13,026 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-03-29 18:32:13,026 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/aafanasev/kson, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src]
+2020-03-29 18:32:15,071 INFO  SysUtils - 
+2020-03-29 18:32:15,107 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/.git": true
+2020-03-29 18:32:15,110 INFO  FullProcessService - Size of directory with sources: 468 KB
+2020-03-29 18:32:15,110 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src]
+2020-03-29 18:32:15,128 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/.git/
 
-2019-09-01 22:01:39,290 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/gradlew
-2019-09-01 22:01:39,293 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/sample/build.gradle
-2019-09-01 22:01:39,296 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/buildsystem/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/buildsystem/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/settings.gradle
-2019-09-01 22:01:39,296 INFO  ProjectBuildService - Remote scripts: none
-2019-09-01 22:01:39,296 INFO  ProjectFixService - Fixing project...
-2019-09-01 22:01:39,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/local.properties
-2019-09-01 22:01:39,303 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
-2019-09-01 22:01:39,305 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-01 22:01:39,305 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-01 22:01:39,306 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/benchmark/local.properties
-2019-09-01 22:01:39,308 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/benchmark/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-01 22:01:39,308 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/benchmark/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-01 22:01:39,309 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-annotation/local.properties
-2019-09-01 22:01:39,311 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-annotation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-01 22:01:39,311 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-annotation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-01 22:01:39,312 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-processor/local.properties
-2019-09-01 22:01:39,314 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-01 22:01:39,314 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-01 22:01:39,315 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/sample/local.properties
-2019-09-01 22:01:39,317 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-01 22:01:39,317 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-01 22:01:39,318 INFO  ProjectFixService - Project was maybe fixed
-2019-09-01 22:01:39,318 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-01 22:01:39,318 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-01 22:01:45,557 INFO  ProjectTaskService - Detected possible tasks: 58
-2019-09-01 22:01:45,557 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-01 22:01:45,557 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-01 22:02:05,729 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 18:32:15,131 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/gradlew
+2020-03-29 18:32:15,135 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/sample/build.gradle
+2020-03-29 18:32:15,138 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/buildsystem/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/buildsystem/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/settings.gradle
+2020-03-29 18:32:15,139 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 18:32:15,139 INFO  ProjectFixService - Fixing project...
+2020-03-29 18:32:15,146 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/local.properties
+2020-03-29 18:32:15,147 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
+2020-03-29 18:32:15,150 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 18:32:15,150 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 18:32:15,151 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/benchmark/local.properties
+2020-03-29 18:32:15,154 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/benchmark/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 18:32:15,154 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/benchmark/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 18:32:15,155 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-annotation/local.properties
+2020-03-29 18:32:15,158 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-annotation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 18:32:15,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-annotation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 18:32:15,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-processor/local.properties
+2020-03-29 18:32:15,163 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 18:32:15,163 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 18:32:15,164 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/sample/local.properties
+2020-03-29 18:32:15,167 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 18:32:15,167 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 18:32:15,168 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 18:32:15,168 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 18:32:15,168 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 18:32:22,884 INFO  ProjectTaskService - Detected possible tasks: 58
+2020-03-29 18:32:22,884 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-03-29 18:32:22,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-03-29 18:32:46,599 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :benchmark
 'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
@@ -66,11 +69,11 @@ Run the build with '--info' for more details.
 w: warning: dev.afanasev.kson.processor.KsonAdapterFactoryProcessor: Consider using dev.afanasev.kson.annotation.KsonFactory annotation to generate a factory class for all type adapters
 
 > Task :benchmark:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/benchmark/build/generated/source/kapt/main/dev/afanasev/kson/benchmark/EmployeeTypeAdapter.kt: (42, 38): Unchecked cast: TypeAdapter<out Any!>! to TypeAdapter<Set<String>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/benchmark/build/generated/source/kapt/main/dev/afanasev/kson/benchmark/EmployeeTypeAdapter.kt: (46, 38): Unchecked cast: TypeAdapter<out Any!>! to TypeAdapter<List<Friend>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/benchmark/build/generated/source/kapt/main/dev/afanasev/kson/benchmark/EntityTypeAdapter.kt: (21, 40): Unchecked cast: TypeAdapter<out Any!>! to TypeAdapter<List<Employee>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/benchmark/src/main/kotlin/dev/afanasev/kson/benchmark/Benchmarks.kt: (28, 13): Variable 'entity' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/benchmark/src/main/kotlin/dev/afanasev/kson/benchmark/Benchmarks.kt: (38, 13): Variable 'entity' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/benchmark/build/generated/source/kapt/main/dev/afanasev/kson/benchmark/EmployeeTypeAdapter.kt: (42, 38): Unchecked cast: TypeAdapter<out Any!>! to TypeAdapter<Set<String>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/benchmark/build/generated/source/kapt/main/dev/afanasev/kson/benchmark/EmployeeTypeAdapter.kt: (46, 38): Unchecked cast: TypeAdapter<out Any!>! to TypeAdapter<List<Friend>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/benchmark/build/generated/source/kapt/main/dev/afanasev/kson/benchmark/EntityTypeAdapter.kt: (21, 40): Unchecked cast: TypeAdapter<out Any!>! to TypeAdapter<List<Employee>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/benchmark/src/main/kotlin/dev/afanasev/kson/benchmark/Benchmarks.kt: (28, 13): Variable 'entity' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/benchmark/src/main/kotlin/dev/afanasev/kson/benchmark/Benchmarks.kt: (38, 13): Variable 'entity' is never used
 
 > Task :benchmark:compileJava
 > Task :benchmark:processResources
@@ -101,15 +104,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 19s
+BUILD SUCCESSFUL in 23s
 23 actionable tasks: 23 executed
 
-2019-09-01 22:02:05,748 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-01 22:02:05,748 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-01 22:02:09,091 INFO  ProjectTaskService - Detected possible tasks: 51
-2019-09-01 22:02:09,091 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-01 22:02:09,091 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-01 22:02:13,940 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 18:32:46,623 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 18:32:46,623 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 18:32:49,912 INFO  ProjectTaskService - Detected possible tasks: 51
+2020-03-29 18:32:49,912 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-03-29 18:32:49,912 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-03-29 18:32:54,834 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :benchmark
 'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
@@ -152,12 +155,12 @@ See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:com
 BUILD SUCCESSFUL in 4s
 18 actionable tasks: 18 up-to-date
 
-2019-09-01 22:02:13,959 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-01 22:02:13,960 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-01 22:02:18,010 INFO  ProjectTaskService - Detected possible tasks: 50
-2019-09-01 22:02:18,010 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-01 22:02:18,010 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-01 22:02:22,437 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 18:32:54,859 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 18:32:54,860 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 18:32:58,928 INFO  ProjectTaskService - Detected possible tasks: 50
+2020-03-29 18:32:58,928 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-03-29 18:32:58,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-03-29 18:33:03,418 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :kson-annotation:compileKotlin UP-TO-DATE
 > Task :kson-annotation:compileJava NO-SOURCE
 > Task :kson-annotation:processResources NO-SOURCE
@@ -174,12 +177,12 @@ See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:com
 BUILD SUCCESSFUL in 4s
 3 actionable tasks: 3 up-to-date
 
-2019-09-01 22:02:22,455 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-01 22:02:22,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-01 22:02:26,522 INFO  ProjectTaskService - Detected possible tasks: 50
-2019-09-01 22:02:26,522 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-01 22:02:26,522 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/kson-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-01 22:02:31,136 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 18:33:03,442 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 18:33:03,442 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 18:33:07,542 INFO  ProjectTaskService - Detected possible tasks: 50
+2020-03-29 18:33:07,543 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-03-29 18:33:07,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/kson-processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-03-29 18:33:12,251 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :kson-annotation:compileKotlin UP-TO-DATE
 > Task :kson-annotation:compileJava NO-SOURCE
 > Task :kson-annotation:processResources NO-SOURCE
@@ -204,12 +207,12 @@ See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:com
 BUILD SUCCESSFUL in 4s
 8 actionable tasks: 8 up-to-date
 
-2019-09-01 22:02:31,152 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-01 22:02:31,152 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-01 22:02:34,349 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-09-01 22:02:34,350 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-01 22:02:34,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350097284-0/src/kson-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-01 22:02:39,245 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 18:33:12,277 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 18:33:12,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 18:33:15,506 INFO  ProjectTaskService - Detected possible tasks: 42
+2020-03-29 18:33:15,506 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-03-29 18:33:15,507 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481410108-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-03-29 18:33:20,286 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :kson-annotation:compileKotlin UP-TO-DATE
 > Task :kson-annotation:compileJava NO-SOURCE
 > Task :kson-annotation:processResources NO-SOURCE
@@ -242,5 +245,5 @@ See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:com
 BUILD SUCCESSFUL in 4s
 13 actionable tasks: 13 up-to-date
 
-2019-09-01 22:02:39,264 ERROR FullProcessService - Project build has not produced APK file
-2019-09-01 22:02:39,281 ERROR FullProcessService - Could not find generated or existed APK file
+2020-03-29 18:33:20,309 ERROR FullProcessService - Project build has not produced APK file
+2020-03-29 18:33:20,332 ERROR FullProcessService - Could not find generated or existed APK file

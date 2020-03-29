@@ -1,42 +1,41 @@
-2019-11-01 11:20:45,246 INFO  DownloadService - Downloading "https://github.com/Angads25/android-toggle/archive/master.zip", attempt 3
-2019-11-01 11:20:51,847 INFO  DownloadService - Downloading "https://github.com/Angads25/android-toggle/archive/master.zip", attempt 2
-2019-11-01 11:20:57,844 INFO  DownloadService - Downloading "https://github.com/Angads25/android-toggle/archive/master.zip", attempt 1
-2019-11-01 11:21:58,120 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-11-01 11:21:59,083 INFO  GithubDownloadService - Default branch of this repository: release
-2019-11-01 11:21:59,084 INFO  DownloadService - Downloading "https://github.com/Angads25/android-toggle/archive/release.zip", attempt 3
-2019-11-01 11:23:01,358 DEBUG FullProcessService - Repository https://github.com/Angads25/android-toggle available: true
-2019-11-01 11:23:01,358 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-11-01 11:23:01,359 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Angads25/android-toggle, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src]
-2019-11-01 11:23:04,421 INFO  SysUtils - 
-2019-11-01 11:23:04,429 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/.git": true
-2019-11-01 11:23:04,431 INFO  FullProcessService - Size of directory with sources: 987 KB
-2019-11-01 11:23:04,432 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src]
-2019-11-01 11:23:04,450 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/.git/
+2020-03-29 19:11:02,657 INFO  DownloadService - Downloading "https://github.com/Angads25/android-toggle/archive/master.zip", attempt 3
+2020-03-29 19:11:13,110 INFO  VirusProcessorServiceImpl - Queued project 6779 to scan viruses
+2020-03-29 19:12:03,392 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-03-29 19:12:04,355 INFO  GithubDownloadService - Default branch of this repository: release
+2020-03-29 19:12:04,355 INFO  DownloadService - Downloading "https://github.com/Angads25/android-toggle/archive/release.zip", attempt 3
+2020-03-29 19:13:06,038 DEBUG FullProcessService - Repository https://github.com/Angads25/android-toggle available: true
+2020-03-29 19:13:06,038 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-03-29 19:13:06,038 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Angads25/android-toggle, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src]
+2020-03-29 19:13:08,705 INFO  SysUtils - 
+2020-03-29 19:13:08,713 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/.git": true
+2020-03-29 19:13:08,717 INFO  FullProcessService - Size of directory with sources: 987 KB
+2020-03-29 19:13:08,717 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src]
+2020-03-29 19:13:08,734 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/.git/
 
-2019-11-01 11:23:04,452 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/gradlew
-2019-11-01 11:23:04,455 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/toggle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/build.gradle
-2019-11-01 11:23:04,458 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/toggle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/settings.gradle
-2019-11-01 11:23:04,462 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/angads25/JCenter/master/installv1.gradle", attempt 3
-2019-11-01 11:23:05,299 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/angads25/JCenter/master/installv1.gradle, attempt 3
-2019-11-01 11:23:05,300 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/angads25/JCenter/master/bintrayv1.gradle", attempt 3
-2019-11-01 11:23:05,552 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/angads25/JCenter/master/bintrayv1.gradle, attempt 3
-2019-11-01 11:23:05,553 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/angads25/JCenter/master/installv1.gradle https://raw.githubusercontent.com/angads25/JCenter/master/bintrayv1.gradle
-2019-11-01 11:23:05,553 INFO  ProjectFixService - Fixing project...
-2019-11-01 11:23:05,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/app/local.properties
-2019-11-01 11:23:05,562 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-01 11:23:05,562 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/toggle/local.properties
-2019-11-01 11:23:05,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/toggle/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-01 11:23:05,563 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/local.properties
-2019-11-01 11:23:05,564 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-11-01 11:23:05,564 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-11-01 11:23:05,565 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-01 11:23:05,565 INFO  ProjectFixService - Project was maybe fixed
-2019-11-01 11:23:05,565 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-01 11:23:05,565 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-01 11:23:15,128 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-11-01 11:23:15,129 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-01 11:23:15,129 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-01 11:23:21,013 ERROR SysUtils - Could not process external command
+2020-03-29 19:13:08,738 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/gradlew
+2020-03-29 19:13:08,742 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/toggle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/build.gradle
+2020-03-29 19:13:08,745 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/toggle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/settings.gradle
+2020-03-29 19:13:08,745 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/angads25/JCenter/master/installv1.gradle", attempt 3
+2020-03-29 19:13:09,343 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/angads25/JCenter/master/installv1.gradle, attempt 3
+2020-03-29 19:13:09,343 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/angads25/JCenter/master/bintrayv1.gradle", attempt 3
+2020-03-29 19:13:09,601 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/angads25/JCenter/master/bintrayv1.gradle, attempt 3
+2020-03-29 19:13:09,601 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/angads25/JCenter/master/installv1.gradle https://raw.githubusercontent.com/angads25/JCenter/master/bintrayv1.gradle
+2020-03-29 19:13:09,601 INFO  ProjectFixService - Fixing project...
+2020-03-29 19:13:09,613 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/app/local.properties
+2020-03-29 19:13:09,613 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-03-29 19:13:09,614 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/toggle/local.properties
+2020-03-29 19:13:09,614 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/toggle/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-03-29 19:13:09,615 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/local.properties
+2020-03-29 19:13:09,615 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2020-03-29 19:13:09,615 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2020-03-29 19:13:09,616 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-03-29 19:13:09,616 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 19:13:09,616 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 19:13:09,616 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 19:13:16,567 INFO  ProjectTaskService - Detected possible tasks: 72
+2020-03-29 19:13:16,568 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 19:13:16,568 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 19:13:21,962 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,22 +48,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-01 11:23:21,014 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 19:13:21,963 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -144,14 +142,19 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-11-01 11:23:21,014 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-11-01 11:23:21,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-11-01 11:24:24,024 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 19:13:21,963 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2020-03-29 19:13:21,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-03-29 19:14:24,107 INFO  SysUtils - Configuration on demand is an incubating feature.
 Download https://raw.githubusercontent.com/angads25/JCenter/master/installv1.gradle
 Download https://raw.githubusercontent.com/angads25/JCenter/master/bintrayv1.gradle
 :app:checkDebugClasspath
-Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-analyzer/1.6.1/leakcanary-analyzer-1.6.1.aar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android/1.6.1/leakcanary-android-1.6.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/26.0.0/support-core-utils-26.0.0.pom
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-analyzer/1.6.1/leakcanary-analyzer-1.6.1.pom
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-watcher/1.6.1/leakcanary-watcher-1.6.1.pom
+Download https://jcenter.bintray.com/com/squareup/haha/haha/2.0.4/haha-2.0.4.pom
 Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android/1.6.1/leakcanary-android-1.6.1.aar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-analyzer/1.6.1/leakcanary-analyzer-1.6.1.aar
 Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-watcher/1.6.1/leakcanary-watcher-1.6.1.jar
 :app:preBuild UP-TO-DATE
 :toggle:preBuild UP-TO-DATE
@@ -182,7 +185,7 @@ Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-watcher/
 :toggle:prepareLintJar
 :toggle:generateDebugSources
 :toggle:javaPreCompileDebug
-:toggle:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/toggle/src/main/java/com/github/angads25/toggle/widget/LabeledSwitch.java uses or overrides a deprecated API.
+:toggle:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/toggle/src/main/java/com/github/angads25/toggle/widget/LabeledSwitch.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :toggle:processDebugJavaRes NO-SOURCE
@@ -228,6 +231,7 @@ D8: Stripped invalid locals information from 1 method.
 :app:packageDebug
 :app:assembleDebug
 :app:checkReleaseClasspath
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android-no-op/1.6.1/leakcanary-android-no-op-1.6.1.pom
 Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android-no-op/1.6.1/leakcanary-android-no-op-1.6.1.aar
 :toggle:preReleaseBuild UP-TO-DATE
 :toggle:checkReleaseManifest
@@ -255,7 +259,7 @@ Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android-
 :toggle:generateReleaseBuildConfig
 :toggle:generateReleaseSources
 :toggle:javaPreCompileRelease
-:toggle:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/toggle/src/main/java/com/github/angads25/toggle/widget/LabeledSwitch.java uses or overrides a deprecated API.
+:toggle:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/toggle/src/main/java/com/github/angads25/toggle/widget/LabeledSwitch.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :toggle:processReleaseJavaRes NO-SOURCE
@@ -293,21 +297,28 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:assembleRelease
 :app:assemble
 :app:lint
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-intents/3.0.2/espresso-intents-3.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/rules/1.0.2/rules-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-web/3.0.2/espresso-web-3.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-contrib/3.0.2/espresso-contrib-3.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-accessibility/3.0.2/espresso-accessibility-3.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-intents/3.0.2/espresso-intents-3.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/idling/idling-concurrent/3.0.2/idling-concurrent-3.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/rules/1.0.2/rules-1.0.2.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-accessibility/3.0.2/espresso-accessibility-3.0.2.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/idling/idling-concurrent/3.0.2/idling-concurrent-3.0.2.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-contrib/3.0.2/espresso-contrib-3.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-intents/3.0.2/espresso-intents-3.0.2.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-web/3.0.2/espresso-web-3.0.2.aar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/00e08146ee3f2e8cb6db80abf52f73d4/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant debug: 10 issues found
-Ran lint on variant release: 10 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/app/build/reports/lint-results.xml
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/idling/idling-concurrent/3.0.2/idling-concurrent-3.0.2.aar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/e2b11e761b147b1ce38ab64b1668e464/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant debug: 11 issues found
+Ran lint on variant release: 11 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/app/build/reports/lint-results.xml
 :app:compileDebugUnitTestKotlin
 :app:generateDebugUnitTestSources
 :app:preDebugUnitTestBuild UP-TO-DATE
 :app:javaPreCompileDebugUnitTest
-:app:compileDebugUnitTestJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/app/src/test/java/com/github/angads25/toggledemo/ExampleUnitTest.java uses or overrides a deprecated API.
+:app:compileDebugUnitTestJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/app/src/test/java/com/github/angads25/toggledemo/ExampleUnitTest.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:processDebugUnitTestJavaRes NO-SOURCE
@@ -316,7 +327,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:generateReleaseUnitTestSources
 :app:preReleaseUnitTestBuild UP-TO-DATE
 :app:javaPreCompileReleaseUnitTest
-:app:compileReleaseUnitTestJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/app/src/test/java/com/github/angads25/toggledemo/ExampleUnitTest.java uses or overrides a deprecated API.
+:app:compileReleaseUnitTestJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/app/src/test/java/com/github/angads25/toggledemo/ExampleUnitTest.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:processReleaseUnitTestJavaRes NO-SOURCE
@@ -325,7 +336,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:check
 :app:build
 
-BUILD SUCCESSFUL in 1m 2s
+BUILD SUCCESSFUL in 1m 1s
 100 actionable tasks: 100 executed
 
-2019-11-01 11:24:24,096 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572582045243-0/src/app/build/outputs/apk/debug/app-debug.apk
+2020-03-29 19:14:24,208 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585483862654-0/src/app/build/outputs/apk/debug/app-debug.apk
