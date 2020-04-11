@@ -1,58 +1,87 @@
-2020-03-29 18:36:33,969 INFO  DownloadService - Downloading "https://github.com/ArchitShah248/CalendarDateRangePicker/archive/master.zip", attempt 3
-2020-03-29 18:36:50,537 INFO  VirusProcessorServiceImpl - Queued project 6935 to scan viruses
-2020-03-29 18:37:34,620 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-03-29 18:37:35,789 INFO  GithubDownloadService - Default branch of this repository: master
-2020-03-29 18:37:35,789 INFO  DownloadService - Downloading "https://github.com/ArchitShah248/CalendarDateRangePicker/archive/master.zip", attempt 3
-2020-03-29 18:38:37,021 DEBUG FullProcessService - Repository https://github.com/ArchitShah248/CalendarDateRangePicker available: true
-2020-03-29 18:38:37,021 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-03-29 18:38:37,021 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ArchitShah248/CalendarDateRangePicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src]
-2020-03-29 18:38:39,614 INFO  SysUtils - 
-2020-03-29 18:38:39,623 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/.git": true
-2020-03-29 18:38:39,629 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-03-29 18:38:39,629 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src]
-2020-03-29 18:38:39,648 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/.git/
+2020-04-12 00:10:33,508 INFO  DownloadService - Downloading "https://github.com/ArchitShah248/CalendarDateRangePicker/archive/master.zip", attempt 3
+2020-04-12 00:10:41,209 INFO  DownloadService - Downloaded https://github.com/ArchitShah248/CalendarDateRangePicker/archive/master.zip, attempt 3
+2020-04-12 00:10:41,210 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/master.zip": 1 MB
+2020-04-12 00:10:41,210 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-12 00:10:41,211 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/master.zip: true
+2020-04-12 00:10:41,211 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src'.
+2020-04-12 00:10:41,260 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-04-12 00:10:41,260 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src]
+2020-04-12 00:10:41,287 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/.git/
 
-2020-03-29 18:38:39,653 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/gradlew
-2020-03-29 18:38:39,657 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/awesome-calendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/build.gradle
-2020-03-29 18:38:39,661 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/awesome-calendar/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/awesome-calendar/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/awesome-calendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/settings.gradle
-2020-03-29 18:38:39,662 INFO  ProjectBuildService - Remote scripts: none
-2020-03-29 18:38:39,662 INFO  ProjectFixService - Fixing project...
-2020-03-29 18:38:39,673 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/app/local.properties
-2020-03-29 18:38:39,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-29 18:38:39,674 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/awesome-calendar/local.properties
-2020-03-29 18:38:39,675 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/awesome-calendar/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-29 18:38:39,675 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/local.properties
-2020-03-29 18:38:39,675 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-29 18:38:39,676 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-29 18:38:39,677 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-29 18:38:39,677 INFO  ProjectFixService - Project was maybe fixed
-2020-03-29 18:38:39,677 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-29 18:38:39,677 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-29 18:38:46,103 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-29 18:38:46,103 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-29 18:38:46,103 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-29 18:39:21,392 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-12 00:10:41,292 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/gradlew
+2020-04-12 00:10:41,297 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/awesome-calendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/build.gradle
+2020-04-12 00:10:41,302 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/awesome-calendar/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/awesome-calendar/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/awesome-calendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/settings.gradle
+2020-04-12 00:10:41,302 INFO  ProjectBuildService - Remote scripts: none
+2020-04-12 00:10:41,302 INFO  ProjectFixService - Fixing project...
+2020-04-12 00:10:41,314 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/app/local.properties
+2020-04-12 00:10:41,314 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-04-12 00:10:41,315 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/awesome-calendar/local.properties
+2020-04-12 00:10:41,315 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/awesome-calendar/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-04-12 00:10:41,315 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/local.properties
+2020-04-12 00:10:41,316 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-04-12 00:10:41,316 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-04-12 00:10:41,317 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-04-12 00:10:41,317 INFO  ProjectFixService - Project was maybe fixed
+2020-04-12 00:10:41,317 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-12 00:10:41,317 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-12 00:10:46,157 INFO  VirusProcessorServiceImpl - Queued project 7031 to scan viruses
+2020-04-12 00:10:49,289 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-04-12 00:10:49,289 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-12 00:10:49,289 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-12 00:11:32,939 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :awesome-calendar
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
+> Task :awesome-calendar:preBuild UP-TO-DATE
+> Task :awesome-calendar:preDebugBuild UP-TO-DATE
+> Task :awesome-calendar:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :awesome-calendar:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :awesome-calendar:checkDebugManifest
+> Task :awesome-calendar:compileDebugRenderscript NO-SOURCE
+> Task :awesome-calendar:generateDebugBuildConfig
+> Task :awesome-calendar:generateDebugResValues
+> Task :awesome-calendar:generateDebugResources
+> Task :awesome-calendar:packageDebugResources
 > Task :app:mainApkListPersistenceDebug
-> Task :app:javaPreCompileDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :awesome-calendar:processDebugManifest
+> Task :awesome-calendar:parseDebugLibraryResources
+> Task :app:mergeDebugResources
+> Task :awesome-calendar:generateDebugRFile
+> Task :awesome-calendar:compileDebugKotlin
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
 > Task :app:processDebugResources
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
+> Task :awesome-calendar:javaPreCompileDebug
+
+> Task :awesome-calendar:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/awesome-calendar/src/main/java/com/archit/calendardaterangepicker/customviews/DateRangeCalendarView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
+> Task :awesome-calendar:mergeDebugShaders
+> Task :awesome-calendar:compileDebugShaders
+> Task :awesome-calendar:generateDebugAssets
+> Task :awesome-calendar:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :awesome-calendar:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :app:processDebugJavaRes NO-SOURCE
+> Task :awesome-calendar:processDebugJavaRes NO-SOURCE
+> Task :awesome-calendar:bundleLibResDebug
+> Task :awesome-calendar:bundleLibRuntimeDebug
 > Task :app:checkDebugDuplicateClasses
 > Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
@@ -60,23 +89,49 @@
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
+> Task :awesome-calendar:mergeDebugJniLibFolders
 > Task :app:preReleaseBuild UP-TO-DATE
+> Task :awesome-calendar:preReleaseBuild UP-TO-DATE
+> Task :awesome-calendar:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
+> Task :awesome-calendar:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
+> Task :awesome-calendar:compileReleaseRenderscript NO-SOURCE
+> Task :awesome-calendar:checkReleaseManifest
+> Task :awesome-calendar:generateReleaseBuildConfig
+> Task :awesome-calendar:generateReleaseResValues
+> Task :awesome-calendar:generateReleaseResources
+> Task :awesome-calendar:packageReleaseResources
+> Task :awesome-calendar:mergeDebugNativeLibs
+> Task :awesome-calendar:stripDebugDebugSymbols
+> Task :awesome-calendar:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:javaPreCompileRelease
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :awesome-calendar:parseReleaseLibraryResources
 > Task :app:prepareLintJar
+> Task :awesome-calendar:processReleaseManifest
+> Task :awesome-calendar:prepareLintJarForPublish
+> Task :app:processReleaseManifest
 > Task :app:checkReleaseDuplicateClasses
+> Task :awesome-calendar:generateReleaseRFile
+> Task :awesome-calendar:compileReleaseKotlin
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
+> Task :awesome-calendar:javaPreCompileRelease
+
+> Task :awesome-calendar:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/awesome-calendar/src/main/java/com/archit/calendardaterangepicker/customviews/DateRangeCalendarView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :awesome-calendar:bundleLibCompileRelease
+> Task :awesome-calendar:bundleLibRuntimeRelease
+> Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 
@@ -88,13 +143,23 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
+> Task :awesome-calendar:mergeReleaseShaders
+> Task :awesome-calendar:compileReleaseShaders
+> Task :awesome-calendar:generateReleaseAssets
+> Task :awesome-calendar:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
+> Task :awesome-calendar:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :app:mergeExtDexDebug
+> Task :awesome-calendar:mergeReleaseJniLibFolders
+> Task :awesome-calendar:bundleLibResRelease
+> Task :awesome-calendar:mergeReleaseNativeLibs
+> Task :awesome-calendar:stripReleaseDebugSymbols
+> Task :awesome-calendar:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
+> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseJavaResource
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
@@ -110,7 +175,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 35s
-51 actionable tasks: 51 executed
+BUILD SUCCESSFUL in 43s
+92 actionable tasks: 92 executed
 
-2020-03-29 18:39:21,461 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585481793966-0/src/app/build/outputs/apk/debug/app-debug.apk
+2020-04-12 00:11:33,030 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586625033500-0/src/CalendarDateRangePicker-master/app/build/outputs/apk/debug/app-debug.apk
