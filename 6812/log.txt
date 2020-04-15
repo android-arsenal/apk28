@@ -1,129 +1,127 @@
-2019-12-22 22:46:47,417 INFO  DownloadService - Downloading "https://github.com/kirich1409/SvgGlidePlugins/archive/master.zip", attempt 3
-2019-12-22 22:46:47,967 INFO  DownloadService - Downloaded https://github.com/kirich1409/SvgGlidePlugins/archive/master.zip, attempt 3
-2019-12-22 22:46:47,967 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/master.zip": 215 KB
-2019-12-22 22:46:47,967 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-22 22:46:47,969 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/master.zip: true
-2019-12-22 22:46:47,969 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src'.
-2019-12-22 22:46:47,989 INFO  FullProcessService - Size of directory with sources: 315 KB
-2019-12-22 22:46:47,989 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src]
-2019-12-22 22:46:48,009 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/.git/
+2020-04-16 00:28:26,506 INFO  DownloadService - Downloading "https://github.com/kirich1409/SvgGlidePlugins/archive/master.zip", attempt 3
+2020-04-16 00:28:28,657 INFO  DownloadService - Downloaded https://github.com/kirich1409/SvgGlidePlugins/archive/master.zip, attempt 3
+2020-04-16 00:28:28,658 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/master.zip": 218 KB
+2020-04-16 00:28:28,658 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-16 00:28:28,659 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/master.zip: true
+2020-04-16 00:28:28,659 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src'.
+2020-04-16 00:28:28,688 INFO  FullProcessService - Size of directory with sources: 319 KB
+2020-04-16 00:28:28,688 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src]
+2020-04-16 00:28:28,720 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/.git/
 
-2019-12-22 22:46:48,012 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/gradlew
-2019-12-22 22:46:48,014 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/build.gradle
-2019-12-22 22:46:48,017 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/library/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/settings.gradle
-2019-12-22 22:46:48,017 INFO  ProjectBuildService - Remote scripts: none
-2019-12-22 22:46:48,017 INFO  ProjectFixService - Fixing project...
-2019-12-22 22:46:48,023 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/library/local.properties
-2019-12-22 22:46:48,025 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/library/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
-2019-12-22 22:46:48,025 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/sample/local.properties
-2019-12-22 22:46:48,027 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
-2019-12-22 22:46:48,028 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/local.properties
-2019-12-22 22:46:48,028 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-all.zip
-2019-12-22 22:46:48,028 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.2-bin.zip)
-2019-12-22 22:46:48,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
-2019-12-22 22:46:48,029 INFO  ProjectFixService - Project was maybe fixed
-2019-12-22 22:46:48,029 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-22 22:46:48,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-22 22:47:03,767 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-12-22 22:47:03,767 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-22 22:47:03,767 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-22 22:47:18,670 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.2/userguide/gradle_daemon.html.
+2020-04-16 00:28:28,723 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/gradlew
+2020-04-16 00:28:28,727 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/build.gradle
+2020-04-16 00:28:28,731 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/library/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/settings.gradle
+2020-04-16 00:28:28,731 INFO  ProjectBuildService - Remote scripts: none
+2020-04-16 00:28:28,731 INFO  ProjectFixService - Fixing project...
+2020-04-16 00:28:28,740 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/library/local.properties
+2020-04-16 00:28:28,742 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/library/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
+2020-04-16 00:28:28,743 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/sample/local.properties
+2020-04-16 00:28:28,746 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/sample/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
+2020-04-16 00:28:28,747 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/local.properties
+2020-04-16 00:28:28,747 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.3-all.zip
+2020-04-16 00:28:28,748 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.3-bin.zip)
+2020-04-16 00:28:28,748 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
+2020-04-16 00:28:28,748 INFO  ProjectFixService - Project was maybe fixed
+2020-04-16 00:28:28,748 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-16 00:28:28,749 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-16 00:29:25,892 INFO  VirusProcessorServiceImpl - Queued project 7157 to scan viruses
+2020-04-16 00:29:37,987 INFO  ProjectTaskService - Detected possible tasks: 77
+2020-04-16 00:29:37,987 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-04-16 00:29:37,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-04-16 00:29:56,162 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.3/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library:checkDebugManifest
-> Task :library:generateDebugBuildConfig SKIPPED
-> Task :library:generateDebugResValues
-> Task :library:mergeDebugShaders
-> Task :library:compileDebugShaders
-> Task :library:generateDebugAssets
-> Task :library:packageDebugAssets
-> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:mergeDebugJniLibFolders
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols NO-SOURCE
+> Task :library:copyDebugJniLibsProjectAndLocalJars
 > Task :library:compileDebugAidl NO-SOURCE
+> Task :library:generateDebugBuildConfig SKIPPED
 > Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResValues
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
-> Task :library:prepareLintJarForPublish
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders NO-SOURCE
+> Task :library:generateDebugAssets UP-TO-DATE
+> Task :library:packageDebugAssets
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:javaPreCompileDebug
 > Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:mergeDebugJniLibFolders
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:mergeReleaseJniLibFolders
 > Task :library:compileReleaseRenderscript NO-SOURCE
-> Task :library:checkReleaseManifest
 > Task :library:generateReleaseBuildConfig SKIPPED
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :library:processDebugManifest
-> Task :library:parseDebugLibraryResources
+> Task :library:prepareLintJarForPublish
 > Task :library:mergeReleaseShaders
-> Task :library:compileReleaseShaders
-> Task :library:generateReleaseAssets
+> Task :library:compileReleaseShaders NO-SOURCE
+> Task :library:generateReleaseAssets UP-TO-DATE
 > Task :library:packageReleaseAssets
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:mergeReleaseJniLibFolders
-> Task :library:parseReleaseLibraryResources
-> Task :library:processReleaseManifest
+> Task :library:parseDebugLocalResources
 > Task :library:mergeReleaseNativeLibs
-> Task :library:stripReleaseDebugSymbols
-> Task :library:transformNativeLibsWithSyncJniLibsForRelease
-> Task :library:mergeDebugNativeLibs
-> Task :library:stripDebugDebugSymbols
-> Task :library:transformNativeLibsWithSyncJniLibsForDebug
+> Task :library:stripReleaseDebugSymbols NO-SOURCE
+> Task :library:copyReleaseJniLibsProjectAndLocalJars
+> Task :library:parseReleaseLocalResources
+> Task :library:javaPreCompileRelease
+> Task :library:processDebugManifest
+> Task :library:processReleaseManifest
 > Task :library:mergeReleaseResources
-> Task :library:generateDebugRFile
 > Task :library:generateReleaseRFile
-> Task :library:verifyReleaseResources
-> Task :library:javaPreCompileDebug
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseGeneratedProguardFiles
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:generateDebugRFile
 > Task :library:compileDebugJavaWithJavac
 > Task :library:extractDebugAnnotations
 > Task :library:mergeDebugGeneratedProguardFiles
 > Task :library:mergeDebugConsumerProguardFiles
 > Task :library:compileDebugSources
-> Task :library:javaPreCompileRelease
-> Task :library:compileReleaseJavaWithJavac
-> Task :library:extractReleaseAnnotations
-> Task :library:mergeReleaseGeneratedProguardFiles
-> Task :library:mergeReleaseConsumerProguardFiles
 > Task :library:compileReleaseSources
+> Task :library:mergeReleaseJavaResource
+> Task :library:syncReleaseLibJars
+> Task :library:bundleReleaseAar
 > Task :library:mergeDebugJavaResource
-> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :library:syncDebugLibJars
 > Task :library:bundleDebugAar
 > Task :library:assembleDebug
-> Task :library:mergeReleaseJavaResource
-> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :library:bundleReleaseAar
+> Task :library:verifyReleaseResources
 > Task :library:assembleRelease
 > Task :library:assemble
 > Task :library:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.3/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 14s
-45 actionable tasks: 45 executed
+BUILD SUCCESSFUL in 17s
+39 actionable tasks: 39 executed
 
-2019-12-22 22:47:18,704 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-22 22:47:18,704 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-22 22:47:26,913 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-12-22 22:47:26,914 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-22 22:47:26,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-22 22:48:07,621 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.2/userguide/gradle_daemon.html.
+2020-04-16 00:29:56,203 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-16 00:29:56,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-16 00:30:04,740 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-04-16 00:30:04,740 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-16 00:30:04,741 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-16 00:30:45,390 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.3/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library:checkDebugManifest UP-TO-DATE
 > Task :library:compileDebugAidl NO-SOURCE
-> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugBuildConfig SKIPPED
+> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResValues UP-TO-DATE
 > Task :library:generateDebugResources UP-TO-DATE
 > Task :library:packageDebugResources UP-TO-DATE
-> Task :library:parseDebugLibraryResources UP-TO-DATE
+> Task :library:parseDebugLocalResources UP-TO-DATE
 > Task :library:processDebugManifest UP-TO-DATE
 > Task :library:generateDebugRFile UP-TO-DATE
 > Task :library:javaPreCompileDebug UP-TO-DATE
@@ -132,15 +130,16 @@ Configuration on demand is an incubating feature.
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :sample:checkDebugManifest
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
-> Task :library:bundleLibCompileDebug
-> Task :sample:mainApkListPersistenceDebug
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :library:bundleLibCompileToJarDebug
+> Task :sample:javaPreCompileDebug
+> Task :library:compileDebugLibraryResources
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :sample:javaPreCompileDebug
+> Task :library:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
 > Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
@@ -150,97 +149,92 @@ Note: [1] Wrote GeneratedAppGlideModule with: [com.kirich1409.svgloader.glide.Sv
 
 > Task :sample:compileDebugSources
 > Task :library:mergeDebugShaders UP-TO-DATE
-> Task :library:compileDebugShaders UP-TO-DATE
+> Task :library:compileDebugShaders NO-SOURCE
 > Task :library:generateDebugAssets UP-TO-DATE
 > Task :library:packageDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugShaders
-> Task :sample:compileDebugShaders
-> Task :sample:generateDebugAssets
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugAssets
 > Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:bundleLibResDebug NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
-> Task :library:bundleLibResDebug
-> Task :library:bundleLibRuntimeDebug
-> Task :library:createFullJarDebug
+> Task :library:bundleLibRuntimeToJarDebug
+> Task :sample:dexBuilderDebug
 > Task :sample:checkDebugDuplicateClasses
 > Task :sample:mergeDebugJavaResource
-> Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:validateSigningDebug
-> Task :sample:signingConfigWriterDebug
 > Task :library:mergeDebugJniLibFolders UP-TO-DATE
 > Task :library:mergeDebugNativeLibs UP-TO-DATE
-> Task :library:stripDebugDebugSymbols UP-TO-DATE
-> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :library:stripDebugDebugSymbols NO-SOURCE
+> Task :library:copyDebugJniLibsProjectOnly
 > Task :sample:mergeDebugJniLibFolders
+> Task :sample:validateSigningDebug
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :library:compileReleaseRenderscript NO-SOURCE
-> Task :library:checkReleaseManifest UP-TO-DATE
 > Task :library:generateReleaseBuildConfig SKIPPED
 > Task :library:generateReleaseResValues UP-TO-DATE
 > Task :library:generateReleaseResources UP-TO-DATE
 > Task :library:packageReleaseResources UP-TO-DATE
-> Task :library:parseReleaseLibraryResources UP-TO-DATE
+> Task :library:parseReleaseLocalResources UP-TO-DATE
 > Task :library:processReleaseManifest UP-TO-DATE
 > Task :library:generateReleaseRFile UP-TO-DATE
 > Task :library:javaPreCompileRelease UP-TO-DATE
 > Task :library:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :library:bundleLibCompileToJarRelease
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
-> Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
-> Task :sample:mainApkListPersistenceRelease
+> Task :sample:javaPreCompileRelease
+> Task :library:compileReleaseLibraryResources
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
+> Task :library:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
-> Task :library:bundleLibCompileRelease
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
-> Task :sample:javaPreCompileRelease
 
 > Task :sample:compileReleaseJavaWithJavac
 Note: [1] Wrote GeneratedAppGlideModule with: [com.kirich1409.svgloader.glide.SvgModule]
 
 > Task :sample:compileReleaseSources
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
 > Task :library:prepareLintJarForPublish UP-TO-DATE
 > Task :sample:prepareLintJar
-
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/d89b0228352536d8f36a6a058eb3e410/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
-> Task :library:processReleaseJavaRes NO-SOURCE
 > Task :sample:checkReleaseDuplicateClasses
-> Task :library:bundleLibResRelease
-> Task :library:bundleLibRuntimeRelease
-> Task :library:createFullJarRelease
-> Task :sample:transformClassesWithDexBuilderForRelease
-> Task :library:mergeReleaseShaders UP-TO-DATE
-> Task :library:compileReleaseShaders UP-TO-DATE
-> Task :library:generateReleaseAssets UP-TO-DATE
-> Task :library:packageReleaseAssets UP-TO-DATE
-> Task :sample:mergeReleaseShaders
-> Task :sample:compileReleaseShaders
-> Task :sample:generateReleaseAssets
-> Task :sample:mergeReleaseAssets
-> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:dexBuilderRelease
 > Task :sample:mergeExtDexDebug
-> Task :sample:signingConfigWriterRelease
-> Task :library:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :library:mergeReleaseNativeLibs UP-TO-DATE
-> Task :library:stripReleaseDebugSymbols UP-TO-DATE
-> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :sample:mergeReleaseJniLibFolders
-> Task :sample:mergeReleaseNativeLibs
-> Task :sample:stripReleaseDebugSymbols
-> Task :sample:mergeReleaseJavaResource
+> Task :library:bundleLibRuntimeToJarRelease
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
+> Task :library:mergeReleaseShaders UP-TO-DATE
+> Task :library:compileReleaseShaders NO-SOURCE
+> Task :library:generateReleaseAssets UP-TO-DATE
+> Task :library:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders NO-SOURCE
+> Task :sample:generateReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseAssets
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:bundleLibResRelease NO-SOURCE
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:collectReleaseDependencies
+> Task :sample:sdkReleaseDependencyData
+> Task :library:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :library:mergeReleaseNativeLibs UP-TO-DATE
+> Task :library:stripReleaseDebugSymbols NO-SOURCE
+> Task :library:copyReleaseJniLibsProjectOnly
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols NO-SOURCE
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
@@ -248,11 +242,11 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:assemble
 > Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.3/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 40s
-88 actionable tasks: 59 executed, 29 up-to-date
+76 actionable tasks: 53 executed, 23 up-to-date
 
-2019-12-22 22:48:07,723 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577029607414-0/src/SvgGlidePlugins-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-04-16 00:30:45,470 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971706502-0/src/SvgGlidePlugins-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

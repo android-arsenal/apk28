@@ -1,39 +1,36 @@
-2020-03-29 19:22:28,453 INFO  DownloadService - Downloading "https://github.com/Ramotion/fluid-slider-android/archive/master.zip", attempt 3
-2020-03-29 19:22:59,586 INFO  VirusProcessorServiceImpl - Queued project 6761 to scan viruses
-2020-03-29 19:23:29,394 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-03-29 19:23:30,296 INFO  GithubDownloadService - Default branch of this repository: master
-2020-03-29 19:23:30,296 INFO  DownloadService - Downloading "https://github.com/Ramotion/fluid-slider-android/archive/master.zip", attempt 3
-2020-03-29 19:24:31,986 DEBUG FullProcessService - Repository https://github.com/Ramotion/fluid-slider-android available: true
-2020-03-29 19:24:31,986 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-03-29 19:24:31,987 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Ramotion/fluid-slider-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src]
-2020-03-29 19:24:35,332 INFO  SysUtils - 
-2020-03-29 19:24:35,366 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/.git": true
-2020-03-29 19:24:35,370 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-03-29 19:24:35,370 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src]
-2020-03-29 19:24:35,388 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/.git/
+2020-04-16 00:30:45,887 INFO  DownloadService - Downloading "https://github.com/Ramotion/fluid-slider-android/archive/master.zip", attempt 3
+2020-04-16 00:30:49,109 INFO  DownloadService - Downloaded https://github.com/Ramotion/fluid-slider-android/archive/master.zip, attempt 3
+2020-04-16 00:30:49,109 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/master.zip": 1 MB
+2020-04-16 00:30:49,109 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-16 00:30:49,110 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/master.zip: true
+2020-04-16 00:30:49,110 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src'.
+2020-04-16 00:30:49,152 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-04-16 00:30:49,152 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src]
+2020-04-16 00:30:49,173 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/.git/
 
-2020-03-29 19:24:35,392 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/gradlew
-2020-03-29 19:24:35,396 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider-example-simple-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider-example-simple/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/build.gradle
-2020-03-29 19:24:35,400 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider-example-simple-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider-example-simple/build.gradle
-2020-03-29 19:24:35,400 INFO  ProjectBuildService - Remote scripts: none
-2020-03-29 19:24:35,400 INFO  ProjectFixService - Fixing project...
-2020-03-29 19:24:35,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider-example-simple-java/local.properties
-2020-03-29 19:24:35,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider-example-simple-java/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-29 19:24:35,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider-example-simple/local.properties
-2020-03-29 19:24:35,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider-example-simple/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-03-29 19:24:35,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider/local.properties
-2020-03-29 19:24:35,413 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-03-29 19:24:35,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/local.properties
-2020-03-29 19:24:35,413 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-03-29 19:24:35,413 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-03-29 19:24:35,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-29 19:24:35,415 INFO  ProjectFixService - Project was maybe fixed
-2020-03-29 19:24:35,415 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-29 19:24:35,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider-example-simple-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-29 19:24:42,162 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-29 19:24:42,163 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-29 19:24:42,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider-example-simple-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-29 19:25:27,252 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-16 00:30:49,178 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/gradlew
+2020-04-16 00:30:49,183 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider-example-simple-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider-example-simple/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/build.gradle
+2020-04-16 00:30:49,187 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider-example-simple-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider-example-simple/build.gradle
+2020-04-16 00:30:49,187 INFO  ProjectBuildService - Remote scripts: none
+2020-04-16 00:30:49,187 INFO  ProjectFixService - Fixing project...
+2020-04-16 00:30:49,198 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider-example-simple-java/local.properties
+2020-04-16 00:30:49,199 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider-example-simple-java/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-04-16 00:30:49,199 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider-example-simple/local.properties
+2020-04-16 00:30:49,200 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider-example-simple/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-04-16 00:30:49,200 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider/local.properties
+2020-04-16 00:30:49,201 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-04-16 00:30:49,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/local.properties
+2020-04-16 00:30:49,202 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-04-16 00:30:49,203 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-04-16 00:30:49,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-04-16 00:30:49,204 INFO  ProjectFixService - Project was maybe fixed
+2020-04-16 00:30:49,204 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-16 00:30:49,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider-example-simple-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-16 00:30:54,419 INFO  VirusProcessorServiceImpl - Queued project 6812 to scan viruses
+2020-04-16 00:30:56,188 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-04-16 00:30:56,188 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-16 00:30:56,188 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider-example-simple-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-16 00:31:50,600 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :fluid-slider:preBuild UP-TO-DATE
 > Task :fluid-slider:preDebugBuild UP-TO-DATE
 > Task :fluid-slider:compileDebugAidl NO-SOURCE
@@ -46,8 +43,8 @@
 > Task :fluid-slider-example-simple-java:preDebugBuild UP-TO-DATE
 > Task :fluid-slider:packageDebugRenderscript NO-SOURCE
 > Task :fluid-slider-example-simple-java:compileDebugAidl NO-SOURCE
-> Task :fluid-slider-example-simple-java:generateDebugBuildConfig
 > Task :fluid-slider-example-simple-java:compileDebugRenderscript NO-SOURCE
+> Task :fluid-slider-example-simple-java:generateDebugBuildConfig
 > Task :fluid-slider:parseDebugLocalResources
 > Task :fluid-slider:processDebugManifest
 > Task :fluid-slider-example-simple-java:mainApkListPersistenceDebug
@@ -107,32 +104,31 @@
 > Task :fluid-slider:packageReleaseRenderscript NO-SOURCE
 > Task :fluid-slider-example-simple-java:compileReleaseRenderscript NO-SOURCE
 > Task :fluid-slider-example-simple-java:generateReleaseBuildConfig
-> Task :fluid-slider:javaPreCompileRelease
-> Task :fluid-slider:compileReleaseJavaWithJavac
 > Task :fluid-slider-example-simple-java:mainApkListPersistenceRelease
 > Task :fluid-slider-example-simple-java:generateReleaseResValues
 > Task :fluid-slider-example-simple-java:generateReleaseResources
+> Task :fluid-slider-example-simple-java:mergeDebugNativeLibs
+> Task :fluid-slider-example-simple-java:stripDebugDebugSymbols
 > Task :fluid-slider:extractDeepLinksRelease
 > Task :fluid-slider-example-simple-java:createReleaseCompatibleScreenManifests
 > Task :fluid-slider-example-simple-java:extractDeepLinksRelease
 > Task :fluid-slider-example-simple-java:processReleaseManifest
-> Task :fluid-slider:compileReleaseLibraryResources
-> Task :fluid-slider:bundleLibCompileRelease
-> Task :fluid-slider-example-simple-java:mergeDebugNativeLibs
-> Task :fluid-slider-example-simple-java:stripDebugDebugSymbols
+> Task :fluid-slider:javaPreCompileRelease
+> Task :fluid-slider:compileReleaseJavaWithJavac
 > Task :fluid-slider-example-simple-java:mergeReleaseResources
+> Task :fluid-slider:compileReleaseLibraryResources
 > Task :fluid-slider-example-simple-java:processReleaseResources
+> Task :fluid-slider:bundleLibCompileRelease
 > Task :fluid-slider-example-simple-java:compileReleaseKotlin
 > Task :fluid-slider-example-simple-java:javaPreCompileRelease
 > Task :fluid-slider-example-simple-java:compileReleaseJavaWithJavac
 > Task :fluid-slider-example-simple-java:compileReleaseSources
 > Task :fluid-slider-example-simple-java:prepareLintJar
 > Task :fluid-slider-example-simple-java:checkReleaseDuplicateClasses
-> Task :fluid-slider:prepareLintJarForPublish
-> Task :fluid-slider-example-simple-java:lintVitalRelease
-> Task :fluid-slider-example-simple-java:mergeExtDexDebug
 > Task :fluid-slider:bundleLibRuntimeRelease
 > Task :fluid-slider-example-simple-java:dexBuilderRelease
+> Task :fluid-slider:prepareLintJarForPublish
+> Task :fluid-slider-example-simple-java:lintVitalRelease
 > Task :fluid-slider-example-simple-java:desugarReleaseFileDependencies
 > Task :fluid-slider:mergeReleaseShaders
 > Task :fluid-slider:compileReleaseShaders
@@ -152,10 +148,11 @@
 > Task :fluid-slider-example-simple-java:mergeReleaseJniLibFolders
 > Task :fluid-slider-example-simple-java:mergeReleaseNativeLibs
 > Task :fluid-slider-example-simple-java:stripReleaseDebugSymbols
+> Task :fluid-slider-example-simple-java:mergeExtDexDebug
+> Task :fluid-slider-example-simple-java:mergeReleaseJavaResource
 > Task :fluid-slider-example-simple-java:mergeDexDebug
 > Task :fluid-slider-example-simple-java:packageDebug
 > Task :fluid-slider-example-simple-java:assembleDebug
-> Task :fluid-slider-example-simple-java:mergeReleaseJavaResource
 > Task :fluid-slider-example-simple-java:mergeExtDexRelease
 > Task :fluid-slider-example-simple-java:mergeDexRelease
 > Task :fluid-slider-example-simple-java:packageRelease
@@ -163,7 +160,7 @@
 > Task :fluid-slider-example-simple-java:assemble
 > Task :fluid-slider-example-simple-java:build
 
-BUILD SUCCESSFUL in 44s
+BUILD SUCCESSFUL in 53s
 94 actionable tasks: 94 executed
 
-2020-03-29 19:25:27,304 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585484548450-0/src/fluid-slider-example-simple-java/build/outputs/apk/release/fluid-slider-example-simple-java-release-unsigned.apk
+2020-04-16 00:31:50,663 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971845884-0/src/fluid-slider-android-master/fluid-slider-example-simple-java/build/outputs/apk/release/fluid-slider-example-simple-java-release-unsigned.apk
