@@ -1,43 +1,67 @@
-2019-10-06 19:34:32,115 INFO  DownloadService - Downloading "https://github.com/iammert/AnimatedTabLayout/archive/master.zip", attempt 3
-2019-10-06 19:34:34,590 INFO  DownloadService - Downloaded https://github.com/iammert/AnimatedTabLayout/archive/master.zip, attempt 3
-2019-10-06 19:34:34,590 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/master.zip": 659 KB
-2019-10-06 19:34:34,590 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-06 19:34:34,592 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/master.zip: true
-2019-10-06 19:34:34,592 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src'.
-2019-10-06 19:34:34,619 INFO  FullProcessService - Size of directory with sources: 695 KB
-2019-10-06 19:34:34,620 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src]
-2019-10-06 19:34:34,647 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/.git/
+2020-06-23 01:56:32,333 INFO  DownloadService - Downloading "https://github.com/iammert/AnimatedTabLayout/archive/master.zip", attempt 3
+2020-06-23 01:56:35,090 INFO  DownloadService - Downloaded https://github.com/iammert/AnimatedTabLayout/archive/master.zip, attempt 3
+2020-06-23 01:56:35,090 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/master.zip": 659 KB
+2020-06-23 01:56:35,091 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-06-23 01:56:35,091 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/master.zip: true
+2020-06-23 01:56:35,091 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src'.
+2020-06-23 01:56:35,139 INFO  FullProcessService - Size of directory with sources: 696 KB
+2020-06-23 01:56:35,139 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src]
+2020-06-23 01:56:35,259 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/.git/
 
-2019-10-06 19:34:34,652 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/gradlew
-2019-10-06 19:34:34,655 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/build.gradle
-2019-10-06 19:34:34,658 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/settings.gradle
-2019-10-06 19:34:34,659 INFO  ProjectBuildService - Remote scripts: none
-2019-10-06 19:34:34,659 INFO  ProjectFixService - Fixing project...
-2019-10-06 19:34:34,666 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/app/local.properties
-2019-10-06 19:34:34,667 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-10-06 19:34:34,667 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-10-06 19:34:34,668 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/library/local.properties
-2019-10-06 19:34:34,669 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-10-06 19:34:34,669 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-10-06 19:34:34,671 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/local.properties
-2019-10-06 19:34:34,671 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-10-06 19:34:34,672 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-10-06 19:34:34,673 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-10-06 19:34:34,673 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-10-06 19:34:34,673 INFO  ProjectFixService - Project was maybe fixed
-2019-10-06 19:34:34,673 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 19:34:34,673 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 19:34:56,792 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-10-06 19:34:56,792 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-06 19:34:56,792 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-06 19:36:06,347 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-06-23 01:56:35,266 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/gradlew
+2020-06-23 01:56:35,274 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/build.gradle
+2020-06-23 01:56:35,282 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/settings.gradle
+2020-06-23 01:56:35,282 INFO  ProjectBuildService - Remote scripts: none
+2020-06-23 01:56:35,282 INFO  ProjectFixService - Fixing project...
+2020-06-23 01:56:35,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/app/local.properties
+2020-06-23 01:56:35,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-06-23 01:56:35,304 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-06-23 01:56:35,305 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/library/local.properties
+2020-06-23 01:56:35,306 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-06-23 01:56:35,306 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-06-23 01:56:35,307 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/local.properties
+2020-06-23 01:56:35,308 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-06-23 01:56:35,309 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-06-23 01:56:35,311 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-06-23 01:56:35,311 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-06-23 01:56:35,312 INFO  ProjectFixService - Project was maybe fixed
+2020-06-23 01:56:35,312 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-23 01:56:35,312 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-23 01:56:42,043 INFO  VirusProcessorServiceImpl - Queued project 6989 to scan viruses
+2020-06-23 01:57:03,036 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-06-23 01:57:03,036 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-06-23 01:57:03,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-06-23 01:58:58,218 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:checkDebugManifest
 :library:processDebugManifest
 :app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.1.0/core-ktx-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.1.0/appcompat-1.1.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.41/kotlin-stdlib-jdk7-1.2.41.pom
+Download https://dl.google.com/dl/android/maven2/androidx/core/core/1.1.0/core-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/drawerlayout/drawerlayout/1.0.0/drawerlayout-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.1.0/appcompat-resources-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.1.0/fragment-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/cursoradapter/cursoradapter/1.0.0/cursoradapter-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.0.0/collection-1.0.0.pom
 Download https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.1.0/annotation-1.1.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.3.31/kotlin-stdlib-1.3.31.pom
+Download https://dl.google.com/dl/android/maven2/androidx/recyclerview/recyclerview/1.0.0/recyclerview-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/customview/customview/1.0.0/customview-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/viewpager/viewpager/1.0.0/viewpager-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/loader/loader/1.0.0/loader-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata/2.0.0/lifecycle-livedata-2.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.1.0/versionedparcelable-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.0.0/savedstate-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable/1.1.0/vectordrawable-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable-animated/1.1.0/vectordrawable-animated-1.1.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.31/kotlin-stdlib-common-1.3.31.pom
+Download https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.1.0/collection-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.1.0/core-common-2.1.0.pom
 :library:compileDebugAidl
 :app:compileDebugAidl
 :library:packageDebugRenderscript NO-SOURCE
@@ -107,15 +131,6 @@ Download https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/
 :library:mergeReleaseShaders
 :library:compileReleaseShaders
 :library:generateReleaseAssets
-:library:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:mergeReleaseJniLibFolders
-:library:compileReleaseNdk NO-SOURCE
-:library:mergeReleaseJniLibFolders
-:library:transformNativeLibsWithMergeJniLibsForRelease
-:library:transformNativeLibsWithStripDebugSymbolForRelease
-:library:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:processReleaseJavaRes NO-SOURCE
 :library:generateDebugRFile
 :app:processDebugResources
 :library:compileDebugKotlin
@@ -125,8 +140,8 @@ w: Runtime JAR files in the classpath should have the same version. These files 
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar (version 1.3)
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar (version 1.3)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/library/src/main/java/com/iammert/library/AnimatedTabItemView.kt: (59, 40): Parameter 'attrs' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/library/src/main/java/com/iammert/library/AnimatedTabItemView.kt: (111, 24): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/library/src/main/java/com/iammert/library/AnimatedTabItemView.kt: (59, 40): Parameter 'attrs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/library/src/main/java/com/iammert/library/AnimatedTabItemView.kt: (121, 24): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
 :library:generateDebugSources
 :library:javaPreCompileDebug
 :library:compileDebugJavaWithJavac
@@ -137,7 +152,7 @@ w: Runtime JAR files in the classpath should have the same version. These files 
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar (version 1.3)
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar (version 1.3)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/app/src/main/java/com/iammert/animatedtablayout/PagerAdapter.kt: (8, 43): 'constructor FragmentStatePagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/app/src/main/java/com/iammert/animatedtablayout/PagerAdapter.kt: (8, 43): 'constructor FragmentStatePagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
 :app:generateDebugSources
 :app:javaPreCompileDebug
 :app:compileDebugJavaWithJavac
@@ -158,8 +173,8 @@ w: Runtime JAR files in the classpath should have the same version. These files 
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar (version 1.3)
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar (version 1.3)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/library/src/main/java/com/iammert/library/AnimatedTabItemView.kt: (59, 40): Parameter 'attrs' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/library/src/main/java/com/iammert/library/AnimatedTabItemView.kt: (111, 24): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/library/src/main/java/com/iammert/library/AnimatedTabItemView.kt: (59, 40): Parameter 'attrs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/library/src/main/java/com/iammert/library/AnimatedTabItemView.kt: (121, 24): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
 :library:generateReleaseSources
 :library:javaPreCompileRelease
 :library:compileReleaseJavaWithJavac
@@ -170,32 +185,49 @@ w: Runtime JAR files in the classpath should have the same version. These files 
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar (version 1.3)
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar (version 1.3)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/app/src/main/java/com/iammert/animatedtablayout/PagerAdapter.kt: (8, 43): 'constructor FragmentStatePagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/app/src/main/java/com/iammert/animatedtablayout/PagerAdapter.kt: (8, 43): 'constructor FragmentStatePagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseSources
 :app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.0/lint-gradle-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.0/lint-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.0/intellij-core-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0/uast-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.0/kotlin-compiler-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.0/lint-kotlin-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0/lint-checks-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.0/lint-api-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.0/lint-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.0/lint-gradle-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0/uast-26.1.0.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.0/lint-kotlin-26.1.0.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.0/lint-api-26.1.0.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.0/lint-gradle-26.1.0.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0/lint-checks-26.1.0.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.0/lint-26.1.0.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.0/intellij-core-26.1.0.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0/uast-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0/lint-checks-26.1.0.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.0/kotlin-compiler-26.1.0.jar
+:library:packageReleaseAssets
+:app:mergeReleaseAssets
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForRelease
 :app:packageRelease
 :app:assembleRelease
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 8s
+BUILD SUCCESSFUL in 1m 53s
 95 actionable tasks: 95 executed
 
-2019-10-06 19:36:06,441 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365272106-0/src/AnimatedTabLayout-master/app/build/outputs/apk/debug/app-debug.apk
+2020-06-23 01:58:58,440 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592852192328-0/src/AnimatedTabLayout-master/app/build/outputs/apk/debug/app-debug.apk
