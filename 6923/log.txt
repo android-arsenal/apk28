@@ -1,52 +1,49 @@
-2020-03-29 18:45:53,431 INFO  DownloadService - Downloading "https://github.com/maltaisn/icondialoglib/archive/master.zip", attempt 3
-2020-03-29 18:46:05,596 INFO  VirusProcessorServiceImpl - Queued project 6924 to scan viruses
-2020-03-29 18:46:54,102 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-03-29 18:46:55,524 INFO  GithubDownloadService - Default branch of this repository: master
-2020-03-29 18:46:55,525 INFO  DownloadService - Downloading "https://github.com/maltaisn/icondialoglib/archive/master.zip", attempt 3
-2020-03-29 18:47:56,862 DEBUG FullProcessService - Repository https://github.com/maltaisn/icondialoglib available: true
-2020-03-29 18:47:56,862 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-03-29 18:47:56,862 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/maltaisn/icondialoglib, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src]
-2020-03-29 18:48:13,624 INFO  SysUtils - 
-2020-03-29 18:48:13,636 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/.git": true
-2020-03-29 18:48:13,645 INFO  FullProcessService - Size of directory with sources: 14 MB
-2020-03-29 18:48:13,645 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src]
-2020-03-29 18:48:13,664 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/.git/
+2020-06-24 15:32:24,267 INFO  DownloadService - Downloading "https://github.com/maltaisn/icondialoglib/archive/master.zip", attempt 3
+2020-06-24 15:32:36,154 INFO  VirusProcessorServiceImpl - Queued project 6924 to scan viruses
+2020-06-24 15:32:46,034 INFO  DownloadService - Downloaded https://github.com/maltaisn/icondialoglib/archive/master.zip, attempt 3
+2020-06-24 15:32:46,034 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/master.zip": 12 MB
+2020-06-24 15:32:46,034 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-06-24 15:32:46,035 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/master.zip: true
+2020-06-24 15:32:46,036 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src'.
+2020-06-24 15:32:46,219 INFO  FullProcessService - Size of directory with sources: 14 MB
+2020-06-24 15:32:46,220 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src]
+2020-06-24 15:32:46,278 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/.git/
 
-2020-03-29 18:48:13,671 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/gradlew
-2020-03-29 18:48:13,679 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-default/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-fa/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-mdi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/utils/build.gradle
-2020-03-29 18:48:13,686 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-default/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-mdi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-fa/build.gradle
-2020-03-29 18:48:13,686 INFO  ProjectBuildService - Remote scripts: none
-2020-03-29 18:48:13,686 INFO  ProjectFixService - Fixing project...
-2020-03-29 18:48:13,706 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/app/local.properties
-2020-03-29 18:48:13,711 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-29 18:48:13,711 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-29 18:48:13,712 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-default/local.properties
-2020-03-29 18:48:13,718 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-default/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-29 18:48:13,719 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-default/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-29 18:48:13,719 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-fa/local.properties
-2020-03-29 18:48:13,724 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-fa/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-29 18:48:13,724 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-fa/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-29 18:48:13,725 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-mdi/local.properties
-2020-03-29 18:48:13,729 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-mdi/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-29 18:48:13,730 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/iconpacks/iconpack-mdi/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-29 18:48:13,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/lib/local.properties
-2020-03-29 18:48:13,735 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-29 18:48:13,735 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-29 18:48:13,736 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/local.properties
-2020-03-29 18:48:13,736 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.2.2-all.zip
-2020-03-29 18:48:13,737 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.2.2-bin.zip)
-2020-03-29 18:48:13,742 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-29 18:48:13,742 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-29 18:48:13,743 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/utils/local.properties
-2020-03-29 18:48:13,747 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/utils/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-29 18:48:13,747 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/utils/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-29 18:48:13,748 INFO  ProjectFixService - Project was maybe fixed
-2020-03-29 18:48:13,748 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-29 18:48:13,748 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-29 18:48:24,849 INFO  ProjectTaskService - Detected possible tasks: 71
-2020-03-29 18:48:24,849 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-29 18:48:24,849 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-29 18:49:50,850 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.2.2/userguide/gradle_daemon.html.
+2020-06-24 15:32:46,290 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/gradlew
+2020-06-24 15:32:46,301 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-default/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-fa/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-mdi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/utils/build.gradle
+2020-06-24 15:32:46,315 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/lib/publishing.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/publishing.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-default/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-mdi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-fa/build.gradle
+2020-06-24 15:32:46,317 INFO  ProjectBuildService - Remote scripts: none
+2020-06-24 15:32:46,317 INFO  ProjectFixService - Fixing project...
+2020-06-24 15:32:46,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/app/local.properties
+2020-06-24 15:32:46,362 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-24 15:32:46,363 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-24 15:32:46,365 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-default/local.properties
+2020-06-24 15:32:46,374 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-default/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-24 15:32:46,374 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-default/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-24 15:32:46,376 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-fa/local.properties
+2020-06-24 15:32:46,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-fa/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-24 15:32:46,385 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-fa/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-24 15:32:46,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-mdi/local.properties
+2020-06-24 15:32:46,395 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-mdi/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-24 15:32:46,395 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/iconpacks/iconpack-mdi/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-24 15:32:46,397 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/lib/local.properties
+2020-06-24 15:32:46,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-24 15:32:46,408 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-24 15:32:46,410 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/local.properties
+2020-06-24 15:32:46,411 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.4.1-all.zip
+2020-06-24 15:32:46,411 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.4.1-bin.zip)
+2020-06-24 15:32:46,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-24 15:32:46,422 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-24 15:32:46,423 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/utils/local.properties
+2020-06-24 15:32:46,431 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/utils/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-24 15:32:46,432 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/utils/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-24 15:32:46,433 INFO  ProjectFixService - Project was maybe fixed
+2020-06-24 15:32:46,433 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-24 15:32:46,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-24 15:33:14,206 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-06-24 15:33:14,207 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-06-24 15:33:14,207 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-06-24 15:35:00,369 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.4.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
@@ -95,32 +92,44 @@ Configuration on demand is an incubating feature.
 > Task :iconpacks:iconpack-default:extractDeepLinksDebug
 > Task :iconpacks:iconpack-fa:extractDeepLinksDebug
 > Task :iconpacks:iconpack-mdi:extractDeepLinksDebug
-> Task :iconpacks:iconpack-fa:processDebugManifest
+> Task :lib:compileDebugLibraryResources
 > Task :lib:processDebugManifest
 > Task :iconpacks:iconpack-default:processDebugManifest
+> Task :iconpacks:iconpack-fa:processDebugManifest
+> Task :lib:parseDebugLocalResources
+> Task :iconpacks:iconpack-fa:compileDebugLibraryResources
 > Task :iconpacks:iconpack-default:compileDebugLibraryResources
-> Task :iconpacks:iconpack-mdi:processDebugManifest
-> Task :app:processDebugManifest
 > Task :iconpacks:iconpack-default:parseDebugLocalResources
 > Task :lib:generateDebugBuildConfig
 > Task :iconpacks:iconpack-default:generateDebugBuildConfig
 > Task :iconpacks:iconpack-fa:generateDebugBuildConfig
 > Task :iconpacks:iconpack-mdi:generateDebugBuildConfig
-> Task :lib:parseDebugLocalResources
-> Task :iconpacks:iconpack-mdi:compileDebugLibraryResources
-> Task :app:mergeDebugResources
-> Task :lib:compileDebugLibraryResources
 > Task :iconpacks:iconpack-fa:parseDebugLocalResources
-> Task :iconpacks:iconpack-mdi:parseDebugLocalResources
-> Task :iconpacks:iconpack-fa:compileDebugLibraryResources
+> Task :iconpacks:iconpack-mdi:processDebugManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
 > Task :lib:generateDebugRFile
 > Task :lib:compileDebugKotlin
-> Task :iconpacks:iconpack-mdi:generateDebugRFile
 > Task :iconpacks:iconpack-fa:generateDebugRFile
+> Task :iconpacks:iconpack-mdi:parseDebugLocalResources
+> Task :iconpacks:iconpack-mdi:compileDebugLibraryResources
 > Task :iconpacks:iconpack-default:generateDebugRFile
-> Task :app:processDebugResources
 > Task :lib:javaPreCompileDebug
 > Task :lib:compileDebugJavaWithJavac
+> Task :iconpacks:iconpack-mdi:generateDebugRFile
+> Task :app:processDebugResources
+> Task :lib:bundleLibCompileDebug
+> Task :iconpacks:iconpack-default:compileDebugKotlin
+> Task :iconpacks:iconpack-fa:compileDebugKotlin
+> Task :iconpacks:iconpack-mdi:compileDebugKotlin
+> Task :iconpacks:iconpack-fa:javaPreCompileDebug
+> Task :iconpacks:iconpack-fa:compileDebugJavaWithJavac
+> Task :iconpacks:iconpack-default:javaPreCompileDebug
+> Task :iconpacks:iconpack-default:compileDebugJavaWithJavac
+> Task :iconpacks:iconpack-fa:bundleLibCompileDebug
+> Task :iconpacks:iconpack-mdi:javaPreCompileDebug
+> Task :iconpacks:iconpack-mdi:compileDebugJavaWithJavac
+> Task :iconpacks:iconpack-default:bundleLibCompileDebug
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -141,19 +150,7 @@ Configuration on demand is an incubating feature.
 > Task :iconpacks:iconpack-mdi:generateDebugAssets
 > Task :iconpacks:iconpack-mdi:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :lib:bundleLibCompileDebug
-> Task :iconpacks:iconpack-default:compileDebugKotlin
-> Task :iconpacks:iconpack-fa:compileDebugKotlin
-> Task :iconpacks:iconpack-mdi:compileDebugKotlin
-> Task :iconpacks:iconpack-default:javaPreCompileDebug
-> Task :iconpacks:iconpack-default:compileDebugJavaWithJavac
-> Task :iconpacks:iconpack-mdi:javaPreCompileDebug
-> Task :iconpacks:iconpack-mdi:compileDebugJavaWithJavac
-> Task :iconpacks:iconpack-default:bundleLibCompileDebug
-> Task :iconpacks:iconpack-fa:javaPreCompileDebug
-> Task :iconpacks:iconpack-fa:compileDebugJavaWithJavac
 > Task :iconpacks:iconpack-mdi:bundleLibCompileDebug
-> Task :iconpacks:iconpack-fa:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
@@ -165,13 +162,13 @@ Configuration on demand is an incubating feature.
 > Task :iconpacks:iconpack-mdi:processDebugJavaRes NO-SOURCE
 > Task :lib:bundleLibResDebug
 > Task :iconpacks:iconpack-mdi:bundleLibResDebug
+> Task :iconpacks:iconpack-fa:bundleLibRuntimeDebug
+> Task :iconpacks:iconpack-fa:bundleLibResDebug
 > Task :iconpacks:iconpack-default:bundleLibRuntimeDebug
 > Task :lib:bundleLibRuntimeDebug
 > Task :iconpacks:iconpack-default:bundleLibResDebug
-> Task :iconpacks:iconpack-mdi:bundleLibRuntimeDebug
-> Task :iconpacks:iconpack-fa:bundleLibResDebug
-> Task :iconpacks:iconpack-fa:bundleLibRuntimeDebug
 > Task :app:checkDebugDuplicateClasses
+> Task :iconpacks:iconpack-mdi:bundleLibRuntimeDebug
 > Task :app:dexBuilderDebug
 > Task :app:mergeDebugJavaResource
 > Task :app:desugarDebugFileDependencies
@@ -228,72 +225,72 @@ Configuration on demand is an incubating feature.
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :lib:extractDeepLinksRelease
-> Task :iconpacks:iconpack-default:extractDeepLinksRelease
-> Task :iconpacks:iconpack-fa:extractDeepLinksRelease
 > Task :iconpacks:iconpack-mdi:mergeDebugNativeLibs
 > Task :iconpacks:iconpack-mdi:stripDebugDebugSymbols
 > Task :iconpacks:iconpack-mdi:copyDebugJniLibsProjectOnly
-> Task :iconpacks:iconpack-default:processReleaseManifest
-> Task :iconpacks:iconpack-mdi:extractDeepLinksRelease
+> Task :iconpacks:iconpack-default:extractDeepLinksRelease
+> Task :app:mergeReleaseResources
+> Task :iconpacks:iconpack-fa:extractDeepLinksRelease
 > Task :lib:processReleaseManifest
-> Task :iconpacks:iconpack-fa:processReleaseManifest
+> Task :iconpacks:iconpack-mdi:extractDeepLinksRelease
+> Task :iconpacks:iconpack-default:processReleaseManifest
+> Task :lib:compileReleaseLibraryResources
 > Task :iconpacks:iconpack-mdi:processReleaseManifest
-> Task :app:processReleaseManifest
 > Task :lib:parseReleaseLocalResources
 > Task :iconpacks:iconpack-default:compileReleaseLibraryResources
-> Task :app:mergeReleaseResources
+> Task :iconpacks:iconpack-default:parseReleaseLocalResources
+> Task :iconpacks:iconpack-fa:processReleaseManifest
+> Task :app:processReleaseManifest
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
 > Task :iconpacks:iconpack-fa:compileReleaseLibraryResources
-> Task :lib:compileReleaseLibraryResources
-> Task :lib:generateReleaseRFile
 > Task :lib:generateReleaseBuildConfig
-> Task :lib:compileReleaseKotlin
 > Task :iconpacks:iconpack-default:generateReleaseBuildConfig
 > Task :iconpacks:iconpack-fa:generateReleaseBuildConfig
 > Task :iconpacks:iconpack-mdi:generateReleaseBuildConfig
-> Task :iconpacks:iconpack-default:parseReleaseLocalResources
+> Task :iconpacks:iconpack-mdi:compileReleaseLibraryResources
+> Task :lib:generateReleaseRFile
+> Task :iconpacks:iconpack-fa:parseReleaseLocalResources
 > Task :iconpacks:iconpack-mdi:parseReleaseLocalResources
+> Task :lib:compileReleaseKotlin
+> Task :iconpacks:iconpack-mdi:generateReleaseRFile
 > Task :lib:javaPreCompileRelease
 > Task :lib:compileReleaseJavaWithJavac
-> Task :iconpacks:iconpack-mdi:compileReleaseLibraryResources
+> Task :iconpacks:iconpack-fa:generateReleaseRFile
 > Task :iconpacks:iconpack-default:generateReleaseRFile
-> Task :iconpacks:iconpack-mdi:generateReleaseRFile
-> Task :iconpacks:iconpack-fa:parseReleaseLocalResources
+> Task :app:processReleaseResources
 > Task :lib:bundleLibCompileRelease
 > Task :iconpacks:iconpack-default:compileReleaseKotlin
+> Task :iconpacks:iconpack-fa:compileReleaseKotlin
 > Task :iconpacks:iconpack-mdi:compileReleaseKotlin
+> Task :iconpacks:iconpack-fa:javaPreCompileRelease
+> Task :iconpacks:iconpack-fa:compileReleaseJavaWithJavac
 > Task :iconpacks:iconpack-default:javaPreCompileRelease
 > Task :iconpacks:iconpack-default:compileReleaseJavaWithJavac
+> Task :iconpacks:iconpack-fa:bundleLibCompileRelease
+> Task :app:mergeExtDexDebug
 > Task :iconpacks:iconpack-mdi:javaPreCompileRelease
 > Task :iconpacks:iconpack-mdi:compileReleaseJavaWithJavac
 > Task :iconpacks:iconpack-default:bundleLibCompileRelease
-> Task :iconpacks:iconpack-fa:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :iconpacks:iconpack-fa:compileReleaseKotlin
-> Task :app:mergeExtDexDebug
-> Task :iconpacks:iconpack-mdi:bundleLibCompileRelease
-> Task :iconpacks:iconpack-fa:javaPreCompileRelease
-> Task :iconpacks:iconpack-fa:compileReleaseJavaWithJavac
 > Task :app:prepareLintJar
-> Task :iconpacks:iconpack-fa:bundleLibCompileRelease
-> Task :app:compileReleaseKotlin
+> Task :iconpacks:iconpack-default:prepareLintJarForPublish
+> Task :iconpacks:iconpack-mdi:prepareLintJarForPublish
 > Task :lib:prepareLintJarForPublish
+> Task :iconpacks:iconpack-mdi:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
 > Task :iconpacks:iconpack-fa:prepareLintJarForPublish
+> Task :app:checkReleaseDuplicateClasses
+> Task :iconpacks:iconpack-fa:bundleLibRuntimeRelease
+> Task :iconpacks:iconpack-mdi:bundleLibRuntimeRelease
+> Task :iconpacks:iconpack-default:bundleLibRuntimeRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :iconpacks:iconpack-fa:bundleLibRuntimeRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :iconpacks:iconpack-default:prepareLintJarForPublish
-> Task :iconpacks:iconpack-mdi:prepareLintJarForPublish
 > Task :app:lintVitalRelease
 > Task :lib:bundleLibRuntimeRelease
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :iconpacks:iconpack-default:bundleLibRuntimeRelease
-> Task :iconpacks:iconpack-mdi:bundleLibRuntimeRelease
 > Task :app:dexBuilderRelease
 > Task :app:desugarReleaseFileDependencies
 > Task :app:mergeReleaseShaders
@@ -320,9 +317,8 @@ Configuration on demand is an incubating feature.
 > Task :lib:processReleaseJavaRes NO-SOURCE
 > Task :iconpacks:iconpack-default:processReleaseJavaRes NO-SOURCE
 > Task :iconpacks:iconpack-fa:processReleaseJavaRes NO-SOURCE
-> Task :lib:bundleLibResRelease
 > Task :iconpacks:iconpack-mdi:processReleaseJavaRes NO-SOURCE
-> Task :iconpacks:iconpack-fa:bundleLibResRelease
+> Task :lib:bundleLibResRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :lib:mergeReleaseJniLibFolders
 > Task :iconpacks:iconpack-default:bundleLibResRelease
@@ -335,6 +331,7 @@ Configuration on demand is an incubating feature.
 > Task :iconpacks:iconpack-default:stripReleaseDebugSymbols
 > Task :iconpacks:iconpack-default:copyReleaseJniLibsProjectOnly
 > Task :iconpacks:iconpack-mdi:mergeReleaseJniLibFolders
+> Task :iconpacks:iconpack-fa:bundleLibResRelease
 > Task :iconpacks:iconpack-fa:mergeReleaseNativeLibs
 > Task :iconpacks:iconpack-fa:stripReleaseDebugSymbols
 > Task :iconpacks:iconpack-fa:copyReleaseJniLibsProjectOnly
@@ -354,9 +351,9 @@ Configuration on demand is an incubating feature.
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/6.2.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 25s
+BUILD SUCCESSFUL in 1m 45s
 223 actionable tasks: 223 executed
 
-2020-03-29 18:49:50,966 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585482353427-0/src/app/build/outputs/apk/debug/app-debug.apk
+2020-06-24 15:35:00,525 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592987544263-0/src/icondialoglib-master/app/build/outputs/apk/debug/app-debug.apk
